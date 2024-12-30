@@ -1,9 +1,6 @@
 # Node modules (for local development)
 node_modules/
 
-# Output directory (optional, depends on your build workflow)
-dist/
-
 # Logs
 *.log
 npm-debug.log*
