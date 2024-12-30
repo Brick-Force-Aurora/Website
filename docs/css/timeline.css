@@ -4,7 +4,7 @@
   top: 2px;
   width: 64px;
   height: 52px;
-  background-image: url("../images/head_icons.jpg");
+  background-image: url("/Website/images/head_icons.jpg");
   background-repeat: no-repeat;
   text-indent: -9999px;
 }
@@ -16,7 +16,7 @@
   top: 0;
   width: 485px;
   height: 60px;
-  background: url("../images/head_content.png") left top no-repeat;
+  background: url("/Website/images/head_content.png") left top no-repeat;
   line-height: 60px;
   padding: 0 0 0 85px;
 }
@@ -53,7 +53,7 @@
 }
 
 .content.community.events {
-  background-image: url("../images/event_background.jpg");
+  background-image: url("/Website/images/event_background.jpg");
   padding-bottom: 50px;
 }
 
@@ -61,7 +61,7 @@
   clear: both;
   width: 970px;
   padding: 140px 0 60px 0;
-  background: url("../images/vertical-timeline.gif") 476px 0 repeat-y;
+  background: url("/Website/images/vertical-timeline.gif") 476px 0 repeat-y;
 }
 
 .content.community.events .timeline .event {

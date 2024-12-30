@@ -4,7 +4,7 @@
   top: 2px;
   width: 64px;
   height: 52px;
-  background-image: url("../images/head_icons.jpg");
+  background-image: url("/Website/images/head_icons.jpg");
   background-repeat: no-repeat;
   text-indent: -9999px;
 }
@@ -16,13 +16,13 @@
   top: 0;
   width: 485px;
   height: 60px;
-  background: url("../images/head_content.png") left top no-repeat;
+  background: url("/Website/images/head_content.png") left top no-repeat;
   line-height: 60px;
   padding: 0 0 0 85px;
 }
 
 .content.download-mirrors {
-  background-image: url("../images/download_background.jpg");
+  background-image: url("/Website/images/download_background.jpg");
   margin-bottom: 30px;
 }
 
@@ -68,7 +68,7 @@
   width: 404px;
   height: 109px;
   margin: 32px 0 0 25px;
-  background: url("../images/button-download.png") left top no-repeat;
+  background: url("/Website/images/button-download.png") left top no-repeat;
 }
 
 .content.download-mirrors .buttons a.button-download:hover {
