@@ -1,0 +1,161 @@
+.content h1 span.avatar {
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  width: 64px;
+  height: 52px;
+  background-image: url("../images/head_icons.jpg");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.content h1 span.label {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 485px;
+  height: 60px;
+  background: url("../images/head_content.png") left top no-repeat;
+  line-height: 60px;
+  padding: 0 0 0 85px;
+}
+
+.content.community .preface,
+.content.community * .preface {
+  display: block;
+  float: left;
+  text-align: left;
+  width: 375px;
+  min-height: 180px;
+  margin: 0 0 30px 20px;
+}
+
+.content.community .preface h2,
+.content.community * .preface h2 {
+  font-weight: bold;
+  font-size: 21px;
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.content.community .preface p,
+.content.community * .preface p {
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+  margin: 0 0 15px 20px;
+}
+
+.content.community .preface p a,
+.content.community * .preface p a {
+  font-weight: bold;
+}
+
+.content.community.events {
+  background-image: url("../images/event_background.jpg");
+  padding-bottom: 50px;
+}
+
+.content.community.events .timeline {
+  clear: both;
+  width: 970px;
+  padding: 140px 0 60px 0;
+  background: url("../images/vertical-timeline.gif") 476px 0 repeat-y;
+}
+
+.content.community.events .timeline .event {
+  position: relative;
+  display: block;
+  float: left;
+  width: 400px;
+  padding: 10px 15px;
+  background: #fafafa;
+  border: solid 3px white;
+  -webkit-box-shadow: 0 0 1px 0 #66747f;
+  box-shadow: 0 0 1px 0 #66747f;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.content.community.events .timeline .event.left {
+  margin: -70px 0 0 20px;
+}
+
+.content.community.events .timeline .event.right {
+  margin: -70px 0 20px 500px;
+}
+
+.content.community.events .timeline .event h3 {
+  position: absolute;
+  left: -2px;
+  top: -25px;
+  line-height: 14px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.content.community.events .timeline .event img {
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  border: solid 2px #f49719;
+  -webkit-box-shadow: 0 15px 30px 0 #91999e;
+  box-shadow: 0 15px 30px 0 #91999e;
+}
+
+.content.community.events .timeline .event p {
+  font-size: 14px;
+  line-height: 25px;
+  font-style: italic;
+}
+
+.content.community.events .timeline .event .date {
+  position: relative;
+  width: 400px;
+  height: 20px;
+  display: block;
+  float: left;
+  border-bottom: dotted 1px #9d9d9d;
+  margin: 0 0 10px 0;
+}
+
+.content.community.events .timeline .event .date .start {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  color: #9d9d9d;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.content.community.events .timeline .event .date .end {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #9d9d9d;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.content.community.events .timeline .event .readmore {
+  position: relative;
+  width: 400px;
+  height: 20px;
+  display: block;
+  float: left;
+  border-top: dotted 1px #9d9d9d;
+  margin: 0;
+}
+
+.content.community.events .timeline .event .readmore a {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  color: #003056;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: bold;
+}

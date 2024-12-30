@@ -1,0 +1,20 @@
+# Node modules (for local development)
+node_modules/
+
+# Output directory (optional, depends on your build workflow)
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp

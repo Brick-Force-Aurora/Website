@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}} &lsaquo; Brick-Force Aurora - Build, Share, Play</title>
+
+    <script>
+      var lang = "en"; // Replace "en" with the appropriate default language code
+    </script>
+    <link
+      rel="shortcut icon"
+      type="image/x-ico; charset=binary"
+      href="../images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../css/base.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="../css/timeline.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/faq.css" />
+    <link rel="stylesheet" href="../css/download.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../js/faq.js"></script>
+  </head>
+
+  <body class="en western">
+    <!-- WEBSITE FRAME -->
+    <div id="websiteframe">
+      <!-- WEBSITE -->
+      <div id="container">
+        <div id="website" class="{% if wide %}wide{% endif %}">
+          <!-- HEADER -->
+          <header id="header">
+            {% include "header.html" %}
+
+            <!-- TEASER -->
+            {% include "teaser.html" %}
+            <!-- /TEASER -->
+
+            <!-- WALL -->
+            {% include "wall.html" %}
+            <!-- /WALL -->
+
+            <!-- NAVI -->
+            {% include "navigation.html" %}
+
+            <!-- /NAVI -->
+          </header>
+          <!-- /HEADER -->
+
+          <!-- MAIN -->
+          <section id="main" class="clearfix">
+            <!-- CONTENT COLUMN -->
+            {{ content }}
+            <!-- /CONTENT COLUMN -->
+
+            <!-- SIDEBAR -->
+            {% if not wide %} {% include "sidebar.html" %} {% endif %}
+            <!-- /SIDEBAR -->
+          </section>
+          <!-- /MAIN -->
+
+          <!-- FOOTER -->
+          {% include "footer.html" %}
+          <!-- /FOOTER -->
+        </div>
+      </div>
+      <!-- /WEBSITE -->
+    </div>
+    <!-- /WEBSITE FRAME -->
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<ul class="navigation clearfix">
+  <li class="l1 home first {% if page.url == '/' %}selected{% endif %}">
+    <a href="/" class="l1 shadow-black-1">Home</a>
+  </li>
+  <li
+    class="l1 game {% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' %}selected{% endif %}"
+  >
+    <a href="/about/" class="l1 shadow-black-1">Game</a>
+    <ul class="l2 clearfix">
+      <li class="l2 {% if page.url == '/about/' %}selected{% endif %}">
+        <a href="/about/" class="l2 shadow-black-1">About Brick-Force Aurora</a>
+      </li>
+      <li class="l2 {% if page.url == '/download/' %}selected{% endif %}">
+        <a href="/download/" class="l2 shadow-black-1"
+          >Download Brick-Force Aurora</a
+        >
+      </li>
+      <li class="l2 {% if page.url == '/faq/' %}selected{% endif %}">
+        <a href="/faq/" class="l2 shadow-black-1">FAQ</a>
+      </li>
+    </ul>
+  </li>
+  <li class="l1 media">
+    <a href="/" class="l1 shadow-black-1">Media</a>
+    <ul class="l2 clearfix">
+      <li class="l2">
+        <a href="/" class="l2 shadow-black-1">Screenshots</a>
+      </li>
+      <li class="l2">
+        <a href="/" class="l2 shadow-black-1">Videos</a>
+      </li>
+    </ul>
+  </li>
+  <li class="l1 community {% if page.url == '/timeline/' %}selected{% endif %}">
+    <a href="/timeline/" class="l1 shadow-black-1">Community</a>
+    <ul class="l2 clearfix">
+      <li class="l2 {% if page.url == '/timeline/' %}selected{% endif %}">
+        <a href="/timeline/" class="l2 shadow-black-1">Timeline</a>
+      </li>
+      <li class="l2">
+        <a
+          href="https://discord.gg/uppNvBvb4P"
+          target="_blank"
+          class="l2 shadow-black-1"
+          >Support</a
+        >
+      </li>
+    </ul>
+  </li>
+  <li class="l1 forum">
+    <a href="/" class="l1 shadow-black-1">Forum</a>
+  </li>
+  <li class="l1 shop last">
+    <a href="/" class="l1 shadow-black-1">Shop</a>
+  </li>
+</ul>
