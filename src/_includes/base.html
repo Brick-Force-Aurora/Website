@@ -1,70 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{title}} &lsaquo; Brick-Force Aurora - Build, Share, Play</title>
 
-    <script>
-      var lang = "en"; // Replace "en" with the appropriate default language code
-    </script>
-    <link
-      rel="shortcut icon"
-      type="image/x-ico; charset=binary"
-      href="/Website/images/favicon.ico"
-    />
-    <link rel="stylesheet" href="/Website/css/base.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="/Website/css/timeline.css" />
-    <link rel="stylesheet" href="/Website/css/about.css" />
-    <link rel="stylesheet" href="/Website/css/faq.css" />
-    <link rel="stylesheet" href="/Website/css/download.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/Website/js/base.js"></script>
-    <script src="/Website/js/faq.js"></script>
-  </head>
+<head>
+  <title>{{title}} &lsaquo; Brick-Force Aurora - Build, Share, Play</title>
 
-  <body class="en western">
-    <!-- WEBSITE FRAME -->
-    <div id="websiteframe">
-      <!-- WEBSITE -->
-      <div id="container">
-        <div id="website" class="{% if wide %}wide{% endif %}">
-          <!-- HEADER -->
-          <header id="header">
-            {% include "header.html" %}
+  <script>
+    var lang = "en"; // Replace "en" with the appropriate default language code
+  </script>
+  <link rel="shortcut icon" type="image/x-ico; charset=binary" href="/Website/images/favicon.ico" />
+  <link rel="stylesheet" href="/Website/css/base.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="/Website/css/timeline.css" />
+  <link rel="stylesheet" href="/Website/css/about.css" />
+  <link rel="stylesheet" href="/Website/css/faq.css" />
+  <link rel="stylesheet" href="/Website/css/download.css" />
+  <link rel="stylesheet" href="/Website/css/game-media.css" />
+  <link rel="stylesheet" href="/Website/css/fancybox.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="/Website/js/base.js"></script>
+  <script src="/Website/js/faq.js"></script>
+</head>
 
-            <!-- TEASER -->
-            {% include "teaser.html" %}
-            <!-- /TEASER -->
+<body class="en western">
+  <!-- WEBSITE FRAME -->
+  <div id="websiteframe">
+    <!-- WEBSITE -->
+    <div id="container">
+      <div id="website" class="{% if wide %}wide{% endif %}">
+        <!-- HEADER -->
+        <header id="header">
+          {% include "header.html" %}
 
-            <!-- WALL -->
-            {% include "wall.html" %}
-            <!-- /WALL -->
+          <!-- TEASER -->
+          {% include "teaser.html" %}
+          <!-- /TEASER -->
 
-            <!-- NAVI -->
-            {% include "navigation.html" %}
+          <!-- WALL -->
+          {% include "wall.html" %}
+          <!-- /WALL -->
 
-            <!-- /NAVI -->
-          </header>
-          <!-- /HEADER -->
+          <!-- NAVI -->
+          {% include "navigation.html" %}
 
-          <!-- MAIN -->
-          <section id="main" class="clearfix">
-            <!-- CONTENT COLUMN -->
-            {{ content }}
-            <!-- /CONTENT COLUMN -->
+          <!-- /NAVI -->
+        </header>
+        <!-- /HEADER -->
 
-            <!-- SIDEBAR -->
-            {% if not wide %} {% include "sidebar.html" %} {% endif %}
-            <!-- /SIDEBAR -->
-          </section>
-          <!-- /MAIN -->
+        <!-- MAIN -->
+        <section id="main" class="clearfix">
+          <!-- CONTENT COLUMN -->
+          {{ content }}
+          <!-- /CONTENT COLUMN -->
 
-          <!-- FOOTER -->
-          {% include "footer.html" %}
-          <!-- /FOOTER -->
-        </div>
+          <!-- SIDEBAR -->
+          {% if not wide %} {% include "sidebar.html" %} {% endif %}
+          <!-- /SIDEBAR -->
+        </section>
+        <!-- /MAIN -->
+
+        <!-- FOOTER -->
+        {% include "footer.html" %}
+        <!-- /FOOTER -->
       </div>
-      <!-- /WEBSITE -->
     </div>
-    <!-- /WEBSITE FRAME -->
-  </body>
+    <!-- /WEBSITE -->
+  </div>
+  <!-- /WEBSITE FRAME -->
+</body>
+
 </html>

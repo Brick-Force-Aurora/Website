@@ -1,0 +1,195 @@
+.content.game-media {
+    background-image: url('/Website/images/about_background.jpg')
+}
+
+.content.game-media h1 span.avatar {
+    background-position: 0 -104px
+}
+
+.content.game-media.wallpapers h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #003056
+}
+
+.content.game-media.gallery ul {
+    display: block;
+    list-style: none;
+    padding: 24px 0 30px 24px;
+    margin: -10px 0 0 -4px;
+    background: url('/Website/images/gallery_bg.jpg') no-repeat
+}
+
+.content.game-media.gallery ul li {
+    display: block;
+    width: 230px;
+    padding: 0 0 20px 0;
+    margin: 0;
+    float: left
+}
+
+.content.game-media.gallery ul li img {
+    border: 2px solid #f49719;
+    box-shadow: #000 0 1px 2px
+}
+
+.content.game-media.wallpapers ul {
+    display: block;
+    list-style: none;
+    margin: 0 0 20px 0;
+    padding: 0
+}
+
+.content.game-media.wallpapers li {
+    position: relative;
+    display: block;
+    width: 220px;
+    float: left;
+    list-style: none;
+    margin: 0 30px 10px 220px;
+    padding: 0;
+    background: #fafafa;
+    border: 1px solid #bec4c7;
+    border-radius: 4px;
+    box-shadow: #88a0ad 0 0 1px
+}
+
+.content.game-media.wallpapers li .inner {
+    min-height: 98px;
+    padding: 8px 15px 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 9px
+}
+
+.content.game-media.wallpapers li h2,
+.content.game-media.wallpapers li h2 a {
+    margin: 0;
+    color: #0f0f0f;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    text-transform: uppercase
+}
+
+.content.game-media.wallpapers li .thumb {
+    position: absolute;
+    top: 0;
+    left: -220px;
+    border: 2px solid #f49719;
+    box-shadow: #000 0 1px 2px
+}
+
+.content.game-media.wallpapers li .select {
+    margin: 5px 0 10px 0;
+    padding-top: 8px;
+    border-top: 1px dotted #9d9d9d
+}
+
+.content.game-media.wallpapers li .res {
+    margin: 0
+}
+
+.content.game-media.wallpapers li .res a {
+    display: block;
+    width: 90px;
+    float: left
+}
+
+.content.game-media.wallpapers li .bubble {
+    position: absolute;
+    top: 19px;
+    left: -10px;
+    display: block;
+    width: 13px;
+    height: 15px;
+    background: url('/Website/images/icons.png');
+    background-position: 0 -33px
+}
+
+.content.game-media.videos ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 24px 0 30px 24px;
+    margin: 0 15px 0 -4px;
+    background: url('/Website/images/gallery_bg.jpg') no-repeat
+}
+
+.content.game-media.videos li {
+    position: relative;
+    display: block;
+    list-style: none;
+    margin: 0 0 10px 220px;
+    padding: 0;
+    background: #fafafa;
+    border: 1px solid #bec4c7;
+    border-radius: 4px;
+    box-shadow: #88a0ad 0 0 1px
+}
+
+.content.game-media.videos li .inner {
+    min-height: 98px;
+    padding: 8px 15px 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 9px
+}
+
+.content.game-media.videos li h3,
+.content.game-media.videos li h3 a {
+    margin: 0;
+    color: #0f0f0f;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 30px;
+    text-transform: uppercase
+}
+
+.content.game-media.videos li .thumb {
+    position: absolute;
+    top: 0;
+    left: -220px;
+    border: 2px solid #f49719;
+    box-shadow: #000 0 1px 2px
+}
+
+.content.game-media.videos li .thumb img {
+    vertical-align: middle
+}
+
+.content.game-media.videos li .date {
+    position: relative;
+    padding: 10px 0 0 0;
+    margin: 10px 0;
+    color: #9d9d9d;
+    font-size: 11px;
+    border-bottom: 1px dotted #9d9d9d
+}
+
+.content.game-media.videos li .date span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px 10px 0 0;
+    background: #fafafa
+}
+
+.content.game-media.videos li .text {
+    margin-top: 20px;
+    overflow: hidden
+}
+
+.content.game-media.videos li .socialWidgets {
+    margin-top: 15px
+}
+
+.content.game-media.videos li .bubble {
+    position: absolute;
+    top: 19px;
+    left: -10px;
+    display: block;
+    width: 13px;
+    height: 15px;
+    background: url('/Website/images/icons.png');
+    background-position: 0 -33px
+}

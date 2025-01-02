@@ -491,11 +491,11 @@ h1.head {
   left: 23px;
   width: 355px;
   height: 125px;
-  background-position: 0 0;
+  background-position: -3px 0;
 }
 
 #wall a.register:hover {
-  background-position: -355px 0;
+  background-position: -357px 0;
 }
 
 #wall a.my-account {
@@ -515,11 +515,11 @@ h1.head {
   left: 96px;
   width: 292px;
   height: 89px;
-  background-position: 0 -127px;
+  background-position: -3px -125px;
 }
 
 #wall a.buy-tokens:hover {
-  background-position: -355px -127px;
+  background-position: -358px -125px;
 }
 
 .en #container #website #header #wall a {
@@ -966,11 +966,11 @@ ul.tabbar li.selected a {
 }
 
 .socialNetworks dt span.fb {
-	background: url("/Website/images/discord.png");
+  background: url("/Website/images/discord.png");
 }
 
 .socialNetworks dt span.tw {
-	background: url("/Website/images/github.png");
+  background: url("/Website/images/github.png");
 }
 
 .socialNetworks dt span.tr {
