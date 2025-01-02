@@ -154,7 +154,10 @@
 }
 
 .content.game-media.videos li .thumb img {
-    vertical-align: middle
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .content.game-media.videos li .date {
