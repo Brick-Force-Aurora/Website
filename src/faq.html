@@ -27,99 +27,72 @@ permalink: /faq/
 
     <dl class="faq">
       <dt>
-        <span class="hl">Can anyone play Brick-Force now?</span><span class="condition">&nbsp;</span>
+        <span class="hl">When is the full version available?</span><span class="condition">&nbsp;</span>
       </dt>
       <dd>
         <p>
-          There are no restrictions, everyone can play. All you have to do is
-          register an account and either download the client or play in your
-          internet browser.
+          We don't know, we're trying our best to maintain progress and give updates to you, but we can't put a date on
+          it.
         </p>
       </dd>
       <dt>
-        <span class="hl">Will my points, clan, registered map or achievements in Brick-Force
-          be permanent?</span><span class="condition">&nbsp;</span>
+        <span class="hl">How can I play?</span><span class="condition">&nbsp;</span>
       </dt>
       <dd>
         <p>
-          Yes, there will no longer be any point resets or inventory wipes.
-          Everything you do in Brick-Force from now on will be saved – to
-          infinity and beyond!
+          Download the launcher from <a href="https://github.com/Brick-Force-Aurora/Launcher/releases"
+            target="_blank">GitHub</a>, run and install the game. Add your name into the email field and using the F4
+          host menu host or join a game.
         </p>
       </dd>
       <dt>
-        <span class="hl">When attempting to log in, I receive the message “Invalid Login
-          Information”.</span><span class="condition">&nbsp;</span>
+        <span class="hl">How can I manually update to a newer version?</span><span class="condition">&nbsp;</span>
       </dt>
       <dd>
         <p>
-          Please try and login with your email address and password. Nicknames
-          will not work as your login username. If you still can’t access the
-          game after registering successfully, please contact customer support:
-          http://support.infernum.com.
+          After installing the game via the launcher, download the current DLL from <a
+            href="https://github.com/TieHaxJan/Brick-Force/releases" target="_blank">GitHub</a>. Go to the folder where
+          you installed the game/launcher, navigate to <code>BrickForce_Data/Managed</code>, and replace the DLL there.
+          Ensure everyone is on the same version to play together. Start the game using <code>BrickForce.exe</code> and
+          not the Launcher.
         </p>
       </dd>
       <dt>
-        <span class="hl">What happened to my clan?</span><span class="condition">&nbsp;</span>
+        <span class="hl">How can I play together with others?</span><span class="condition">&nbsp;</span>
       </dt>
       <dd>
         <p>
-          All clans created during the Closed Beta phase were wiped after Closed
-          Beta ended.
+          Get into a network with other players (VPN or LAN). Recommended service: Radmin VPN (Hamachi could also work,
+          not tested). Allow any firewall exceptions that may pop up. One player acts as host and inputs their network
+          IP in the Host IP text field (default value can be set in Config). Use <code>127.0.0.1</code> for solo
+          testing. Host clicks "Host Match," and others click "Join Match." After connecting, click Play, create a room,
+          and ensure everyone has the files for the current map loaded. The room master starts the match once all
+          players are ready. <a href="https://youtu.be/watch?v=OuJ-qxDsTrA" target="_blank">Tutorial (German, English
+            Sub)</a>
         </p>
       </dd>
       <dt>
-        <span class="hl">How do I submit bug reports and feedback?</span><span class="condition">&nbsp;</span>
+        <span class="hl">I am stuck in "Downloading Once..."</span><span class="condition">&nbsp;</span>
       </dt>
       <dd>
         <p>
-          Bug reports and feedback can be posted on our official forums. We read
-          almost all of your feedback and appreciate your support to help us
-          make Brick-Force even better!
+          Most likely, something is faulty in your config. To fix this issue, go to the Registry Editor and navigate to:
+          <code>Computer\HKEY_CURRENT_USER\SOFTWARE\EXE Games\BrickForce</code>, and delete the EXE Games folder.
+          Restart the game, and it should work.
         </p>
       </dd>
       <dt>
-        <span class="hl">How do I contact Customer Support?</span><span class="condition">&nbsp;</span>
+        <span class="hl">How can I start with development?</span><span class="condition">&nbsp;</span>
       </dt>
       <dd>
         <p>
-          You can reach our support team via the Brick-Force Support portal:
-          http://support.infernum.com/
-        </p>
-      </dd>
-      <dt>
-        <span class="hl">I didn’t receive an email confirmation after registering on the
-          Brick-Force website.</span><span class="condition">&nbsp;</span>
-      </dt>
-      <dd>
-        <p>
-          Please check your junk mail folder. If you still can’t find your
-          registration confirmation mail, please contact our customer support.
-        </p>
-      </dd>
-      <dt>
-        <span class="hl">What can I expect from Brick-Force in the future?</span><span class="condition">&nbsp;</span>
-      </dt>
-      <dd>
-        <p>
-          We will continue to add new updates and new content to Brick-Force. We
-          have a lot of exciting stuff planned. For more information, visit the
-          ‘Coming Soon’ page.
-        </p>
-      </dd>
-      <dt>
-        <span class="hl">How does upgrading work?</span><span class="condition">&nbsp;</span>
-      </dt>
-      <dd>
-        <p>
-          Enter the shop section “Upgrades” to buy a Gem. Select an item that
-          you want to upgrade by clicking on it in your inventory and click the
-          little blue “Item Upgrade” button on the bottom to enter the upgrade
-          interface. Upgrading an item which has not yet been enhanced will
-          never fail. However, if you upgrade an already enhanced item, there
-          might be a chance of failure. Elite Gems give you the ultimate
-          upgrade. They will never fail, aren’t bound to any rank and you can
-          select yourself which property you want to upgrade.
+          Install Visual Studio 2022 and .NET Desktop Development. Using "Install or Change Feature," install .NET
+          Framework 3.5. Open the solution file <code>Brick-Force.sln</code>. Install the Launcher and the Game into the
+          same folder where the Brick-Force Repository Folder is to resolve all dependencies (e.g.,
+          <code>Folder/BfLauncher</code> and <code>Folder/Brick-Force</code>). Change the Build Output Path to
+          <code>Brick-Force_Data/Managed</code> in project properties. If necessary, reimport
+          <code>ICSharpCode.SharpZipLib.dll</code> as a reference. To debug, select <code>Brick-Force.exe</code> as the
+          external program.
         </p>
       </dd>
     </dl>
