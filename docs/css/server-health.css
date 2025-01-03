@@ -1,0 +1,106 @@
+/* General Server Health Section Styling */
+.server-health {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 24px 0 30px 24px;
+    margin: 0 15px 0 -4px;
+    background: url('/Website/images/gallery_bg.jpg') no-repeat
+}
+
+.server-status p {
+    font-size: 16px;
+    color: #555;
+}
+
+.server-status .status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.server-status .status-dot.green {
+    background-color: #4caf50;
+}
+
+.server-status .status-dot.yellow {
+    background-color: #ffce1b;
+}
+
+.server-status .status-dot.red {
+    background-color: #f44336;
+}
+
+/* Progress Bars */
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px 0 15px 0;
+    height: 20px;
+    width: 100%;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.progress-bar-fill.green {
+    background-color: #4caf50;
+}
+
+.progress-bar-fill.yellow {
+    background-color: #ffce1b;
+}
+
+.progress-bar-fill.red {
+    background-color: #f44336;
+}
+
+.progress-text {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Donation Buttons */
+.donation-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.donate-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.donate-button img {
+    height: 50px;
+}
+
+.content.game-abf .preface,
+.content.game-abf * .preface {
+    text-align: left;
+    width: 90%;
+    margin: 0 0 20px 0;
+}
+
+.content.game-abf .preface p,
+.content.game-abf * .preface p {
+    font-size: 16px;
+    color: #333;
+    line-height: 24px;
+    margin: 0 0 0 20px;
+}
+
+.content.game-abf .preface p a,
+.content.game-abf * .preface p a {
+    font-weight: bold;
+}
