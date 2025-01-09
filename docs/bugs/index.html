@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Screenshots &lsaquo; Brick-Force Aurora - Build, Share, Play</title>
+  <title>Bugs &lsaquo; Brick-Force Aurora - Build, Share, Play</title>
 
   <script>
     var lang = "en"; // Replace "en" with the appropriate default language code
@@ -173,35 +173,47 @@
         <!-- MAIN -->
         <section id="main" class="clearfix">
           <!-- CONTENT COLUMN -->
-          <article id="content">
+          
+<article id="content">
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/bugs/" class="last">Known Bugs</a>
+    </p>
+    <ul class="tabs clearfix">
+      <li class="selected"><a href="/Website/bugs/">Known Bugs<span>&nbsp;</span></a></li>
+    </ul>
+  </div>
 
-    <div class="where">
-        <p id="breadcrumb">
-            <a href="/Website/" class="home">Home</a>
-            › <a href="/Website/screenshots">Media</a>
-            › <a href="/Website/screenshots" class="last">Screenshots</a>
-        </p>
-        <ul class="tabs clearfix">
-            <li class="selected"><a href="/Website/screenshots">Screenshots<span>&nbsp;</span></a>
-            </li>
-            <li><a href="/Website/videos">Videos</a></li>
-        </ul>
-    </div>
+  <div class="content game-media clearfix">
 
-    <div class="content game-media gallery">
-        <h1><span class="avatar">&nbsp;</span><span class="label">Screenshots</span></h1>
+    <div class="header-section">
+        <h1><span class="avatar">&nbsp;</span><span class="label">Known Bugs</span></h1>
+        <article class="new-issue">
+          <a href="https://github.com/Brick-Force-Aurora/Brick-Force/issues/new" target="_blank" class="new-issue-button">
+            <img src="/Website/images/github-ico.png" alt="Bug Icon"> Report Issue
+          </a>
+        </article>
+      </div>      
 
-        <ul class="clearfix">
-            <li><a href="/Website/images/screenshots/screenshot_1.png" rel="lightbox" title=""><img
-                        src="/Website/images/screenshots/thumb_screenshot_1.png" alt=""></a></li>
-            <li><a href="/Website/images/screenshots/screenshot_2.png" rel="lightbox" title=""><img
-                        src="/Website/images/screenshots/thumb_screenshot_2.png" alt=""></a></li>
-            <li><a href="/Website/images/screenshots/screenshot_3.png" rel="lightbox" title=""><img
-                        src="/Website/images/screenshots/thumb_screenshot_3.png" alt=""></a></li>
-            <li><a href="/Website/images/screenshots/screenshot_4.png" rel="lightbox" title=""><img
-                        src="/Website/images/screenshots/thumb_screenshot_4.png" alt=""></a></li>
-        </ul>
-    </div>
+    <!-- BUG TRACKER -->
+    <article class="bug-tracker">
+        <div class="filter-controls">
+            <button class="filter-button" data-filter="all">Show All</button>
+            <button class="filter-button" data-filter="issues">Issues Only</button>
+            <button class="filter-button" data-filter="pull-requests">Pull Requests Only</button>
+            <button class="filter-button" data-filter="open">Open Only</button>
+            <button class="filter-button" data-filter="closed">Closed Only</button>
+          </div>
+        <div class="bug-columns">
+          <!-- Issues will be dynamically added here -->
+        </div>
+
+    </article>
+    <!-- /BUG TRACKER -->
+
+  </div>
+
 </article>
           <!-- /CONTENT COLUMN -->
 

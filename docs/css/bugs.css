@@ -1,0 +1,162 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .header-section h1 {
+    margin: 0;
+  }
+  
+  /* New Issue Button */
+  .new-issue {
+    margin: 0 20px 0 0;
+  }
+  
+  .new-issue-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #efefef;
+    border: 1px solid #d3d3d3;
+    color: #000000;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .new-issue-button img {
+    margin-right: 10px;
+    height: 20px;
+  }
+
+  /* Bug Tracker Styling */
+.bug-tracker {
+    display: block;
+  list-style: none;
+  padding: 24px 0 30px 24px;
+  margin: -10px 0 0 -4px;
+  background: url('/Website/images/gallery_bg.jpg') no-repeat;
+  }
+  
+  .bug-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .bug-card {
+    background-color: #fff;
+    border: 2px solid #f49719;
+    box-shadow: #000 0 1px 2px;
+    padding: 15px;
+    width: calc(27.7%);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .bug-card:hover {
+    box-shadow: #000 0 2px 4px;
+  }
+  
+/* Bug Icon in Header */
+.bug-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  
+  .icon-green {
+    background-color: #28a745; /* Green for open */
+  }
+  
+  .icon-purple {
+    background-color: #8957e5; /* Purple for closed */
+  }
+  
+  /* Header Styling */
+  .bug-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .bug-header h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .bug-body {
+    margin: 10px 0;
+  }
+
+  .bug-body p {
+    margin: 0;
+  }
+  
+  .bug-label {
+    display: inline-block;
+    background-color: #f6f8fa;
+    border: 1px solid #f49719;
+    padding: 2px 5px;
+    border-radius: 12px;
+    font-size: 10px;
+    margin-bottom: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bug-footer {
+    font-size: 14px;
+  }
+
+  .bug-footer p {
+    margin: 5px 0;
+  }
+  
+  /* State Styling */
+  .bug-state {
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1px 6px;
+    border-radius: 12px;
+    color: white;
+  }
+
+  .bug-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .filter-controls {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    background-color: #0070ba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .filter-button:hover {
+    background-color: #005a94;
+  }
+  
+  
+  
+  
