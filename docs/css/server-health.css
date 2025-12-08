@@ -4,8 +4,17 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    padding: 24px 0 30px 24px;
+    padding: 24px 30px 30px 24px;
     margin: 0 15px 0 -4px;
+    background: url('/Website/images/gallery_bg.jpg') no-repeat
+}
+
+.server-health-sidebar {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 24px 24px 30px 24px;
     background: url('/Website/images/gallery_bg.jpg') no-repeat
 }
 
@@ -24,6 +33,10 @@
 
 .server-status .status-dot.green {
     background-color: #4caf50;
+}
+
+.server-status .status-dot.grey {
+    background-color: #696969;
 }
 
 .server-status .status-dot.yellow {
@@ -69,9 +82,8 @@
 /* Donation Buttons */
 .donation-buttons {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    justify-content: left;
+    margin: 20px;
 }
 
 .donate-button {

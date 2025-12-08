@@ -138,10 +138,10 @@
       </li>
     </ul>
   </li>
-  <li class="l1 media">
+  <li class="l1 media ">
     <a href="/Website/screenshots/" class="l1 shadow-black-1">Media</a>
     <ul class="l2 clearfix">
-      <li class="l2">
+      <li class="l2 ">
         <a href="/Website/screenshots/" class="l2 shadow-black-1">Screenshots</a>
       </li>
       <li class="l2">
@@ -157,8 +157,13 @@
       </li>
     </ul>
   </li>
-  <li class="l1 forum">
+  <li class="l1 forum ">
     <a href="/Website/ServerHealth/" class="l1 shadow-black-1">Server</a>
+    <ul class="l2 clearfix">
+      <li class="l2 ">
+        <a href="/Website/contribute/" class="l2 shadow-black-1">Contribution</a>
+      </li>
+    </ul>
   </li>
   <li class="l1 shop last">
     <a href="/Website/" class="l1 shadow-black-1">Shop</a>
@@ -282,9 +287,10 @@
     </div>
     <!-- /DOWNLOAD -->
 
-    <div class="dynamicTeaser oneLine">
-      <a href="https://www.patreon.com" target="_blank" style="background-image:url('/Website/images/donate.jpeg');">
-        Donate
+    <div class="dynamicTeaser twoLines">
+      <a href="/Website/ServerHealth/" target="_blank" style="background-image:url('/Website/images/donate.jpeg');">
+        <span class="text1 shadow-white-1">Contribute</span>
+        <span class="text2 shadow-white-1">to the project on Ko-Fi</span>
       </a>
     </div>
     <!--<div class="dynamicTeaser twoLines">
@@ -306,26 +312,37 @@
         <span class="text2 shadow-white-1">We're here to help</span>
       </a>
     </div>
-    <div class="dynamicTeaser oneLine">
+    <div class="dynamicTeaser oneLine" style="background-image: url('/Website/images/big_5138b04f7a758.jpeg')">
       <a href="/Website/faq/">FAQ</a>
     </div>
   </div>
 
   <div class="sidebox socialNetworks">
-    <h5>Social networks<span class="icon i3"></span></h5>
-    <div class="body">
-      <dl>
-        <dt>
-          <a href="https://discord.gg/qktjAYsKwH" target="_blank"><span class="icon fb">&nbsp;</span>Discord</a>
-        </dt>
-        <dd>Join our Discord Server, brick soldier</dd>
-        <dt>
-          <a href="https://github.com/Brick-Force-Aurora/Brick-Force" target="_blank"><span
-              class="icon tw">&nbsp;</span>GitHub</a>
-        </dt>
-        <dd>Look at the Repository.</dd>
-      </dl>
-    </div>
+    <h5>Server Health<span class="icon i3"></span></h5>
+    <div class="server-health-sidebar">
+            <div class="server-status">
+                <p><strong>Gameplay Server Status:</strong> <span class="status-dot grey"></span>Unavailable</p>
+                <p><strong>Current Players:</strong> <span class="progress-text">0 / 0</span></p>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill green" style="width: 0%;"></div>
+                </div>
+                <p><strong>Current Rooms:</strong> <span class="progress-text">0 / 0</span></p>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill green" style="width: 0%;"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="server-health-sidebar">
+            <div class="server-status">
+                <p><strong>Map Server Status:</strong> <span class="status-dot grey"></span>Unavailable</p>
+                <p><strong>Storage Utilisation:</strong> <span class="progress-text">0 Maps</span></p>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill green" style="width: 0%;"></div>
+                </div>
+            </div>
+        </div>
   </div>
 </aside> 
           <!-- /SIDEBAR -->
