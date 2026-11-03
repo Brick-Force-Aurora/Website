@@ -159,3 +159,7 @@
   font-style: normal;
   font-weight: bold;
 }
+
+.content.community.events .timeline .event ul {
+  margin-left: 114px;
+}
