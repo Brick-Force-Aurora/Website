@@ -920,22 +920,3 @@
 .content.game-seasons .seasons-overview .season { display: none; }
 .content.game-seasons .seasons-overview .season.current { display: block; }
 .content .back-link { margin: 25px 0 5px 20px; font-size: 14px; }
-
-/* eight tabs in the Game section: tighter spacing so they fit the row */
-ul.tabs.game-tabs li a {
-  padding-right: 9px;
-}
-
-ul.tabs.game-tabs li.selected {
-  margin-right: 30px;
-}
-
-ul.tabs.game-tabs li.selected a {
-  padding-left: 30px;
-}
-
-/* keep the inactive tabs above wide page artwork */
-ul.tabs.game-tabs li:not(.selected) {
-  position: relative;
-  z-index: 152;
-}

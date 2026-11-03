@@ -41,6 +41,18 @@
       <li class="l2">
         <a href="/Website/videos/" class="l2 shadow-black-1">Videos</a>
       </li>
+      <li class="l2 {% if page.url contains '/artworks/' %}selected{% endif %}">
+        <a href="/Website/artworks/" class="l2 shadow-black-1">Artworks</a>
+      </li>
+      <li class="l2 {% if page.url contains '/wallpapers/' %}selected{% endif %}">
+        <a href="/Website/wallpapers/" class="l2 shadow-black-1">Wallpaper</a>
+      </li>
+      <li class="l2 {% if page.url contains '/comic/' %}selected{% endif %}">
+        <a href="/Website/comic/" class="l2 shadow-black-1">Comic</a>
+      </li>
+      <li class="l2 {% if page.url contains '/papercraft/' %}selected{% endif %}">
+        <a href="/Website/papercraft/" class="l2 shadow-black-1">Papercraft</a>
+      </li>
     </ul>
   </li>
   <li class="l1 community {% if page.url == '/roadmap/' or page.url contains '/community/' %}selected{% endif %}">
@@ -51,6 +63,12 @@
       </li>
       <li class="l2 {% if page.url == '/community/advent-calendar/' %}selected{% endif %}">
         <a href="/Website/community/advent-calendar/" class="l2 shadow-black-1">Bricktastic X-Mas Calendar</a>
+      </li>
+      <li class="l2 {% if page.url == '/community/fansites/' %}selected{% endif %}">
+        <a href="/Website/community/fansites/" class="l2 shadow-black-1">Fansite Program</a>
+      </li>
+      <li class="l2 {% if page.url contains '/community/videos/' %}selected{% endif %}">
+        <a href="/Website/community/videos/brick-by-brick/" class="l2 shadow-black-1">Videos</a>
       </li>
     </ul>
   </li>
