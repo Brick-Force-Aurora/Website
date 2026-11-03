@@ -192,6 +192,269 @@
         <span class="cat cat_announcement"></span>
         <div class="inner">
           <h2><a href="/Website/">Brick-Force Aurora</a></h2>
+          <p class="date"><span>July 04, 2026</span></p>
+          <div class="text">
+            <p>Greetings Community,</p>
+            <p>We're excited to announce version <strong>2.3.1.</strong> It adds the following:</p>
+            <ul>
+            <li>🗺️ 99 new maps</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>All releases are listed on <a href="https://github.com/Brick-Force-Aurora/Brick-Force/releases" target="_blank">GitHub</a>.</p>
+            <p>&nbsp;</p>
+            <p>
+            Join the <strong>Brick-Force Aurora</strong> community to learn more, contribute, or simply relive the
+            nostalgia. Here are some helpful links to get started:
+            </p>
+            <ul>
+            <li><a href="https://discord.gg/qktjAYsKwH" target="_blank">Discord</a> - Join our community and discuss
+            with other players and developers.</li>
+            <li><a href="https://github.com/Brick-Force-Aurora/Brick-Force" target="_blank">GitHub</a> - Explore the
+            project, contribute, or report issues.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>
+            We want to thank everyone for their continued support and enthusiasm. Your loyalty and love for
+            Brick-Force have made this possible. Let’s build, share, and play together again!
+            </p>
+            <p>&nbsp;</p>
+            <p>See you in the game!</p>
+            <p>Cheers!</p>
+            <p>The Brick-Force Aurora Team</p>
+          </div>
+        </div>
+        <span class="bubble"></span>
+      </li>
+      <li class="news">
+        <span class="cat cat_announcement"></span>
+        <div class="inner">
+          <h2><a href="/Website/">Brick-Force Aurora</a></h2>
+          <p class="date"><span>March 24, 2026</span></p>
+          <div class="text">
+            <p>Greetings Community,</p>
+            <p>We're excited to announce the next version of <strong>2.3.0.</strong> It is a big update for building and for the server underneath the game. It adds the following features:</p>
+            <ul>
+            <li>🧱 <strong>BrickEdit</strong>, a new build tool for Build Mode (bound to key T). Commands: <code>//pos1</code>, <code>//pos2</code>, <code>//sel</code>, <code>//remove</code>, <code>//set</code>, <code>//set hollow</code>, <code>//replace</code>, <code>//replace near</code> and <code>//remove near</code></li>
+            <li>📊 Performance Overlay (F9): FPS counter, memory consumption / GC stats and a frame timing history graph. FPS limiting and VSync can be set in the F6 menu (Config)</li>
+            <li>🛒 New shop items: 'Reset Map Slot' and 'Premium Account'</li>
+            <li>🧱 Added a brick build limit of 1000 to the <code>red_brick_2</code> barrier brick and removed the build limit for most other bricks</li>
+            <li>🔧 Debugging support, described in the README on GitHub</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Maps</strong></p>
+            <ul>
+            <li>🗺️ "Result Team Match" and "Lobby" are now playable</li>
+            <li>🗺️ Update to Jezzey's map "Aurora", a new version of Warehouse, the correct version of Aftermath (the second version was removed) and a fixed Skylands</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Build Mode</strong></p>
+            <ul>
+            <li>🔨 Generated Build Mode maps are now created in the center of the map, 30 below the minimum build height, so you can also build below the generated plane</li>
+            <li>🔨 You now spawn in the center of the map, slightly above its highest point</li>
+            <li>🔨 Reworked map slots: to edit a map you now have to load it into the map slot first, using the Map Manager (My Downloaded Maps) and the button "add to slot". To reset a map slot you need the Reset Map Slot item in your inventory (only available in F5)</li>
+            <li>🛠️ Fixed the Line tool and the Swappie tool, the bounding box and loaded state of generated maps, non-host players creating and saving their own Build Mode rooms and newly created maps not being saveable</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Changes</strong></p>
+            <ul>
+            <li>⚙️ Character levels are set to level 65</li>
+            <li>⚙️ The map size limit is back to 100 * 100 * 100 bricks, which fixed performance issues</li>
+            <li>🌐 The server runs separately from the game for the host, in its own thread, and handles packets better, which means better performance and quicker loading times</li>
+            <li>🌐 The server no longer sends all maps to the player, the player loads their local maps instead. Map registration is now done fully clientside</li>
+            <li>🌐 Improved the server disconnecting clients and Steam networking (each network channel has its own queue now)</li>
+            <li>🗺️ The 'Downloaded Maps' list is no longer paged but a list with a filter</li>
+            <li>⚙️ The 'Drop' option in the room options is disabled (it caused weapons to randomly go away and is forced off by the server until it is implemented)</li>
+            <li>⌨️ Going up and down in the command history puts the cursor at the end of the command</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Bug fixes</strong></p>
+            <ul>
+            <li>🛠️ Fixed hosting over IP dropping packets that were too big or sent too quickly</li>
+            <li>🛠️ Fixed players not being able to reconnect after timing out or getting kicked out of a Steam lobby, and clients/servers not timing out correctly</li>
+            <li>🛠️ Fixed typing in chat not blocking palette interactions and the palette starting empty in Build and Destroy and Build Mode</li>
+            <li>🛠️ Fixed room map changes not being recognised by the client and some game modes not ending the match correctly</li>
+            <li>🛠️ Build and Destroy: fixed maps not transferring when joining an in-progress match, special item limits not being per map, existing blocks not being destroyable, joining in the wrong phase and building in the Destroy phase</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>Please note that BrickEdit might leave visual artifacts, especially when removing blocks. If this happens, simply save and rejoin the map. If you are not the room owner, simply rejoining works.</p>
+            <p>Please note that the debugging support does not fully work in later Visual Studio, Unity and dnSpy versions. For the best results use Visual Studio 2017.</p>
+            <p>The full changelog is on <a href="https://github.com/Brick-Force-Aurora/Brick-Force/releases/tag/2.3.0" target="_blank">GitHub</a>.</p>
+            <p>&nbsp;</p>
+            <p>
+            Join the <strong>Brick-Force Aurora</strong> community to learn more, contribute, or simply relive the
+            nostalgia. Here are some helpful links to get started:
+            </p>
+            <ul>
+            <li><a href="https://discord.gg/qktjAYsKwH" target="_blank">Discord</a> - Join our community and discuss
+            with other players and developers.</li>
+            <li><a href="https://github.com/Brick-Force-Aurora/Brick-Force" target="_blank">GitHub</a> - Explore the
+            project, contribute, or report issues.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>
+            We want to thank everyone for their continued support and enthusiasm. Your loyalty and love for
+            Brick-Force have made this possible. Let’s build, share, and play together again!
+            </p>
+            <p>&nbsp;</p>
+            <p>See you in the game!</p>
+            <p>Cheers!</p>
+            <p>The Brick-Force Aurora Team</p>
+          </div>
+        </div>
+        <span class="bubble"></span>
+      </li>
+      <li class="news">
+        <span class="cat cat_announcement"></span>
+        <div class="inner">
+          <h2><a href="/Website/">Brick-Force Aurora</a></h2>
+          <p class="date"><span>February 17, 2026</span></p>
+          <div class="text">
+            <p>Greetings Community,</p>
+            <p>We're excited to announce the versions <strong>2.2.1 to 2.2.5.</strong> They add the following:</p>
+            <p><strong>Features</strong></p>
+            <ul>
+            <li>🗺️ 393 new maps</li>
+            <li>🗣️ Voice support for German, French, Spanish, Turkish and Korean</li>
+            <li>🔎 Filter option for map selection</li>
+            <li>🧱 Changed max build limits</li>
+            <li>📝 Better logging for ImGUI</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Bug fixes</strong></p>
+            <ul>
+            <li>🛠️ Fixed the "Downloading Once" bug (caused by missing language files)</li>
+            <li>🛠️ Fixed a race condition that prevented clients from connecting</li>
+            <li>🛠️ Fixed not all maps being available in Build Mode</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>All releases are listed on <a href="https://github.com/Brick-Force-Aurora/Brick-Force/releases" target="_blank">GitHub</a>.</p>
+            <p>&nbsp;</p>
+            <p>
+            Join the <strong>Brick-Force Aurora</strong> community to learn more, contribute, or simply relive the
+            nostalgia. Here are some helpful links to get started:
+            </p>
+            <ul>
+            <li><a href="https://discord.gg/qktjAYsKwH" target="_blank">Discord</a> - Join our community and discuss
+            with other players and developers.</li>
+            <li><a href="https://github.com/Brick-Force-Aurora/Brick-Force" target="_blank">GitHub</a> - Explore the
+            project, contribute, or report issues.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>
+            We want to thank everyone for their continued support and enthusiasm. Your loyalty and love for
+            Brick-Force have made this possible. Let’s build, share, and play together again!
+            </p>
+            <p>&nbsp;</p>
+            <p>See you in the game!</p>
+            <p>Cheers!</p>
+            <p>The Brick-Force Aurora Team</p>
+          </div>
+        </div>
+        <span class="bubble"></span>
+      </li>
+      <li class="news">
+        <span class="cat cat_announcement"></span>
+        <div class="inner">
+          <h2><a href="/Website/">Brick-Force Aurora</a></h2>
+          <p class="date"><span>February 09, 2026</span></p>
+          <div class="text">
+            <p>Greetings Community,</p>
+            <p>We're excited to announce the versions <strong>2.1.2 to 2.2.0.</strong> They add the following:</p>
+            <p><strong>Features</strong></p>
+            <ul>
+            <li>🗺️ 272 new maps</li>
+            <li>🔖 Version check: clients can no longer connect if their version does not match the host version</li>
+            <li>💎 Premium slots in the loadout, which should save over restarts</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Bug fixes</strong></p>
+            <ul>
+            <li>🛠️ Fixed clients not disconnecting properly from the server</li>
+            <li>🛠️ Fixed an issue where the client closed its connection before it opened the connection</li>
+            <li>🛠️ Added Result4TeamMatch.geometry</li>
+            <li>🛠️ Defusion: fixed the ending (out of memory / out of range), the round not ending on a self kill, a timeout not advancing to the next round and bomb explosions not adding points</li>
+            <li>🛠️ Defense: fixed a kill log error</li>
+            <li>🛠️ Freefall: fixed kills not counting as score and the ending</li>
+            <li>🛠️ Zombie: fixed a timeout ending the match and a death ending the round</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>Please note: Add the Premium Ticket to your loadout via the Inventory Editor (F5) if you currently don't have it, otherwise the premium slots won't work.</p>
+            <p>All releases are listed on <a href="https://github.com/Brick-Force-Aurora/Brick-Force/releases" target="_blank">GitHub</a>.</p>
+            <p>&nbsp;</p>
+            <p>
+            Join the <strong>Brick-Force Aurora</strong> community to learn more, contribute, or simply relive the
+            nostalgia. Here are some helpful links to get started:
+            </p>
+            <ul>
+            <li><a href="https://discord.gg/qktjAYsKwH" target="_blank">Discord</a> - Join our community and discuss
+            with other players and developers.</li>
+            <li><a href="https://github.com/Brick-Force-Aurora/Brick-Force" target="_blank">GitHub</a> - Explore the
+            project, contribute, or report issues.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>
+            We want to thank everyone for their continued support and enthusiasm. Your loyalty and love for
+            Brick-Force have made this possible. Let’s build, share, and play together again!
+            </p>
+            <p>&nbsp;</p>
+            <p>See you in the game!</p>
+            <p>Cheers!</p>
+            <p>The Brick-Force Aurora Team</p>
+          </div>
+        </div>
+        <span class="bubble"></span>
+      </li>
+      <li class="news">
+        <span class="cat cat_announcement"></span>
+        <div class="inner">
+          <h2><a href="/Website/">Brick-Force Aurora</a></h2>
+          <p class="date"><span>December 05, 2025</span></p>
+          <div class="text">
+            <p>Greetings Community,</p>
+            <p>We're excited to announce the next version of <strong>2.1.1.</strong> It adds the following features:</p>
+            <p><strong>Game Features</strong></p>
+            <ul>
+            <li>🐝 Defense Mode</li>
+            <li>🪂 Freefall Mode</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Bug fixes</strong></p>
+            <ul>
+            <li>🛠️ Automatic inventory saving (no need for the F5 menu any more)</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Other</strong></p>
+            <ul>
+            <li>🔗 Added basic static PnW capabilities</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>
+            Join the <strong>Brick-Force Aurora</strong> community to learn more, contribute, or simply relive the
+            nostalgia. Here are some helpful links to get started:
+            </p>
+            <ul>
+            <li><a href="https://discord.gg/qktjAYsKwH" target="_blank">Discord</a> - Join our community and discuss
+            with other players and developers.</li>
+            <li><a href="https://github.com/Brick-Force-Aurora/Brick-Force" target="_blank">GitHub</a> - Explore the
+            project, contribute, or report issues.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <p>
+            We want to thank everyone for their continued support and enthusiasm. Your loyalty and love for
+            Brick-Force have made this possible. Let’s build, share, and play together again!
+            </p>
+            <p>&nbsp;</p>
+            <p>See you in the game!</p>
+            <p>Cheers!</p>
+            <p>The Brick-Force Aurora Team</p>
+          </div>
+        </div>
+        <span class="bubble"></span>
+      </li>
+      <li class="news">
+        <span class="cat cat_announcement"></span>
+        <div class="inner">
+          <h2><a href="/Website/">Brick-Force Aurora</a></h2>
           <p class="date"><span>January 19, 2025</span></p>
           <div class="text">
             <p>Greetings Community,</p>
