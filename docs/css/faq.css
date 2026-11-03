@@ -84,3 +84,26 @@
   padding: 10px;
   color: #0f0f0f;
 }
+
+.content.game-cbfaq dl.faq dd ul,
+.content.game-cbfaq dl.faq dd ol {
+  margin: 0 10px 10px 34px;
+  color: #0f0f0f;
+}
+
+.content.game-cbfaq dl.faq dd ul {
+  list-style: disc;
+}
+
+.content.game-cbfaq dl.faq dd ol {
+  list-style: decimal;
+}
+
+.content.game-cbfaq dl.faq dd li {
+  margin: 0 0 5px;
+}
+
+.content.game-cbfaq dl.faq dd li ul,
+.content.game-cbfaq dl.faq dd li ol {
+  margin: 5px 0 0 20px;
+}
