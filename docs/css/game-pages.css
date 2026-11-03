@@ -1,0 +1,941 @@
+/* Game section pages (Map Creation, Play Mode, Tutorials, Seasons, Coming Soon) - rules restored from the original site */
+
+.content.game-cm {
+  background-image:url("/Website/images/game/content-game-map-creation-background.jpg");
+}
+
+.content.game-cm h1 span.avatar {
+  background-position:0 -104px;
+}
+
+.content.game-cm .linklist {
+  list-style:none;
+  background:url("/Website/images/game/content-game-map-creation-builder.jpg") 99% 20px no-repeat;
+  min-height:410px;
+}
+
+.content.game-cm .linklist .l1 {
+  display:block;
+  margin:0 0 12px 30px;
+}
+
+.content.game-cm .linklist .l1 a {
+  display:block;
+  width:135px;
+  height:56px;
+  padding:15px 15px 0 90px;
+  background-image:url("/Website/images/game/content-game-map-creation-buttons.jpg");
+  background-repeat:no-repeat;
+  background-color:white;
+  color:black;
+  font-weight:normal;
+  font-size:18px;
+  text-align:right;
+  border:solid 1px white;
+  line-height:17px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow:0 0 10px 0 #9aa3a8;
+  -moz-box-shadow:0 0 10px 0 #9aa3a8;
+  box-shadow:0 0 10px 0 #9aa3a8;
+}
+
+.content.game-cm .linklist .l1.link1 a {
+  background-position:0 0;
+}
+
+.content.game-cm .linklist .l1.link1 a:hover {
+  background-position:-240px 0;
+}
+
+.content.game-cm .linklist .l1.link2 a {
+  background-position:0 -71px;
+}
+
+.content.game-cm .linklist .l1.link2 a:hover {
+  background-position:-240px -71px;
+}
+
+.content.game-cm .linklist .l1.link3 a {
+  background-position:0 -142px;
+}
+
+.content.game-cm .linklist .l1.link3 a:hover {
+  background-position:-240px -142px;
+}
+
+.content.game-cm .linklist .l1.link4 a {
+  background-position:0 -213px;
+}
+
+.content.game-cm .linklist .l1.link4 a:hover {
+  background-position:-240px -213px;
+}
+
+.content.game-itm {
+  background-image:url("/Website/images/game/content-game-map-creation-introduction-to-maps-background.jpg");
+}
+
+.content.game-itm h1 span.avatar {
+  background-position:0 -104px;
+}
+
+.content.game-itm .box-left.pic-1 {
+  min-height:160px;
+  background:url("/Website/images/game/content-game-map-creation-introduction-to-maps-pic-1.png") 97% 0 no-repeat;
+}
+
+.content.game-itm .box-right.pic-2 {
+  min-height:120px;
+  background:url("/Website/images/game/content-game-map-creation-introduction-to-maps-pic-2.jpg") 60px 0 no-repeat;
+}
+
+.content.game-itm .box-left.pic-3 {
+  min-height:170px;
+  background:url("/Website/images/game/content-game-map-creation-introduction-to-maps-pic-3.jpg") 99% 0 no-repeat;
+}
+
+.content.game-itm .box-right.pic-4 {
+  min-height:160px;
+  background:url("/Website/images/game/content-game-map-creation-introduction-to-maps-pic-4.jpg") 55px 0 no-repeat;
+}
+
+.content.game-itm .box-left.pic-5 {
+  min-height:130px;
+  background:url("/Website/images/game/content-game-map-creation-introduction-to-maps-pic-5.jpg") 85% 0 no-repeat;
+}
+
+.content.game-mm {
+  background-image:url("/Website/images/game/content-game-map-creation-my-maps-background.jpg");
+}
+
+.content.game-mm h1 span.avatar {
+  background-position:0 -104px;
+}
+
+.content.game-ab {
+  background-image:url("/Website/images/game/content-game-map-creation-about-bricks-background.jpg");
+}
+
+.content.game-ab h1 span.avatar {
+  background-position:0 -104px;
+}
+
+.content.game-ab .box-left.brick-1 {
+  background:url("/Website/images/game/content-game-map-creation-about-bricks-brick-1.jpg") 93% 35% no-repeat;
+}
+
+.content.game-ab .box-right.brick-2 {
+  background:url("/Website/images/game/content-game-map-creation-about-bricks-brick-2.jpg") 30px 30% no-repeat;
+}
+
+.content.game-ab .box-left.brick-3 {
+  background:url("/Website/images/game/content-game-map-creation-about-bricks-brick-3.jpg") 88% 35% no-repeat;
+}
+
+.content.game-pm {
+  background-image:url("/Website/images/game/content-game-map-creation-about-bricks-background.jpg");
+}
+
+.content.game-pm h1 span.avatar {
+  background-position:0 -156px;
+}
+
+.content.game-pm .box-left.small {
+  min-height:120px;
+}
+
+.content.game-pm .linklist {
+  display:block;
+  list-style:none;
+  background:url("/Website/images/game/content-game-play-mode-team.jpg") 15px bottom no-repeat;
+  padding:0 0 394px 0;
+}
+
+.content.game-pm .linklist .l1 {
+  display:block;
+  margin:0 0 0 39px;
+}
+
+.content.game-pm .linklist .l1 a {
+  display:block;
+  float:left;
+  width:135px;
+  height:56px;
+  background-image:url("/Website/images/game/content-game-play-mode-buttons.jpg");
+  background-repeat:no-repeat;
+  background-color:white;
+  color:black;
+  font-weight:normal;
+  font-size:18px;
+  border:solid 1px white;
+  line-height:17px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow:0 0 10px 0 #9aa3a8;
+  -moz-box-shadow:0 0 10px 0 #9aa3a8;
+  box-shadow:0 0 10px 0 #9aa3a8;
+}
+
+.content.game-pm .linklist .l1.link1 a {
+  text-align:right;
+  padding:15px 15px 0 90px;
+  background-position:0 0;
+}
+
+.content.game-pm .linklist .l1.link2 a {
+  text-align:left;
+  padding:15px 90px 0 15px;
+  margin-left:10px;
+  background-position:0 -71px;
+}
+
+.content.game-pm .linklist .l1.link1 a:hover {
+  background-position:-240px 0;
+}
+
+.content.game-pm .linklist .l1.link2 a:hover {
+  background-position:-240px -71px;
+}
+
+.content.game-gm {
+  background-image:url("/Website/images/game/content-game-map-creation-about-bricks-background.jpg");
+}
+
+.content.game-gm h1 span.avatar {
+  background-position:0 -156px;
+}
+
+.content.game-gm .box-center.intro {
+  min-height:20px;
+}
+
+.content.game-gm .box-right.team {
+  background:url("/Website/images/game/content-game-about-brick-force-char-3.jpg") 30px 3% no-repeat;
+  min-height:200px;
+}
+
+.content.game-gm .box-right ul {
+  list-style:none;
+  background:white;
+  border:solid 1px #c2c8cb;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  padding:10px;
+}
+
+.content.game-gm .box-right ul li {
+  background:url("/Website/images/game/content-game-map-creation-how-to-create-a-map-list-dot.gif") 10px 12px no-repeat;
+  padding:3px 0 3px 25px;
+}
+
+.content.game-tut {
+  background-image:url("/Website/images/game/content-game-tutorials-background.jpg");
+}
+
+.content.game-tut h1 span.avatar {
+  background-position:0 -208px;
+}
+
+.content.game-tut .linklist {
+  list-style:none;
+  background:url("/Website/images/game/content-game-tutorials-medic.jpg") 99% 20px no-repeat;
+  min-height:450px;
+}
+
+.content.game-tut .linklist .l1 {
+  display:block;
+  margin:0 0 12px 30px;
+}
+
+.content.game-tut .linklist .l1 a {
+  display:block;
+  width:180px;
+  height:56px;
+  padding:15px 15px 0 45px;
+  background-image:url("/Website/images/game/content-game-tutorials-buttons.jpg");
+  background-repeat:no-repeat;
+  background-color:white;
+  color:black;
+  font-weight:normal;
+  font-size:18px;
+  text-align:right;
+  border:solid 1px white;
+  line-height:17px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  -webkit-box-shadow:0 0 10px 0 #9aa3a8;
+  -moz-box-shadow:0 0 10px 0 #9aa3a8;
+  box-shadow:0 0 10px 0 #9aa3a8;
+}
+
+.content.game-tut .linklist .l1.link1 a {
+  background-position:0 0;
+}
+
+.content.game-tut .linklist .l1.link1 a:hover {
+  background-position:-240px 0;
+}
+
+.content.game-tut .linklist .l1.link2 a {
+  background-position:0 -71px;
+}
+
+.content.game-tut .linklist .l1.link2 a:hover {
+  background-position:-240px -71px;
+}
+
+.content.game-tut .linklist .l1.link3 a {
+  background-position:0 -142px;
+}
+
+.content.game-tut .linklist .l1.link3 a:hover {
+  background-position:-240px -142px;
+}
+
+.content.game-tut .linklist .l1.link4 a {
+  background-position:0 -284px;
+}
+
+.content.game-tut .linklist .l1.link4 a:hover {
+  background-position:-240px -284px;
+}
+
+.content.game-tut .linklist .l1.link5 a {
+  background-position:0 -213px;
+}
+
+.content.game-tut .linklist .l1.link5 a:hover {
+  background-position:-240px -213px;
+}
+
+.content.game-tut .linklist .l1.link6 a {
+  background-position:0 -355px;
+}
+
+.content.game-tut .linklist .l1.link6 a:hover {
+  background-position:-240px -355px;
+}
+
+.content.game-tut .linklist .l1.link7 a {
+  background-position:0 -426px;
+}
+
+.content.game-tut .linklist .l1.link7 a:hover {
+  background-position:-240px -426px;
+}
+
+.content.game-htcm {
+  background-image:url("/Website/images/game/content-game-map-creation-how-to-create-a-map-background.jpg");
+}
+
+.content.game-htcm h1 span.avatar {
+  background-position:0 -156px;
+}
+
+.content.game-htcm .box-left ul {
+  list-style:none;
+  background:white;
+  border:solid 1px #c2c8cb;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  padding:10px;
+}
+
+.content.game-htcm .box-left ul li {
+  background:url("/Website/images/game/content-game-map-creation-how-to-create-a-map-list-dot.gif") 10px 12px no-repeat;
+  padding:3px 0 3px 25px;
+}
+
+.content.game-htcm .box-left.first {
+  margin-top:55px;
+}
+
+.content.game-htcm .box-left a .image.first {
+  top:55px;
+}
+
+.content.game-htcm {
+  background-image:url("/Website/images/game/content-game-map-creation-how-to-create-a-map-background.jpg");
+}
+
+.content.game-htcm h1 span.avatar {
+  background-position:0 -104px;
+}
+
+.content.game-htcm .noheight {
+  min-height:1px;
+}
+
+.content.game-htcm .box-left ul {
+  list-style:none;
+  background:white;
+  border:solid 1px #c2c8cb;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  padding:10px;
+}
+
+.content.game-htcm .box-left ul li {
+  background:url("/Website/images/game/content-game-map-creation-how-to-create-a-map-list-dot.gif") 10px 12px no-repeat;
+  padding:3px 0 3px 25px;
+}
+
+.content.game-htcm .box-left.first {
+  margin-top:55px;
+}
+
+.content.game-htcm .box-left a .image.first {
+  top:55px;
+}
+
+.content.game-tut-bnd .box-center {
+  min-height:80px;
+}
+
+.content.game-tut-bnd .box-left ul {
+  list-style:none;
+  background:white;
+  border:solid 1px #c2c8cb;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  padding:10px;
+  margin-bottom:15px;
+}
+
+.content.game-tut-bnd .box-left ul li {
+  background:url("/Website/images/game/content-game-map-creation-how-to-create-a-map-list-dot.gif") 10px 12px no-repeat;
+  padding:3px 0 3px 25px;
+}
+
+.content.game-tut-def .box-center {
+  min-height:80px;
+}
+
+.content.game-tut-def h1 span.label {
+  line-height:27px;
+}
+
+.content.game-tut-pnw .box-center {
+  min-height:80px;
+}
+
+.content.game-tut-pnw ul.rare-items {
+  display:block;
+  list-style:none;
+  margin-left:20px;
+}
+
+.content.game-tut-pnw ul.rare-items li {
+  display:block;
+  margin:0;
+  padding:0;
+  float:left;
+  width:175px;
+  height:145px;
+  text-align:center;
+}
+
+.content.game-tut-pnw ul.rare-items li span {
+  display:block;
+  padding-bottom:5px;
+  font-weight:bold;
+}
+
+.content.game-cs {
+  background-image:url("/Website/images/game/content-game-coming-soon-background.jpg");
+  margin-bottom:30px;
+}
+
+.content.game-cs h1 span.avatar {
+  background-position:0 -52px;
+}
+
+.content.game-cs .preface {
+  text-align:left;
+  width:375px;
+  min-height:230px;
+  margin:30px 0 30px 20px;
+}
+
+.content.game-cs .preface h2 {
+  font-weight:bold;
+  font-size:21px;
+  color:#333;
+  margin:0 0 5px;
+}
+
+.content.game-cs .preface p {
+  font-size:16px;
+  color:#333;
+  line-height:24px;
+  margin:0 0 0 20px;
+}
+
+.content.game-cs .preface p a {
+  font-weight:bold;
+}
+
+.content.game-cs .timeline {
+  margin:0 40px 0 20px;
+}
+
+.content.game-cs .timeline h3 {
+  font-size:19px;
+  font-weight:bold;
+  font-style:italic;
+  text-shadow:0 1px 0 #fff;
+  filter:dropshadow(color=#ffffff,offx=0,offy=1);
+}
+
+.content.game-cs .timeline.reviewed h3 {
+  color:#f49719;
+}
+
+.content.game-cs .timeline.coming-soon h3 {
+  color:#14d614;
+}
+
+.content.game-cs .timeline.implimented h3 {
+  color:#076407;
+}
+
+.content.game-cs .timeline .feature {
+  min-height:209px;
+  display:block;
+}
+
+.content.game-cs .timeline .feature {
+  min-height:209px;
+  display:block;
+  background-repeat:no-repeat;
+  background-position:10px 0;
+}
+
+.content.game-cs .timeline.reviewed .feature {
+  background-image:url("/Website/images/game/content-game-coming-soon-timeline-underreviewed.png");
+}
+
+.content.game-cs .timeline.coming-soon .feature {
+  background-image:url("/Website/images/game/content-game-coming-soon-timeline-comingsoon.png");
+}
+
+.content.game-cs .timeline.implimented .feature {
+  background-image:url("/Website/images/game/content-game-coming-soon-timeline-implimented.png");
+}
+
+.content.game-cs .timeline .feature h4 {
+  display:block;
+  float:left;
+  width:880px;
+  font-size:14px;
+  text-transform:uppercase;
+  color:black;
+  margin:0 0 0 30px;
+  text-shadow:0 1px 0 #fff;
+  filter:dropshadow(color=#ffffff,offx=0,offy=1);
+}
+
+.content.game-cs .timeline .feature h5 {
+  display:block;
+  float:left;
+  width:870px;
+  font-size:13px;
+  font-weight:normal;
+  margin:0 0 7px 40px;
+  color:#212121;
+  text-shadow:0 1px 0 #fff;
+  filter:dropshadow(color=#ffffff,offx=0,offy=1);
+}
+
+.content.game-cs .timeline .feature img.thumb {
+  display:block;
+  float:left;
+  background:white;
+  width:140px;
+  height:140px;
+  border:solid 2px #f2981f;
+  margin:0 35px 0 38px;
+  -webkit-box-shadow:0 15px 30px 0 #8e969a;
+  box-shadow:0 15px 30px 0 #8e969a;
+}
+
+.content.game-cs .timeline .feature div {
+  display:block;
+  float:left;
+  width:645px;
+}
+
+.content.game-cs .timeline .feature div p {
+  font-size:16px;
+  color:#212121;
+  line-height:24px;
+}
+
+.content.game-seasons {
+  background-image:url("/Website/images/game/content-game-seasons-background.jpg");
+  margin-bottom:30px;
+}
+
+.content.game-seasons h1 span.avatar {
+  background-position:0 -52px;
+}
+
+.content.game-seasons .preface {
+  text-align:left;
+  width:375px;
+  margin:30px 0 30px 20px;
+}
+
+.content.game-seasons .preface h2 {
+  font-weight:bold;
+  font-size:21px;
+  color:#333;
+  margin:0 0 5px;
+}
+
+.content.game-seasons .preface p {
+  font-size:16px;
+  color:#333;
+  line-height:24px;
+  margin:0 0 0 20px;
+}
+
+.content.game-seasons .preface p a {
+  font-weight:bold;
+}
+
+.content.game-seasons .seasons-overview {
+  position:relative;
+  display:block;
+  width:745px;
+  padding:0 0 25px 0;
+  margin:0 0 50px 190px;
+  background:#fafafa;
+  border:solid 3px white;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  -webkit-box-shadow:0 0 1px 0 #66747f;
+  -moz-box-shadow:0 0 1px 0 #66747f;
+  box-shadow:0 0 2px 0 #66747f;
+}
+
+.content.game-seasons ul.tabs-vertical {
+  position:absolute;
+  left:-183px;
+  top:5px;
+  display:block;
+  width:314px;
+}
+
+.content.game-seasons ul.tabs-vertical li {
+  display:block;
+  width:153px;
+  height:62px;
+  line-height:62px;
+  padding:0 10px 12px 20px;
+  color:#575757;
+  background:url("/Website/images/game/content-game-seasons-tabs.png") left center no-repeat;
+  font-size:14px;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin:0 0 -9px;
+  cursor:pointer;
+}
+
+.content.game-seasons ul.tabs-vertical li span {
+  color:#b4b4b4;
+}
+
+.content.game-seasons ul.tabs-vertical li:hover span,.content.game-seasons ul.tabs-vertical li.selected span {
+  color:#757575;
+}
+
+.content.game-seasons ul.tabs-vertical li:hover {
+  background-position:left bottom;
+  color:black;
+}
+
+.content.game-seasons ul.tabs-vertical li.selected:hover,.content.game-seasons ul.tabs-vertical li.selected {
+  background-position:left top;
+  color:black;
+}
+
+.content.game-seasons ul.tabs-vertical li.disabled {
+  filter:alpha(opacity=30);
+  -moz-opacity:.30;
+  -khtml-opacity:.30;
+  opacity:.30;
+  cursor:default;
+}
+
+.content.game-seasons .seasons-overview .season {
+  position:relative;
+}
+
+.content.game-seasons .seasons-overview .season .youtube {
+  position:absolute;
+  right:28px;
+  top:188px;
+  width:308px;
+  height:206px;
+  -webkit-box-shadow:0 1px 2px 0 #000;
+  -moz-box-shadow:0 1px 2px 0 #000;
+  box-shadow:0 1px 2px 0 #000;
+}
+
+.content.game-seasons .seasons-overview .season .introduction {
+  display:block;
+  float:left;
+  width:340px;
+  height:250px;
+  margin:150px 0 30px 30px;
+}
+
+.content.game-seasons .seasons-overview .season .introduction h3 {
+  font-weight:bold;
+  font-size:21px;
+  color:#333;
+  margin:0;
+}
+
+.content.game-seasons .seasons-overview .season .introduction p {
+  font-size:16px;
+  color:#333;
+  line-height:24px;
+  margin:0 0 0 10px;
+}
+
+.content.game-seasons .seasons-overview .season .screenshots {
+  display:block;
+  float:left;
+  width:685px;
+  margin:0 20px 30px 30px;
+  text-align:center;
+}
+
+.content.game-seasons .seasons-overview .season .screenshots h4 {
+  display:block;
+  width:685px;
+  text-align:left;
+  font-size:14px;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:black;
+}
+
+.content.game-seasons .seasons-overview .season .screenshots a img {
+  margin:6px;
+  display:inline;
+  -webkit-box-shadow:0 1px 2px 0 #000;
+  -moz-box-shadow:0 1px 2px 0 #000;
+  box-shadow:0 1px 2px 0 #000;
+}
+
+.content.game-seasons .seasons-overview .season .features {
+  display:block;
+  float:left;
+  width:685px;
+  margin:0 30px 30px 30px;
+}
+
+.content.game-seasons .seasons-overview .season .features h4 {
+  display:block;
+  width:685px;
+  font-size:14px;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:black;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature {
+  display:block;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature img {
+  display:block;
+  width:95px;
+  height:95px;
+  -webkit-box-shadow:0 15px 30px 0 rgba(0,0,0,0.45);
+  box-shadow:0 15px 30px 0 rgba(0,0,0,0.45);
+}
+
+.content.game-seasons .seasons-overview .season .features .feature h5 {
+  display:block;
+  float:left;
+  font-size:14px;
+  color:black;
+  font-weight:bold;
+  font-style:italic;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature p {
+  display:block;
+  float:left;
+  font-size:14px;
+  color:black;
+  font-style:italic;
+  line-height:22px;
+  margin:0;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature.left {
+  margin:15px 30px 30px 10px;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature.left img {
+  float:left;
+  margin:0 20px 0 0;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature.left h5,.content.game-seasons .seasons-overview .season .features .feature.left p {
+  width:525px;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature.right {
+  margin:15px 0 30px 30px;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature.right img {
+  float:right;
+  margin:0 0 0 20px;
+}
+
+.content.game-seasons .seasons-overview .season .features .feature.right h5,.content.game-seasons .seasons-overview .season .features .feature.right p {
+  width:535px;
+}
+
+.content.game-seasons .seasons-overview .brick-force img.logo {
+  position:absolute;
+  left:23px;
+  top:12px;
+}
+
+.content.game-seasons .seasons-overview .brickstar img.logo {
+  position:absolute;
+  left:20px;
+  top:0;
+}
+
+.content.game-seasons .seasons-overview .bricksaga img.logo {
+  position:absolute;
+  left:20px;
+  top:0;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks img.logo {
+  position:absolute;
+  left:20px;
+  top:0;
+}
+
+.content.game-seasons .seasons-overview .brick-force img.illustration {
+  position:absolute;
+  right:-31px;
+  top:-218px;
+}
+
+.content.game-seasons .seasons-overview .brickstar img.illustration {
+  position:absolute;
+  right:-32px;
+  top:-131px;
+}
+
+.content.game-seasons .seasons-overview .bricksaga img.illustration {
+  position:absolute;
+  right:-31px;
+  top:-169px;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks img.illustration {
+  position:absolute;
+  right:-31px;
+  top:-263px;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks .introduction {
+  margin-top:190px;
+  height:310px;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks .youtube {
+  top:218px;
+}
+
+.content.game-seasons .seasons-overview .brick-force .youtube {
+  border:2px solid #f49719;
+}
+
+.content.game-seasons .seasons-overview .brick-force .screenshots a img {
+  border:2px solid #f49719;
+}
+
+.content.game-seasons .seasons-overview .brick-force .features .feature img {
+  border:solid 2px #f49719;
+}
+
+.content.game-seasons .seasons-overview .brickstar .youtube {
+  border:2px solid #01fbfd;
+}
+
+.content.game-seasons .seasons-overview .brickstar .screenshots a img {
+  border:2px solid #01fbfd;
+}
+
+.content.game-seasons .seasons-overview .brickstar .features .feature img {
+  border:solid 2px #00fafc;
+}
+
+.content.game-seasons .seasons-overview .bricksaga .screenshots a img {
+  border:2px solid #7ac353;
+}
+
+.content.game-seasons .seasons-overview .bricksaga .youtube {
+  border:2px solid #7ac353;
+}
+
+.content.game-seasons .seasons-overview .bricksaga .features .feature img {
+  border:solid 2px #7ac353;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks .screenshots a img {
+  border:2px solid #fff859;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks .youtube {
+  border:2px solid #fff859;
+}
+
+.content.game-seasons .seasons-overview .cowboys-bricks .features .feature img {
+  border:solid 2px #fff859;
+}
+
+.content.game-seasons .seasons-overview .season { display: none; }
+.content.game-seasons .seasons-overview .season.current { display: block; }
+.content .back-link { margin: 25px 0 5px 20px; font-size: 14px; }
+
+/* eight tabs in the Game section: tighter spacing so they fit the row */
+ul.tabs.game-tabs li a {
+  padding-right: 9px;
+}
+
+ul.tabs.game-tabs li.selected {
+  margin-right: 30px;
+}
+
+ul.tabs.game-tabs li.selected a {
+  padding-left: 30px;
+}
+
+/* keep the inactive tabs above wide page artwork */
+ul.tabs.game-tabs li:not(.selected) {
+  position: relative;
+  z-index: 152;
+}

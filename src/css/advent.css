@@ -1,0 +1,270 @@
+.community.advent-calendar {
+  background-image:url("/Website/images/advent/background.jpg");
+  padding-bottom:45px;
+}
+
+.community.advent-calendar .windows {
+  display:block;
+  clear:left;
+  float:left;
+  margin:60px 0 0 5px;
+  height:825px;
+  background:url("/Website/images/advent/bg.jpg") no-repeat;
+}
+
+.community.advent-calendar .windows ul {
+  position:relative;
+  padding:7px 0 0 9px;
+}
+
+.community.advent-calendar .windows li {
+  display:block;
+  float:left;
+  width:123px;
+  height:123px;
+  margin:15px 55px 15px 15px;
+  font-weight:bold;
+}
+
+.community.advent-calendar .windows li.c5 {
+  margin-right:0;
+}
+
+.community.advent-calendar .windows li a {
+  display:block;
+  width:123px;
+  height:123px;
+  color:#fff;
+  font-size:44px;
+  font-weight:bold;
+  line-height:113px;
+  text-align:center;
+  text-shadow:2px 2px 1px #000;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+
+.community.advent-calendar .windows li.closed a {
+  cursor:default;
+  font-weight:normal;
+  opacity:.4;
+  filter:alpha(opacity=40);
+}
+
+.community.advent-calendar .windows li.canopen a {
+  cursor:pointer;
+}
+
+.community.advent-calendar .windows li.opened {
+  background-image:url("/Website/images/advent/bg_open.jpg");
+}
+
+.community.advent-calendar .windows li.opened a {
+  cursor:default;
+}
+
+.community.advent-calendar .windows li.opened a span {
+  display:none;
+}
+
+.community.advent-calendar .windows li.i1 {
+  background-position:-24px -22px;
+}
+
+.community.advent-calendar .windows li.i2 {
+  background-position:-217px -22px;
+}
+
+.community.advent-calendar .windows li.i3 {
+  background-position:-410px -22px;
+}
+
+.community.advent-calendar .windows li.i4 {
+  background-position:-603px -22px;
+}
+
+.community.advent-calendar .windows li.i5 {
+  background-position:-796px -22px;
+}
+
+.community.advent-calendar .windows li.i6 {
+  background-position:-24px -175px;
+}
+
+.community.advent-calendar .windows li.i7 {
+  background-position:-217px -175px;
+}
+
+.community.advent-calendar .windows li.i8 {
+  background-position:-410px -175px;
+}
+
+.community.advent-calendar .windows li.i9 {
+  background-position:-603px -175px;
+}
+
+.community.advent-calendar .windows li.i10 {
+  background-position:-796px -175px;
+}
+
+.community.advent-calendar .windows li.i11 {
+  background-position:-24px -328px;
+}
+
+.community.advent-calendar .windows li.i12 {
+  background-position:-217px -328px;
+}
+
+.community.advent-calendar .windows li.i13 {
+  background-position:-410px -328px;
+}
+
+.community.advent-calendar .windows li.i14 {
+  background-position:-603px -328px;
+}
+
+.community.advent-calendar .windows li.i15 {
+  background-position:-796px -328px;
+}
+
+.community.advent-calendar .windows li.i16 {
+  background-position:-24px -481px;
+}
+
+.community.advent-calendar .windows li.i17 {
+  background-position:-217px -481px;
+}
+
+.community.advent-calendar .windows li.i18 {
+  background-position:-410px -481px;
+}
+
+.community.advent-calendar .windows li.i19 {
+  background-position:-603px -481px;
+}
+
+.community.advent-calendar .windows li.i20 {
+  background-position:-796px -481px;
+}
+
+.community.advent-calendar .windows li.i21 {
+  background-position:-24px -634px;
+}
+
+.community.advent-calendar .windows li.i22 {
+  background-position:-217px -634px;
+}
+
+.community.advent-calendar .windows li.i23 {
+  background-position:-410px -634px;
+}
+
+.community.advent-calendar .windows li.i24 {
+  background-position:-603px -634px;
+}
+
+.community.advent-calendar .windows li.i25 {
+  background-position:-796px -634px;
+}
+
+.community.advent-calendar .windows li.i25.closed a {
+  background-image:url("/Website/images/advent/locked.png");
+  opacity:1.0;
+  filter:alpha(opacity=100);
+}
+
+.community.advent-calendar .windows li.i25.closed a span {
+  display:none;
+}
+
+.community.advent-calendar .windows li.i25.canopen a {
+  background:0;
+}
+
+.community.advent-calendar .windows li.i25.canopen a span {
+  display:block;
+}
+
+.community.advent-calendar .windows li.shadow {
+  position:absolute;
+  display:block;
+  left:-13px;
+  top:-50px;
+  width:938px;
+  height:36px;
+  background:url("/Website/images/advent/shadow-top.png") left top no-repeat;
+}
+
+/* ---- fan re-creation additions: status line, note and the "present" pop-up ---- */
+.community.advent-calendar .advent-status {
+  clear: both;
+  max-width: 540px;
+  margin: 10px 0 0 20px;
+  color: #003056;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.community.advent-calendar .advent-note {
+  max-width: 540px;
+  margin: 4px 0 0 20px;
+  color: #555;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.advent-overlay {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 10, 25, 0.75);
+}
+
+.advent-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 360px;
+  margin: -110px 0 0 -180px;
+  padding: 22px 26px 26px;
+  text-align: center;
+  background: #fafafa;
+  border: 3px solid #f49719;
+  border-radius: 8px;
+  box-shadow: 0 6px 30px #000;
+}
+
+.advent-box h3 {
+  margin: 0 0 6px;
+  color: #003056;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.advent-box .item {
+  margin: 8px 0 12px;
+  color: #c4620b;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.advent-box .note {
+  margin: 0 0 16px;
+  color: #666;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.advent-box button {
+  cursor: pointer;
+  padding: 6px 22px;
+  color: #fff;
+  font-size: 14px;
+  background: #003056;
+  border: 0;
+  border-radius: 4px;
+}

@@ -3,7 +3,7 @@
     <a href="/Website/" class="l1 shadow-black-1">Home</a>
   </li>
   <li
-    class="l1 game {% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' %}selected{% endif %}">
+    class="l1 game {% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' or page.url contains '/game/' %}selected{% endif %}">
     <a href="/Website/about/" class="l1 shadow-black-1">Game</a>
     <ul class="l2 clearfix">
       <li class="l2 {% if page.url == '/about/' %}selected{% endif %}">
@@ -12,8 +12,23 @@
       <li class="l2 {% if page.url == '/download/' %}selected{% endif %}">
         <a href="/Website/download/" class="l2 shadow-black-1">Download Brick-Force Aurora</a>
       </li>
+      <li class="l2 {% if page.url contains '/game/map-creation/' %}selected{% endif %}">
+        <a href="/Website/game/map-creation/" class="l2 shadow-black-1">Map Creation</a>
+      </li>
+      <li class="l2 {% if page.url contains '/game/play-mode/' %}selected{% endif %}">
+        <a href="/Website/game/play-mode/" class="l2 shadow-black-1">Play Mode</a>
+      </li>
+      <li class="l2 {% if page.url contains '/game/tutorials/' %}selected{% endif %}">
+        <a href="/Website/game/tutorials/" class="l2 shadow-black-1">Tutorials</a>
+      </li>
       <li class="l2 {% if page.url == '/faq/' %}selected{% endif %}">
         <a href="/Website/faq/" class="l2 shadow-black-1">FAQ</a>
+      </li>
+      <li class="l2 {% if page.url contains '/game/seasons/' %}selected{% endif %}">
+        <a href="/Website/game/seasons/" class="l2 shadow-black-1">Season Overview</a>
+      </li>
+      <li class="l2 {% if page.url contains '/game/coming-soon/' %}selected{% endif %}">
+        <a href="/Website/game/coming-soon/" class="l2 shadow-black-1">Coming Soon</a>
       </li>
     </ul>
   </li>
@@ -28,11 +43,14 @@
       </li>
     </ul>
   </li>
-  <li class="l1 community {% if page.url == '/roadmap/' %}selected{% endif %}">
+  <li class="l1 community {% if page.url == '/roadmap/' or page.url contains '/community/' %}selected{% endif %}">
     <a href="/Website/roadmap/" class="l1 shadow-black-1">Community</a>
     <ul class="l2 clearfix">
       <li class="l2 {% if page.url == '/roadmap/' %}selected{% endif %}">
         <a href="/Website/roadmap/" class="l2 shadow-black-1">Roadmap</a>
+      </li>
+      <li class="l2 {% if page.url == '/community/advent-calendar/' %}selected{% endif %}">
+        <a href="/Website/community/advent-calendar/" class="l2 shadow-black-1">Bricktastic X-Mas Calendar</a>
       </li>
     </ul>
   </li>
