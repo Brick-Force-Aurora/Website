@@ -1,0 +1,72 @@
+{
+ "stats": [
+  {
+   "key": "xp",
+   "label": "XP"
+  },
+  {
+   "key": "kills",
+   "label": "Kills"
+  },
+  {
+   "key": "deaths",
+   "label": "Deaths"
+  },
+  {
+   "key": "kdr",
+   "label": "Kill/Death Ratio"
+  },
+  {
+   "key": "wins",
+   "label": "Wins"
+  }
+ ],
+ "periods": [
+  {
+   "key": "alltime",
+   "label": "All-time"
+  },
+  {
+   "key": "daily",
+   "label": "Daily"
+  },
+  {
+   "key": "weekly",
+   "label": "Weekly"
+  },
+  {
+   "key": "monthly",
+   "label": "Monthly"
+  }
+ ],
+ "modes": [
+  {
+   "id": 1,
+   "title": "Team Deathmatch"
+  },
+  {
+   "id": 2,
+   "title": "Deathmatch"
+  },
+  {
+   "id": 4,
+   "title": "CTF"
+  },
+  {
+   "id": 8,
+   "title": "Defusion"
+  },
+  {
+   "id": 16,
+   "title": "Defense"
+  },
+  {
+   "id": 32,
+   "title": "Build 'n Destroy"
+  },
+  {
+   "id": 64,
+   "title": "Freefall"
+  }
+ ]
+}

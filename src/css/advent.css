@@ -268,3 +268,14 @@
   border: 0;
   border-radius: 4px;
 }
+
+.advent-box .hq-link {
+  display: inline-block;
+  padding: 7px 18px;
+  background: #f49719;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.advent-box .hq-link:hover { background: #d97f08; }

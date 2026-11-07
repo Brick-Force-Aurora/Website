@@ -3,7 +3,10 @@
  * Door N can be opened on N December (1-25). Opening it shows a random festive item - nothing is stored
  * on a server and no login is needed; the doors you opened are remembered in this browser (localStorage).
  *
+ * Door 24 is special: it announces that Brick HQ has been unlocked (see js/hq-gate.js).
+ *
  * To try it outside of December, add ?date=12-07 (or ?date=2026-12-07) to the page address.
+ * This only works on localhost (development); on the live site the real date is always used.
  */
 (function () {
   "use strict";
@@ -31,6 +34,7 @@
   ];
   var MONTHS = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
+  var HQ_DOOR = 24; // opening this door announces Brick HQ
   var calendar = document.querySelector(".advent-calendar .windows");
   if (!calendar) {
     return;
@@ -41,7 +45,8 @@
   var year = now.getFullYear();
   var month = now.getMonth() + 1;
   var day = now.getDate();
-  var override = /[?&]date=(?:(\d{4})-)?(\d{1,2})-(\d{1,2})/.exec(window.location.search);
+  var dev = /^(localhost|127\.0\.0\.1|\[::1\]|.*\.localhost)$/.test(window.location.hostname);
+  var override = dev ? /[?&]date=(?:(\d{4})-)?(\d{1,2})-(\d{1,2})/.exec(window.location.search) : null;
   if (override) {
     year = override[1] ? parseInt(override[1], 10) : year;
     month = parseInt(override[2], 10);
@@ -83,7 +88,16 @@
   function showPresent(dayNumber, item, isNew) {
     var overlay = document.createElement("div");
     overlay.className = "advent-overlay";
-    overlay.innerHTML =
+    var hq = dayNumber === HQ_DOOR;
+    overlay.innerHTML = hq
+      ? '<div class="advent-box" role="dialog" aria-modal="true">' +
+        "<h3>Door " + dayNumber + "</h3>" +
+        '<p class="item">Brick HQ has been unlocked!</p>' +
+        "<p>Our Christmas present for all players: the rankings and player profiles are open from today.</p>" +
+        '<p><a class="hq-link" href="/Website/game/ranking/">Visit Brick HQ</a></p>' +
+        '<button type="button">Close</button>' +
+        "</div>"
+      :
       '<div class="advent-box" role="dialog" aria-modal="true">' +
       "<h3>Door " + dayNumber + "</h3>" +
       "<p>" + (isNew ? "Your present for today:" : "You already opened this door:") + "</p>" +
@@ -134,7 +148,7 @@
       if (opened[n]) {
         showPresent(n, opened[n], false);
       } else if (n === today) {
-        opened[n] = randomItem();
+        opened[n] = n === HQ_DOOR ? "Brick HQ unlocked" : randomItem();
         save();
         li.classList.remove("canopen");
         li.classList.add("opened");

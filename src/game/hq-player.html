@@ -1,0 +1,200 @@
+---
+layout: base
+pagination:
+  data: players
+  size: 1
+  alias: p
+permalink: "/game/players/{{ p.slug }}/"
+eleventyComputed:
+  title: "Details on {{ p.name | escape }}"
+wide: true
+---
+<article id="content">
+{%- assign hq_url = "/Website/game/players/" | append: p.slug | append: "/" %}
+{%- assign hq_label = "Details on " | append: p.name %}
+{%- assign hq_tab = p.name %}
+{%- assign hq_tabs = "single" %}
+{% include "hq-where.html" %}
+
+  <div class="{{ p.cls }}">
+
+<h1><span class="avatar">&nbsp;</span><span class="label">Details on {{ p.name | escape }}</span></h1>
+
+{%- assign hq_prefix = "Archived profile, captured" %}
+{%- assign hq_ts = p.ts %}
+{%- assign hq_ts_label = p.ts_label %}
+{%- assign hq_src = p.url %}
+{%- assign hq_suffix = "" %}
+{% include "hq-note.html" %}
+<div class="title clearfix">
+<span class="rank">{{ p.rank }}</span>
+<h1 class="username">{{ p.name | escape }}</h1>
+<h2><span class="grad">{{ p.since }}</span><span class="guild">{{ p.guild | escape }}</span></h2>
+</div>
+<section class="col primary clearfix">
+
+<div id="unityPlayer" class="clearix">
+<img src="/Website/images/hq/avatar-default.gif" alt="Character preview not archived" title="3D character preview (Unity Web Player) not archived"></div>
+<div class="top-info clearfix">
+
+<div class="charts">
+{%- for c in p.charts %}
+<div class="chart chart-{{ forloop.index }}"{% if c.h %} style="height:{{ c.h }}%"{% endif %}><span>{{ c.v }}</span></div>
+{%- endfor %}
+</div>
+
+<div class="description">
+<ul class="shadow-white-1">
+<li>Kill/Death Ratio</li>
+<li>Assists</li>
+<li>Wins</li>
+<li>Draws</li>
+<li>Loss</li>
+<li>Used Bricks</li>
+<li>Played Matches</li>
+</ul>
+
+<div class="lines clearfix"><span><span><span><span><span><span><span class="last">&nbsp;</span></span></span></span></span></span></span></div>
+
+</div>
+
+</div>
+
+<div class="network-list clearfix">
+<h2 class="shadow-white-1">{{ p.name | escape }}'s Social Network</h2>
+{% for s in p.social %}
+{% if s.href != "" %}<a href="{{ s.href }}" rel="external" target="_blank" class="{{ s.cls }}">{{ s.text | escape }}</a>{% else %}<b class="{{ s.cls }}">{{ s.text | escape }}</b>{% endif %}
+{% endfor %}
+</div>
+</section>
+
+<section class="col weapon-list clearfix">
+<h2>Equipped Items</h2>
+<article class="weapons clearfix">
+<ul id="wl" class="jcarousel-items">
+{%- for i in p.items %}
+<li><b class="shadow-white-1"><span>{{ i | escape }}</span></b></li>
+{%- endfor %}
+</ul>
+</article>
+</section>
+{% if p.maps %}
+<section class="col maps-list clearfix">
+<h2 class="shadow-white-1">My Maps</h2>
+<article class="maps-container tabs">
+
+<ul class="tabs-vertical">
+{%- for t in p.maps.tabs %}
+<li class="{{ t.cls }}">{{ t.label }} <span>{{ t.count }}</span></li>
+{%- endfor %}
+</ul>
+{% for v in p.maps.views %}
+<div class="{{ v.cls }}"{% if v.style != "" %} style="{{ v.style }}"{% endif %}>
+<ul id="{{ v.id }}" class="jcarousel-items">
+{% for m in v.maps %}
+<li class="map">
+<h3 class="title"><a href="https://web.archive.org/web/{{ p.ts }}/http://www.brick-force.com{{ m.href }}" target="_blank">{{ m.title | escape }}</a></h3>
+<a href="https://web.archive.org/web/{{ p.ts }}/http://www.brick-force.com{{ m.href }}" target="_blank"></a>
+<p class="stardust">
+<span class="value">{{ m.rating }}</span>
+<span class="stars-rating clearfix">
+<span class="label">&nbsp;</span>
+<span class="stars" style="width:{{ m.stars }};">&nbsp;</span>
+</span>
+</p>
+<p class="stats downloaded">
+<span class="h4">Downloads</span>
+<span class="value">{{ m.downloads }}</span>
+</p>
+<p class="stats played">
+<span class="h4">Played</span>
+<span class="value">{{ m.played }}</span>
+</p>
+<p class="stats brick-count">
+<span class="h4">Brick Count</span>
+<span class="value">{{ m.bricks }}</span>
+</p>
+<p class="stats mod">
+<span class="h4">Last Modified</span>
+<span class="value small">{{ m.modified }}</span>
+</p>
+<p class="stats modes clearfix">
+<span class="h4">Modes</span>
+{%- for g in m.modes %}
+<span class="gamemode gamemode-{{ g }}">&nbsp;</span>
+{%- endfor %}
+</p>
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endfor %}
+</article>
+</section>
+{% endif %}
+
+<section class="col battle-info clearfix">
+<h2 class="shadow-white-1">Battle Stats</h2>
+<article class="battle-stats tabs">
+
+<ul class="tabs-horizontal clearfix">
+{%- for b in p.battle -%}
+<li class="tab-{{ forloop.index }}{% if forloop.index == p.battle_first %} selected{% endif %}">{{ b.title | escape }}<span>&nbsp;</span></li>
+{%- endfor -%}
+</ul>
+{% for b in p.battle %}
+<div class="view-h-{{ forloop.index }} gamemode-stats gamemode-{{ b.id }}"{% unless forloop.index == p.battle_first %} style="display:none;"{% endunless %}>
+{% if b.has %}
+<span class="title-type">{{ b.title | escape }}</span>
+<span class="title-stats">Statistic</span>
+<span class="title-kdr">{{ b.kdr }}</span>
+
+<div class="records">
+<p>Records</p>
+<dl class="clearfix">
+<dt>Wins</dt>
+<dd class="green">{{ b.wins }}</dd>
+<dt>Draws</dt>
+<dd class="orange">{{ b.draws }}</dd>
+<dt>Loss</dt>
+<dd class="red">{{ b.loss }}</dd>
+</dl>
+</div>
+
+<p class="stats kills">
+<span class="h4">Kills</span>
+<span class="value green">{{ b.kills }}</span>
+</p>
+
+<p class="stats assists">
+<span class="h4">Assists</span>
+<span class="value orange">{{ b.assists }}</span>
+</p>
+
+<p class="stats deaths">
+<span class="h4">Deaths</span>
+<span class="value red">{{ b.deaths }}</span>
+</p>
+
+<p class="stats kdratio">
+<span class="h4i">Kill/Death Ratio:</span>
+<span class="value small grey">{{ b.kdratio }}</span>
+</p>
+
+<div class="played-matches">
+<p>Played Matches</p>
+<span class="shadow-style grey">{{ b.matches }}</span>
+<span class="value green">{{ b.matches }}</span>
+</div>
+{% else %}
+<span class="title-type">{{ b.title | escape }}</span><p class="no-info">No information archived</p>
+{% endif %}
+</div>
+{% endfor %}
+</article>
+</section>
+
+  </div>
+<script src="/Website/js/jcarousel.js"></script>
+<script src="/Website/js/hq-profile.js"></script>
+</article>

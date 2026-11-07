@@ -1,0 +1,36 @@
+---
+layout: base
+title: Playerlist
+permalink: /game/players/
+wide: true
+---
+<article id="content">
+{%- assign hq_url = "/Website/game/players/" %}
+{%- assign hq_label = "Playerlist" %}
+{%- assign hq_tab = "Playerlist" %}
+{%- assign hq_tabs = "single" %}
+{% include "hq-where.html" %}
+
+  <div class="content ranking ranking-table playerlist clearfix">
+    <h1><span class="avatar">&nbsp;</span><span class="label">Playerlist</span></h1>
+    <p class="capture-note">All {{ players.size }} players whose profile page was preserved by the Wayback Machine, each in its newest archived version.</p>
+    <p class="player-search"><label for="player-search">Search player:</label> <input type="search" id="player-search" placeholder="Nickname" autocomplete="off"> <span id="player-count"></span></p>
+    <section class="col ranking-table" style="margin-top:20px;">
+      <article class="tabs ranking-view">
+        <table id="playerlist">
+          <colgroup><col width="55px"><col width="*"><col width="60px"><col width="75px"><col width="75px"><col width="70px"><col width="60px"><col width="60px"><col width="80px"><col width="130px"><col width="130px"></colgroup>
+          <thead>
+            <tr><th class="center seperator"><a>ID</a></th><th class="seperator"><a>Nickname</a></th><th class="center seperator"><a>Level</a></th><th class="center"><a>K/D Ratio</a></th><th class="center"><a>Assists</a></th><th class="center"><a>Wins</a></th><th class="center"><a>Draws</a></th><th class="center seperator"><a>Loss</a></th><th class="center seperator"><a>Matches</a></th><th class="center seperator"><a>Since</a></th><th class="center"><a>Captured</a></th></tr>
+          </thead>
+          <tbody>
+{%- for p in players %}
+{%- assign par = forloop.index | modulo: 2 %}
+<tr class="{% if par == 1 %}odd{% else %}even{% endif %} places"><td class="center seperator">{{ p.id }}</td><td class="user seperator"><a href="/Website/game/players/{{ p.slug }}/">{{ p.name | escape }}{% if p.level_icon %} <img src="/Website/images/hq/grades/{{ p.level }}.png" alt="{{ p.guild | escape }}" title="{{ p.guild | escape }}" class="icon-grade">{% endif %}</a></td><td class="center vertical seperator grey highlight" data-sort="{{ p.level }}">{% if p.level != "" %}{{ p.level }}{% else %}{{ p.guild | escape }}{% endif %}</td><td class="center vertical int green">{{ p.charts[0].v }}</td><td class="center vertical int orange">{{ p.charts[1].v }}</td><td class="center vertical int green">{{ p.charts[2].v }}</td><td class="center vertical int orange">{{ p.charts[3].v }}</td><td class="center vertical int seperator red">{{ p.charts[4].v }}</td><td class="center vertical seperator grey highlight">{{ p.charts[6].v }}</td><td class="center vertical seperator grey" data-sort="{{ p.since_iso }}">{{ p.since }}</td><td class="center vertical grey" data-sort="{{ p.ts | slice: 0, 8 }}">{{ p.ts_label }}</td></tr>
+{%- endfor %}
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </div>
+<script src="/Website/js/playerlist.js"></script>
+</article>

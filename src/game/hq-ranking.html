@@ -1,0 +1,85 @@
+---
+layout: base
+pagination:
+  data: rankings
+  size: 1
+  alias: r
+permalink: "/game/players/{{ r.stat }}/{{ r.period }}/"
+eleventyComputed:
+  title: "Rankings for {{ r.label }} ({{ r.plabel }})"
+wide: true
+---
+<article id="content">
+{%- assign hq_url = "/Website/game/players/" | append: r.stat | append: "/" | append: r.period | append: "/" %}
+{%- assign hq_label = "Rankings for " | append: r.label %}
+{%- assign hq_tabs = "stats" %}
+{%- assign hq_stat = r.stat %}
+{% include "hq-where.html" %}
+
+  <div class="content ranking ranking-table shooter clearfix">
+
+<h1><span class="avatar">&nbsp;</span><span class="label">Rankings for {{ r.label }}</span></h1>
+
+{%- assign hq_prefix = "Sample page: top of the ranking as captured" %}
+{%- assign hq_ts = r.ts %}
+{%- assign hq_ts_label = r.ts_label %}
+{%- assign hq_src = r.url %}
+{%- assign hq_suffix = "Further pages are not included." %}
+{% include "hq-note.html" %}
+
+<section class="col ranking-table" style="margin-top:70px;">
+<article class="tabs ranking-view">
+
+<ul class="tabs-horizontal clearfix">
+{%- for per in hqdata.periods %}
+<li{% if per.key == r.period %} class="selected"{% endif %}><a href="/Website/game/players/{{ r.stat }}/{{ per.key }}/">{{ per.label }}<span>&nbsp;</span></a></li>
+{%- endfor %}
+</ul>
+
+<table>
+
+<colgroup>
+{%- for c in r.cols %}
+<col width="{{ c }}">
+{%- endfor %}
+</colgroup>
+
+<thead>
+<tr>
+{%- for h in r.head %}
+<th class="{{ h.cls }}"><span class="{{ h.acls }}">{{ h.label }}</span></th>
+{%- endfor %}
+</tr>
+</thead>
+
+<tbody>
+{%- for row in r.rows %}
+<tr class="{{ row.cls }}">
+<td class="{{ row.tdcls0 }}">
+<span class="pos {{ row.pos_cls }}">{{ row.pos }}
+<span class="old-pos">{{ row.old }}</span>
+</span>
+</td>
+<td class="{{ row.ucls }}">
+{%- if row.slug %}
+<a href="/Website/game/players/{{ row.slug }}/">{{ row.name | escape }}{% if row.level_icon %}
+<img src="/Website/images/hq/grades/{{ row.level }}.png" alt="{{ row.level_name | escape }}" title="{{ row.level_name | escape }}" class="icon-grade">{% endif %}
+</a>
+{%- else %}
+<span>{{ row.name | escape }}{% if row.level_icon %}
+<img src="/Website/images/hq/grades/{{ row.level }}.png" alt="{{ row.level_name | escape }}" title="{{ row.level_name | escape }}" class="icon-grade">{% endif %}
+</span>
+{%- endif %}</td>
+{%- for c in row.cells %}
+<td class="{{ c.cls }}">{{ c.text }}</td>
+{%- endfor %}
+</tr>
+{%- endfor %}
+</tbody>
+</table>
+
+</article>
+</section>
+
+  </div>
+</article>

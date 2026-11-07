@@ -1,0 +1,17 @@
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/about/">Game</a>
+      &rsaquo; <a href="/Website/game/ranking/">Brick HQ</a>
+      &rsaquo; <a href="{{ hq_url }}" class="last">{{ hq_label | escape }}</a>
+    </p>
+    <ul class="tabs clearfix">
+{%- if hq_tabs == "stats" %}
+{%- for s in hqdata.stats %}
+      <li{% if s.key == hq_stat %} class="selected"{% endif %}><a href="/Website/game/players/{{ s.key }}/alltime/">{{ s.label }}{% if s.key == hq_stat %}<span>&nbsp;</span>{% endif %}</a></li>
+{%- endfor %}
+{%- else %}
+      <li class="selected"><a href="{{ hq_url }}">{{ hq_tab | escape }}<span>&nbsp;</span></a></li>
+{%- endif %}
+    </ul>
+  </div>
