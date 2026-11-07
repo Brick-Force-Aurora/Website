@@ -38,8 +38,16 @@ wide: true
 <div class="top-info clearfix">
 
 <div class="charts">
+{%- comment %} Labels of neighbouring bars go to different heights when their values have more than 10 characters together (commas included). {% endcomment %}
+{%- assign prev_up = false %}
+{%- assign prev_len = 0 %}
 {%- for c in p.charts %}
-<div class="chart chart-{{ forloop.index }}"{% if c.h %} style="height:{{ c.h }}%"{% endif %}><span>{{ c.v }}</span></div>
+{%- assign len = c.v | size %}
+{%- assign sum = prev_len | plus: len %}
+{%- if forloop.first %}{% assign up = false %}{% elsif sum > 10 %}{% if prev_up %}{% assign up = false %}{% else %}{% assign up = true %}{% endif %}{% else %}{% assign up = prev_up %}{% endif %}
+<div class="chart chart-{{ forloop.index }}{% if up %} up{% endif %}"{% if c.h %} style="height:{{ c.h }}%"{% endif %}><span>{{ c.v }}</span></div>
+{%- assign prev_up = up %}
+{%- assign prev_len = len %}
 {%- endfor %}
 </div>
 
@@ -73,7 +81,8 @@ wide: true
 <article class="weapons clearfix">
 <ul id="wl" class="jcarousel-items">
 {%- for i in p.items %}
-<li><b class="shadow-white-1"><span>{{ i | escape }}</span></b></li>
+{%- assign it = items[i.c] %}
+<li><b class="shadow-white-1"><span>{{ i.n | escape }}</span>{% if it.icon and it.icon != "" %}<img src="/Website/images/items/{{ it.icon }}" alt="{{ i.n | escape }}">{% endif %}</b></li>
 {%- endfor %}
 </ul>
 </article>

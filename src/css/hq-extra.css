@@ -20,7 +20,7 @@
 .ranking .battle-stats .gamemode-stats .no-info { position: absolute; left: 0; right: 0; top: 50px; text-align: center; }
 .content.ranking.playerlist table th a { cursor: pointer; }
 
-/* ---- profile chart: bars a little further apart, alternating labels so the numbers do not overlap ---- */
+/* ---- profile chart: bars a little further apart; labels of neighbouring bars with more than 10 characters together sit at different heights (template) ---- */
 .ranking .primary .top-info .charts { width: 342px; }
 .ranking .primary .top-info .charts .chart-1 { left: 152px; }
 .ranking .primary .top-info .charts .chart-2 { left: 178px; }
@@ -29,9 +29,7 @@
 .ranking .primary .top-info .charts .chart-5 { left: 256px; }
 .ranking .primary .top-info .charts .chart-6 { left: 282px; }
 .ranking .primary .top-info .charts .chart-7 { left: 308px; }
-.ranking .primary .top-info .charts .chart-2 span,
-.ranking .primary .top-info .charts .chart-4 span,
-.ranking .primary .top-info .charts .chart-6 span { top: -25px; }
+.ranking .primary .top-info .charts .chart.up span { top: -25px; }
 .ranking .primary .top-info .description .lines { width: 196px; }
 .ranking .primary .top-info .description .lines span, .ranking .primary .top-info .description .lines * span { padding-right: 25px; }
 .content.ranking.gate .gateway .spacer { margin: 0; line-height: 18px; }

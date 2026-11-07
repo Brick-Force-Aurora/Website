@@ -4,6 +4,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/js");
     // Copy `resources/images` to the output directory
     eleventyConfig.addPassthroughCopy("src/images");
+    // News archive grouped by year (data: src/_data/archivePosts.json)
+    eleventyConfig.addGlobalData("archiveNews", require("./lib/archive-news.js"));
+
     // Downloads (Fansite Kit, logos)
     eleventyConfig.addPassthroughCopy("src/downloads");
 

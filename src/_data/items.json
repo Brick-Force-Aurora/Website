@@ -1,0 +1,7397 @@
+{
+"aaa": {
+"name": "SEALs Jacket",
+"category": "Clothing",
+"icon": "icon_combat_body.png"
+},
+"aab": {
+"name": "SEALs Pants",
+"category": "Clothing",
+"icon": "icon_combat_pants.png"
+},
+"aac": {
+"name": "Army Jacket",
+"category": "Clothing",
+"icon": "icon_army_body.png"
+},
+"aad": {
+"name": "Army Pants",
+"category": "Clothing",
+"icon": "icon_army_pants.png"
+},
+"aae": {
+"name": "Ranger Jacket",
+"category": "Clothing",
+"icon": "icon_desert_body.png"
+},
+"aaf": {
+"name": "Ranger Pants",
+"category": "Clothing",
+"icon": "icon_desert_pants.png"
+},
+"aag": {
+"name": "Medic Jacket",
+"category": "Clothing",
+"icon": "icon_medic_body.png"
+},
+"aah": {
+"name": "Medic Pants",
+"category": "Clothing",
+"icon": "icon_medic_pants.png"
+},
+"aai": {
+"name": "Trooper Jacket",
+"category": "Clothing",
+"icon": "icon_trooper_body.png"
+},
+"aaj": {
+"name": "Trooper Pants",
+"category": "Clothing",
+"icon": "icon_trooper_pants.png"
+},
+"aak": {
+"name": "Elec Jacket",
+"category": "Clothing",
+"icon": "icon_elec_body.png"
+},
+"aal": {
+"name": "Elec Pants",
+"category": "Clothing",
+"icon": "icon_elec_pants.png"
+},
+"aam": {
+"name": "SWAT Jacket",
+"category": "Clothing",
+"icon": "icon_swat_body.png"
+},
+"aan": {
+"name": "SWAT Pants",
+"category": "Clothing",
+"icon": "icon_swat_pants.png"
+},
+"aao": {
+"name": "Chef Jacket",
+"category": "Clothing",
+"icon": "icon_chef_body.png"
+},
+"aap": {
+"name": "Chef Pants",
+"category": "Clothing",
+"icon": "icon_chef_boots.png"
+},
+"aaq": {
+"name": "Infantry Jacket",
+"category": "Clothing",
+"icon": "icon_infantryman_body.png"
+},
+"aar": {
+"name": "Infantry Pants",
+"category": "Clothing",
+"icon": "icon_infantryman_boots.png"
+},
+"aas": {
+"name": "Surgeon's Jacket",
+"category": "Clothing",
+"icon": "icon_nurse_body.png"
+},
+"aat": {
+"name": "Surgeon's Pants",
+"category": "Clothing",
+"icon": "icon_nurse_boots.png"
+},
+"aau": {
+"name": "Mr. Signal's Jacket",
+"category": "Clothing",
+"icon": "icon_signalman_body.png"
+},
+"aav": {
+"name": "Mr. Signal's Pants",
+"category": "Clothing",
+"icon": "icon_signalman_boots.png"
+},
+"aaw": {
+"name": "Snow-Camo Jacket",
+"category": "Clothing",
+"icon": "icon_snow_body.png"
+},
+"aax": {
+"name": "Snow-Camo Pants",
+"category": "Clothing",
+"icon": "icon_snow_boots.png"
+},
+"aay": {
+"name": "Partisan Jacket 1",
+"category": "Clothing",
+"icon": "icon_terrorist_body01.png"
+},
+"aaz": {
+"name": "Partisan Pants 1",
+"category": "Clothing",
+"icon": "icon_terrorist_boots01.png"
+},
+"aba": {
+"name": "Partisan Jacket 2",
+"category": "Clothing",
+"icon": "icon_terrorist_body02.png"
+},
+"abb": {
+"name": "Partisan Pants 2",
+"category": "Clothing",
+"icon": "icon_terrorist_boots02.png"
+},
+"abc": {
+"name": "Mechanic Jacket",
+"category": "Clothing",
+"icon": "icon_welder_body.png"
+},
+"abd": {
+"name": "Mechanic Pants",
+"category": "Clothing",
+"icon": "icon_welder_boots.png"
+},
+"abe": {
+"name": "Gamestar Jacket",
+"category": "Clothing",
+"icon": "icon_event1_swat_body.png"
+},
+"abf": {
+"name": "Gamestar Pants",
+"category": "Clothing",
+"icon": "icon_event1_swat_pants.png"
+},
+"abg": {
+"name": "CD Action Jacket",
+"category": "Clothing",
+"icon": "icon_event4_cdaction_body.png"
+},
+"abh": {
+"name": "IGN Prime Jacket",
+"category": "Clothing",
+"icon": "icon_event5_ign_body.png"
+},
+"abi": {
+"name": "IGN Prime Pants",
+"category": "Clothing",
+"icon": "icon_event5_ign_boots.png"
+},
+"abj": {
+"name": "Pro7Games Jacket",
+"category": "Clothing",
+"icon": "icon_event6_seven_body.png"
+},
+"abk": {
+"name": "Pro7Games Pants",
+"category": "Clothing",
+"icon": "icon_event6_seven_boots.png"
+},
+"abl": {
+"name": "PC Games Jacket",
+"category": "Clothing",
+"icon": "icon_event7_PCGames_body.png"
+},
+"abm": {
+"name": "PC Games Pants",
+"category": "Clothing",
+"icon": "icon_event7_PCGames_boots.png"
+},
+"abn": {
+"name": "Demon's Jacket",
+"category": "Clothing",
+"icon": "icon_devil_body.png"
+},
+"abo": {
+"name": "Demon's Pants",
+"category": "Clothing",
+"icon": "icon_Devil_boots.png"
+},
+"abp": {
+"name": "Witch's Jacket",
+"category": "Clothing",
+"icon": "icon_Pumpkin_body.png"
+},
+"abq": {
+"name": "Witch's Pants",
+"category": "Clothing",
+"icon": "icon_Pumpkin_boots.png"
+},
+"abr": {
+"name": "Skeleton Jacket",
+"category": "Clothing",
+"icon": "icon_Skull_body.png"
+},
+"abs": {
+"name": "Skeleton Pants",
+"category": "Clothing",
+"icon": "icon_Skull_boots.png"
+},
+"abt": {
+"name": "ESL Jacket",
+"category": "Clothing",
+"icon": "icon_event10_esl_body.png"
+},
+"abu": {
+"name": "ESL Pants",
+"category": "Clothing",
+"icon": "icon_event10_esl_boots.png"
+},
+"abv": {
+"name": "Machinima Jacket",
+"category": "Clothing",
+"icon": "icon_event11_machinima_body.png"
+},
+"abw": {
+"name": "Machinima Pants",
+"category": "Clothing",
+"icon": "icon_event11_machinima_boots.png"
+},
+"abx": {
+"name": "Demon's Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_devil_body_max.png"
+},
+"aby": {
+"name": "Demon's Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Devil_boots_max.png"
+},
+"abz": {
+"name": "Witch's Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Pumpkin_body_max.png"
+},
+"aca": {
+"name": "Witch's Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Pumpkin_boots_max.png"
+},
+"acb": {
+"name": "Skeleton Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Skull_body_max.png"
+},
+"acc": {
+"name": "Skeleton Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Skull_boots_max.png"
+},
+"acd": {
+"name": "Alien Jacket",
+"category": "Clothing",
+"icon": "icon_alien_body.png"
+},
+"ace": {
+"name": "Alien Pants",
+"category": "Clothing",
+"icon": "icon_alien_boots.png"
+},
+"acf": {
+"name": "Robo Jacket",
+"category": "Clothing",
+"icon": "icon_bot_body.png"
+},
+"acg": {
+"name": "Robo Pants",
+"category": "Clothing",
+"icon": "icon_bot_boots.png"
+},
+"ach": {
+"name": "Mephisto's Jacket",
+"category": "Clothing",
+"icon": "icon_brickdevil_body.png"
+},
+"aci": {
+"name": "Mephisto's Pants",
+"category": "Clothing",
+"icon": "icon_brickdevil_boots.png"
+},
+"acj": {
+"name": "Captain Brickmonth's Jacket",
+"category": "Clothing",
+"icon": "icon_buzz_body.png"
+},
+"ack": {
+"name": "Captain Brickmonth's Pants",
+"category": "Clothing",
+"icon": "icon_buzz_boots.png"
+},
+"acl": {
+"name": "Professor's Jacket",
+"category": "Clothing",
+"icon": "icon_enison_body.png"
+},
+"acm": {
+"name": "Professor's Pants",
+"category": "Clothing",
+"icon": "icon_enison_boots.png"
+},
+"acn": {
+"name": "Extraterrestrial's Jacket",
+"category": "Clothing",
+"icon": "icon_et_body.png"
+},
+"aco": {
+"name": "Extraterrestrial's Pants",
+"category": "Clothing",
+"icon": "icon_et_boots.png"
+},
+"acp": {
+"name": "Brickman Jacket",
+"category": "Clothing",
+"icon": "icon_hero_body.png"
+},
+"acq": {
+"name": "Brickman Pants",
+"category": "Clothing",
+"icon": "icon_hero_boots.png"
+},
+"acr": {
+"name": "Iron Jacket",
+"category": "Clothing",
+"icon": "icon_iron_body.png"
+},
+"acs": {
+"name": "Iron Pants",
+"category": "Clothing",
+"icon": "icon_iron_boots.png"
+},
+"act": {
+"name": "Evil Professor's Jacket",
+"category": "Clothing",
+"icon": "icon_moss_body.png"
+},
+"acu": {
+"name": "Evil Professor's Pants",
+"category": "Clothing",
+"icon": "icon_moss_boots.png"
+},
+"acv": {
+"name": "Space Jacket",
+"category": "Clothing",
+"icon": "icon_space_body.png"
+},
+"acw": {
+"name": "Space Pants",
+"category": "Clothing",
+"icon": "icon_space_boots.png"
+},
+"acx": {
+"name": "Bron Jacket",
+"category": "Clothing",
+"icon": "icon_tron_body.png"
+},
+"acy": {
+"name": "Bron Pants",
+"category": "Clothing",
+"icon": "icon_tron_boots.png"
+},
+"acz": {
+"name": "Santa Jacket",
+"category": "Clothing",
+"icon": "icon_Xmas_body1.png"
+},
+"ada": {
+"name": "Santa Pants",
+"category": "Clothing",
+"icon": "icon_Xmas_boots1.png"
+},
+"adb": {
+"name": "Rudolph Jacket",
+"category": "Clothing",
+"icon": "icon_Xmas_body2.png"
+},
+"adc": {
+"name": "Rudolph Pants",
+"category": "Clothing",
+"icon": "icon_Xmas_boots2.png"
+},
+"add": {
+"name": "Chimney Sweep Jacket",
+"category": "Clothing",
+"icon": "icon_Xmas_body3.png"
+},
+"ade": {
+"name": "Chimney Sweep Pants",
+"category": "Clothing",
+"icon": "icon_Xmas_boots3.png"
+},
+"adf": {
+"name": "Santa Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_body1_max.png"
+},
+"adg": {
+"name": "Santa Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_boots1_max.png"
+},
+"adh": {
+"name": "Rudolph Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_body2_max.png"
+},
+"adi": {
+"name": "Rudolph Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_boots2_max.png"
+},
+"adj": {
+"name": "Chimney Sweep Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_body3_max.png"
+},
+"adk": {
+"name": "Chimney Sweep Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_boots3_max.png"
+},
+"adl": {
+"name": "Panda Jacket",
+"category": "Clothing",
+"icon": "Icon_panda_body.png"
+},
+"adm": {
+"name": "Panda Pants",
+"category": "Clothing",
+"icon": "Icon_panda_boots.png"
+},
+"adn": {
+"name": "Yellow Canary",
+"category": "Clothing",
+"icon": "icon_event16_Soccer01_body.png"
+},
+"ado": {
+"name": "European Conqueror",
+"category": "Clothing",
+"icon": "icon_event16_Soccer02_body.png"
+},
+"adp": {
+"name": "Black Eagle",
+"category": "Clothing",
+"icon": "icon_event16_Soccer03_body.png"
+},
+"adq": {
+"name": "Black Sea Anchovy",
+"category": "Clothing",
+"icon": "icon_event16_Soccer04_body.png"
+},
+"adr": {
+"name": "Apollo Jacket",
+"category": "Clothing",
+"icon": "icon_Space01_body.png"
+},
+"ads": {
+"name": "Apollo Pants",
+"category": "Clothing",
+"icon": "icon_Space01_boots.png"
+},
+"adt": {
+"name": "Mercury Jacket",
+"category": "Clothing",
+"icon": "icon_alienware_body.png"
+},
+"adu": {
+"name": "Mercury Pants",
+"category": "Clothing",
+"icon": "icon_alienware_boots.png"
+},
+"adw": {
+"name": "Ice Desert Jacket",
+"category": "Clothing",
+"icon": "icon_desert_body01.png"
+},
+"adx": {
+"name": "Ice Desert Pants",
+"category": "Clothing",
+"icon": "icon_desert_boots01.png"
+},
+"ady": {
+"name": "Tiger Jacket",
+"category": "Clothing",
+"icon": "icon_infantryman_body01.png"
+},
+"adz": {
+"name": "Tiger Pants",
+"category": "Clothing",
+"icon": "icon_infantryman_boots01.png"
+},
+"aea": {
+"name": "Zebra Jacket",
+"category": "Clothing",
+"icon": "icon_infantryman_body02.png"
+},
+"aeb": {
+"name": "Zebra Pants",
+"category": "Clothing",
+"icon": "icon_infantryman_boots02.png"
+},
+"aec": {
+"name": "Partisan Camouflage Jacket",
+"category": "Clothing",
+"icon": "icon_terrorist_body03.png"
+},
+"aed": {
+"name": "Partisan Camouflage Pants",
+"category": "Clothing",
+"icon": "icon_terrorist_boots03.png"
+},
+"aee": {
+"name": "Golden Trooper Jacket",
+"category": "Clothing",
+"icon": "icon_trooper_body01.png"
+},
+"aef": {
+"name": "Golden Trooper Pants",
+"category": "Clothing",
+"icon": "icon_trooper_boots01.png"
+},
+"aeg": {
+"name": "Ice Desert Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_desert_body01_max.png"
+},
+"aeh": {
+"name": "Ice Desert Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_desert_boots01_max.png"
+},
+"aei": {
+"name": "Tiger Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_infantryman_body01_max.png"
+},
+"aej": {
+"name": "Tiger Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_infantryman_boots01_max.png"
+},
+"aek": {
+"name": "Zebra Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_infantryman_body02_max.png"
+},
+"ael": {
+"name": "Zebra Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_infantryman_boots02_max.png"
+},
+"aem": {
+"name": "Partisan Camouflage Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_terrorist_body03_max.png"
+},
+"aen": {
+"name": "Partisan Camouflage Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_terrorist_boots03_max.png"
+},
+"aeo": {
+"name": "Golden Trooper Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_trooper_body01_max.png"
+},
+"aep": {
+"name": "Golden Trooper Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_trooper_boots01_max.png"
+},
+"aeq": {
+"name": "Snowman Jacket",
+"category": "Clothing",
+"icon": "icon_winter_body01.png"
+},
+"aer": {
+"name": "Snowman Pants",
+"category": "Clothing",
+"icon": "icon_winter_boots01.png"
+},
+"aes": {
+"name": "Clown Jacket",
+"category": "Clothing",
+"icon": "icon_winter_body02.png"
+},
+"aet": {
+"name": "Clown Pants",
+"category": "Clothing",
+"icon": "icon_winter_boots02.png"
+},
+"aeu": {
+"name": "Infernum Jacket",
+"category": "Clothing",
+"icon": "icon_event19_body.png"
+},
+"aew": {
+"name": "Infernum Pants",
+"category": "Clothing",
+"icon": "icon_event19_boots.png"
+},
+"aex": {
+"name": "Gamestar ET Jacket",
+"category": "Clothing",
+"icon": "icon_e20_gamestar_body.png"
+},
+"aey": {
+"name": "Gamestar ET Pants",
+"category": "Clothing",
+"icon": "icon_e20_gamestar_boots.png"
+},
+"aez": {
+"name": "Caveman Jacket",
+"category": "Clothing",
+"icon": "icon_caveman_body.png"
+},
+"afa": {
+"name": "Caveman Pants",
+"category": "Clothing",
+"icon": "icon_caveman_boots.png"
+},
+"aff": {
+"name": "Archer's Jacket",
+"category": "Clothing",
+"icon": "icon_archer_body.png"
+},
+"afg": {
+"name": "Archer's Pants",
+"category": "Clothing",
+"icon": "icon_archer_boots.png"
+},
+"afh": {
+"name": "Knight's Jacket",
+"category": "Clothing",
+"icon": "icon_knight_body.png"
+},
+"afi": {
+"name": "Knight's Pants",
+"category": "Clothing",
+"icon": "icon_knight_boots.png"
+},
+"afj": {
+"name": "Sorcerer's Jacket",
+"category": "Clothing",
+"icon": "icon_mage_body.png"
+},
+"afk": {
+"name": "Sorcerer's Pants",
+"category": "Clothing",
+"icon": "icon_mage_boots.png"
+},
+"afl": {
+"name": "Thief's Jacket",
+"category": "Clothing",
+"icon": "icon_thief_body.png"
+},
+"afm": {
+"name": "Thief's Pants",
+"category": "Clothing",
+"icon": "icon_thief_boots.png"
+},
+"afb": {
+"name": "Bunny Jacket",
+"category": "Clothing",
+"icon": "icon_easter01_body.png"
+},
+"afc": {
+"name": "Bunny Pants",
+"category": "Clothing",
+"icon": "icon_easter01_boots.png"
+},
+"afd": {
+"name": "Special Agent's Jacket",
+"category": "Clothing",
+"icon": "icon_easter02_body.png"
+},
+"afe": {
+"name": "Special Agent's Pants",
+"category": "Clothing",
+"icon": "icon_easter02_boots.png"
+},
+"afo": {
+"name": "Hardwareplus Panda Jacket",
+"category": "Clothing",
+"icon": "Icon_e21_hwp.png"
+},
+"afp": {
+"name": "LEVEL Alien Jacket",
+"category": "Clothing",
+"icon": "Icon_e21_level.png"
+},
+"afq": {
+"name": "Pirate Jacket",
+"category": "Clothing",
+"icon": "icon_wal01_body.png"
+},
+"afr": {
+"name": "Pirate Pants",
+"category": "Clothing",
+"icon": "icon_wal01_boots.png"
+},
+"afs": {
+"name": "Kobold Jacket",
+"category": "Clothing",
+"icon": "icon_wal02_body.png"
+},
+"aft": {
+"name": "Kobold Pants",
+"category": "Clothing",
+"icon": "icon_wal02_boots.png"
+},
+"afu": {
+"name": "King's Robe",
+"category": "Clothing",
+"icon": "icon_king_body.png"
+},
+"afw": {
+"name": "King's Pants",
+"category": "Clothing",
+"icon": "icon_king_boots.png"
+},
+"afx": {
+"name": "Princess Dress",
+"category": "Clothing",
+"icon": "icon_princess_body.png"
+},
+"afy": {
+"name": "Princess Legs",
+"category": "Clothing",
+"icon": "icon_princess_boots.png"
+},
+"afz": {
+"name": "Brickmund Jersey",
+"category": "Clothing",
+"icon": "icon_event22_Dor_body.png"
+},
+"aga": {
+"name": "Brickmund Pants",
+"category": "Clothing",
+"icon": "icon_event22_Dor_boots.png"
+},
+"agb": {
+"name": "Brickburg SV Jersey",
+"category": "Clothing",
+"icon": "icon_event22_Ham_body.png"
+},
+"agc": {
+"name": "Brickburg SV Pants",
+"category": "Clothing",
+"icon": "icon_event22_Ham_boots.png"
+},
+"agd": {
+"name": "FC Brickern Jersey",
+"category": "Clothing",
+"icon": "icon_event22_Heim_body.png"
+},
+"age": {
+"name": "FC Brickern Pants",
+"category": "Clothing",
+"icon": "icon_event22_Heim_boots.png"
+},
+"agf": {
+"name": "Lion 04 Brickerkusen Jersey",
+"category": "Clothing",
+"icon": "icon_event22_Rever_body.png"
+},
+"agg": {
+"name": "Lion 04 Brickerkusen Pants",
+"category": "Clothing",
+"icon": "icon_event22_Rever_boots.png"
+},
+"agh": {
+"name": "Brick 04 Jersey",
+"category": "Clothing",
+"icon": "icon_event22_Schal_body.png"
+},
+"agi": {
+"name": "Brick 04 Pants",
+"category": "Clothing",
+"icon": "icon_event22_Schal_boots.png"
+},
+"agj": {
+"name": "Wave Game Outfit",
+"category": "Clothing",
+"icon": "icon_W_e01_body01.png"
+},
+"agk": {
+"name": "Wave Game Shoes",
+"category": "Clothing",
+"icon": "icon_W_e01_boots01.png"
+},
+"agl": {
+"name": "T-Cash Outfit",
+"category": "Clothing",
+"icon": "icon_W_e01_body02.png"
+},
+"agm": {
+"name": "T-Cash Shoes",
+"category": "Clothing",
+"icon": "icon_W_e01_boots02.png"
+},
+"agn": {
+"name": "Uncle Sam Jacket",
+"category": "Clothing",
+"icon": "icon_uncle_sam_body.png"
+},
+"ago": {
+"name": "Uncle Sam Pants",
+"category": "Clothing",
+"icon": "icon_uncle_sam_boots.png"
+},
+"agp": {
+"name": "Samurai Shirt",
+"category": "Clothing",
+"icon": "icon_C_samurai_body.png"
+},
+"agq": {
+"name": "Samurai Pants",
+"category": "Clothing",
+"icon": "icon_C_samurai_boots.png"
+},
+"agr": {
+"name": "Dragon Shirt",
+"category": "Clothing",
+"icon": "icon_C_dragon_body.png"
+},
+"ags": {
+"name": "Dragon Pants",
+"category": "Clothing",
+"icon": "icon_C_dragon_boots.png"
+},
+"agt": {
+"name": "Bee Shirt",
+"category": "Clothing",
+"icon": "icon_C_bee_body.png"
+},
+"agu": {
+"name": "Bee Pants",
+"category": "Clothing",
+"icon": "icon_C_bee_boots.png"
+},
+"agv": {
+"name": "Diving Suit Shirt",
+"category": "Clothing",
+"icon": "icon_Sum01_body.png"
+},
+"agw": {
+"name": "Diving Suit Pants",
+"category": "Clothing",
+"icon": "icon_Sum01_boots.png"
+},
+"agx": {
+"name": "Bikini",
+"category": "Clothing",
+"icon": "icon_Sum02_body.png"
+},
+"agy": {
+"name": "Beach Shoes",
+"category": "Clothing",
+"icon": "icon_Sum02_boots.png"
+},
+"agz": {
+"name": "Life Jacket",
+"category": "Clothing",
+"icon": "icon_Sum03_body.png"
+},
+"aha": {
+"name": "Board Shorts",
+"category": "Clothing",
+"icon": "icon_Sum03_boots.png"
+},
+"ahb": {
+"name": "Wave Independence Day Jacket",
+"category": "Clothing",
+"icon": "icon_W_e02_body.png"
+},
+"ahc": {
+"name": "Wave Independence Day Pants",
+"category": "Clothing",
+"icon": "icon_W_e02_boots.png"
+},
+"ahd": {
+"name": "GM 레드 상의",
+"category": "Clothing",
+"icon": "icon_GM_red_body.png"
+},
+"ahe": {
+"name": "GM 레드 하의",
+"category": "Clothing",
+"icon": "icon_GM_red_boots.png"
+},
+"ahf": {
+"name": "GM 옐로우 상의",
+"category": "Clothing",
+"icon": "icon_GM_yellow_body.png"
+},
+"ahg": {
+"name": "GM 옐로우 하의",
+"category": "Clothing",
+"icon": "icon_GM_yellow_boots.png"
+},
+"ahh": {
+"name": "GM 그린 상의",
+"category": "Clothing",
+"icon": "icon_GM_green_body.png"
+},
+"ahi": {
+"name": "GM 그린 하의",
+"category": "Clothing",
+"icon": "icon_GM_green_boots.png"
+},
+"ahj": {
+"name": "GM 블루 상의",
+"category": "Clothing",
+"icon": "icon_GM_blue_body.png"
+},
+"ahk": {
+"name": "GM 블루 하의",
+"category": "Clothing",
+"icon": "icon_GM_blue_boots.png"
+},
+"ahl": {
+"name": "GM 핑크 상의",
+"category": "Clothing",
+"icon": "icon_GM_pink_body.png"
+},
+"ahm": {
+"name": "GM 핑크 하의",
+"category": "Clothing",
+"icon": "icon_GM_pink_boots.png"
+},
+"ahn": {
+"name": "Islander Top",
+"category": "Clothing",
+"icon": "icon_Sum04_body.png"
+},
+"aho": {
+"name": "Islander Pants",
+"category": "Clothing",
+"icon": "icon_Sum04_boots.png"
+},
+"ahp": {
+"name": "Hula Top",
+"category": "Clothing",
+"icon": "icon_Sum05_body.png"
+},
+"ahq": {
+"name": "Hula Shoes",
+"category": "Clothing",
+"icon": "icon_Sum05_boots.png"
+},
+"ahr": {
+"name": "Witch Doctor Jacket",
+"category": "Clothing",
+"icon": "icon_Sum06_body.png"
+},
+"ahs": {
+"name": "Witch Doctor Pants",
+"category": "Clothing",
+"icon": "icon_Sum06_boots.png"
+},
+"aht": {
+"name": "Hawaiian Shirt",
+"category": "Clothing",
+"icon": "icon_Sum07_body.png"
+},
+"ahu": {
+"name": "Hawaiian Pants",
+"category": "Clothing",
+"icon": "icon_Sum07_boots.png"
+},
+"ahv": {
+"name": "Monkey Jacket",
+"category": "Clothing",
+"icon": "icon_Sum08_body.png"
+},
+"ahw": {
+"name": "Monkey Pants",
+"category": "Clothing",
+"icon": "icon_Sum08_boots.png"
+},
+"ahx": {
+"name": "Volcanologist Shirt",
+"category": "Clothing",
+"icon": "icon_Sum09_body.png"
+},
+"ahy": {
+"name": "Volcanologist Shorts",
+"category": "Clothing",
+"icon": "icon_Sum09_boots.png"
+},
+"ahz": {
+"name": "Mongolian Archer Robe",
+"category": "Clothing",
+"icon": "icon_Efe01_body.png"
+},
+"aia": {
+"name": "Mongolian Archer Pants",
+"category": "Clothing",
+"icon": "icon_Efe01_boots.png"
+},
+"aib": {
+"name": "Mongolian Bard Robe",
+"category": "Clothing",
+"icon": "icon_Efe02_body.png"
+},
+"aic": {
+"name": "Mongolian Bard Pants",
+"category": "Clothing",
+"icon": "icon_Efe02_boots.png"
+},
+"aid": {
+"name": "Mongolian Khan Robe",
+"category": "Clothing",
+"icon": "icon_Efe03_body.png"
+},
+"aie": {
+"name": "Mongolian Khan Pants",
+"category": "Clothing",
+"icon": "icon_Efe03_boots.png"
+},
+"aif": {
+"name": "Mongolian Nomad Robe",
+"category": "Clothing",
+"icon": "icon_Efe04_body.png"
+},
+"aig": {
+"name": "Mongolian Nomad Pants",
+"category": "Clothing",
+"icon": "icon_Efe04_boots.png"
+},
+"aih": {
+"name": "Tribal Warrior Tunic",
+"category": "Clothing",
+"icon": "icon_Efe05_body.png"
+},
+"aii": {
+"name": "Tribal Warrior Legs",
+"category": "Clothing",
+"icon": "icon_Efe05_boots.png"
+},
+"aij": {
+"name": "Winged Hussar Jacket",
+"category": "Clothing",
+"icon": "icon_Efe06_body.png"
+},
+"aik": {
+"name": "Winged Hussar Pants",
+"category": "Clothing",
+"icon": "icon_Efe06_boots.png"
+},
+"ail": {
+"name": "Gargoyle Top",
+"category": "Clothing",
+"icon": "icon_Efe07_body.png"
+},
+"aim": {
+"name": "Gargoyle Pants",
+"category": "Clothing",
+"icon": "icon_Efe07_boots.png"
+},
+"ain": {
+"name": "Male Hanbok Jacket",
+"category": "Clothing",
+"icon": "event24_han01_body.png"
+},
+"aio": {
+"name": "Male Hanbok Pants",
+"category": "Clothing",
+"icon": "event24_han01_boots.png"
+},
+"aip": {
+"name": "Female Hanbok Shirt",
+"category": "Clothing",
+"icon": "event24_han02_body.png"
+},
+"aiq": {
+"name": "Female Hanbok Skirt",
+"category": "Clothing",
+"icon": "event24_han02_boots.png"
+},
+"air": {
+"name": "Yang Dding T-shirt",
+"category": "Clothing",
+"icon": "YD_body.png"
+},
+"ais": {
+"name": "Yang Dding Jeans",
+"category": "Clothing",
+"icon": "YD_boots.png"
+},
+"ait": {
+"name": "Fire Dragon Jacket",
+"category": "Clothing",
+"icon": "icon_dragon_body.png"
+},
+"aiu": {
+"name": "Fire Dragon Pants",
+"category": "Clothing",
+"icon": "icon_dragon_boots.png"
+},
+"aiv": {
+"name": "Centaurion Armor",
+"category": "Clothing",
+"icon": "icon_centaurus_body.png"
+},
+"aiw": {
+"name": "Centaurion Pants",
+"category": "Clothing",
+"icon": "icon_centaurus_boots.png"
+},
+"aix": {
+"name": "Black Knight Jacket",
+"category": "Clothing",
+"icon": "icon_darkKnight_body.png"
+},
+"aiy": {
+"name": "Black Knight Pants",
+"category": "Clothing",
+"icon": "icon_darkKnight_boots.png"
+},
+"aiz": {
+"name": "Griffon Jacket",
+"category": "Clothing",
+"icon": "icon_griffon_body.png"
+},
+"aja": {
+"name": "Griffon Pants",
+"category": "Clothing",
+"icon": "icon_griffon_boots.png"
+},
+"ajb": {
+"name": "Orc Jacket",
+"category": "Clothing",
+"icon": "icon_orc_body.png"
+},
+"ajc": {
+"name": "Orc Pants",
+"category": "Clothing",
+"icon": "icon_orc_boots.png"
+},
+"ajd": {
+"name": "Warlock Robe",
+"category": "Clothing",
+"icon": "icon_warlock_body.png"
+},
+"aje": {
+"name": "Warlock Pants",
+"category": "Clothing",
+"icon": "icon_warlock_boots.png"
+},
+"ajf": {
+"name": "Marinière",
+"category": "Clothing",
+"icon": "c_f_body.png"
+},
+"ajg": {
+"name": "Champ's T-shirt",
+"category": "Clothing",
+"icon": "icon_e25_champ_body.png"
+},
+"ajh": {
+"name": "Champ's Pants",
+"category": "Clothing",
+"icon": "icon_e25_champ_boots.png"
+},
+"aji": {
+"name": "Fire Dragon Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_dragon_body_max.png"
+},
+"ajj": {
+"name": "Fire Dragon Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_dragon_boots_max.png"
+},
+"ajk": {
+"name": "Centaurion Armor (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_centaurus_body_max.png"
+},
+"ajl": {
+"name": "Centaurion Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_centaurus_boots_max.png"
+},
+"ajm": {
+"name": "Black Knight Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_darkKnight_body_max.png"
+},
+"ajn": {
+"name": "Black Knight Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_darkKnight_boots_max.png"
+},
+"ajo": {
+"name": "Griffon Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_griffon_body_max.png"
+},
+"ajp": {
+"name": "Griffon Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_griffon_boots_max.png"
+},
+"ajq": {
+"name": "Orc Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_orc_body_max.png"
+},
+"ajr": {
+"name": "Orc Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_orc_boots_max.png"
+},
+"ajs": {
+"name": "Warlock Robe (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_warlock_body_max.png"
+},
+"ajt": {
+"name": "Warlock Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_warlock_boots_max.png"
+},
+"aju": {
+"name": "Bunny Jacket",
+"category": "Clothing",
+"icon": "icon_easter01_body.png"
+},
+"ajv": {
+"name": "Bunny Pants",
+"category": "Clothing",
+"icon": "icon_easter01_boots.png"
+},
+"ajw": {
+"name": "Panda Jacket",
+"category": "Clothing",
+"icon": "Icon_panda_body.png"
+},
+"ajx": {
+"name": "Panda Pants",
+"category": "Clothing",
+"icon": "Icon_panda_boots.png"
+},
+"ajy": {
+"name": "Brick Ranger Shirt",
+"category": "Clothing",
+"icon": "icon_GM_gray_body.png"
+},
+"ajz": {
+"name": "Brick Ranger Pants",
+"category": "Clothing",
+"icon": "icon_GM_gray_boots.png"
+},
+"aka": {
+"name": "Native American Shirt",
+"category": "Clothing",
+"icon": "icon_s4_indian_body.png"
+},
+"akb": {
+"name": "Native American Pants",
+"category": "Clothing",
+"icon": "icon_s4_indian_boots.png"
+},
+"akc": {
+"name": "Muchacho Poncho",
+"category": "Clothing",
+"icon": "icon_s4_macho_body.png"
+},
+"akd": {
+"name": "Muchacho Pants",
+"category": "Clothing",
+"icon": "icon_s4_macho_boots.png"
+},
+"ake": {
+"name": "Sheriff Jacket",
+"category": "Clothing",
+"icon": "icon_s4_sheriff_body.png"
+},
+"akf": {
+"name": "Sheriff Pants",
+"category": "Clothing",
+"icon": "icon_s4_sheriff_boots.png"
+},
+"akg": {
+"name": "Bandit Shirt",
+"category": "Clothing",
+"icon": "icon_s4_thief_body.png"
+},
+"akh": {
+"name": "Bandit Pants",
+"category": "Clothing",
+"icon": "icon_s4_thief_boots.png"
+},
+"aki": {
+"name": "Special Forces Jacket",
+"category": "Clothing",
+"icon": "icon_rig_body.png"
+},
+"akj": {
+"name": "Special Forces Pants",
+"category": "Clothing",
+"icon": "icon_rig_boots.png"
+},
+"akk": {
+"name": "Navy Jacket",
+"category": "Clothing",
+"icon": "icon_rig_body_B.png"
+},
+"akl": {
+"name": "Navy Pants",
+"category": "Clothing",
+"icon": "icon_rig_boots_B.png"
+},
+"akm": {
+"name": "Psychopath Jacket",
+"category": "Clothing",
+"icon": "icon_Psychopath_body.png"
+},
+"akn": {
+"name": "Psychopath Pants",
+"category": "Clothing",
+"icon": "icon_Psychopath_boots.png"
+},
+"ako": {
+"name": "Grim Reaper Robe",
+"category": "Clothing",
+"icon": "icon_Reaper_coat.png"
+},
+"akp": {
+"name": "Grim Reaper Legs",
+"category": "Clothing",
+"icon": "icon_Reaper_boots.png"
+},
+"akq": {
+"name": "Psychopath Jacket (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Psychopath_body_max.png"
+},
+"akr": {
+"name": "Psychopath Pants (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Psychopath_boots_max.png"
+},
+"aks": {
+"name": "Grim Reaper Robe (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Reaper_coat_max.png"
+},
+"akt": {
+"name": "Grim Reaper Legs (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Reaper_boots_max.png"
+},
+"waa": {
+"name": "Poker 7",
+"category": "Weapons",
+"icon": "icon_br_n_m7.png"
+},
+"wab": {
+"name": "Cyclone 16",
+"category": "Weapons",
+"icon": "icon_br_m_m16.png"
+},
+"wad": {
+"name": "Scorpion 5",
+"category": "Weapons",
+"icon": "icon_br_m_uzi.png"
+},
+"wae": {
+"name": "Big Bang 400",
+"category": "Weapons",
+"icon": "icon_br_b_kg400.png"
+},
+"waf": {
+"name": "Adder 69",
+"category": "Weapons",
+"icon": "icon_br_s_ssg69.png"
+},
+"wag": {
+"name": "Condor 9",
+"category": "Weapons",
+"icon": "icon_br_p_bm9.png"
+},
+"wah": {
+"name": "Thunder 47",
+"category": "Weapons",
+"icon": "icon_br_m_ak47.png"
+},
+"wai": {
+"name": "Hurricane 4",
+"category": "Weapons",
+"icon": "icon_br_m_m4.png"
+},
+"waj": {
+"name": "Tarantula 41",
+"category": "Weapons",
+"icon": "icon_br_m_ppsh41.png"
+},
+"wak": {
+"name": "Hawk 14",
+"category": "Weapons",
+"icon": "icon_br_p_ana.png"
+},
+"wal": {
+"name": "Smokie 10",
+"category": "Weapons",
+"icon": "icon_br_b_kgs440.png"
+},
+"wao": {
+"name": "Toy Hammer",
+"category": "Weapons",
+"icon": "icon_br_n_bbh.png"
+},
+"wap": {
+"name": "Wrench",
+"category": "Weapons",
+"icon": "icon_br_n_bs.png"
+},
+"waq": {
+"name": "Pipe Wrench",
+"category": "Weapons",
+"icon": "icon_br_n_pw.png"
+},
+"war": {
+"name": "Wasp 25",
+"category": "Weapons",
+"icon": "icon_br_m_bmk.png"
+},
+"was": {
+"name": "Bronto 1000",
+"category": "Weapons",
+"icon": "icon_br_m_m1918.png"
+},
+"wat": {
+"name": "Saurus 42",
+"category": "Weapons",
+"icon": "icon_br_m_mg42.png"
+},
+"wau": {
+"name": "Black Widow 40",
+"category": "Weapons",
+"icon": "icon_br_m_mp40.png"
+},
+"wav": {
+"name": "Tornado 44",
+"category": "Weapons",
+"icon": "icon_br_m_stg44.png"
+},
+"waw": {
+"name": "Blackhawk 1900",
+"category": "Weapons",
+"icon": "icon_br_p_bc1900.png"
+},
+"wax": {
+"name": "Griffon 38",
+"category": "Weapons",
+"icon": "icon_br_p_bwp38.png"
+},
+"way": {
+"name": "Harrier 33",
+"category": "Weapons",
+"icon": "icon_br_p_bwpp.png"
+},
+"waz": {
+"name": "Python 91",
+"category": "Weapons",
+"icon": "icon_br_s_bmn91.png"
+},
+"wba": {
+"name": "Boomer",
+"category": "Weapons",
+"icon": "icon_br_b_granate.png"
+},
+"wbb": {
+"name": "Mosquito 1",
+"category": "Weapons",
+"icon": "icon_br_m_b1.png"
+},
+"wbc": {
+"name": "Lightning 2",
+"category": "Weapons",
+"icon": "icon_br_m_b2.png"
+},
+"wbd": {
+"name": "Boa 20",
+"category": "Weapons",
+"icon": "icon_br_s_awm.png"
+},
+"wbe": {
+"name": "Cobra 42",
+"category": "Weapons",
+"icon": "icon_br_s_brg42.png"
+},
+"wbf": {
+"name": "Beetle 1S",
+"category": "Weapons",
+"icon": "icon_br_m_b1_r.png"
+},
+"wbg": {
+"name": "Tsunami 2S",
+"category": "Weapons",
+"icon": "icon_br_m_b2_r.png"
+},
+"wbh": {
+"name": "T-Rex 42",
+"category": "Weapons",
+"icon": "icon_br_m_mg42_r.png"
+},
+"wbi": {
+"name": "Rattler 42",
+"category": "Weapons",
+"icon": "icon_br_s_brg42_r.png"
+},
+"wbj": {
+"name": "Baton 1",
+"category": "Weapons",
+"icon": "icon_br_n_club.png"
+},
+"wbk": {
+"name": "Shovel 1",
+"category": "Weapons",
+"icon": "icon_br_n_spade.png"
+},
+"wbl": {
+"name": "Blue Glow Stick",
+"category": "Weapons",
+"icon": "icon_br_n_lightsaber_b.png"
+},
+"wbm": {
+"name": "Red Glow Stick",
+"category": "Weapons",
+"icon": "icon_br_n_lightsaber_r.png"
+},
+"wbn": {
+"name": "B Hammer",
+"category": "Weapons",
+"icon": "icon_event_bbh1.png"
+},
+"wbo": {
+"name": "Solar Flare 1",
+"category": "Weapons",
+"icon": "icon_br_b_flashbang.png"
+},
+"wbp": {
+"name": "Viper 1",
+"category": "Weapons",
+"icon": "icon_br_s_m82a1.png"
+},
+"wbq": {
+"name": "Typhoon 8",
+"category": "Weapons",
+"icon": "icon_BR_M_C8A1.png"
+},
+"wbr": {
+"name": "Locust 5",
+"category": "Weapons",
+"icon": "icon_br_m_famas.png"
+},
+"wbs": {
+"name": "Spider 36",
+"category": "Weapons",
+"icon": "icon_BR_M_G-36K.png"
+},
+"wbt": {
+"name": "Scarab 4.16",
+"category": "Weapons",
+"icon": "icon_BR_M_HK416.png"
+},
+"wbu": {
+"name": "Mamba 90",
+"category": "Weapons",
+"icon": "icon_BR_S_JNG90.png"
+},
+"wbv": {
+"name": "Cirrus 85",
+"category": "Weapons",
+"icon": "icon_br_m_L85A2.png"
+},
+"wbw": {
+"name": "Hornet 96",
+"category": "Weapons",
+"icon": "icon_BR_M_WZ96.png"
+},
+"wbx": {
+"name": "Eagle 12",
+"category": "Weapons",
+"icon": "icon_BR_P_DesertEagle.png"
+},
+"wbz": {
+"name": "Falcon 18",
+"category": "Weapons",
+"icon": "icon_BR_P_glock18.png"
+},
+"wca": {
+"name": "Buzzard 08",
+"category": "Weapons",
+"icon": "icon_BR_P_LugerP08.png"
+},
+"wcb": {
+"name": "Thunder 18K",
+"category": "Weapons",
+"icon": "icon_br_m_ak47_g.png"
+},
+"wcc": {
+"name": "Contest Hammer",
+"category": "Weapons",
+"icon": "icon_contest_hammer.png"
+},
+"wcd": {
+"name": "Mamba 90 Gold",
+"category": "Weapons",
+"icon": "icon_BR_S_JNG90_g.png"
+},
+"wce": {
+"name": "Eagle 12 Gold",
+"category": "Weapons",
+"icon": "icon_br_p_deserteagle_g.png"
+},
+"wcf": {
+"name": "Mephisto's Gun",
+"category": "Weapons",
+"icon": "icon_devil_weapon.png"
+},
+"wcg": {
+"name": "Pumpkin Gun",
+"category": "Weapons",
+"icon": "icon_pumpkin_weapon.png"
+},
+"wch": {
+"name": "Mephisto's Lance",
+"category": "Weapons",
+"icon": "icon_devil_Stick.png"
+},
+"wci": {
+"name": "Lollipop",
+"category": "Weapons",
+"icon": "icon_pumpkin_stick.png"
+},
+"wcj": {
+"name": "Candlestick",
+"category": "Weapons",
+"icon": "icon_skull_stick.png"
+},
+"wck": {
+"name": "Mephisto's Grenade",
+"category": "Weapons",
+"icon": ""
+},
+"wcl": {
+"name": "Ghost Grenade",
+"category": "Weapons",
+"icon": "icon_pumpkin_bomb.png"
+},
+"wcm": {
+"name": "Mephisto's Gun (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_devil_weapon_max.png"
+},
+"wcn": {
+"name": "Pumpkin Gun (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_pumpkin_weapon_max.png"
+},
+"wco": {
+"name": "Mephisto's Lance (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_devil_Stick_max.png"
+},
+"wcp": {
+"name": "Lollipop (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_pumpkin_stick_max.png"
+},
+"wcq": {
+"name": "Candlestick (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_skull_stick_max.png"
+},
+"wcr": {
+"name": "Mephisto's Grenade (fully upgraded)",
+"category": "Weapons",
+"icon": ""
+},
+"wcs": {
+"name": "Ghost Grenade (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_pumpkin_bomb_max.png"
+},
+"wct": {
+"name": "Beacon",
+"category": "Weapons",
+"icon": "icon_br_m_eco.png"
+},
+"wcu": {
+"name": "Moongun",
+"category": "Weapons",
+"icon": "icon_br_m_eraser.png"
+},
+"wcv": {
+"name": "Orion",
+"category": "Weapons",
+"icon": "icon_br_m_predator.png"
+},
+"wcw": {
+"name": "Snake",
+"category": "Weapons",
+"icon": "icon_br_s_ravager.png"
+},
+"wcx": {
+"name": "Frying Pan",
+"category": "Weapons",
+"icon": "icon_br_n_frypan.png"
+},
+"wcy": {
+"name": "Delta",
+"category": "Weapons",
+"icon": "icon_br_p_delta.png"
+},
+"wcz": {
+"name": "Piranha",
+"category": "Weapons",
+"icon": "icon_BR_P_kisskard.png"
+},
+"wda": {
+"name": "Boomslang",
+"category": "Weapons",
+"icon": "icon_sense_bomb.png"
+},
+"wdb": {
+"name": "Shark 11 (includes grenade launcher)",
+"category": "Weapons",
+"icon": "icon_br_m_k11.png"
+},
+"wdc": {
+"name": "Drake 2000 (includes rocket launcher)",
+"category": "Weapons",
+"icon": "icon_br_m_fn2000.png"
+},
+"wdd": {
+"name": "Alligator 1893",
+"category": "Weapons",
+"icon": "icon_br_m_W1893.png"
+},
+"wde": {
+"name": "Alligator 1893 (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_W1893_max.png"
+},
+"wdf": {
+"name": "Moongun (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_eraser_max.png"
+},
+"wdg": {
+"name": "Snake (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_s_ravager_max.png"
+},
+"wdh": {
+"name": "Boomslang (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_sense_bomb_max.png"
+},
+"wdi": {
+"name": "Snowball Menace",
+"category": "Weapons",
+"icon": "icon_Xmas_bomb2.png"
+},
+"wdj": {
+"name": "Shooting Star",
+"category": "Weapons",
+"icon": "icon_Xmas_rollinggun.png"
+},
+"wdk": {
+"name": "Porky Hog",
+"category": "Weapons",
+"icon": "icon_Xmas_piggun.png"
+},
+"wdl": {
+"name": "Bazooka",
+"category": "Weapons",
+"icon": "icon_Xmas_bazooka.png"
+},
+"wdm": {
+"name": "Candy Stick",
+"category": "Weapons",
+"icon": "icon_Xmas_stick1.png"
+},
+"wdn": {
+"name": "Christmas Bell",
+"category": "Weapons",
+"icon": "icon_Xmas_stick2.png"
+},
+"wdo": {
+"name": "Chimney Sweep Stick",
+"category": "Weapons",
+"icon": "icon_Xmas_stick3.png"
+},
+"wdp": {
+"name": "Grape Juice",
+"category": "Weapons",
+"icon": "icon_Xmas_winebottle.png"
+},
+"wdq": {
+"name": "Christmas Bauble Grenade",
+"category": "Weapons",
+"icon": "icon_Xmas_bomb1.png"
+},
+"wdr": {
+"name": "Blue Toy Hammer",
+"category": "Weapons",
+"icon": "icon_br_n_bbh_blue.png"
+},
+"wds": {
+"name": "Porky Hog (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_piggun_max.png"
+},
+"wdt": {
+"name": "Shooting Star (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_rollinggun_max.png"
+},
+"wdu": {
+"name": "Candy Stick (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_stick1_max.png"
+},
+"wdw": {
+"name": "Christmas Bell (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_stick2_max.png"
+},
+"wdx": {
+"name": "Chimney Sweep Stick (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_stick3_max.png"
+},
+"wdy": {
+"name": "Grape Juice (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_winebottle_max.png"
+},
+"wdz": {
+"name": "Christmas Bauble Grenade (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_bomb1_max.png"
+},
+"wea": {
+"name": "Snowball Menace (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Xmas_bomb2_max.png"
+},
+"web": {
+"name": "Boa 20 (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_s_awm_max.png"
+},
+"wec": {
+"name": "Shark 11 (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_k11_max.png"
+},
+"wed": {
+"name": "Drake 2000 (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_fn2000_max.png"
+},
+"wee": {
+"name": "Locust 5 (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_famas_max.png"
+},
+"wef": {
+"name": "Big Bang 400 (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_b_kg400_max.png"
+},
+"weg": {
+"name": "Matiazo Shotgun",
+"category": "Weapons",
+"icon": "Icon_Matiazo.png"
+},
+"weh": {
+"name": "Moongun (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_eraser_r.png"
+},
+"wei": {
+"name": "Orion (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_predator_r.png"
+},
+"wej": {
+"name": "Snake (rare)",
+"category": "Weapons",
+"icon": "icon_br_s_ravager_r.png"
+},
+"wek": {
+"name": "Delta (rare)",
+"category": "Weapons",
+"icon": "icon_br_p_delta_r.png"
+},
+"wem": {
+"name": "Universal Remote",
+"category": "Weapons",
+"icon": "icon_br_n_remocon_r.png"
+},
+"wen": {
+"name": "Spacegrenade",
+"category": "Weapons",
+"icon": "icon_br_b_spacebomb.png"
+},
+"wel": {
+"name": "Snowman Broomstick",
+"category": "Weapons",
+"icon": "icon_winter_stick01.png"
+},
+"weo": {
+"name": "Clown Trumpet",
+"category": "Weapons",
+"icon": "icon_winter_stick02.png"
+},
+"wep": {
+"name": "Valentine's Flowers",
+"category": "Weapons",
+"icon": "icon_event18_stick.png"
+},
+"weq": {
+"name": "Infernum Match",
+"category": "Weapons",
+"icon": "icon_event19_stick.png"
+},
+"wew": {
+"name": "Archer's Axe",
+"category": "Weapons",
+"icon": "icon_archer_stick.png"
+},
+"wex": {
+"name": "Knight's Sword",
+"category": "Weapons",
+"icon": "icon_knight_stick.png"
+},
+"wey": {
+"name": "Sorcerer's Wand",
+"category": "Weapons",
+"icon": "icon_mage_stick.png"
+},
+"wez": {
+"name": "Thief's Dagger",
+"category": "Weapons",
+"icon": "icon_thief_stick.png"
+},
+"wfa": {
+"name": "Black Powder Bomb",
+"category": "Weapons",
+"icon": "icon_S3_bomb01.png"
+},
+"wfb": {
+"name": "Poisonous Bomb",
+"category": "Weapons",
+"icon": "icon_S3_bomb02.png"
+},
+"wfc": {
+"name": "Eagleeye Crossbow",
+"category": "Weapons",
+"icon": "icon_br_s_eagleeye.png"
+},
+"weu": {
+"name": "Special Agent's Briefcase",
+"category": "Weapons",
+"icon": "icon_easter02_stick.png"
+},
+"wes": {
+"name": "Easter Egg Grenade",
+"category": "Weapons",
+"icon": "icon_br_b_egg.png"
+},
+"wet": {
+"name": "Easter Egg Grenade (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_b_egg_max.png"
+},
+"wer": {
+"name": "Golden Big Bang 400",
+"category": "Weapons",
+"icon": "icon_br_b_bb400_g.png"
+},
+"wev": {
+"name": "Launcher Crossbow",
+"category": "Weapons",
+"icon": "Icon_br_m_boomstick.png"
+},
+"wfd": {
+"name": "Condor Crossbow",
+"category": "Weapons",
+"icon": "Icon_br_m_Condor.png"
+},
+"wfe": {
+"name": "Hornet Crossbow",
+"category": "Weapons",
+"icon": "icon_br_m_hornet.png"
+},
+"wff": {
+"name": "Hydra Crossbow",
+"category": "Weapons",
+"icon": "Icon_br_p_hydra.png"
+},
+"wfg": {
+"name": "Pirate Hook",
+"category": "Weapons",
+"icon": "icon_wal01_stick.png"
+},
+"wfh": {
+"name": "Kobold's Four-Leaf Clover",
+"category": "Weapons",
+"icon": "icon_wal02_stick.png"
+},
+"wfi": {
+"name": "King's Scepter",
+"category": "Weapons",
+"icon": "icon_king_stick.png"
+},
+"wfj": {
+"name": "Princess Wand",
+"category": "Weapons",
+"icon": "icon_princess_stick.png"
+},
+"wfk": {
+"name": "Red Dragon Staff",
+"category": "Weapons",
+"icon": "icon_br_m_staff01.png"
+},
+"wfl": {
+"name": "Large Trout",
+"category": "Weapons",
+"icon": "icon_Sum02_stick.png"
+},
+"wfm": {
+"name": "Poseidon's Trident",
+"category": "Weapons",
+"icon": "icon_water_stick.png"
+},
+"wfn": {
+"name": "Power Water Gun",
+"category": "Weapons",
+"icon": "icon_water_pump.png"
+},
+"wfo": {
+"name": "Duckie Water Pistol",
+"category": "Weapons",
+"icon": "icon_water_duck.png"
+},
+"wfp": {
+"name": "Water Balloon",
+"category": "Weapons",
+"icon": "icon_water_bomb.png"
+},
+"wfq": {
+"name": "Bamboo Spear",
+"category": "Weapons",
+"icon": "icon_W_e02_stick.png"
+},
+"wfr": {
+"name": "Fire Beetle 3S",
+"category": "Weapons",
+"icon": "icon_W_e02_mark1.png"
+},
+"wfs": {
+"name": "Turtle Gun",
+"category": "Weapons",
+"icon": "icon_Water_turtle.png"
+},
+"wft": {
+"name": "Octopus Cannon",
+"category": "Weapons",
+"icon": "icon_Water_octopus.png"
+},
+"wfu": {
+"name": "Spray Pump",
+"category": "Weapons",
+"icon": "icon_Water_spray.png"
+},
+"wfv": {
+"name": "Banana Shooter",
+"category": "Weapons",
+"icon": "icon_Water_banana.png"
+},
+"wfw": {
+"name": "Mellow Ukulele",
+"category": "Weapons",
+"icon": "icon_Water_stick02.png"
+},
+"wfx": {
+"name": "Pineapple Grenade",
+"category": "Weapons",
+"icon": "icon_Water_bomb02.png"
+},
+"wfy": {
+"name": "Orion 2.0 Prototype",
+"category": "Weapons",
+"icon": "icon_br_m_predator_A.png"
+},
+"wfz": {
+"name": "Crocodile 101",
+"category": "Weapons",
+"icon": "Icon_br_m_Matiazo_A.png"
+},
+"wga": {
+"name": "Green Dragon Staff",
+"category": "Weapons",
+"icon": "icon_br_m_staff01_A.png"
+},
+"wgb": {
+"name": "Sparrow Crossbow",
+"category": "Weapons",
+"icon": "icon_br_s_eagleeye_A.png"
+},
+"wgc": {
+"name": "Golden Condor",
+"category": "Weapons",
+"icon": "Icon_br_m_Condor_A.png"
+},
+"wgd": {
+"name": "Golden Condor (fully upgraded)",
+"category": "Weapons",
+"icon": "Icon_br_m_Condor_A_max.png"
+},
+"wge": {
+"name": "Snow Hornet",
+"category": "Weapons",
+"icon": ""
+},
+"wgf": {
+"name": "Shiny Hornet Crossbow of Epicness",
+"category": "Weapons",
+"icon": "br_m_hornet_a.png"
+},
+"wgg": {
+"name": "Dark Thunder",
+"category": "Weapons",
+"icon": "br_m_ak47_a.png"
+},
+"wgh": {
+"name": "Burning Hurricane",
+"category": "Weapons",
+"icon": "br_m_m4_a.png"
+},
+"wgi": {
+"name": "Red Python",
+"category": "Weapons",
+"icon": "br_s_bmn91_a.png"
+},
+"wgj": {
+"name": "Jungle Scarab",
+"category": "Weapons",
+"icon": ""
+},
+"wgk": {
+"name": "Silver Beetle",
+"category": "Weapons",
+"icon": ""
+},
+"wgl": {
+"name": "Cursed Axe",
+"category": "Weapons",
+"icon": "s3_archer_stick_a.png"
+},
+"wgm": {
+"name": "Silver Rattler",
+"category": "Weapons",
+"icon": "br_s_brg42_a.png"
+},
+"wgn": {
+"name": "Moongun 2.0 Prototype",
+"category": "Weapons",
+"icon": ""
+},
+"wgo": {
+"name": "Snow Hornet (fully upgraded)",
+"category": "Weapons",
+"icon": "br_m_wz96_a_max.png"
+},
+"wgp": {
+"name": "Shiny Hornet Crossbow of Epicness (fully upgraded)",
+"category": "Weapons",
+"icon": "br_m_hornet_a_max.png"
+},
+"wgq": {
+"name": "Dark Thunder (fully upgraded)",
+"category": "Weapons",
+"icon": "br_m_ak47_a_max.png"
+},
+"wgr": {
+"name": "Burning Hurricane (fully upgraded)",
+"category": "Weapons",
+"icon": "br_m_m4_a_max.png"
+},
+"wgs": {
+"name": "Red Python (fully upgraded)",
+"category": "Weapons",
+"icon": "br_s_bmn91_a_max.png"
+},
+"wgt": {
+"name": "Jungle Scarab (fully upgraded)",
+"category": "Weapons",
+"icon": "br_m_hk416_a_max.png"
+},
+"wgu": {
+"name": "Silver Beetle (fully upgraded)",
+"category": "Weapons",
+"icon": "bm_m_b1_a_max.png"
+},
+"wgv": {
+"name": "Cursed Axe (fully upgraded)",
+"category": "Weapons",
+"icon": "s3_archer_stick_a_max.png"
+},
+"wgw": {
+"name": "Silver Rattler (fully upgraded)",
+"category": "Weapons",
+"icon": "br_s_brg42_a_max.png"
+},
+"wgx": {
+"name": "Moongun 2.0 Prototype (fully upgraded)",
+"category": "Weapons",
+"icon": "br_m_eraser_a_max.png"
+},
+"wgy": {
+"name": "Thunder 18K",
+"category": "Weapons",
+"icon": "icon_br_m_ak47_g1.png"
+},
+"wgz": {
+"name": "Yang Dding Pickaxe",
+"category": "Weapons",
+"icon": "YD_stick.png"
+},
+"wha": {
+"name": "Hellfire Crossbow",
+"category": "Weapons",
+"icon": "icon_br_m_hellfire.png"
+},
+"whb": {
+"name": "Magazine Crossbow",
+"category": "Weapons",
+"icon": "icon_br_m_shaft.png"
+},
+"whc": {
+"name": "X-Bow",
+"category": "Weapons",
+"icon": "icon_br_m_xwing.png"
+},
+"whd": {
+"name": "Pistol Crossbow",
+"category": "Weapons",
+"icon": "icon_br_p_needle.png"
+},
+"whe": {
+"name": "Reindeer Crossbow",
+"category": "Weapons",
+"icon": "icon_br_s_moonlight.png"
+},
+"whf": {
+"name": "Fire Dragon Flame Sword",
+"category": "Weapons",
+"icon": "icon_dragon_stick.png"
+},
+"whg": {
+"name": "Centaurion Beetle Hammer",
+"category": "Weapons",
+"icon": "icon_centaurus_stick.png"
+},
+"whh": {
+"name": "Black Knight's Sword",
+"category": "Weapons",
+"icon": "icon_darkKnight_stick.png"
+},
+"whi": {
+"name": "Griffon's Lantern",
+"category": "Weapons",
+"icon": "icon_griffon_stick.png"
+},
+"whj": {
+"name": "Orc's Club",
+"category": "Weapons",
+"icon": "icon_orc_stick.png"
+},
+"whk": {
+"name": "Warlock's Wand",
+"category": "Weapons",
+"icon": "icon_warlock_stick.png"
+},
+"whl": {
+"name": "Baguette",
+"category": "Weapons",
+"icon": "c_f_stick.png"
+},
+"whm": {
+"name": "Power Water Gun (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_water_pump_max.png"
+},
+"whn": {
+"name": "Duckie Water Pistol (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_water_duck_max.png"
+},
+"who": {
+"name": "Turtle Gun (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Water_turtle_max.png"
+},
+"whp": {
+"name": "Octopus Cannon (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Water_octopus_max.png"
+},
+"whq": {
+"name": "Spray Pump (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Water_spray_max.png"
+},
+"whr": {
+"name": "Banana Shooter (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Water_banana_max.png"
+},
+"whs": {
+"name": "Hellfire Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_hellfire_max.png"
+},
+"wht": {
+"name": "Magazine Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_shaft_max.png"
+},
+"whu": {
+"name": "X-Bow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_xwing_max.png"
+},
+"whv": {
+"name": "Pistol Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_p_needle_max.png"
+},
+"whw": {
+"name": "Reindeer Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_s_moonlight_max.png"
+},
+"whx": {
+"name": "Launcher Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_boomstick_max.png"
+},
+"why": {
+"name": "Condor Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_Condor_max.png"
+},
+"whz": {
+"name": "Hornet Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_m_hornet_max.png"
+},
+"wia": {
+"name": "Hydra Crossbow (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_br_p_hydra_max.png"
+},
+"wib": {
+"name": "Toy Poker 7",
+"category": "Weapons",
+"icon": "icon_Q_m7.png"
+},
+"wic": {
+"name": "Seismic Assault Rifle A2S",
+"category": "Weapons",
+"icon": "icon_Q_m16.png"
+},
+"wid": {
+"name": "Nucleon 41",
+"category": "Weapons",
+"icon": "icon_Q_uzi.png"
+},
+"wie": {
+"name": "Horus Grenade",
+"category": "Weapons",
+"icon": "icon_Q_b_kg400.png"
+},
+"wif": {
+"name": "Starlight",
+"category": "Weapons",
+"icon": "icon_Q_ssg69.png"
+},
+"wig": {
+"name": "Toy Condor 9",
+"category": "Weapons",
+"icon": "icon_Q_bm9.png"
+},
+"wih": {
+"name": "Ysis",
+"category": "Weapons",
+"icon": "icon_Q_ak47.png"
+},
+"wii": {
+"name": "Seismic Assault Rifle A2",
+"category": "Weapons",
+"icon": "icon_Q_m4.png"
+},
+"wij": {
+"name": "Toy Tarantula 41",
+"category": "Weapons",
+"icon": "icon_Q_ppsh41.png"
+},
+"wik": {
+"name": "Rail Pistol 2S",
+"category": "Weapons",
+"icon": "icon_Q_ana.png"
+},
+"wil": {
+"name": "Toy Smokie 10",
+"category": "Weapons",
+"icon": "icon_Q_b_kgs440.png"
+},
+"wim": {
+"name": "Anubis",
+"category": "Weapons",
+"icon": "icon_Q_bmk.png"
+},
+"win": {
+"name": "Devastator 2000",
+"category": "Weapons",
+"icon": "icon_Q_m1918.png"
+},
+"wio": {
+"name": "Hades",
+"category": "Weapons",
+"icon": "icon_Q_MG42.png"
+},
+"wip": {
+"name": "Neutrino Rifle",
+"category": "Weapons",
+"icon": "icon_Q_mp40.png"
+},
+"wiq": {
+"name": "Toy Tornado 44",
+"category": "Weapons",
+"icon": "icon_Q_sth44.png"
+},
+"wir": {
+"name": "A1 Particle Pistol",
+"category": "Weapons",
+"icon": "icon_Q_bc1900.png"
+},
+"wis": {
+"name": "Hermes",
+"category": "Weapons",
+"icon": "icon_Q_bwp38.png"
+},
+"wit": {
+"name": "Toy Harrier 33",
+"category": "Weapons",
+"icon": "icon_Q_bwpp.png"
+},
+"wiu": {
+"name": "Toy Python 91",
+"category": "Weapons",
+"icon": "icon_Q_bmn91.png"
+},
+"wiv": {
+"name": "Toy Boomer",
+"category": "Weapons",
+"icon": "icon_Q_granate.png"
+},
+"wiw": {
+"name": "Mars",
+"category": "Weapons",
+"icon": "icon_Q_b1.png"
+},
+"wix": {
+"name": "Toy Lightning 2",
+"category": "Weapons",
+"icon": "icon_Q_b2.png"
+},
+"wiy": {
+"name": "Mercury",
+"category": "Weapons",
+"icon": "icon_Q_awm.png"
+},
+"wiz": {
+"name": "Toy Cobra 42",
+"category": "Weapons",
+"icon": "Icon_Q_brg42.png"
+},
+"wja": {
+"name": "Mars Special",
+"category": "Weapons",
+"icon": "Icon_Q_b1r.png"
+},
+"wjb": {
+"name": "Hephaestus Special",
+"category": "Weapons",
+"icon": "Icon_Q_b2r.png"
+},
+"wjc": {
+"name": "Hades Special",
+"category": "Weapons",
+"icon": "icon_Q_MG42_r.png"
+},
+"wjd": {
+"name": "Illuminator Special",
+"category": "Weapons",
+"icon": "icon_Q_brg42_r.png"
+},
+"wje": {
+"name": "Triton Cannon",
+"category": "Weapons",
+"icon": "icon_Q_m82a1.png"
+},
+"wjf": {
+"name": "Disruptor 5K2",
+"category": "Weapons",
+"icon": "icon_Q_c8a1.png"
+},
+"wjg": {
+"name": "E7 Plasma Rifle",
+"category": "Weapons",
+"icon": "icon_Q_famas.png"
+},
+"wjh": {
+"name": "Toy Spider 36",
+"category": "Weapons",
+"icon": "icon_Q_g36.png"
+},
+"wji": {
+"name": "Toy Scarab 4.16",
+"category": "Weapons",
+"icon": "icon_Q_hk416.png"
+},
+"wjj": {
+"name": "M06 Pulse Rifle",
+"category": "Weapons",
+"icon": "icon_Q_JNG90.png"
+},
+"wjk": {
+"name": "Toy Cirrus 85",
+"category": "Weapons",
+"icon": "icon_Q_L85A2.png"
+},
+"wjl": {
+"name": "Beamer",
+"category": "Weapons",
+"icon": "icon_Q_wz96.png"
+},
+"wjm": {
+"name": "Neptune",
+"category": "Weapons",
+"icon": "icon_Q_deserteagle.png"
+},
+"wjn": {
+"name": "Omega 3",
+"category": "Weapons",
+"icon": "icon_Q_glock18.png"
+},
+"wjo": {
+"name": "Toy Buzzard 08",
+"category": "Weapons",
+"icon": "icon_Q_lugerP08.png"
+},
+"wjp": {
+"name": "Radiant Beacon",
+"category": "Weapons",
+"icon": "icon_Q_eco.png"
+},
+"wjq": {
+"name": "Toy Moongun",
+"category": "Weapons",
+"icon": "icon_Q_eraser.png"
+},
+"wjr": {
+"name": "Toy Orion",
+"category": "Weapons",
+"icon": "icon_Q_predator.png"
+},
+"wjs": {
+"name": "Toy Snake",
+"category": "Weapons",
+"icon": "icon_Q_ravager.png"
+},
+"wjt": {
+"name": "Icarus",
+"category": "Weapons",
+"icon": "icon_Q_delta.png"
+},
+"wju": {
+"name": "Osiris",
+"category": "Weapons",
+"icon": "icon_Q_kisskard.png"
+},
+"wjv": {
+"name": "Space Launcher",
+"category": "Weapons",
+"icon": "icon_Q_k11.png"
+},
+"wjw": {
+"name": "Rocket Station",
+"category": "Weapons",
+"icon": "icon_Q_fn2000.png"
+},
+"wjx": {
+"name": "Jupiter",
+"category": "Weapons",
+"icon": "icon_Q_W1893.png"
+},
+"wjy": {
+"name": "X21 Sonic Shotgun",
+"category": "Weapons",
+"icon": "icon_Q_matiazo.png"
+},
+"wjz": {
+"name": "Tachyon Blaster Special",
+"category": "Weapons",
+"icon": "icon_Q_eraser_r.png"
+},
+"wka": {
+"name": "Zapper Special",
+"category": "Weapons",
+"icon": "icon_Q_predator_r.png"
+},
+"wkb": {
+"name": "Hercules",
+"category": "Weapons",
+"icon": "icon_Q_ravager_r.png"
+},
+"wkc": {
+"name": "Icarus Special",
+"category": "Weapons",
+"icon": "icon_Q_delta_r.png"
+},
+"wkd": {
+"name": "Ball-E",
+"category": "Weapons",
+"icon": "icon_Q_bomb01.png"
+},
+"wke": {
+"name": "Fun Launcher",
+"category": "Weapons",
+"icon": "icon_Q_boomstick.png"
+},
+"wkf": {
+"name": "Paradise Condor",
+"category": "Weapons",
+"icon": "icon_Q_Condor.png"
+},
+"wkg": {
+"name": "Rainbow Hornet",
+"category": "Weapons",
+"icon": "icon_Q_hornet.png"
+},
+"wkh": {
+"name": "Freedom Hydra",
+"category": "Weapons",
+"icon": "icon_Q_hydra.png"
+},
+"wki": {
+"name": "Toy Orion 2.0 Prototype",
+"category": "Weapons",
+"icon": "icon_Q_predator_o.png"
+},
+"wkj": {
+"name": "Ysis Ultra",
+"category": "Weapons",
+"icon": "icon_Q_ak47_A.png"
+},
+"wkk": {
+"name": "Toy Silver Beetle",
+"category": "Weapons",
+"icon": "icon_Q_b1r_1.png"
+},
+"wkl": {
+"name": "Illuminator",
+"category": "Weapons",
+"icon": "icon_Q_brg42_o.png"
+},
+"wkm": {
+"name": "Tachyon Blaster",
+"category": "Weapons",
+"icon": "icon_Q_eraser_o.png"
+},
+"wkn": {
+"name": "Toy Thunder 18K",
+"category": "Weapons",
+"icon": "icon_Q_ak47_g.png"
+},
+"wko": {
+"name": "Swirly Lollipop",
+"category": "Weapons",
+"icon": "icon_e27_stick.png"
+},
+"wkp": {
+"name": "Horus Grenade (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_b_kg400_max.png"
+},
+"wkq": {
+"name": "Starlight (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_ssg69_max.png"
+},
+"wkr": {
+"name": "Ysis (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_ak47_max.png"
+},
+"wks": {
+"name": "Anubis (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_bmk_max.png"
+},
+"wkt": {
+"name": "Hades (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_MG42_max.png"
+},
+"wku": {
+"name": "Hermes (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_bwp38_max.png"
+},
+"wkv": {
+"name": "Mars (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_b1_max.png"
+},
+"wkw": {
+"name": "Mercury (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_awm_max.png"
+},
+"wkx": {
+"name": "Beamer (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_wz96_max.png"
+},
+"wky": {
+"name": "Neptune (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_deserteagle_max.png"
+},
+"wkz": {
+"name": "Radiant Beacon (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_eco_max.png"
+},
+"wla": {
+"name": "Icarus (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_delta_max.png"
+},
+"wlb": {
+"name": "Osiris (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_kisskard_max.png"
+},
+"wlc": {
+"name": "Space Launcher (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_k11_max.png"
+},
+"wld": {
+"name": "Rocket Station (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_fn2000_max.png"
+},
+"wle": {
+"name": "Jupiter (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_W1893_max.png"
+},
+"wlf": {
+"name": "Ball-E (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_bomb01_max.png"
+},
+"wlg": {
+"name": "Fun Launcher (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_boomstick_max.png"
+},
+"wlh": {
+"name": "Paradise Condor (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_Condor_max.png"
+},
+"wli": {
+"name": "Rainbow Hornet (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_hornet_max.png"
+},
+"wlj": {
+"name": "Freedom Hydra (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Q_hydra_max.png"
+},
+"wlk": {
+"name": "Seismic Assault Rifle A2",
+"category": "Weapons",
+"icon": "icon_Q_m4.png"
+},
+"wll": {
+"name": "Devastator 2000",
+"category": "Weapons",
+"icon": "icon_Q_m1918.png"
+},
+"wlm": {
+"name": "Rail Pistol 2S",
+"category": "Weapons",
+"icon": "icon_Q_ana.png"
+},
+"wln": {
+"name": "X21 Sonic Shotgun",
+"category": "Weapons",
+"icon": "icon_Q_matiazo.png"
+},
+"wlo": {
+"name": "M06 Pulse Rifle",
+"category": "Weapons",
+"icon": "icon_Q_JNG90.png"
+},
+"wlp": {
+"name": "A1 Particle Pistol",
+"category": "Weapons",
+"icon": "icon_Q_bc1900.png"
+},
+"wlq": {
+"name": "Disruptor 5K2",
+"category": "Weapons",
+"icon": "icon_Q_c8a1.png"
+},
+"wlr": {
+"name": "Nucleon 41",
+"category": "Weapons",
+"icon": "icon_Q_uzi.png"
+},
+"wls": {
+"name": "Omega 3",
+"category": "Weapons",
+"icon": "icon_Q_glock18.png"
+},
+"wlt": {
+"name": "Golden Beetle 1S (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_b1_r_gold.png"
+},
+"wlu": {
+"name": "Golden Tsunami 2S (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_b2_r_gold.png"
+},
+"wlv": {
+"name": "Golden Rattler 42 (rare)",
+"category": "Weapons",
+"icon": "icon_br_s_brg42_r_gold.png"
+},
+"wlw": {
+"name": "Golden T-Rex 42 (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_mg42_r_gold.png"
+},
+"wlx": {
+"name": "Ultimate Golden Snake (Rare)",
+"category": "Weapons",
+"icon": "icon_br_s_ravager_r_gold.png"
+},
+"wly": {
+"name": "Ultimate Golden Delta (Rare)",
+"category": "Weapons",
+"icon": "icon_br_p_delta_r_gold.png"
+},
+"wlz": {
+"name": "Ultimate Golden Orion (Rare)",
+"category": "Weapons",
+"icon": "icon_br_m_predator_r_gold.png"
+},
+"wma": {
+"name": "Ultimate Golden Moongun (Rare)",
+"category": "Weapons",
+"icon": "icon_br_m_eraser_r_gold.png"
+},
+"wmb": {
+"name": "Carrot Bomb",
+"category": "Weapons",
+"icon": "e28_bomb.png"
+},
+"wmc": {
+"name": "Bamboo Stick",
+"category": "Weapons",
+"icon": "e28_panda_stick.png"
+},
+"wmd": {
+"name": "Drake 3000",
+"category": "Weapons",
+"icon": "icon_Drake3000.png"
+},
+"wme": {
+"name": "Gamma",
+"category": "Weapons",
+"icon": "icon_Gamma.png"
+},
+"wmf": {
+"name": "Tsunamirama",
+"category": "Weapons",
+"icon": "icon_Tsunamirama.png"
+},
+"wmg": {
+"name": "Solar Flare 1",
+"category": "Weapons",
+"icon": "icon_br_b_flashbang.png"
+},
+"wmh": {
+"name": "Smokie 10",
+"category": "Weapons",
+"icon": "icon_br_b_kgs440.png"
+},
+"wmi": {
+"name": "Bullock",
+"category": "Weapons",
+"icon": "icon_br_m_bullock.png"
+},
+"wmj": {
+"name": "Lone Star",
+"category": "Weapons",
+"icon": "icon_br_m_shootingstar.png"
+},
+"wmk": {
+"name": "Cavalry",
+"category": "Weapons",
+"icon": "icon_br_m_cavalry.png"
+},
+"wml": {
+"name": "Halfmoon",
+"category": "Weapons",
+"icon": "icon_br_m_halfmoon.png"
+},
+"wmm": {
+"name": "Roller",
+"category": "Weapons",
+"icon": "icon_br_m_roller.png"
+},
+"wmn": {
+"name": "Road Sign",
+"category": "Weapons",
+"icon": "icon_S4_stick01.png"
+},
+"wmo": {
+"name": "Cactus Bomb",
+"category": "Weapons",
+"icon": "icon_S4_b_cactus.png"
+},
+"wmp": {
+"name": "TNT",
+"category": "Weapons",
+"icon": "icon_S4_b_tnt.png"
+},
+"wmq": {
+"name": "Rose",
+"category": "Weapons",
+"icon": "e29_rose_stick.png"
+},
+"wmr": {
+"name": "Justice",
+"category": "Weapons",
+"icon": "icon_br_m_sundance.png"
+},
+"wms": {
+"name": "Pow-Wow",
+"category": "Weapons",
+"icon": "icon_br_s_horsehair.png"
+},
+"wmt": {
+"name": "Sundance",
+"category": "Weapons",
+"icon": "icon_br_p_goldbadge.png"
+},
+"wmu": {
+"name": "Horseshoe",
+"category": "Weapons",
+"icon": "icon_br_p_horseshoe.png"
+},
+"wmv": {
+"name": "Hellgate",
+"category": "Weapons",
+"icon": "icon_br_m_hellgate.png"
+},
+"wmw": {
+"name": "White Bullpup",
+"category": "Weapons",
+"icon": "icon_br_m_aug_w.png"
+},
+"wmx": {
+"name": "White Oblivion",
+"category": "Weapons",
+"icon": "icon_br_m_Oblivion_w.png"
+},
+"wmy": {
+"name": "Black Bullpup",
+"category": "Weapons",
+"icon": "icon_br_m_aug.png"
+},
+"wmz": {
+"name": "Black Oblivion",
+"category": "Weapons",
+"icon": "icon_br_m_Oblivion.png"
+},
+"wna": {
+"name": "Desert Bullpup",
+"category": "Weapons",
+"icon": "icon_br_m_aug_g.png"
+},
+"wnb": {
+"name": "Desert Oblivion",
+"category": "Weapons",
+"icon": "icon_br_m_Oblivion_g.png"
+},
+"wnc": {
+"name": "Puma X",
+"category": "Weapons",
+"icon": "br_m_mp7_r.png"
+},
+"wnd": {
+"name": "Lion 71",
+"category": "Weapons",
+"icon": "br_m_m60_r.png"
+},
+"wne": {
+"name": "Leopard R20",
+"category": "Weapons",
+"icon": "br_m_scar_r.png"
+},
+"wnf": {
+"name": "Lynx",
+"category": "Weapons",
+"icon": "br_p_flash_r.png"
+},
+"wng": {
+"name": "Scarab 4.17",
+"category": "Weapons",
+"icon": "br_s_hk417_r.png"
+},
+"wnh": {
+"name": "Taser",
+"category": "Weapons",
+"icon": "icon_br_n_taser_r.png"
+},
+"wni": {
+"name": "Atomic Grenade",
+"category": "Weapons",
+"icon": "icon_br_b_rig_r.png"
+},
+"wnj": {
+"name": "Fancy Bullock",
+"category": "Weapons",
+"icon": "icon_br_m_bullock01.png"
+},
+"wnk": {
+"name": "Bullock V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_bullock02.png"
+},
+"wnl": {
+"name": "Fancy Lone Star",
+"category": "Weapons",
+"icon": "icon_br_m_shootingstar01.png"
+},
+"wnm": {
+"name": "Lone Star V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_shootingstar02.png"
+},
+"wnn": {
+"name": "Fancy Cavalry",
+"category": "Weapons",
+"icon": "icon_br_m_cavalry01.png"
+},
+"wno": {
+"name": "Cavalry V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_cavalry02.png"
+},
+"wnp": {
+"name": "Fancy Halfmoon",
+"category": "Weapons",
+"icon": "icon_br_m_halfmoon01.png"
+},
+"wnq": {
+"name": "Halfmoon V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_halfmoon02.png"
+},
+"wnr": {
+"name": "Fancy Roller",
+"category": "Weapons",
+"icon": "icon_br_m_roller01.png"
+},
+"wns": {
+"name": "Roller V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_roller02.png"
+},
+"wnt": {
+"name": "Fancy Justice",
+"category": "Weapons",
+"icon": "icon_br_m_sundance01.png"
+},
+"wnu": {
+"name": "Justice V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_sundance02.png"
+},
+"wnv": {
+"name": "Fancy Pow-Wow",
+"category": "Weapons",
+"icon": "icon_br_s_horsehair01.png"
+},
+"wnw": {
+"name": "Pow-Wow V-Series",
+"category": "Weapons",
+"icon": "icon_br_s_horsehair02.png"
+},
+"wnx": {
+"name": "Fancy Sundance",
+"category": "Weapons",
+"icon": "icon_br_p_goldbadge01.png"
+},
+"wny": {
+"name": "Sundance V-Series",
+"category": "Weapons",
+"icon": "icon_br_p_goldbadge02.png"
+},
+"wnz": {
+"name": "Fancy Horseshoe",
+"category": "Weapons",
+"icon": "icon_br_p_horseshoe01.png"
+},
+"woa": {
+"name": "Horseshoe V-Series",
+"category": "Weapons",
+"icon": "icon_br_p_horseshoe02.png"
+},
+"wob": {
+"name": "Fancy Hellgate",
+"category": "Weapons",
+"icon": "icon_br_m_hellgate01.png"
+},
+"woc": {
+"name": "Hellgate V-Series",
+"category": "Weapons",
+"icon": "icon_br_m_hellgate02.png"
+},
+"wod": {
+"name": "Spider 36 (rare)",
+"category": "Weapons",
+"icon": "icon_BR_M_G-36K_O.png"
+},
+"woe": {
+"name": "Beacon (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_eco_O.png"
+},
+"wof": {
+"name": "Eagleeye Crossbow (rare)",
+"category": "Weapons",
+"icon": "icon_br_s_eagleeye_O.png"
+},
+"wog": {
+"name": "Magazine Crossbow (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_shaft_O.png"
+},
+"woh": {
+"name": "X-Bow (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_xwing_O.png"
+},
+"woi": {
+"name": "Pistol Crossbow (rare)",
+"category": "Weapons",
+"icon": "icon_br_p_needle_O.png"
+},
+"woj": {
+"name": "Justice (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_sundance_O.png"
+},
+"wok": {
+"name": "Hellgate (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_hellgate_O.png"
+},
+"wol": {
+"name": "Roller (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_roller_O.png"
+},
+"wom": {
+"name": "Lone Star (rare)",
+"category": "Weapons",
+"icon": "icon_br_m_shootingstar_O.png"
+},
+"won": {
+"name": "Thornblaster",
+"category": "Weapons",
+"icon": "icon_br_m_cactus.png"
+},
+"woo": {
+"name": "Psychopath Grenade",
+"category": "Weapons",
+"icon": "icon_Psychopath_bomb.png"
+},
+"wop": {
+"name": "Psychopath Hatchet",
+"category": "Weapons",
+"icon": "icon_Psychopath_stick.png"
+},
+"woq": {
+"name": "Grim Reaper Scythe",
+"category": "Weapons",
+"icon": "icon_Reaper_stick.png"
+},
+"wor": {
+"name": "Psychopath Grenade (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Psychopath_bomb_max.png"
+},
+"wos": {
+"name": "Psychopath Hatchet (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Psychopath_stick_max.png"
+},
+"wot": {
+"name": "Grim Reaper Scythe (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Reaper_stick_max.png"
+},
+"wou": {
+"name": "Skeleton Sniper",
+"category": "Weapons",
+"icon": "icon_Skeleton_sniper.png"
+},
+"wov": {
+"name": "Skeleton Sniper (fully upgraded)",
+"category": "Weapons",
+"icon": "icon_Skeleton_sniper_max.png"
+},
+"a01": {
+"name": "SEALs Canteen",
+"category": "Accessories",
+"icon": "icon_combat_waterbottle.png"
+},
+"a02": {
+"name": "Army Gas Mask Bag",
+"category": "Accessories",
+"icon": "icon_army_gasmaskbag.png"
+},
+"a03": {
+"name": "Army Helmet",
+"category": "Clothing",
+"icon": "icon_army_helmet.png"
+},
+"a04": {
+"name": "Army Canteen",
+"category": "Accessories",
+"icon": "icon_army_waterbottle.png"
+},
+"a05": {
+"name": "SEALs Bag",
+"category": "Accessories",
+"icon": "icon_combat_bag.png"
+},
+"a06": {
+"name": "SEALs Gas Mask Bag",
+"category": "Accessories",
+"icon": "icon_combat_gasmaskbag.png"
+},
+"a07": {
+"name": "SEALs Helmet",
+"category": "Clothing",
+"icon": "icon_combat_helmet.png"
+},
+"a08": {
+"name": "Army Bag",
+"category": "Accessories",
+"icon": "icon_army_bag.png"
+},
+"a09": {
+"name": "Gas Mask",
+"category": "Accessories",
+"icon": "icon_gasmask.png"
+},
+"a10": {
+"name": "Desert Helmet",
+"category": "Clothing",
+"icon": "icon_desert_helmet.png"
+},
+"a11": {
+"name": "Medic Helmet",
+"category": "Clothing",
+"icon": "icon_medic_helmet.png"
+},
+"a12": {
+"name": "Trooper Helmet",
+"category": "Clothing",
+"icon": "icon_trooper_helmet.png"
+},
+"a13": {
+"name": "Defibrillator",
+"category": "Accessories",
+"icon": "icon_defibrillator.png"
+},
+"a14": {
+"name": "Radio",
+"category": "Accessories",
+"icon": "icon_radiotelegraph.png"
+},
+"a15": {
+"name": "Ammo Pouch",
+"category": "Accessories",
+"icon": "icon_army_lauuncher_m.png"
+},
+"a16": {
+"name": "Ammo Pouch",
+"category": "Accessories",
+"icon": "icon_combat_lauuncher_m.png"
+},
+"a17": {
+"name": "SEALs Ammo Pouch 1",
+"category": "Accessories",
+"icon": "icon_combat_m_mashinegun_r.png"
+},
+"a18": {
+"name": "SEALs Ammo Pouch 2",
+"category": "Accessories",
+"icon": "icon_combat_m_rifle_l.png"
+},
+"a19": {
+"name": "Army Ammo Pouch 1",
+"category": "Accessories",
+"icon": "icon_army_m_mashinegun_r.png"
+},
+"a20": {
+"name": "Army Ammo Pouch 2",
+"category": "Accessories",
+"icon": "icon_army_m_rifle_l.png"
+},
+"a21": {
+"name": "Medic Kit",
+"category": "Accessories",
+"icon": "icon_MedicineBag.png"
+},
+"a22": {
+"name": "Ranger Helmet",
+"category": "Clothing",
+"icon": "icon_desert_helmet02.png"
+},
+"a23": {
+"name": "Elec Helmet",
+"category": "Clothing",
+"icon": "icon_elec_helmet.png"
+},
+"a24": {
+"name": "SWAT Backpack",
+"category": "Accessories",
+"icon": "icon_swat_bag.png"
+},
+"a25": {
+"name": "SWAT Gas Mask",
+"category": "Accessories",
+"icon": "icon_swat_gasmask.png"
+},
+"a26": {
+"name": "SWAT Gas Mask Bag",
+"category": "Accessories",
+"icon": "icon_swat_gasmaskbag.png"
+},
+"a27": {
+"name": "SWAT Helmet",
+"category": "Clothing",
+"icon": "icon_swat_helmet.png"
+},
+"a28": {
+"name": "SWAT Ammo Pouch (L)",
+"category": "Accessories",
+"icon": "icon_swat_m_rifle_r.png"
+},
+"a29": {
+"name": "SWAT Ammo Pouch (K)",
+"category": "Accessories",
+"icon": "icon_swat_m_rifle_l.png"
+},
+"a30": {
+"name": "Ammo Pouch",
+"category": "Accessories",
+"icon": "icon_swat_lauuncher_m.png"
+},
+"a31": {
+"name": "Ranger Backpack",
+"category": "Accessories",
+"icon": "desert_bag.png"
+},
+"a32": {
+"name": "Ammo Pouch",
+"category": "Accessories",
+"icon": "desert_lauuncher_m.png"
+},
+"a33": {
+"name": "Ranger Ammo Pouch 1",
+"category": "Accessories",
+"icon": "desert_m_mashinegun_r.png"
+},
+"a34": {
+"name": "Ranger Ammo Pouch 2",
+"category": "Accessories",
+"icon": "desert_m_rifle_l.png"
+},
+"a35": {
+"name": "Elec Backpack",
+"category": "Accessories",
+"icon": "elec_bag.png"
+},
+"a36": {
+"name": "Elec Kit",
+"category": "Accessories",
+"icon": "elec_kit.png"
+},
+"a37": {
+"name": "Elec Ammo Pouch 1",
+"category": "Accessories",
+"icon": "elec_m_mashinegun_r.png"
+},
+"a38": {
+"name": "Elec Ammo Pouch 2",
+"category": "Accessories",
+"icon": "elec_m_rifle_l.png"
+},
+"a39": {
+"name": "Binoculars",
+"category": "Accessories",
+"icon": "scope_kit.png"
+},
+"a40": {
+"name": "Field Cauldron",
+"category": "Accessories",
+"icon": "icon_chsf_bag.png"
+},
+"a41": {
+"name": "Infantry Bag",
+"category": "Accessories",
+"icon": "icon_infantryman_bag.png"
+},
+"a42": {
+"name": "Surgeon's Backpack",
+"category": "Accessories",
+"icon": "icon_nurse_bag.png"
+},
+"a43": {
+"name": "Pioneer Backpack",
+"category": "Accessories",
+"icon": "icon_signalman_bag.png"
+},
+"a44": {
+"name": "Snow-Camo Bag",
+"category": "Accessories",
+"icon": "icon_snow_bag.png"
+},
+"a45": {
+"name": "B999K - 1",
+"category": "Accessories",
+"icon": "icon_terrorist_bag01.png"
+},
+"a46": {
+"name": "B999K - 2",
+"category": "Accessories",
+"icon": "icon_terrorist_bag02.png"
+},
+"a47": {
+"name": "BS4212 Bag",
+"category": "Accessories",
+"icon": "icon_welder_bag.png"
+},
+"a48": {
+"name": "Chef's Cap",
+"category": "Clothing",
+"icon": "icon_chef_helmet.png"
+},
+"a49": {
+"name": "Infantry Helmet",
+"category": "Clothing",
+"icon": "icon_infantryman_helmet.png"
+},
+"a50": {
+"name": "Surgeon's Cap 1",
+"category": "Clothing",
+"icon": "icon_nurse_cap01.png"
+},
+"a51": {
+"name": "Surgeon's Cap 2",
+"category": "Clothing",
+"icon": "icon_nurse_cap02.png"
+},
+"a52": {
+"name": "Mr. Signal's Helmet",
+"category": "Clothing",
+"icon": "icon_signalman_helmet.png"
+},
+"a53": {
+"name": "Snow-Camo Cap",
+"category": "Clothing",
+"icon": "icon_snow_helmet.png"
+},
+"a54": {
+"name": "Balaclava 1",
+"category": "Clothing",
+"icon": "icon_terrorist_cap01.png"
+},
+"a55": {
+"name": "Balaclava 2",
+"category": "Clothing",
+"icon": "icon_terrorist_cap02.png"
+},
+"a56": {
+"name": "Welding Helmet",
+"category": "Clothing",
+"icon": "icon_welder_helmet.png"
+},
+"a57": {
+"name": "Chef's Mess Kit",
+"category": "Accessories",
+"icon": "icon_chef_kit.png"
+},
+"a58": {
+"name": "Stethoscope",
+"category": "Accessories",
+"icon": "icon_nurse_kit.png"
+},
+"a59": {
+"name": "Voltmeter",
+"category": "Accessories",
+"icon": "icon_welder_kit.png"
+},
+"a60": {
+"name": "Infantry Cartridge (L)",
+"category": "Accessories",
+"icon": "icon_infantryman_m_mashinegun_r.png"
+},
+"a61": {
+"name": "Mr. Signal's Cartridge (L)",
+"category": "Accessories",
+"icon": "icon_signalman_m_mashinegun_r.png"
+},
+"a62": {
+"name": "Snow-Camo Cartridge (L)",
+"category": "Accessories",
+"icon": "icon_snow_m_mashinegun_r.png"
+},
+"a63": {
+"name": "Partisan Cartridge (L)",
+"category": "Accessories",
+"icon": "icon_terrorist_m_mashinegun_r.png"
+},
+"a64": {
+"name": "Infantry Cartridge (K)",
+"category": "Accessories",
+"icon": "icon_infantryman_m_rifle_l.png"
+},
+"a65": {
+"name": "Mr. Signal's Cartridge (K)",
+"category": "Accessories",
+"icon": "icon_signalman_m_rifle_l.png"
+},
+"a66": {
+"name": "Snow-Camo Cartridge (K)",
+"category": "Accessories",
+"icon": "icon_snow_m_rifle_l.png"
+},
+"a67": {
+"name": "Partisan Cartridge (K)",
+"category": "Accessories",
+"icon": "icon_terrorist_m_rifle_l.png"
+},
+"a68": {
+"name": "Infantry GMB",
+"category": "Accessories",
+"icon": "icon_infantryman_gasmaskbag.png"
+},
+"a69": {
+"name": "Golden Helmet",
+"category": "Clothing",
+"icon": "icon_event_helmet1.png"
+},
+"a70": {
+"name": "Angel's Wings",
+"category": "Accessories",
+"icon": "icon_booster_angel.png"
+},
+"a71": {
+"name": "Devil's Wings",
+"category": "Accessories",
+"icon": "icon_booster_devil.png"
+},
+"a72": {
+"name": "Jetpack",
+"category": "Accessories",
+"icon": "icon_booster_jetbag.png"
+},
+"a73": {
+"name": "Gamestar Helmet",
+"category": "Clothing",
+"icon": "icon_event1_swat_helmet.png"
+},
+"a74": {
+"name": "Gamestar Canteen",
+"category": "Accessories",
+"icon": "icon_event1_swat_waterbottle.png"
+},
+"a75": {
+"name": "Straw Hat",
+"category": "Clothing",
+"icon": "icon_event2_desert_helmet.png"
+},
+"a76": {
+"name": "Buffed Helmet",
+"category": "Clothing",
+"icon": "icon_event3_buffed_helmet.png"
+},
+"a78": {
+"name": "IGN Prime Helmet",
+"category": "Clothing",
+"icon": "icon_event5_ign_helmet.png"
+},
+"a79": {
+"name": "IGN Prime Canteen",
+"category": "Accessories",
+"icon": "icon_event5_ign_waterbottle.png"
+},
+"a80": {
+"name": "Pro7Games Helmet",
+"category": "Clothing",
+"icon": "icon_event6_seven_helmet.png"
+},
+"a81": {
+"name": "Pro7Games Canteen",
+"category": "Accessories",
+"icon": "icon_event6_seven_waterbottle.png"
+},
+"a82": {
+"name": "PC Games Helmet",
+"category": "Clothing",
+"icon": "icon_event7_PCGames__helmet.png"
+},
+"a83": {
+"name": "PC Games Canteen",
+"category": "Accessories",
+"icon": "icon_event7_PCGames_waterbottle.png"
+},
+"a84": {
+"name": "Golden Gas Mask",
+"category": "Accessories",
+"icon": "icon_gasmask_g.png"
+},
+"a85": {
+"name": "Demon Wings",
+"category": "Accessories",
+"icon": "icon_Devil_bag.png"
+},
+"a86": {
+"name": "Demon Hat",
+"category": "Clothing",
+"icon": "icon_Devil_helmet.png"
+},
+"a87": {
+"name": "Demon Symbol",
+"category": "Accessories",
+"icon": "icon_Devil_m_mashinegun_r.png"
+},
+"a88": {
+"name": "Candy Pocket",
+"category": "Accessories",
+"icon": "icon_Devil_m_rifle_l.png"
+},
+"a89": {
+"name": "Eyepatch",
+"category": "Accessories",
+"icon": "icon_Devil_mask.png"
+},
+"a90": {
+"name": "Witch's Cape",
+"category": "Accessories",
+"icon": "icon_Pumpkin_bag.png"
+},
+"a91": {
+"name": "Witch's Hat",
+"category": "Clothing",
+"icon": "icon_pumpkin_helmet.png"
+},
+"a92": {
+"name": "Ghost Ammo",
+"category": "Accessories",
+"icon": "icon_pumpkin_m_mashinegun_r.png"
+},
+"a93": {
+"name": "Skull Ammo",
+"category": "Accessories",
+"icon": "icon_pumpkin_m_rifle_l.png"
+},
+"a94": {
+"name": "Pumpkin Mask",
+"category": "Accessories",
+"icon": "icon_pumpkin_mask.png"
+},
+"a95": {
+"name": "Skeleton Pet",
+"category": "Accessories",
+"icon": "icon_skull_bag.png"
+},
+"a96": {
+"name": "Skeleton Cap",
+"category": "Clothing",
+"icon": "icon_Skull_helmet.png"
+},
+"a97": {
+"name": "Skeleton Mask",
+"category": "Accessories",
+"icon": "icon_Skull_mask.png"
+},
+"a98": {
+"name": "Fez Helmet",
+"category": "Clothing",
+"icon": "icon_event9_fes_helmet.png"
+},
+"a99": {
+"name": "ESL Helmet",
+"category": "Clothing",
+"icon": "icon_event10_esl_helmet.png"
+},
+"aa1": {
+"name": "Machinima Helmet",
+"category": "Clothing",
+"icon": "icon_event11_machinima_helmet.png"
+},
+"aa2": {
+"name": "OK Helmet",
+"category": "Clothing",
+"icon": "icon_event12_ok_helmet.png"
+},
+"aa3": {
+"name": "Gezginler Helmet",
+"category": "Clothing",
+"icon": "icon_event13_gezginler_helmet.png"
+},
+"aa4": {
+"name": "Demon Wings (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Devil_bag_max.png"
+},
+"aa5": {
+"name": "Demon Hat (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Devil_helmet_max.png"
+},
+"aa6": {
+"name": "Demon Symbol (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Devil_m_mashinegun_r_max.png"
+},
+"aa7": {
+"name": "Candy Pocket (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Devil_m_rifle_l_max.png"
+},
+"aa8": {
+"name": "Eyepatch (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Devil_mask_max.png"
+},
+"aa9": {
+"name": "Witch's Cape (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Pumpkin_bag_max.png"
+},
+"ab1": {
+"name": "Witch's Hat (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_pumpkin_helmet_max.png"
+},
+"ab2": {
+"name": "Ghost Ammo (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_pumpkin_m_mashinegun_r_max.png"
+},
+"ab3": {
+"name": "Skull Ammo (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_pumpkin_m_rifle_l_max.png"
+},
+"ab4": {
+"name": "Pumpkin Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_pumpkin_mask_max.png"
+},
+"ab5": {
+"name": "Skeleton Pet (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_skull_bag_max.png"
+},
+"ab6": {
+"name": "Skeleton Cap (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Skull_helmet_max.png"
+},
+"ab7": {
+"name": "Skeleton Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Skull_mask_max.png"
+},
+"ab8": {
+"name": "Alien Tail",
+"category": "Accessories",
+"icon": "icon_alien_bag.png"
+},
+"ab9": {
+"name": "Alien Hood",
+"category": "Clothing",
+"icon": "icon_alien_helmet.png"
+},
+"ac1": {
+"name": "Alien Waist Ammo",
+"category": "Accessories",
+"icon": "icon_alien_m_mashinegun_r.png"
+},
+"ac2": {
+"name": "Alien Side Ammo",
+"category": "Accessories",
+"icon": "icon_alien_m_rifle_l.png"
+},
+"ac3": {
+"name": "Alien Jaw",
+"category": "Accessories",
+"icon": "icon_alien_mask.png"
+},
+"ac4": {
+"name": "Robo Backpack",
+"category": "Accessories",
+"icon": "icon_bot_bag.png"
+},
+"ac5": {
+"name": "Robo Toolbox",
+"category": "Accessories",
+"icon": "icon_bot_kit.png"
+},
+"ac6": {
+"name": "Mephisto Cap",
+"category": "Clothing",
+"icon": "icon_brickdevil_helmet.png"
+},
+"ac7": {
+"name": "Mephisto Mask",
+"category": "Accessories",
+"icon": "icon_brickdevil_mask.png"
+},
+"ac8": {
+"name": "Captain Brickmonth's Boosters",
+"category": "Accessories",
+"icon": "icon_buzz_bag.png"
+},
+"ac9": {
+"name": "Captain Brickmonth's Helmet",
+"category": "Clothing",
+"icon": "icon_buzz_helmet.png"
+},
+"ad1": {
+"name": "Captain Brickmonth's Kit",
+"category": "Accessories",
+"icon": "icon_buzz_kit.png"
+},
+"ad2": {
+"name": "Captain Brickmonth's Mask",
+"category": "Accessories",
+"icon": "icon_buzz_mask.png"
+},
+"ad3": {
+"name": "Extraterrestrial's Bag",
+"category": "Accessories",
+"icon": "icon_et_bag.png"
+},
+"ad4": {
+"name": "Extraterrestrial's Kit",
+"category": "Accessories",
+"icon": "icon_et_kit.png"
+},
+"ad5": {
+"name": "Brickman Cape",
+"category": "Accessories",
+"icon": "icon_hero_bag.png"
+},
+"ad6": {
+"name": "Brickman Mask",
+"category": "Accessories",
+"icon": "icon_hero_mask.png"
+},
+"ad7": {
+"name": "Iron Booster",
+"category": "Accessories",
+"icon": "icon_iron_bag.png"
+},
+"ad8": {
+"name": "Iron Helmet",
+"category": "Clothing",
+"icon": "icon_iron_helmet.png"
+},
+"ad9": {
+"name": "Iron Chestpiece",
+"category": "Accessories",
+"icon": "icon_iron_kit.png"
+},
+"ae1": {
+"name": "Iron Mask",
+"category": "Accessories",
+"icon": "icon_iron_mask.png"
+},
+"ae2": {
+"name": "Evil Professor's Glasses",
+"category": "Accessories",
+"icon": "icon_moss_mask.png"
+},
+"ae3": {
+"name": "Space Helmet",
+"category": "Clothing",
+"icon": "icon_space_helmet.png"
+},
+"ae4": {
+"name": "Space Toolkit",
+"category": "Accessories",
+"icon": "icon_space_kit.png"
+},
+"ae5": {
+"name": "Space Medikit",
+"category": "Accessories",
+"icon": "icon_space_m_mashinegun_r.png"
+},
+"ae6": {
+"name": "Space Multikit",
+"category": "Accessories",
+"icon": "icon_space_m_rifle_l.png"
+},
+"ae7": {
+"name": "Space Mask",
+"category": "Accessories",
+"icon": "icon_space_mask.png"
+},
+"ae8": {
+"name": "Bron Booster",
+"category": "Accessories",
+"icon": "icon_tron_bag.png"
+},
+"ae9": {
+"name": "Bron Helmet",
+"category": "Clothing",
+"icon": "icon_tron_helmet.png"
+},
+"af1": {
+"name": "Bron Mask",
+"category": "Accessories",
+"icon": "icon_tron_mask.png"
+},
+"af2": {
+"name": "Space Booster",
+"category": "Accessories",
+"icon": "icon_booster_space.png"
+},
+"af3": {
+"name": "Onet Helmet",
+"category": "Clothing",
+"icon": "icon_event14_onet.png"
+},
+"af4": {
+"name": "Box Helmet",
+"category": "Clothing",
+"icon": "icon_event15_box_helmet.png"
+},
+"af5": {
+"name": "Santa Snowboard",
+"category": "Accessories",
+"icon": "icon_Xmas_bag1.png"
+},
+"af6": {
+"name": "Rudolph Backpack",
+"category": "Accessories",
+"icon": "icon_Xmas_bag2.png"
+},
+"af7": {
+"name": "Chimney Sweep Kit",
+"category": "Accessories",
+"icon": "icon_Xmas_bag3.png"
+},
+"af8": {
+"name": "Santa Hat",
+"category": "Clothing",
+"icon": "icon_Xmas_helmet1.png"
+},
+"af9": {
+"name": "Rudolph Hat",
+"category": "Clothing",
+"icon": "icon_Xmas_helmet2.png"
+},
+"af0": {
+"name": "Chimney Sweep Hat",
+"category": "Clothing",
+"icon": "icon_Xmas_helmet3.png"
+},
+"ag1": {
+"name": "Four-Leaf Clover",
+"category": "Accessories",
+"icon": "icon_Xmas_lucky.png"
+},
+"ag2": {
+"name": "Santa Beard",
+"category": "Accessories",
+"icon": "icon_Xmas_mask1.png"
+},
+"ag3": {
+"name": "Lucky Pig Canteen",
+"category": "Accessories",
+"icon": "icon_Xmas_pigbottle.png"
+},
+"ag4": {
+"name": "Santa Glove",
+"category": "Accessories",
+"icon": "icon_Xmas_m_mashinegun_r1.png"
+},
+"ag5": {
+"name": "Santa Sock",
+"category": "Accessories",
+"icon": "icon_Xmas_m_rifle1.png"
+},
+"ag6": {
+"name": "Santa Snowboard (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_bag1_max.png"
+},
+"ag7": {
+"name": "Rudolph Backpack (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_bag2_max.png"
+},
+"ag8": {
+"name": "Chimney Sweep Kit (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_bag3_max.png"
+},
+"ag9": {
+"name": "Santa Hat (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_helmet1_max.png"
+},
+"ag0": {
+"name": "Rudolph Hat (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_helmet2_max.png"
+},
+"ah1": {
+"name": "Chimney Sweep Hat (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Xmas_helmet3_max.png"
+},
+"ah2": {
+"name": "Four-Leaf Clover (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_lucky_max.png"
+},
+"ah3": {
+"name": "Santa Beard (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_mask1_max.png"
+},
+"ah4": {
+"name": "Lucky Pig Canteen (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_pigbottle_max.png"
+},
+"ah5": {
+"name": "Santa Glove (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_m_mashinegun_r1_max.png"
+},
+"ah6": {
+"name": "Santa Sock (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Xmas_m_rifle1_max.png"
+},
+"ah7": {
+"name": "Blue Funmily Helmet",
+"category": "Clothing",
+"icon": "icon_R_event1_helmet_b.png"
+},
+"ah8": {
+"name": "Green Funmily Helmet",
+"category": "Clothing",
+"icon": "icon_R_event1_helmet_g.png"
+},
+"ah9": {
+"name": "Orange Funmily Helmet",
+"category": "Clothing",
+"icon": "icon_R_event1_helmet_o.png"
+},
+"ah0": {
+"name": "Pink Funmily Helmet",
+"category": "Clothing",
+"icon": "icon_R_event1_helmet_p.png"
+},
+"ai1": {
+"name": "Red Funmily Helmet",
+"category": "Clothing",
+"icon": "icon_R_event1_helmet_r.png"
+},
+"ai2": {
+"name": "YellowFunmily Helmet",
+"category": "Clothing",
+"icon": "icon_R_event1_helmet_y.png"
+},
+"ai3": {
+"name": "Panda Hat",
+"category": "Clothing",
+"icon": "Icon_panda_helmet.png"
+},
+"ai4": {
+"name": "Panda Bag",
+"category": "Accessories",
+"icon": "Icon_panda_bag.png"
+},
+"ai5": {
+"name": "Apollo Rucksack",
+"category": "Accessories",
+"icon": "icon_space01_bag.png"
+},
+"ai6": {
+"name": "Apollo Helmet",
+"category": "Clothing",
+"icon": "icon_Space01_helmet.png"
+},
+"ai7": {
+"name": "Apollo Kit",
+"category": "Accessories",
+"icon": "icon_Space01_kit.png"
+},
+"ai8": {
+"name": "Apollo Mask",
+"category": "Accessories",
+"icon": "icon_Space01_mask.png"
+},
+"ai9": {
+"name": "Apollo Mag 1",
+"category": "Accessories",
+"icon": "icon_Space01_mashinegun_r.png"
+},
+"ai0": {
+"name": "Apollo Mag 2",
+"category": "Accessories",
+"icon": "icon_Space01_rifle_l.png"
+},
+"aj1": {
+"name": "Mercury Booster",
+"category": "Accessories",
+"icon": "icon_alienware_bag.png"
+},
+"aj2": {
+"name": "Mercury Helmet",
+"category": "Clothing",
+"icon": "icon_alienware_helmet.png"
+},
+"aj3": {
+"name": "Mercury Kit",
+"category": "Accessories",
+"icon": "icon_alienware_kit.png"
+},
+"aj4": {
+"name": "Mercury Ammo 1",
+"category": "Accessories",
+"icon": "icon_alienware_mashinegun_r.png"
+},
+"aj5": {
+"name": "Mercury Ammo 2",
+"category": "Accessories",
+"icon": "icon_alienware_rifle_l.png"
+},
+"aj6": {
+"name": "Ice Desert Helmet",
+"category": "Clothing",
+"icon": "icon_desert_helmet03.png"
+},
+"aj7": {
+"name": "Red Motorcycle Helmet",
+"category": "Clothing",
+"icon": "icon_elec_helmet01.png"
+},
+"aj8": {
+"name": "White Motorcycle Helmet",
+"category": "Clothing",
+"icon": "icon_elec_helmet02.png"
+},
+"aj9": {
+"name": "Tiger Helmet",
+"category": "Clothing",
+"icon": "icon_infantryman_helmet01.png"
+},
+"aj0": {
+"name": "Zebra Helmet",
+"category": "Clothing",
+"icon": "icon_infantryman_helmet02.png"
+},
+"ak1": {
+"name": "Camouflage Balaklava",
+"category": "Clothing",
+"icon": "icon_terrorist_cap03.png"
+},
+"ak2": {
+"name": "Golden Trooper Helmet",
+"category": "Clothing",
+"icon": "icon_trooper_helmet01.png"
+},
+"ak3": {
+"name": "Ice Desert Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_desert_helmet03_max.png"
+},
+"ak4": {
+"name": "Red Motorcycle Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_elec_helmet01_max.png"
+},
+"ak5": {
+"name": "White Motorcycle Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_elec_helmet02_max.png"
+},
+"ak6": {
+"name": "Tiger Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_infantryman_helmet01_max.png"
+},
+"ak7": {
+"name": "Zebra Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_infantryman_helmet02_max.png"
+},
+"ak8": {
+"name": "Camouflage Balaclava (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_terrorist_cap03_max.png"
+},
+"ak9": {
+"name": "Golden Trooper Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_trooper_helmet01_max.png"
+},
+"ak0": {
+"name": "Snowman Hat",
+"category": "Clothing",
+"icon": "icon_winter_helmet01.png"
+},
+"al1": {
+"name": "Clown Hat",
+"category": "Clothing",
+"icon": "icon_winter_helmet02.png"
+},
+"al2": {
+"name": "Snowman Mask",
+"category": "Accessories",
+"icon": "icon_winter_mask01.png"
+},
+"al3": {
+"name": "Clown Mask",
+"category": "Accessories",
+"icon": "icon_winter_mask02.png"
+},
+"al4": {
+"name": "Miniclip Balaclava",
+"category": "Clothing",
+"icon": "icon_event17_Miniclip.png"
+},
+"al5": {
+"name": "Kongregate Hat",
+"category": "Clothing",
+"icon": "icon_event17_Kongregate.png"
+},
+"al6": {
+"name": "Valentine's Backpack",
+"category": "Accessories",
+"icon": "icon_event18_bag.png"
+},
+"al7": {
+"name": "Valentine's Ammo",
+"category": "Accessories",
+"icon": "icon_event18_lauuncher_m.png"
+},
+"al8": {
+"name": "Infernum Helmet",
+"category": "Clothing",
+"icon": "icon_event19_helmet.png"
+},
+"al9": {
+"name": "Infernum Mask",
+"category": "Accessories",
+"icon": "icon_event19_mask.png"
+},
+"al0": {
+"name": "Infernum Wings",
+"category": "Accessories",
+"icon": "icon_event19_bag.png"
+},
+"an1": {
+"name": "Archer's Quiver",
+"category": "Accessories",
+"icon": "icon_archer_bag.png"
+},
+"an2": {
+"name": "Archer's Cap",
+"category": "Clothing",
+"icon": "icon_archer_helmet.png"
+},
+"an3": {
+"name": "Archer's Horn",
+"category": "Accessories",
+"icon": "icon_archer_m_r.png"
+},
+"an4": {
+"name": "Archer's Daggers",
+"category": "Accessories",
+"icon": "icon_archer_m_l.png"
+},
+"an5": {
+"name": "Knight's Shield",
+"category": "Accessories",
+"icon": "icon_knight_bag.png"
+},
+"an6": {
+"name": "Knight's Helmet",
+"category": "Clothing",
+"icon": "icon_knight_helmet.png"
+},
+"an7": {
+"name": "Knight's Pendant",
+"category": "Accessories",
+"icon": "icon_knight_kit.png"
+},
+"an8": {
+"name": "Knight's Dagger",
+"category": "Accessories",
+"icon": "icon_knight_m_r.png"
+},
+"an9": {
+"name": "Knight's Wineskin",
+"category": "Accessories",
+"icon": "icon_knight_m_l.png"
+},
+"an0": {
+"name": "Sorcerer's Rucksack",
+"category": "Accessories",
+"icon": "icon_mage_bag.png"
+},
+"am7": {
+"name": "Sorcerer's Hat",
+"category": "Clothing",
+"icon": "icon_mage_helmet.png"
+},
+"am8": {
+"name": "Sorcerer's Pendant",
+"category": "Accessories",
+"icon": "icon_mage_kit.png"
+},
+"am9": {
+"name": "Sorcerer's Kit",
+"category": "Accessories",
+"icon": "icon_mage_m_r.png"
+},
+"am0": {
+"name": "Sorcerer's Spellbook",
+"category": "Accessories",
+"icon": "icon_mage_m_l.png"
+},
+"ao1": {
+"name": "Thief's Rucksack",
+"category": "Accessories",
+"icon": "icon_thief_bag.png"
+},
+"ao2": {
+"name": "Thief's Knife",
+"category": "Accessories",
+"icon": "icon_thief_gasmaskbag.png"
+},
+"ao3": {
+"name": "Thief's Cap",
+"category": "Clothing",
+"icon": "icon_thief_helmet.png"
+},
+"ao4": {
+"name": "Thief's Telescope",
+"category": "Accessories",
+"icon": "icon_thief_kit.png"
+},
+"ao5": {
+"name": "Thief's Pouch",
+"category": "Accessories",
+"icon": "icon_thief_m_r.png"
+},
+"ao6": {
+"name": "Thief's Bunch of Keys",
+"category": "Accessories",
+"icon": "icon_thief_m_l.png"
+},
+"am1": {
+"name": "Bunny Tail",
+"category": "Accessories",
+"icon": "icon_easter01_bag.png"
+},
+"am2": {
+"name": "Bunny Hat",
+"category": "Clothing",
+"icon": "icon_easter01_helmet.png"
+},
+"am3": {
+"name": "Bunny Mask",
+"category": "Accessories",
+"icon": "icon_easter01_mask.png"
+},
+"am4": {
+"name": "Bunny Gloves",
+"category": "Accessories",
+"icon": "icon_easter01_m_r.png"
+},
+"am5": {
+"name": "Bunny Phone",
+"category": "Accessories",
+"icon": "icon_easter01_m_l.png"
+},
+"am6": {
+"name": "Special Agent's Sunglasses",
+"category": "Accessories",
+"icon": "icon_easter02_mask.png"
+},
+"ao7": {
+"name": "Parrot",
+"category": "Accessories",
+"icon": "icon_wal01_bag.png"
+},
+"ao8": {
+"name": "Pirate Holster (left)",
+"category": "Accessories",
+"icon": "icon_wal01_m_l.png"
+},
+"ao9": {
+"name": "Pirate Holster (right)",
+"category": "Accessories",
+"icon": "icon_wal01_m_r.png"
+},
+"ao0": {
+"name": "Pirate Hat",
+"category": "Clothing",
+"icon": "icon_wal01_helmet.png"
+},
+"ap1": {
+"name": "Kobold Beard",
+"category": "Accessories",
+"icon": "icon_wal02_mask.png"
+},
+"ap2": {
+"name": "Kobold's Gold Pot",
+"category": "Accessories",
+"icon": "icon_wal02_m_l.png"
+},
+"ap3": {
+"name": "Kobold Hat",
+"category": "Clothing",
+"icon": "icon_wal02_helmet.png"
+},
+"ap4": {
+"name": "Cat Ears",
+"category": "Clothing",
+"icon": "icon_wal03_helmet.png"
+},
+"ap5": {
+"name": "Unicorn's Horn",
+"category": "Clothing",
+"icon": "icon_wal04_helmet.png"
+},
+"ap6": {
+"name": "Goblin Mask",
+"category": "Accessories",
+"icon": "icon_wal05_mask.png"
+},
+"ap7": {
+"name": "King's Cape",
+"category": "Accessories",
+"icon": "icon_king_bag.png"
+},
+"ap8": {
+"name": "Emperor's Crown",
+"category": "Clothing",
+"icon": "icon_king_helmet.png"
+},
+"ap9": {
+"name": "King's Necklace",
+"category": "Accessories",
+"icon": "icon_king_kit.png"
+},
+"ap0": {
+"name": "King's Dagger",
+"category": "Accessories",
+"icon": "icon_king_m_l.png"
+},
+"aq1": {
+"name": "Princess Cape",
+"category": "Accessories",
+"icon": "icon_princess_bag.png"
+},
+"aq2": {
+"name": "Princess Crown",
+"category": "Clothing",
+"icon": "icon_princess_helmet.png"
+},
+"aq3": {
+"name": "Princess Necklace",
+"category": "Accessories",
+"icon": "icon_princess_kit.png"
+},
+"aq4": {
+"name": "Princess Purse",
+"category": "Accessories",
+"icon": "icon_princess_m_l.png"
+},
+"aq5": {
+"name": "Wave Game Helmet",
+"category": "Clothing",
+"icon": "icon_W_e01_helmet01.png"
+},
+"aq6": {
+"name": "T-Cash Helmet",
+"category": "Clothing",
+"icon": "icon_W_e01_helmet02.png"
+},
+"aq7": {
+"name": "Uncle Sam Hat",
+"category": "Clothing",
+"icon": "icon_uncle_sam_helmet.png"
+},
+"aq8": {
+"name": "Samurai Mask",
+"category": "Accessories",
+"icon": "icon_C_samurai_mask.png"
+},
+"aq9": {
+"name": "Samurai Helmet",
+"category": "Clothing",
+"icon": "icon_C_samurai_helmet.png"
+},
+"ar0": {
+"name": "Samurai Flag",
+"category": "Accessories",
+"icon": "icon_C_samurai_bag.png"
+},
+"ar1": {
+"name": "Dragon Helmet",
+"category": "Clothing",
+"icon": "icon_C_dragon_helmet.png"
+},
+"ar2": {
+"name": "Dragon Wings",
+"category": "Accessories",
+"icon": "icon_C_dragon_bag.png"
+},
+"ar3": {
+"name": "Bee Helmet",
+"category": "Clothing",
+"icon": "icon_C_bee_helmet.png"
+},
+"ar4": {
+"name": "Bee Wings",
+"category": "Accessories",
+"icon": "icon_C_bee_bag.png"
+},
+"ar5": {
+"name": "Diving Mask",
+"category": "Accessories",
+"icon": "icon_Sum01_mask.png"
+},
+"ar6": {
+"name": "Oxygen Tank",
+"category": "Accessories",
+"icon": "icon_Sum01_bag.png"
+},
+"ar7": {
+"name": "Underwater Flashlight",
+"category": "Accessories",
+"icon": "icon_Sum01_kit.png"
+},
+"ar8": {
+"name": "Diving Computer",
+"category": "Accessories",
+"icon": "icon_Sum01_m_l.png"
+},
+"ar9": {
+"name": "Diving Gauge",
+"category": "Accessories",
+"icon": "icon_Sum01_m_r.png"
+},
+"as0": {
+"name": "Swim Ring",
+"category": "Accessories",
+"icon": "icon_Sum02_bag.png"
+},
+"as1": {
+"name": "Sunflower Bathing Cap",
+"category": "Clothing",
+"icon": "icon_Sum02_helmet.png"
+},
+"as2": {
+"name": "Waterproof Camera",
+"category": "Accessories",
+"icon": "icon_Sum02_kit.png"
+},
+"as3": {
+"name": "Fashion Goggles",
+"category": "Accessories",
+"icon": "icon_Sum02_mask.png"
+},
+"as4": {
+"name": "Surfboard",
+"category": "Accessories",
+"icon": "icon_Sum03_bag.png"
+},
+"as5": {
+"name": "Shark Bathing Cap",
+"category": "Clothing",
+"icon": "icon_Sum03_helmet.png"
+},
+"as6": {
+"name": "Hand Fan",
+"category": "Accessories",
+"icon": "icon_Sum03_m_l.png"
+},
+"as7": {
+"name": "Fashion Snorkel",
+"category": "Accessories",
+"icon": "icon_Sum03_mask.png"
+},
+"as8": {
+"name": "Messy Hairdo",
+"category": "Clothing",
+"icon": "Wave_Mascot01.png"
+},
+"as9": {
+"name": "Fancy Hairdo",
+"category": "Clothing",
+"icon": "Wave_Mascot02.png"
+},
+"at0": {
+"name": "Tame Hairdo",
+"category": "Clothing",
+"icon": "Wave_Mascot03.png"
+},
+"at1": {
+"name": "Emo Hairdo",
+"category": "Clothing",
+"icon": "Wave_Mascot04.png"
+},
+"at2": {
+"name": "Wave Independence Day Helmet",
+"category": "Clothing",
+"icon": "icon_W_e02_helmet.png"
+},
+"at3": {
+"name": "GM 레드 헬멧",
+"category": "Clothing",
+"icon": "icon_GM_red_helmet.png"
+},
+"at4": {
+"name": "GM 레드 마스크",
+"category": "Accessories",
+"icon": "icon_GM_red_mask.png"
+},
+"at5": {
+"name": "GM 레드 망토",
+"category": "Accessories",
+"icon": "icon_GM_red_bag.png"
+},
+"at6": {
+"name": "GM 옐로우 헬멧",
+"category": "Clothing",
+"icon": "icon_GM_yellow_helmet.png"
+},
+"at7": {
+"name": "GM 옐로우 마스크",
+"category": "Accessories",
+"icon": "icon_GM_yellow_mask.png"
+},
+"at8": {
+"name": "GM 옐로우 망토",
+"category": "Accessories",
+"icon": "icon_GM_yellow_bag.png"
+},
+"at9": {
+"name": "GM 그린 헬멧",
+"category": "Clothing",
+"icon": "icon_GM_green_helmet.png"
+},
+"au0": {
+"name": "GM 그린 마스크",
+"category": "Accessories",
+"icon": "icon_GM_green_mask.png"
+},
+"au1": {
+"name": "GM 그린 망토",
+"category": "Accessories",
+"icon": "icon_GM_green_bag.png"
+},
+"au2": {
+"name": "GM 블루 헬멧",
+"category": "Clothing",
+"icon": "icon_GM_blue_helmet.png"
+},
+"au3": {
+"name": "GM 블루 마스크",
+"category": "Accessories",
+"icon": "icon_GM_blue_mask.png"
+},
+"au4": {
+"name": "GM 블루 망토",
+"category": "Accessories",
+"icon": "icon_GM_blue_bag.png"
+},
+"au5": {
+"name": "GM 핑크 헬멧",
+"category": "Clothing",
+"icon": "icon_GM_pink_helmet.png"
+},
+"au6": {
+"name": "GM 핑크 마스크",
+"category": "Accessories",
+"icon": "icon_GM_pink_mask.png"
+},
+"au7": {
+"name": "GM 핑크 망토",
+"category": "Accessories",
+"icon": "icon_GM_pink_bag.png"
+},
+"au8": {
+"name": "Island Drum",
+"category": "Accessories",
+"icon": "icon_Sum04_bag.png"
+},
+"au9": {
+"name": "Islander Hat",
+"category": "Clothing",
+"icon": "icon_Sum04_helmet.png"
+},
+"av0": {
+"name": "Island Necklace",
+"category": "Accessories",
+"icon": "icon_Sum04_kit.png"
+},
+"av1": {
+"name": "Island Amulet",
+"category": "Accessories",
+"icon": "icon_Sum04_m_l.png"
+},
+"av2": {
+"name": "Island Cloth",
+"category": "Accessories",
+"icon": "icon_Sum04_m_r.png"
+},
+"av3": {
+"name": "Hula Bag",
+"category": "Accessories",
+"icon": "icon_Sum05_bag.png"
+},
+"av4": {
+"name": "Hula Headdress",
+"category": "Clothing",
+"icon": "icon_Sum05_helmet.png"
+},
+"av5": {
+"name": "Hula Necklace",
+"category": "Accessories",
+"icon": "icon_Sum05_kit.png"
+},
+"av6": {
+"name": "Hula Decoration",
+"category": "Accessories",
+"icon": "icon_Sum05_m_l.png"
+},
+"av7": {
+"name": "Hula Tambourine",
+"category": "Accessories",
+"icon": "icon_Sum05_m_r.png"
+},
+"av8": {
+"name": "Witch Doctor Turtle Shell",
+"category": "Accessories",
+"icon": "icon_Sum06_bag.png"
+},
+"av9": {
+"name": "Witch Doctor Headdress",
+"category": "Clothing",
+"icon": "icon_Sum06_helmet.png"
+},
+"aw0": {
+"name": "Witch Doctor Necklace",
+"category": "Accessories",
+"icon": "icon_Sum06_kit.png"
+},
+"aw1": {
+"name": "Witch Doctor Doll",
+"category": "Accessories",
+"icon": "icon_Sum06_m_l.png"
+},
+"aw2": {
+"name": "Witch Doctor Horn",
+"category": "Accessories",
+"icon": "icon_Sum06_m_r.png"
+},
+"aw3": {
+"name": "Witch Doctor Mask",
+"category": "Accessories",
+"icon": "icon_Sum06_mask.png"
+},
+"aw4": {
+"name": "Hawaiian Cooler",
+"category": "Accessories",
+"icon": "icon_Sum07_bag.png"
+},
+"aw5": {
+"name": "Hawaiian Headdress",
+"category": "Clothing",
+"icon": "icon_Sum07_helmet.png"
+},
+"aw6": {
+"name": "Hawaiian Coconut",
+"category": "Accessories",
+"icon": "icon_Sum07_kit.png"
+},
+"aw7": {
+"name": "Hawaiian Popsicles",
+"category": "Accessories",
+"icon": "icon_Sum07_m_l.png"
+},
+"aw8": {
+"name": "Hawaiian Beach Shoes",
+"category": "Accessories",
+"icon": "icon_Sum07_m_r.png"
+},
+"aw9": {
+"name": "Monkey Boombox",
+"category": "Accessories",
+"icon": "icon_Sum08_bag.png"
+},
+"ax0": {
+"name": "Monkey Hat",
+"category": "Clothing",
+"icon": "icon_Sum08_helmet.png"
+},
+"ax1": {
+"name": "Monkey Headphones",
+"category": "Accessories",
+"icon": "icon_Sum08_kit.png"
+},
+"ax2": {
+"name": "Monkey mp3 Player",
+"category": "Accessories",
+"icon": "icon_Sum08_m_l.png"
+},
+"ax3": {
+"name": "Monkey Bananas",
+"category": "Accessories",
+"icon": "icon_Sum08_m_r.png"
+},
+"ax4": {
+"name": "Volcanologist Backpack",
+"category": "Accessories",
+"icon": "icon_Sum09_bag.png"
+},
+"ax5": {
+"name": "Volcanologist Hat",
+"category": "Clothing",
+"icon": "icon_Sum09_helmet.png"
+},
+"ax6": {
+"name": "Volcanologist Camera",
+"category": "Accessories",
+"icon": "icon_Sum09_kit.png"
+},
+"ax7": {
+"name": "Volcanologist Tool Case",
+"category": "Accessories",
+"icon": "icon_Sum09_m_l.png"
+},
+"ax8": {
+"name": "Volcanologist Notebook",
+"category": "Accessories",
+"icon": "icon_Sum09_m_r.png"
+},
+"ax9": {
+"name": "Mongolian Archer Weapon Set",
+"category": "Accessories",
+"icon": "icon_Efe01_bag.png"
+},
+"ay0": {
+"name": "Mongolian Archer Hat",
+"category": "Clothing",
+"icon": "icon_Efe01_helmet.png"
+},
+"ay1": {
+"name": "Mongolian Archer Quiver",
+"category": "Accessories",
+"icon": "icon_Efe01_m_l.png"
+},
+"ay2": {
+"name": "Mongolian Bard Instrument",
+"category": "Accessories",
+"icon": "icon_Efe02_bag.png"
+},
+"ay3": {
+"name": "Mongolian Bard Hat",
+"category": "Clothing",
+"icon": "icon_Efe02_helmet.png"
+},
+"ay4": {
+"name": "Mongolian Bard Ornament",
+"category": "Accessories",
+"icon": "icon_Efe02_m_l.png"
+},
+"ay5": {
+"name": "Mongolian Khan Weapon Set",
+"category": "Accessories",
+"icon": "icon_Efe03_bag.png"
+},
+"ay6": {
+"name": "Mongolian Khan Hat",
+"category": "Clothing",
+"icon": "icon_Efe03_helmet.png"
+},
+"ay7": {
+"name": "Mongolian Nomad Camping Gear",
+"category": "Accessories",
+"icon": "icon_Efe04_bag.png"
+},
+"ay8": {
+"name": "Mongolian Nomad Hat",
+"category": "Clothing",
+"icon": "icon_Efe04_helmet.png"
+},
+"ay9": {
+"name": "Mongolian Nomad Canteen",
+"category": "Accessories",
+"icon": "icon_Efe04_m_l.png"
+},
+"az0": {
+"name": "Tribal Warrior Cape",
+"category": "Accessories",
+"icon": "icon_Efe05_bag.png"
+},
+"az1": {
+"name": "Tribal Warrior Hair",
+"category": "Clothing",
+"icon": "icon_Efe05_helmet.png"
+},
+"az2": {
+"name": "Tribal Warrior Necklace",
+"category": "Accessories",
+"icon": "icon_Efe05_kit.png"
+},
+"az3": {
+"name": "Tribal Warrior Charm",
+"category": "Accessories",
+"icon": "icon_Efe05_m_l.png"
+},
+"az4": {
+"name": "Winged Hussar Wings",
+"category": "Accessories",
+"icon": "icon_Efe06_bag.png"
+},
+"az5": {
+"name": "Winged Hussar Helmet",
+"category": "Clothing",
+"icon": "icon_Efe06_helmet.png"
+},
+"az6": {
+"name": "Winged Hussar Toy",
+"category": "Accessories",
+"icon": "icon_Efe06_m_r.png"
+},
+"az7": {
+"name": "Gargoyle Wings",
+"category": "Accessories",
+"icon": "icon_Efe07_bag.png"
+},
+"az8": {
+"name": "Gargoyle Helmet",
+"category": "Clothing",
+"icon": "icon_Efe07_helmet.png"
+},
+"az9": {
+"name": "Gargoyle Necklace",
+"category": "Accessories",
+"icon": "icon_Efe07_kit.png"
+},
+"e01": {
+"name": "Gargoyle Ornament A",
+"category": "Accessories",
+"icon": "icon_Efe07_m_l.png"
+},
+"e02": {
+"name": "Gargoyle Ornament B",
+"category": "Accessories",
+"icon": "icon_Efe07_m_r.png"
+},
+"e03": {
+"name": "Gargoyle Mask",
+"category": "Accessories",
+"icon": "icon_Efe07_mask.png"
+},
+"e04": {
+"name": "King's Crown",
+"category": "Clothing",
+"icon": "icon_crown_helmet.png"
+},
+"e05": {
+"name": "Diamond Kite Backpack",
+"category": "Accessories",
+"icon": "event24_han01_bag.png"
+},
+"e06": {
+"name": "Male Hanbok Cap",
+"category": "Clothing",
+"icon": "event24_han01_helmet.png"
+},
+"e07": {
+"name": "Male Hanbok Purse",
+"category": "Accessories",
+"icon": "event24_han01_m_l.png"
+},
+"e08": {
+"name": "Yut Game Pieces",
+"category": "Accessories",
+"icon": "event24_han01_m_r.png"
+},
+"e09": {
+"name": "Rectangular Kite Backpack",
+"category": "Accessories",
+"icon": "event24_han02_bag.png"
+},
+"e10": {
+"name": "Female Hanbok Hat",
+"category": "Clothing",
+"icon": "event24_han02_helmet.png"
+},
+"e11": {
+"name": "Butterfly Norigae",
+"category": "Accessories",
+"icon": "event24_han02_m_l.png"
+},
+"e12": {
+"name": "Female Hanbok Purse",
+"category": "Accessories",
+"icon": "event24_han02_m_r.png"
+},
+"e13": {
+"name": "Yang Dding Backpack",
+"category": "Accessories",
+"icon": "YD_bag.png"
+},
+"e14": {
+"name": "Yang Dding Headset",
+"category": "Clothing",
+"icon": "YD_helmet.png"
+},
+"e15": {
+"name": "Yang Dding Movie Slate",
+"category": "Accessories",
+"icon": "YD_m_l.png"
+},
+"e16": {
+"name": "Yang Dding Megaphone",
+"category": "Accessories",
+"icon": "YD_m_r.png"
+},
+"e17": {
+"name": "Yang Dding Microphone",
+"category": "Accessories",
+"icon": "YD_kit.png"
+},
+"e18": {
+"name": "Fire Dragon Helmet",
+"category": "Clothing",
+"icon": "icon_dragon_helmet.png"
+},
+"e19": {
+"name": "Fire Dragon Mask",
+"category": "Accessories",
+"icon": "icon_dragon_mask.png"
+},
+"e20": {
+"name": "Fire Dragon Tail",
+"category": "Accessories",
+"icon": "icon_dragon_bag.png"
+},
+"e21": {
+"name": "Fire Dragon Pendant",
+"category": "Accessories",
+"icon": "icon_dragon_kit.png"
+},
+"e22": {
+"name": "Centaurion Helmet",
+"category": "Clothing",
+"icon": "icon_centaurus_helmet.png"
+},
+"e23": {
+"name": "Centaurion Armor",
+"category": "Accessories",
+"icon": "icon_centaurus_bag.png"
+},
+"e24": {
+"name": "Centaurion Fibula",
+"category": "Accessories",
+"icon": "icon_centaurus_m_l.png"
+},
+"e25": {
+"name": "Black Knight Helmet",
+"category": "Clothing",
+"icon": "icon_darkKnight_helmet.png"
+},
+"e26": {
+"name": "Black Knight Mask",
+"category": "Accessories",
+"icon": "icon_darkKnight_mask.png"
+},
+"e27": {
+"name": "Black Knight Pendant",
+"category": "Accessories",
+"icon": "icon_darkKnight_kit.png"
+},
+"e28": {
+"name": "Black Knight Cape",
+"category": "Accessories",
+"icon": "icon_darkKnight_bag.png"
+},
+"e29": {
+"name": "Black Knight Medal",
+"category": "Accessories",
+"icon": "icon_darkKnight_m_l.png"
+},
+"e30": {
+"name": "Black Knight Secret Weapon",
+"category": "Accessories",
+"icon": "icon_darkKnight_m_r.png"
+},
+"e31": {
+"name": "Griffon Helmet",
+"category": "Clothing",
+"icon": "icon_griffon_helmet.png"
+},
+"e32": {
+"name": "Griffon Armor",
+"category": "Accessories",
+"icon": "icon_griffon_bag.png"
+},
+"e33": {
+"name": "Little Griffon",
+"category": "Accessories",
+"icon": "icon_griffon_m_l.png"
+},
+"e34": {
+"name": "Orc Helmet",
+"category": "Clothing",
+"icon": "icon_orc_helmet.png"
+},
+"e35": {
+"name": "Orc Mask",
+"category": "Accessories",
+"icon": "icon_orc_mask.png"
+},
+"e36": {
+"name": "Orc Shield",
+"category": "Accessories",
+"icon": "icon_orc_bag.png"
+},
+"e37": {
+"name": "Orc Flower Pot",
+"category": "Accessories",
+"icon": "icon_orc_m_l.png"
+},
+"e38": {
+"name": "Orc Snack",
+"category": "Accessories",
+"icon": "icon_orc_m_r.png"
+},
+"e39": {
+"name": "Warlock Hood",
+"category": "Clothing",
+"icon": "icon_warlock_helmet.png"
+},
+"e40": {
+"name": "Warlock Mask",
+"category": "Accessories",
+"icon": "icon_warlock_mask.png"
+},
+"e41": {
+"name": "Warlock Backpack",
+"category": "Accessories",
+"icon": "icon_warlock_bag.png"
+},
+"e42": {
+"name": "Warlock Pendant",
+"category": "Accessories",
+"icon": "icon_warlock_kit.png"
+},
+"e43": {
+"name": "Warlock Potion",
+"category": "Accessories",
+"icon": "icon_warlock_m_l.png"
+},
+"e44": {
+"name": "Warlock Spellbook",
+"category": "Accessories",
+"icon": "icon_warlock_m_r.png"
+},
+"e45": {
+"name": "Béret",
+"category": "Clothing",
+"icon": "c_f_helmet.png"
+},
+"e46": {
+"name": "Moustache",
+"category": "Accessories",
+"icon": "c_f_mask.png"
+},
+"e47": {
+"name": "Gold Medal",
+"category": "Accessories",
+"icon": "Icon_e25_gmedal.png"
+},
+"e48": {
+"name": "Golden Cap",
+"category": "Clothing",
+"icon": "icon_e25_goldcap.png"
+},
+"e49": {
+"name": "Korean Flag cape",
+"category": "Accessories",
+"icon": "Icon_e26_K_flag.png"
+},
+"e50": {
+"name": "Fire Dragon Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_dragon_helmet_max.png"
+},
+"e51": {
+"name": "Fire Dragon Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_dragon_mask_max.png"
+},
+"e52": {
+"name": "Fire Dragon Tail (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_dragon_bag_max.png"
+},
+"e53": {
+"name": "Fire Dragon Pendant (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_dragon_kit_max.png"
+},
+"e54": {
+"name": "Centaurion Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_centaurus_helmet_max.png"
+},
+"e55": {
+"name": "Centaurion Armor (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_centaurus_bag_max.png"
+},
+"e56": {
+"name": "Centaurion Fibula (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_centaurus_m_l_max.png"
+},
+"e57": {
+"name": "Black Knight Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_darkKnight_helmet_max.png"
+},
+"e58": {
+"name": "Black Knight Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_darkKnight_mask_max.png"
+},
+"e59": {
+"name": "Black Knight Pendant (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_darkKnight_kit_max.png"
+},
+"e60": {
+"name": "Black Knight Cape (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_darkKnight_bag_max.png"
+},
+"e61": {
+"name": "Black Knight Medal (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_darkKnight_m_l_max.png"
+},
+"e62": {
+"name": "Black Knight Secret Weapon (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_darkKnight_m_r_max.png"
+},
+"e63": {
+"name": "Griffon Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_griffon_helmet_max.png"
+},
+"e64": {
+"name": "Griffon Armor (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_griffon_bag_max.png"
+},
+"e65": {
+"name": "Little Griffon (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_griffon_m_l_max.png"
+},
+"e66": {
+"name": "Orc Helmet (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_orc_helmet_max.png"
+},
+"e67": {
+"name": "Orc Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_orc_mask_max.png"
+},
+"e68": {
+"name": "Orc Shield (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_orc_bag_max.png"
+},
+"e69": {
+"name": "Orc Flower Pot (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_orc_m_l_max.png"
+},
+"e70": {
+"name": "Orc Snack (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_orc_m_r_max.png"
+},
+"e71": {
+"name": "Warlock Hood (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_warlock_helmet_max.png"
+},
+"e72": {
+"name": "Warlock Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_warlock_mask_max.png"
+},
+"e73": {
+"name": "Warlock Backpack (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_warlock_bag_max.png"
+},
+"e74": {
+"name": "Warlock Pendant (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_warlock_kit_max.png"
+},
+"e75": {
+"name": "Warlock Potion (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_warlock_m_l_max.png"
+},
+"e76": {
+"name": "Warlock Spellbook (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_warlock_m_r_max.png"
+},
+"e77": {
+"name": "Bunny Hat",
+"category": "Clothing",
+"icon": "icon_easter01_helmet.png"
+},
+"e78": {
+"name": "Panda Hat",
+"category": "Clothing",
+"icon": "Icon_panda_helmet.png"
+},
+"e79": {
+"name": "Noodle Helmet",
+"category": "Clothing",
+"icon": "e28_helmet.png"
+},
+"e80": {
+"name": "Cat Ears",
+"category": "Clothing",
+"icon": "icon_wal03_helmet.png"
+},
+"e81": {
+"name": "Brick Ranger Head",
+"category": "Clothing",
+"icon": "icon_GM_gray_helmet.png"
+},
+"e82": {
+"name": "Brick Ranger Mask",
+"category": "Accessories",
+"icon": "icon_GM_gray_mask.png"
+},
+"e83": {
+"name": "Brick Ranger Cape",
+"category": "Accessories",
+"icon": "icon_GM_gray_bag.png"
+},
+"e84": {
+"name": "Brick Gold Medal",
+"category": "Accessories",
+"icon": "Icon_e28_gmedal.png"
+},
+"e85": {
+"name": "Brick Silver Medal",
+"category": "Accessories",
+"icon": "Icon_e28_smedal.png"
+},
+"e86": {
+"name": "Brick Bronze Medal",
+"category": "Accessories",
+"icon": "Icon_e28_bmedal.png"
+},
+"e87": {
+"name": "Native American Headdress",
+"category": "Clothing",
+"icon": "icon_s4_indian_helmet.png"
+},
+"e88": {
+"name": "Native American Totem",
+"category": "Accessories",
+"icon": "icon_s4_indian_bag.png"
+},
+"e89": {
+"name": "Native American Necklace",
+"category": "Accessories",
+"icon": "icon_s4_indian_kit.png"
+},
+"e90": {
+"name": "Native American Doll",
+"category": "Accessories",
+"icon": "icon_s4_indian_m_l.png"
+},
+"e91": {
+"name": "Native American Axe",
+"category": "Accessories",
+"icon": "icon_s4_indian_m_r.png"
+},
+"e92": {
+"name": "Muchacho Sombrero",
+"category": "Clothing",
+"icon": "icon_s4_macho_helmet.png"
+},
+"e93": {
+"name": "Muchacho Coffin",
+"category": "Accessories",
+"icon": "icon_s4_macho_bag.png"
+},
+"e94": {
+"name": "Muchacho Flask",
+"category": "Accessories",
+"icon": "icon_s4_macho_m_l.png"
+},
+"e95": {
+"name": "Muchacho Taco",
+"category": "Accessories",
+"icon": "icon_s4_macho_m_r.png"
+},
+"e96": {
+"name": "Sheriff Hat",
+"category": "Clothing",
+"icon": "icon_s4_sheriff_helmet.png"
+},
+"e97": {
+"name": "Sheriff Timepiece",
+"category": "Accessories",
+"icon": "icon_s4_sheriff_kit.png"
+},
+"e98": {
+"name": "Sheriff Handcuffs",
+"category": "Accessories",
+"icon": "icon_s4_sheriff_m_l.png"
+},
+"e99": {
+"name": "Sheriff Whip",
+"category": "Accessories",
+"icon": "icon_s4_sheriff_m_r.png"
+},
+"ea0": {
+"name": "Bandit Hat",
+"category": "Clothing",
+"icon": "icon_s4_thief_helmet.png"
+},
+"ea1": {
+"name": "Bandit Safe",
+"category": "Accessories",
+"icon": "icon_s4_thief_bag.png"
+},
+"ea2": {
+"name": "Bandit Bandana",
+"category": "Accessories",
+"icon": "icon_s4_thief_kit.png"
+},
+"ea3": {
+"name": "Bandit Revolver",
+"category": "Accessories",
+"icon": "icon_s4_thief_m_l.png"
+},
+"ea4": {
+"name": "Bandit Loot",
+"category": "Accessories",
+"icon": "icon_s4_thief_m_r.png"
+},
+"ea5": {
+"name": "Bandit Mask",
+"category": "Accessories",
+"icon": "icon_s4_thief_mask.png"
+},
+"ea6": {
+"name": "Carnation",
+"category": "Accessories",
+"icon": "e29_carnation.png"
+},
+"ea7": {
+"name": "Sheriff Goatee",
+"category": "Accessories",
+"icon": "icon_s4_sheriff_mask.png"
+},
+"ea8": {
+"name": "Muchacho Mustache",
+"category": "Accessories",
+"icon": "icon_s4_macho_mask.png"
+},
+"ea9": {
+"name": "Muchacho Bandana",
+"category": "Accessories",
+"icon": "icon_s4_macho_kit.png"
+},
+"eb0": {
+"name": "Native American Mask",
+"category": "Accessories",
+"icon": "icon_s4_indian_mask.png"
+},
+"eb1": {
+"name": "Bandit's Tackle",
+"category": "Accessories",
+"icon": "icon_s4_thief_luncher.png"
+},
+"eb2": {
+"name": "Muchacho Pouch",
+"category": "Accessories",
+"icon": "icon_s4_macho_luncher.png"
+},
+"eb3": {
+"name": "Sheriff's Dynamite",
+"category": "Accessories",
+"icon": "icon_s4_sheriff_luncher.png"
+},
+"eb4": {
+"name": "Native American Kit",
+"category": "Accessories",
+"icon": "icon_s4_indian_luncher.png"
+},
+"eb5": {
+"name": "Golden Gas Mask",
+"category": "Accessories",
+"icon": "icon_gasmask_g01.png"
+},
+"eb6": {
+"name": "Special Forces Backpack",
+"category": "Accessories",
+"icon": "icon_rig_bag.png"
+},
+"eb7": {
+"name": "Special Forces Helmet",
+"category": "Clothing",
+"icon": "icon_rig_helmet.png"
+},
+"eb8": {
+"name": "Special Forces Radio",
+"category": "Accessories",
+"icon": "icon_rig_kit.png"
+},
+"eb9": {
+"name": "Special Forces Shades",
+"category": "Accessories",
+"icon": "icon_rig_mask.png"
+},
+"ec0": {
+"name": "Special Forces Ammo Pouch 1",
+"category": "Accessories",
+"icon": "icon_rig_m_r.png"
+},
+"ec1": {
+"name": "Special Forces Ammo Pouch 2",
+"category": "Accessories",
+"icon": "icon_rig_m_l.png"
+},
+"ec2": {
+"name": "Special Forces Grenade",
+"category": "Accessories",
+"icon": "icon_rig_luncher.png"
+},
+"ec3": {
+"name": "Navy Backpack",
+"category": "Accessories",
+"icon": "icon_rig_bag_B.png"
+},
+"ec4": {
+"name": "Navy Helmet",
+"category": "Clothing",
+"icon": "icon_rig_helmet_B.png"
+},
+"ec5": {
+"name": "Navy Radio",
+"category": "Accessories",
+"icon": "icon_rig_kit_B.png"
+},
+"ec6": {
+"name": "Navy Shades",
+"category": "Accessories",
+"icon": "icon_rig_mask_B.png"
+},
+"ec7": {
+"name": "Navy Ammo Pouch 1",
+"category": "Accessories",
+"icon": "icon_rig_m_r_B.png"
+},
+"ec8": {
+"name": "Navy Ammo Pouch 2",
+"category": "Accessories",
+"icon": "icon_rig_m_l_B.png"
+},
+"ec9": {
+"name": "Navy Grenade",
+"category": "Accessories",
+"icon": "icon_rig_luncher_B.png"
+},
+"ed0": {
+"name": "Clan Gold Medal",
+"category": "Accessories",
+"icon": "icon_Clan_medal_g.png"
+},
+"ed1": {
+"name": "Clan Silver Medal",
+"category": "Accessories",
+"icon": "icon_Clan_medal_s.png"
+},
+"ed2": {
+"name": "Clan Bronze Medal",
+"category": "Accessories",
+"icon": "icon_Clan_medal_b.png"
+},
+"ed3": {
+"name": "Psychopath Hat",
+"category": "Clothing",
+"icon": "icon_Psychopath_helmet.png"
+},
+"ed4": {
+"name": "Psychopath Mask",
+"category": "Accessories",
+"icon": "icon_Psychopath_mask.png"
+},
+"ed5": {
+"name": "Grim Reaper Hood",
+"category": "Clothing",
+"icon": "icon_Reaper_helmet.png"
+},
+"ed6": {
+"name": "Grim Reaper Mask",
+"category": "Accessories",
+"icon": "icon_Reaper_mask.png"
+},
+"ed7": {
+"name": "Grim Reaper Talisman",
+"category": "Accessories",
+"icon": "icon_Reaper_m_l.png"
+},
+"ed8": {
+"name": "Grim Reaper Hourglass",
+"category": "Accessories",
+"icon": "icon_Reaper_m_r.png"
+},
+"ed9": {
+"name": "Grim Reaper Wings",
+"category": "Accessories",
+"icon": "icon_Reaper_bag.png"
+},
+"ee0": {
+"name": "Psychopath Hat (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Psychopath_helmet_max.png"
+},
+"ee1": {
+"name": "Psychopath Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Psychopath_mask_max.png"
+},
+"ee2": {
+"name": "Grim Reaper Hood (fully upgraded)",
+"category": "Clothing",
+"icon": "icon_Reaper_helmet_max.png"
+},
+"ee3": {
+"name": "Grim Reaper Mask (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Reaper_mask_max.png"
+},
+"ee4": {
+"name": "Grim Reaper Talisman (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Reaper_m_l_max.png"
+},
+"ee5": {
+"name": "Grim Reaper Hourglass (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Reaper_m_r_max.png"
+},
+"ee6": {
+"name": "Grim Reaper Wings (fully upgraded)",
+"category": "Accessories",
+"icon": "icon_Reaper_bag_max.png"
+},
+"c01": {
+"name": "Mr. Box",
+"category": "Characters",
+"icon": "icon_box_head.png"
+},
+"c02": {
+"name": "Mr. Elec",
+"category": "Characters",
+"icon": "icon_elec_head.png"
+},
+"c03": {
+"name": "Mr. Oven",
+"category": "Characters",
+"icon": "icon_range_head.png"
+},
+"c04": {
+"name": "Mr. Signal",
+"category": "Characters",
+"icon": "icon_signal_head.png"
+},
+"c05": {
+"name": "Male Soldier",
+"category": "Characters",
+"icon": "icon_man_head.png"
+},
+"c06": {
+"name": "Female Soldier",
+"category": "Characters",
+"icon": "icon_woman_head.png"
+},
+"c07": {
+"name": "Brick Fawkes",
+"category": "Characters",
+"icon": "icon_anony_head.png"
+},
+"c08": {
+"name": "Alienware Head",
+"category": "Characters",
+"icon": "icon_alienware_head.png"
+},
+"c09": {
+"name": "Robo Head",
+"category": "Characters",
+"icon": "icon_bot_head.png"
+},
+"c10": {
+"name": "Professor's Head",
+"category": "Characters",
+"icon": "icon_enison_head.png"
+},
+"c11": {
+"name": "Extraterrestrial's Head",
+"category": "Characters",
+"icon": "icon_et_head.png"
+},
+"c12": {
+"name": "Evil Professor's Head",
+"category": "Characters",
+"icon": "icon_moss_head.png"
+},
+"c13": {
+"name": "Gamestar ET Head",
+"category": "Characters",
+"icon": "icon_e20_gamestar_head.png"
+},
+"c14": {
+"name": "Caveman",
+"category": "Characters",
+"icon": "icon_Caveman.png"
+},
+"c15": {
+"name": "Beard Guy",
+"category": "Characters",
+"icon": "icon_Caveman2.png"
+},
+"c16": {
+"name": "Wave Independence Fighter",
+"category": "Characters",
+"icon": "icon_W_e02_pejuang.png"
+},
+"c17": {
+"name": "Yang Dding Head",
+"category": "Characters",
+"icon": "YD_head.png"
+},
+"c18": {
+"name": "Alienware Head",
+"category": "Characters",
+"icon": "icon_alienware_head01.png"
+},
+"s01": {
+"name": "Clan Logo Ticket",
+"category": "Miscellaneous",
+"icon": "clanmarkChange.png"
+},
+"s05": {
+"name": "Swappie",
+"category": "Toolbox",
+"icon": "replacetool.png"
+},
+"s06": {
+"name": "Streamliner",
+"category": "Toolbox",
+"icon": "linetool.png"
+},
+"s07": {
+"name": "Brick-Gun",
+"category": "Toolbox",
+"icon": "icon_br_dril_1.png"
+},
+"s08": {
+"name": "Light Brick-Gun",
+"category": "Toolbox",
+"icon": "icon_br_dril_2.png"
+},
+"s09": {
+"name": "Heavy Brick-Gun",
+"category": "Toolbox",
+"icon": "icon_br_dril_3.png"
+},
+"s10": {
+"name": "Auto Reload",
+"category": "Action Panel",
+"icon": "icon_auto_reload.png"
+},
+"s11": {
+"name": "100 Point HP",
+"category": "Action Panel",
+"icon": "icon_heal_pack(100).png"
+},
+"s12": {
+"name": "Medium Supply",
+"category": "Action Panel",
+"icon": "cns_AmmoAssault.png"
+},
+"s13": {
+"name": "Warpies",
+"category": "Action Panel",
+"icon": "icon_speedup.png"
+},
+"s14": {
+"name": "Heartbeat Radar",
+"category": "Action Panel",
+"icon": "icon_heartbeat_radar.png"
+},
+"s15": {
+"name": "Boomer Fill",
+"category": "Action Panel",
+"icon": "cns_AmmoGrenade.png"
+},
+"s16": {
+"name": "Secondary Supply",
+"category": "Action Panel",
+"icon": "cns_AmmoGun.png"
+},
+"s17": {
+"name": "Heavy Supply",
+"category": "Action Panel",
+"icon": "cns_AmmoMachine.png"
+},
+"s18": {
+"name": "Long Supply",
+"category": "Action Panel",
+"icon": "cns_AmmoSniper.png"
+},
+"s19": {
+"name": "Light Supply",
+"category": "Action Panel",
+"icon": "cns_AmmoSubmachine.png"
+},
+"s20": {
+"name": "Resurrect",
+"category": "Action Panel",
+"icon": "respawnReduce.png"
+},
+"s21": {
+"name": "Auto Heal",
+"category": "Action Panel",
+"icon": "autoHeal.png"
+},
+"s22": {
+"name": "Premium Account",
+"category": "All",
+"icon": "icon_premium.png"
+},
+"s23": {
+"name": "50 Point HP",
+"category": "Action Panel",
+"icon": "icon_heal_pack(50).png"
+},
+"s24": {
+"name": "30 Point HP",
+"category": "Action Panel",
+"icon": "icon_heal_pack(30).png"
+},
+"s25": {
+"name": "Pick 'N' Win Coin Charger",
+"category": "Miscellaneous",
+"icon": "icon_picknwin_coin.png"
+},
+"s26": {
+"name": "Additional Map Slot",
+"category": "Toolbox",
+"icon": "slotPlus.png"
+},
+"s27": {
+"name": "Map Slot Reset",
+"category": "Toolbox",
+"icon": "slotReset.png"
+},
+"s28": {
+"name": "Round Window Ticket",
+"category": "Toolbox",
+"icon": "icon_circleWindow.png"
+},
+"s29": {
+"name": "Dashboard Ticket",
+"category": "Toolbox",
+"icon": "icon_computerBox01.png"
+},
+"s30": {
+"name": "Locker Ticket",
+"category": "Toolbox",
+"icon": "icon_computerBox02.png"
+},
+"s31": {
+"name": "Monitor Ticket",
+"category": "Toolbox",
+"icon": "icon_computerBox03.png"
+},
+"s32": {
+"name": "Crater Ticket",
+"category": "Toolbox",
+"icon": "icon_crater.png"
+},
+"s33": {
+"name": "Ticket for Drum with Explosives",
+"category": "Toolbox",
+"icon": "icon_flammable_drum.png"
+},
+"s34": {
+"name": "Function Pack",
+"category": "Toolbox",
+"icon": "icon_functionSet2.png"
+},
+"s35": {
+"name": "Ticket for Gravity down",
+"category": "Toolbox",
+"icon": "icon_gravity_blueA.png"
+},
+"s36": {
+"name": "Ticket for Gravity down (fragile)",
+"category": "Toolbox",
+"icon": "icon_gravity_blueB.png"
+},
+"s37": {
+"name": "Ticket for Gravity up",
+"category": "Toolbox",
+"icon": "icon_gravity_redA.png"
+},
+"s38": {
+"name": "Ticket for Gravity up (fragile)",
+"category": "Toolbox",
+"icon": "icon_gravity_redB.png"
+},
+"s39": {
+"name": "Mock Hatch Ticket",
+"category": "Toolbox",
+"icon": "icon_hatch.png"
+},
+"s40": {
+"name": "Laserlight Ticket",
+"category": "Toolbox",
+"icon": "icon_laserWall.png"
+},
+"s41": {
+"name": "Capsule Ticket",
+"category": "Toolbox",
+"icon": "icon_metalCabinet.png"
+},
+"s42": {
+"name": "Steel Ladder Ticket",
+"category": "Toolbox",
+"icon": "icon_metalLadder.png"
+},
+"s43": {
+"name": "Sci-Fi Pack",
+"category": "Toolbox",
+"icon": "icon_normalSet2.png"
+},
+"s44": {
+"name": "Solar Cell Ticket",
+"category": "Toolbox",
+"icon": "icon_solarCollector.png"
+},
+"s45": {
+"name": "Planet Surface Ticket",
+"category": "Toolbox",
+"icon": "icon_ST_Ground_01.png"
+},
+"s46": {
+"name": "Cracked Surface Ticket",
+"category": "Toolbox",
+"icon": "icon_ST_Ground_02.png"
+},
+"s47": {
+"name": "Fake Steeldoor Ticket",
+"category": "Toolbox",
+"icon": "icon_ST_Metal_1.png"
+},
+"s48": {
+"name": "Vent Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_ST_Metal_2.png"
+},
+"s49": {
+"name": "Honeycomb Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_ST_Metal_3.png"
+},
+"s50": {
+"name": "Integrated Lights Ticket",
+"category": "Toolbox",
+"icon": "icon_ST_Metal_4.png"
+},
+"s51": {
+"name": "Ticket for Toxic Waste Drum",
+"category": "Toolbox",
+"icon": "icon_toxic_drum.png"
+},
+"s52": {
+"name": "Vertical Booster Ticket",
+"category": "Toolbox",
+"icon": "icon_trampoline_hor.png"
+},
+"s53": {
+"name": "Horizonatal Booster Ticket",
+"category": "Toolbox",
+"icon": "icon_trampoline_ver.png"
+},
+"s54": {
+"name": "Valve Ticket",
+"category": "Toolbox",
+"icon": "icon_valve.png"
+},
+"s55": {
+"name": "Booster Ticket",
+"category": "Toolbox",
+"icon": "icon_speedSet.png"
+},
+"s56": {
+"name": "Explosives Ticket",
+"category": "Toolbox",
+"icon": "icon_explosionSet.png"
+},
+"s57": {
+"name": "Gravity Ticket",
+"category": "Toolbox",
+"icon": "icon_gravitySet.png"
+},
+"s58": {
+"name": "Wooden Planks Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_plank.png"
+},
+"s59": {
+"name": "Barrel Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_woodbarrel.png"
+},
+"s60": {
+"name": "Candle Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_candle.png"
+},
+"s61": {
+"name": "Fence Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_fence.png"
+},
+"s62": {
+"name": "Bench Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_bench.png"
+},
+"s63": {
+"name": "Decorative Armor Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_armor.png"
+},
+"s64": {
+"name": "Torch Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_torch.png"
+},
+"s65": {
+"name": "Blue Banner Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_flagBlue.png"
+},
+"s66": {
+"name": "Red Banner Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_flagRed.png"
+},
+"s67": {
+"name": "Stained Glass Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_stained.png"
+},
+"s68": {
+"name": "Window Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_window.png"
+},
+"s69": {
+"name": "Spike Trap Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_trap.png"
+},
+"s70": {
+"name": "Wooden Door Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_door.png"
+},
+"s71": {
+"name": "Green Portal Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_freePotal.png"
+},
+"s72": {
+"name": "Wooden Item Set Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_woodSet.png"
+},
+"s73": {
+"name": "Fire Item Set Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_fireSet.png"
+},
+"s74": {
+"name": "Banner Item Set Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_flagSet.png"
+},
+"s75": {
+"name": "Window Item Set Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_windowSet.png"
+},
+"s76": {
+"name": "Blue/Red Portal Item Set Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_teamPotal.png"
+},
+"s77": {
+"name": "Portal Item Set Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_potalSet.png"
+},
+"s78": {
+"name": "Season 3 Normal Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_normalSet.png"
+},
+"s79": {
+"name": "Season 3 Function Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season3_functionSet.png"
+},
+"s80": {
+"name": "Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket.png"
+},
+"s81": {
+"name": "Brick-Gun",
+"category": "Toolbox",
+"icon": "icon_br_dril_3.png"
+},
+"s82": {
+"name": "10% XP Booster",
+"category": "Action Panel",
+"icon": "icon_consumable_xp_bonus1.png"
+},
+"s83": {
+"name": "10% FP Booster",
+"category": "Action Panel",
+"icon": "icon_consumable_fp_bonus1.png"
+},
+"s84": {
+"name": "5,000 Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket_1.png"
+},
+"s85": {
+"name": "20,000 Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket_2.png"
+},
+"s86": {
+"name": "50% XP Booster",
+"category": "Action Panel",
+"icon": "icon_consumable_xp_bonus2.png"
+},
+"s87": {
+"name": "50% FP Booster",
+"category": "Action Panel",
+"icon": "icon_consumable_fp_bonus2.png"
+},
+"s88": {
+"name": "100% XP Booster",
+"category": "Action Panel",
+"icon": "icon_consumable_xp_bonus3.png"
+},
+"s89": {
+"name": "100% FP Booster",
+"category": "Action Panel",
+"icon": "icon_consumable_fp_bonus3.png"
+},
+"s90": {
+"name": "50 Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket_3.png"
+},
+"s91": {
+"name": "1,000 Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket_4.png"
+},
+"s92": {
+"name": "Brick-Gun (Auto)",
+"category": "Toolbox",
+"icon": "icon_br_dril_4.png"
+},
+"s93": {
+"name": "2014 Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket_5.png"
+},
+"s94": {
+"name": "Nickname Changer",
+"category": "Miscellaneous",
+"icon": "icon_rename.png"
+},
+"s95": {
+"name": "1,000,000 Force Point Charger",
+"category": "Miscellaneous",
+"icon": "icon_PointTicket_6.png"
+},
+"s96": {
+"name": "Instant Respawn",
+"category": "Action Panel",
+"icon": "respawnReduce(100).png"
+},
+"s97": {
+"name": "Complete Reset",
+"category": "Miscellaneous",
+"icon": "icon_record.png"
+},
+"s98": {
+"name": "Team Deathmatch Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_team.png"
+},
+"s99": {
+"name": "Deathmatch Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_deathmatch.png"
+},
+"sa0": {
+"name": "Freefall Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_bungee.png"
+},
+"sa1": {
+"name": "Defusion Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_blast.png"
+},
+"sa2": {
+"name": "Defense Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_defence.png"
+},
+"sa3": {
+"name": "Build and Destroy Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_BND.png"
+},
+"sa4": {
+"name": "Capture the Flag Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_CTF.png"
+},
+"sa5": {
+"name": "Weapon Reset",
+"category": "Miscellaneous",
+"icon": "icon_record_weapons.png"
+},
+"sa6": {
+"name": "Season 4 Normal Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_normalSet.png"
+},
+"sa7": {
+"name": "Season 4 Function Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_functionSet.png"
+},
+"sa8": {
+"name": "Straight Mine Rail Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_rail01.png"
+},
+"sa9": {
+"name": "Bent Mine Rail Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_rail02.png"
+},
+"sb0": {
+"name": "Dry Grass Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_grass.png"
+},
+"sb1": {
+"name": "Lumber Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_board.png"
+},
+"sb2": {
+"name": "Wagon Wheel Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_wheel.png"
+},
+"sb3": {
+"name": "Spiky Cactus Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_cactus.png"
+},
+"sb4": {
+"name": "Saloon Door Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_door.png"
+},
+"sb5": {
+"name": "Haystack Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_haystack.png"
+},
+"sb6": {
+"name": "Mineral Ore Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_mineral.png"
+},
+"sb7": {
+"name": "Season 4 All Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_allSet.png"
+},
+"sb8": {
+"name": "Gold Ore Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_gold.png"
+},
+"sb9": {
+"name": "TNT Barrel Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_tntbarrel.png"
+},
+"sc0": {
+"name": "Oak Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_box01.png"
+},
+"sc1": {
+"name": "Spruce Brick Ticket",
+"category": "Toolbox",
+"icon": "icon_season4_box02.png"
+},
+"sc2": {
+"name": "Tall Grass Ticket",
+"category": "Toolbox",
+"icon": "icon_reed.png"
+},
+"sc3": {
+"name": "Bear Trap Ticket",
+"category": "Toolbox",
+"icon": "icon_trap_02.png"
+},
+"sc4": {
+"name": "Train Set Ticket",
+"category": "Toolbox",
+"icon": "icon_train.png"
+},
+"u01": {
+"name": "Small Weapon Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeWeapon_low.png"
+},
+"u02": {
+"name": "Medium Weapon Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeWeapon_middle.png"
+},
+"u03": {
+"name": "Large Weapon Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeWeapon_high.png"
+},
+"u04": {
+"name": "Large Elite Weapon Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeWeapon_superlative3.png"
+},
+"u05": {
+"name": "Small Equipment Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeArmor_low.png"
+},
+"u06": {
+"name": "Medium Equipment Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeArmor_middle.png"
+},
+"u07": {
+"name": "Large Equipment Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeArmor_high.png"
+},
+"u08": {
+"name": "Large Elite Equipment Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeArmor_superlative3.png"
+},
+"u09": {
+"name": "Small Elite Weapon Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeWeapon_superlative1.png"
+},
+"u10": {
+"name": "Medium Elite Weapon Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeWeapon_superlative2.png"
+},
+"u11": {
+"name": "Small Elite Equipment Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeArmor_superlative1.png"
+},
+"u12": {
+"name": "Medium Elite Equipment Gem",
+"category": "Upgrades",
+"icon": "icon_upgradeArmor_superlative2.png"
+},
+"b01": {
+"name": "Starter Kit: Soldiers",
+"category": "Sets",
+"icon": "icon_shooterBundle.png"
+},
+"b02": {
+"name": "Starter Kit: Builders",
+"category": "Sets",
+"icon": "icon_builderBundle.png"
+},
+"b03": {
+"name": "Eagle Elite Pack",
+"category": "Sets",
+"icon": "icon_EAGLE_ELITE.png"
+},
+"b04": {
+"name": "Falcon Elite Pack",
+"category": "Sets",
+"icon": "icon_FALCON_ELITE.png"
+},
+"b05": {
+"name": "Hornet Elite Pack",
+"category": "Sets",
+"icon": "icon_HORNET_ELITE.png"
+},
+"b06": {
+"name": "Cirrus Elite Pack",
+"category": "Sets",
+"icon": "icon_CIRRUS_ELITE.png"
+},
+"b07": {
+"name": "Mamba Elite Pack",
+"category": "Sets",
+"icon": "icon_MAMBA_ELITE.png"
+},
+"b08": {
+"name": "Viper Elite Pack",
+"category": "Sets",
+"icon": "icon_VIPER_ELITE.png"
+},
+"b09": {
+"name": "Typhoon Elite Pack",
+"category": "Sets",
+"icon": "icon_TYPHOON_ELITE.png"
+},
+"b10": {
+"name": "Locust Elite Pack",
+"category": "Sets",
+"icon": "icon_LOCUST_ELITE.png"
+},
+"b11": {
+"name": "Spider Elite Pack",
+"category": "Sets",
+"icon": "icon_SPIDER_ELITE.png"
+},
+"b12": {
+"name": "Saurus Elite Pack",
+"category": "Sets",
+"icon": "icon_SAURUS_ELITE.png"
+},
+"b13": {
+"name": "Big Bang Elite Pack",
+"category": "Sets",
+"icon": "icon_BIGBANG_ELITE.png"
+},
+"b14": {
+"name": "Special Tactics Pack",
+"category": "Sets",
+"icon": "icon_SPECIAL_TACTICS_PACK.png"
+},
+"b15": {
+"name": "Special Tactics Pack",
+"category": "Sets",
+"icon": "icon_SPECIAL_TACTICS_PACK02.png"
+},
+"b16": {
+"name": "Demon Pack",
+"category": "Sets",
+"icon": "icon_SUCCUBUS_PACK.png"
+},
+"b17": {
+"name": "Demon Elite Pack",
+"category": "Sets",
+"icon": "icon_SUCCUBUS_ELITE_PACK.png"
+},
+"b18": {
+"name": "Demon Ultimate Pack",
+"category": "Sets",
+"icon": "icon_SUCCUBUS_ULTIMATE_PACK.png"
+},
+"b19": {
+"name": "Witch Pack",
+"category": "Sets",
+"icon": "icon_PUMPKIN_PACK.png"
+},
+"b20": {
+"name": "Witch's Elite Pack",
+"category": "Sets",
+"icon": "icon_PUMPKIN_ELITE_PACK.png"
+},
+"b21": {
+"name": "Witch's Ultimate Pack",
+"category": "Sets",
+"icon": "icon_PUMPKIN_ULTIMATE_PACK.png"
+},
+"b22": {
+"name": "Skeleton Pack",
+"category": "Sets",
+"icon": "icon_GRAVEKEEPER_PACK.png"
+},
+"b23": {
+"name": "Skeleton Elite Pack",
+"category": "Sets",
+"icon": "icon_GRAVEKEEPER_ELITE_PACK.png"
+},
+"b24": {
+"name": "Skeleton Ultimate Pack",
+"category": "Sets",
+"icon": "icon_GRAVEKEEPER_ULTIMATE_PACK.png"
+},
+"b25": {
+"name": "Alien Pack",
+"category": "Sets",
+"icon": "icon_alienSet.png"
+},
+"b26": {
+"name": "Robo Pack",
+"category": "Sets",
+"icon": "icon_botSet.png"
+},
+"b27": {
+"name": "Captain Brickmonth Pack",
+"category": "Sets",
+"icon": "icon_buzzSet.png"
+},
+"b28": {
+"name": "Mephisto Pack",
+"category": "Sets",
+"icon": "icon_devilSet.png"
+},
+"b29": {
+"name": "Professor Pack",
+"category": "Sets",
+"icon": "icon_enisonSet.png"
+},
+"b30": {
+"name": "Extraterrestrial Pack",
+"category": "Sets",
+"icon": "icon_etSet.png"
+},
+"b31": {
+"name": "Brickman Pack",
+"category": "Sets",
+"icon": "icon_heroSet.png"
+},
+"b32": {
+"name": "Iron Pack",
+"category": "Sets",
+"icon": "icon_ironSet.png"
+},
+"b33": {
+"name": "Evil Professor Pack",
+"category": "Sets",
+"icon": "icon_mossSet.png"
+},
+"b34": {
+"name": "Space Pack",
+"category": "Sets",
+"icon": "icon_spaceSet.png"
+},
+"b35": {
+"name": "Bron Pack",
+"category": "Sets",
+"icon": "icon_tronSet.png"
+},
+"b36": {
+"name": "Santa Pack",
+"category": "Sets",
+"icon": "Icon_santaset.png"
+},
+"b37": {
+"name": "Rudolph Pack",
+"category": "Sets",
+"icon": "Icon_rudolfset.png"
+},
+"b38": {
+"name": "Chimney Sweep Pack",
+"category": "Sets",
+"icon": "Icon_chimneyset.png"
+},
+"b39": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b40": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b41": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b42": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b43": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b44": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b45": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b46": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b47": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b48": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b49": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b50": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b51": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b52": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b53": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b54": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b55": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b56": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b57": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b58": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b59": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b60": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b61": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b62": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b63": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b64": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b65": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b66": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b67": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b68": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b69": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"b70": {
+"name": "Archer Pack",
+"category": "Sets",
+"icon": "icon_archerSet.png"
+},
+"b71": {
+"name": "Sorcerer Pack",
+"category": "Sets",
+"icon": "icon_mageSet.png"
+},
+"b72": {
+"name": "Male Hanbok Pack",
+"category": "Sets",
+"icon": "icon_han01Set.png"
+},
+"b73": {
+"name": "Female Hanbok Pack",
+"category": "Sets",
+"icon": "icon_han02Set.png"
+},
+"b74": {
+"name": "Panda Set",
+"category": "Sets",
+"icon": "icon_pandaSet.png"
+},
+"b75": {
+"name": "3,000 Force Points with Streamliners",
+"category": "Sets",
+"icon": "icon_TC_1.png"
+},
+"b76": {
+"name": "5,000 Force Points with Streamliners",
+"category": "Sets",
+"icon": "icon_TC_2.png"
+},
+"b77": {
+"name": "10,000 Force Points with Streamliners",
+"category": "Sets",
+"icon": "icon_TC_3.png"
+},
+"b78": {
+"name": "50,000 Force Points with Streamliners",
+"category": "Sets",
+"icon": "icon_TC_4.png"
+},
+"b79": {
+"name": "70,000 Force Points with Streamliners",
+"category": "Sets",
+"icon": "icon_TC_5.png"
+},
+"b80": {
+"name": "100,000 Force Points with Streamliners",
+"category": "Sets",
+"icon": "icon_TC_6.png"
+},
+"b81": {
+"name": "Brickman Pack",
+"category": "Sets",
+"icon": "icon_heroSet_N.png"
+},
+"b82": {
+"name": "Iron Pack",
+"category": "Sets",
+"icon": "icon_ironSet_N.png"
+},
+"b83": {
+"name": "Archer Pack with Brick-Gun",
+"category": "Sets",
+"icon": "icon_archerSet_1.png"
+},
+"b84": {
+"name": "Complete Demon Pack",
+"category": "Sets",
+"icon": "icon_SUCCUBUS_PACK.png"
+},
+"b85": {
+"name": "Archer Set",
+"category": "Sets",
+"icon": "icon_archerSet_2.png"
+},
+"b86": {
+"name": "Yang Dding Set",
+"category": "Sets",
+"icon": "icon_YDset.png"
+},
+"b87": {
+"name": "Male Hanbok Pack",
+"category": "Sets",
+"icon": "icon_han01Set_0.png"
+},
+"b88": {
+"name": "Female Hanbok Pack",
+"category": "Sets",
+"icon": "icon_han02Set_0.png"
+},
+"b89": {
+"name": "Male Hanbok Pack",
+"category": "Sets",
+"icon": "icon_han01Set_0.png"
+},
+"b90": {
+"name": "Female Hanbok Pack",
+"category": "Sets",
+"icon": "icon_han02Set_0.png"
+},
+"b91": {
+"name": "Yang Dding Set",
+"category": "Sets",
+"icon": "icon_YDset.png"
+},
+"b92": {
+"name": "Sailor Set (1 day)",
+"category": "Sets",
+"icon": "icon_franceSet.png"
+},
+"b93": {
+"name": "Sailor Set (7 days)",
+"category": "Sets",
+"icon": "icon_franceSet.png"
+},
+"b94": {
+"name": "Chimney Sweep Set (1 day)",
+"category": "Sets",
+"icon": "Icon_chimneyset.png"
+},
+"b95": {
+"name": "Chimney Sweep Set (7 days)",
+"category": "Sets",
+"icon": "Icon_chimneyset.png"
+},
+"b96": {
+"name": "Chef Set (1 day)",
+"category": "Sets",
+"icon": "icon_chefSet.png"
+},
+"b97": {
+"name": "Chef Set (7 days)",
+"category": "Sets",
+"icon": "icon_chefSet.png"
+},
+"b98": {
+"name": "Field Surgeon Set (1 day)",
+"category": "Sets",
+"icon": "icon_medicSet.png"
+},
+"b99": {
+"name": "Field Surgeon Set (7 days)",
+"category": "Sets",
+"icon": "icon_medicSet.png"
+},
+"ba0": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba1": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba2": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba3": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba4": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba5": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba6": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba7": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba8": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"ba9": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb0": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb1": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb2": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb3": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb4": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb5": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb6": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb7": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb8": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bb9": {
+"name": "Infernum Set",
+"category": "Sets",
+"icon": "shop_bundle.png"
+},
+"bc0": {
+"name": "Yang Dding Set #2",
+"category": "Sets",
+"icon": "icon_YDset.png"
+},
+"bc1": {
+"name": "Warlock Set (7 days)",
+"category": "Sets",
+"icon": "icon_warlockset.png"
+},
+"bc2": {
+"name": "Warlock Set (30 days)",
+"category": "Sets",
+"icon": "icon_warlockset.png"
+},
+"bc3": {
+"name": "Black Knight Set (7 days)",
+"category": "Sets",
+"icon": "icon_darkKnightset.png"
+},
+"bc4": {
+"name": "Black Knight Set (30 days)",
+"category": "Sets",
+"icon": "icon_darkKnightset.png"
+},
+"bc5": {
+"name": "Fire Dragon Set (7 days)",
+"category": "Sets",
+"icon": "icon_dragonset.png"
+},
+"bc6": {
+"name": "Fire Dragon Set (30 days)",
+"category": "Sets",
+"icon": "icon_dragonset.png"
+},
+"bc7": {
+"name": "Bunny Set (1 day)",
+"category": "Sets",
+"icon": "icon_easter01Set.png"
+},
+"bc8": {
+"name": "Bunny Set (7 days)",
+"category": "Sets",
+"icon": "icon_easter01Set.png"
+},
+"bc9": {
+"name": "Bunny Set (30 days)",
+"category": "Sets",
+"icon": "icon_easter01Set.png"
+},
+"bd0": {
+"name": "Panda Set (1 day)",
+"category": "Sets",
+"icon": "icon_pandaSet.png"
+},
+"bd1": {
+"name": "Panda Set (7 days)",
+"category": "Sets",
+"icon": "icon_pandaSet.png"
+},
+"bd2": {
+"name": "Panda Set (30 days)",
+"category": "Sets",
+"icon": "icon_pandaSet.png"
+},
+"bd3": {
+"name": "Sailor Set (30 days)",
+"category": "Sets",
+"icon": "icon_franceSet.png"
+},
+"bd4": {
+"name": "Chimney Sweep Set (30 days)",
+"category": "Sets",
+"icon": "Icon_chimneyset.png"
+},
+"bd5": {
+"name": "Chef Set (30 days)",
+"category": "Sets",
+"icon": "icon_chefSet.png"
+},
+"bd6": {
+"name": "Field Surgeon Set (30 days)",
+"category": "Sets",
+"icon": "icon_medicSet.png"
+},
+"bd7": {
+"name": "Brick Ranger Set (15 days)",
+"category": "Sets",
+"icon": "icon_e25.png"
+},
+"bd8": {
+"name": "Brick Ranger Set (30 days)",
+"category": "Sets",
+"icon": "icon_e25.png"
+},
+"bd9": {
+"name": "Native American Set (7 days)",
+"category": "Sets",
+"icon": "icon_s4indian.png"
+},
+"be0": {
+"name": "Native American Set (30 days)",
+"category": "Sets",
+"icon": "icon_s4indian.png"
+},
+"be1": {
+"name": "Muchacho Set (7 days)",
+"category": "Sets",
+"icon": "icon_s4macho.png"
+},
+"be2": {
+"name": "Muchacho Set (30 days)",
+"category": "Sets",
+"icon": "icon_s4macho.png"
+},
+"be3": {
+"name": "Sheriff Set (7 days)",
+"category": "Sets",
+"icon": "icon_s4sheriff.png"
+},
+"be4": {
+"name": "Sheriff Set (30 days)",
+"category": "Sets",
+"icon": "icon_s4sheriff.png"
+},
+"be5": {
+"name": "Bandit Set (7 days)",
+"category": "Sets",
+"icon": "icon_s4thief.png"
+},
+"be6": {
+"name": "Bandit Set (30 days)",
+"category": "Sets",
+"icon": "icon_s4thief.png"
+},
+"be7": {
+"name": "Clown Set",
+"category": "Sets",
+"icon": "icon_winter02Set.png"
+},
+"be8": {
+"name": "Brick 04 Set",
+"category": "Sets",
+"icon": "icon_schalke.png"
+},
+"be9": {
+"name": "Brickburg SV Set",
+"category": "Sets",
+"icon": "icon_hamburg.png"
+},
+"bf0": {
+"name": "Brickmund Set",
+"category": "Sets",
+"icon": "icon_dortmund.png"
+},
+"bf1": {
+"name": "Zebra Set",
+"category": "Sets",
+"icon": "icon_zebraSet.png"
+},
+"bf2": {
+"name": "Tiger Set",
+"category": "Sets",
+"icon": "icon_tigerSet.png"
+},
+"bf3": {
+"name": "King's Set",
+"category": "Sets",
+"icon": "icon_kingset.png"
+},
+"bf4": {
+"name": "Princess Set",
+"category": "Sets",
+"icon": "icon_princessset.png"
+},
+"bf5": {
+"name": "Monkey Set (7 days)",
+"category": "Sets",
+"icon": "icon_sum08.png"
+},
+"bf6": {
+"name": "Witch Doctor Set (7 days)",
+"category": "Sets",
+"icon": "icon_sum06.png"
+},
+"bf7": {
+"name": "Volcanologist Set (7 days)",
+"category": "Sets",
+"icon": "icon_sum09.png"
+},
+"bf8": {
+"name": "Hawaiian Set (7 days)",
+"category": "Sets",
+"icon": "icon_sum07.png"
+},
+"bf9": {
+"name": "Islander Set (7 days)",
+"category": "Sets",
+"icon": "icon_sum04.png"
+},
+"bg0": {
+"name": "Hula Set (7 days)",
+"category": "Sets",
+"icon": "icon_sum05.png"
+},
+"bg1": {
+"name": "Monkey Set (30 days)",
+"category": "Sets",
+"icon": "icon_sum08.png"
+},
+"bg2": {
+"name": "Witch Doctor Set (30 days)",
+"category": "Sets",
+"icon": "icon_sum06.png"
+},
+"bg3": {
+"name": "Volcanologist Set (30 days)",
+"category": "Sets",
+"icon": "icon_sum09.png"
+},
+"bg4": {
+"name": "Hawaiian Set (30 days)",
+"category": "Sets",
+"icon": "icon_sum07.png"
+},
+"bg5": {
+"name": "Islander Set (30 days)",
+"category": "Sets",
+"icon": "icon_sum04.png"
+},
+"bg6": {
+"name": "Hula Set (30 days)",
+"category": "Sets",
+"icon": "icon_sum05.png"
+},
+"bg7": {
+"name": "Mellow Ukulele & 100,000 FP",
+"category": "Sets",
+"icon": "icon_water_stick02Set.png"
+},
+"bg8": {
+"name": "Banana Shooter & 100,000 FP",
+"category": "Sets",
+"icon": "icon_water_bananaSet.png"
+},
+"bg9": {
+"name": "Pineapple Grenade & 100,000 FP",
+"category": "Sets",
+"icon": "icon_water_bomb02Set.png"
+},
+"bh0": {
+"name": "Psychopath Set",
+"category": "Sets",
+"icon": "icon_Psychopath_set.png"
+},
+"bh1": {
+"name": "Grim Reaper Set",
+"category": "Sets",
+"icon": "icon_Reaper_set.png"
+},
+"bh2": {
+"name": "Psychopath Set (fully upgraded)",
+"category": "Sets",
+"icon": "icon_Psychopath_ultimate_set.png"
+},
+"bh3": {
+"name": "Grim Reaper Set (fully upgraded)",
+"category": "Sets",
+"icon": "icon_Reaper_ultimate_set.png"
+}
+}

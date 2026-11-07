@@ -1,0 +1,56 @@
+---
+layout: base
+pagination:
+  data: archiveNews.years
+  size: 1
+  alias: y
+permalink: "/archive/news/{{ y.year }}/"
+eleventyComputed:
+  title: "News Archive {{ y.year }}"
+---
+<article id="content">
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/archive/news/{{ archiveNews.latest }}/">Archive</a>
+      &rsaquo; <a href="/Website/archive/news/{{ archiveNews.latest }}/">News</a>
+      &rsaquo; <a href="/Website/archive/news/{{ y.year }}/" class="last">{{ y.year }}</a>
+    </p>
+    <ul class="tabs clearfix">
+{%- for t in archiveNews.years %}
+      {% if t.year == y.year %}<li class="selected"><a href="/Website/archive/news/{{ t.year }}/">{{ t.year }}<span>&nbsp;</span></a></li>{% else %}<li><a href="/Website/archive/news/{{ t.year }}/">{{ t.year }}</a></li>{% endif %}
+{%- endfor %}
+    </ul>
+  </div>
+
+  <div class="content archive clearfix">
+    <h1><span class="avatar">&nbsp;</span><span class="label">News Archive {{ y.year }}</span></h1>
+
+    <p class="archive-intro">
+      {{ y.count }} news posts from {{ y.year }} of the original Brick-Force website ({{ archiveNews.total }} posts in total, {{ archiveNews.first }} &ndash; {{ archiveNews.latest }}),
+      restored from the Internet Archive's <a href="https://web.archive.org/" target="_blank">Wayback Machine</a>.
+      Every post links to the archived original.
+    </p>
+
+    <ul class="newslist">
+{%- for post in y.posts %}
+      <li class="news" id="post-{{ post.id }}">
+        <span class="cat cat_{{ post.category }}"></span>
+        <div class="inner">
+          <h2><a href="#post-{{ post.id }}">{{ post.title | escape }}</a></h2>
+          {%- if post.subtitle != "" %}
+          <h3>{{ post.subtitle | escape }}</h3>
+          {%- endif %}
+          <p class="date"><span>{{ post.dateLabel }}</span></p>
+          {%- if post.teaser != "" %}
+          <div class="teaserimg"><img src="/Website/images/archive/news/{{ post.teaser }}" alt="Teaser Image"></div>
+          {%- endif %}
+          <div class="text">{{ post.html }}</div>
+          <p class="archive-source">Archived from the original Brick-Force website: <a href="https://web.archive.org/web/{{ post.snapshot }}/{{ post.originalUrl }}" target="_blank">Wayback Machine</a></p>
+        </div>
+        <span class="bubble"></span>
+      </li>
+{%- endfor %}
+    </ul>
+  </div>
+</article>
