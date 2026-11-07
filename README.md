@@ -1,10 +1,10 @@
 # Brick-Force Website
 
-This is a static site built using [Eleventy](https://www.11ty.dev/). The build files are located in the `docs` folder, as required for deployment on GitHub Pages.
+This is a static site built using [Eleventy](https://www.11ty.dev/). The build output goes to the `_site` folder (not tracked by git).
 
 ## Features
 - **Static Site Generator:** Uses Eleventy for flexible, fast static site generation.
-- **Customizable Build Directory:** Outputs build files to `docs/` for compatibility with GitHub Pages.
+- **Customizable Build Directory:** Outputs build files to `_site/`.
 - **Easy Development Workflow:** Includes scripts for development and building.
 
 ## Installation

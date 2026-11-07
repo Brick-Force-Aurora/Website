@@ -35,3 +35,8 @@
 .ranking .primary .top-info .description .lines { width: 196px; }
 .ranking .primary .top-info .description .lines span, .ranking .primary .top-info .description .lines * span { padding-right: 25px; }
 .content.ranking.gate .gateway .spacer { margin: 0; line-height: 18px; }
+
+/* ---- Brick HQ opens on December 24, 2026 (see js/hq-gate.js) ---- */
+html.hq-locked .navigation li.ranking { display: none; }
+/* gateway: the note sits below the boxes, not next to them */
+.content.ranking.gate .gateway .spacer, .content.ranking.gate .gateway .capture-note { clear: both; }
