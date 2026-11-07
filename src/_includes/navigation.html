@@ -1,9 +1,10 @@
+{% assign hq = false %}{% if page.url contains '/game/ranking/' or page.url contains '/game/players/' or page.url contains '/game/maps/' %}{% assign hq = true %}{% endif %}
 <ul class="navigation clearfix">
   <li class="l1 home first {% if page.url == '/Website/' %}selected{% endif %}">
     <a href="/Website/" class="l1 shadow-black-1">Home</a>
   </li>
   <li
-    class="l1 game {% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' or page.url contains '/game/' %}selected{% endif %}">
+    class="l1 game {% if hq == false %}{% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' or page.url contains '/game/' %}selected{% endif %}{% endif %}">
     <a href="/Website/about/" class="l1 shadow-black-1">Game</a>
     <ul class="l2 clearfix">
       <li class="l2 {% if page.url == '/about/' %}selected{% endif %}">
@@ -75,8 +76,16 @@
       </li>
     </ul>
   </li>
-  <li class="l1 forum">
-    <a href="/Website/" class="l1 shadow-black-1">Forum</a>
+  <li class="l1 ranking {% if hq %}selected{% endif %}">
+    <a href="/Website/game/ranking/" class="l1 shadow-black-1">Brick HQ</a>
+    <ul class="l2 clearfix">
+      <li class="l2 {% if page.url contains '/game/ranking/' or page.url contains '/game/maps/' %}selected{% endif %}">
+        <a href="/Website/game/ranking/" class="l2 shadow-black-1">Rankings</a>
+      </li>
+      <li class="l2 {% if page.url == '/game/players/' %}selected{% endif %}">
+        <a href="/Website/game/players/" class="l2 shadow-black-1">Playerlist</a>
+      </li>
+    </ul>
   </li>
   <li class="l1 archive last {% if page.url contains '/archive/' %}selected{% endif %}">
     <a href="/Website/archive/news/2017/" class="l1 shadow-black-1">Archive</a>
