@@ -41,7 +41,7 @@
 }
 
 .content.media.comics.overview .jcarousel-skin-tango .jcarousel-container {
-  background:none repeat;
+  background:url("/Website/images/media/community-comics-background-preview.png") repeat;
   margin-left:20px;
   border:2px solid white;
   border-radius:5px;
@@ -776,17 +776,23 @@
 }
 
 /* ---- additions for the archive re-creation ---- */
-.content.media.comics.episodes { background: none; }
-.content.media.comics.episodes .episode-list { margin: 0 0 15px 20px; font-size: 14px; }
-.content.media.comics.episodes .episode-list a { font-weight: bold; margin-right: 8px; }
-.content.media.comics.episodes .episode { margin: 25px 0 0 20px; }
-.content.media.comics.episodes .episode h2 { color: #003056; font-size: 20px; border-bottom: 1px dotted #9d9d9d; padding: 0 0 4px; margin: 0 0 10px; }
-.content.media.comics.episodes .episode img { display: block; max-width: 100%; margin: 0 0 12px; border: 1px solid #bec4c7; box-shadow: 0 1px 4px #88a0ad; }
-.content.media.comics.episodes .comic-intro { margin: 0 0 10px 20px; color: #555; font-size: 13px; font-style: italic; }
-.content.media.comics.episodes .page-note, .content.media.comics.episodes .lang-note { margin: -6px 0 12px; color: #777; font-size: 12px; }
-.content.media.comics.episodes .episode img.cover { max-width: 200px; }
-.content.media.comics.episodes .comic-links { margin: 8px 0 12px 20px; font-size: 14px; }
-.content.media.comics.episodes .comic-links a { margin-right: 14px; font-weight: bold; }
+.content.media.comics.overview .jcarousel-skin-tango .jcarousel-container { position: relative; }
+.content.media.comics.overview .jcarousel-skin-tango .jcarousel-list { position: relative; margin: 0; padding: 0; list-style: none; width: 2100px; left: 0; transition: left .3s; }
+.content.media.comics.overview .jcarousel-skin-tango .jcarousel-item { float: left; }
+.content.media.comics.overview .jcarousel-skin-tango h2.subtitle { position: absolute; left: 50px; top: -30px; margin: 0; font-size: 21px; color: #313131; }
+.content.media.comics.overview .episode-viewer .episode-pages[hidden] { display: none; }
+.content.media.comics.overview .episode-viewer .first-image,
+.content.media.comics.overview .episode-viewer .second-image { transition: left .3s, top .3s, opacity .3s; }
+.content.media.comics.overview .episode-viewer .first-image h3,
+.content.media.comics.overview .episode-viewer .second-image h3 { text-align: left; white-space: nowrap; }
+.content.media.comics.overview .episode-viewer .first-image img,
+.content.media.comics.overview .episode-viewer .second-image img { display: block; }
+.content.media.comics.overview .episode-viewer .lang { font-size: 12px; font-weight: normal; color: #555; }
+.content.media.comics.overview .episode-viewer .missing { width: 735px; height: 488px; background: #e6ebee; color: #555; line-height: 488px; font-size: 14px; text-align: center; }
+.content.media.comics.overview .episode-viewer.show-second .first-image { left: 135px; top: 60px; z-index: 1; opacity: .3; box-shadow: 0 10px 30px 10px rgba(178,188,193,0.75); }
+.content.media.comics.overview .episode-viewer.show-second .second-image { left: 75px; top: 0; z-index: 2; opacity: 1; box-shadow: 0 10px 30px 10px rgba(0,0,0,0.35); }
+.content.media.comics.overview .episode-viewer .first-image { box-shadow: 0 10px 30px 10px rgba(0,0,0,0.35); }
+.content.media.comics.overview .jcarousel-prev-disabled, .content.media.comics.overview .jcarousel-next-disabled { cursor: default; }
 
 .content.community.fansites .kit-preview { clear: both; margin: 30px 20px 0; }
 .content.community.fansites .kit-preview h2 { color: #003056; font-size: 20px; margin: 0 0 6px; }
@@ -796,3 +802,7 @@
 .content.community.fansites .kit-preview img { display: block; height: 70px; width: auto; border: 1px solid #bec4c7; background: #fff; }
 .content.community.fansites .kit-preview p { margin: 4px 0; font-size: 13px; }
 .content.community.fansites .kit-downloads a { font-weight: bold; margin-right: 14px; }
+.content.media.comics.credits .introduction .credit h3 a { color: black; text-decoration: none; }
+.content.media.comics.credits .introduction .credit h3 a:hover { color: #f49719; text-decoration: underline; }
+.content.media.comics.credits .introduction .credit h4 small { font-size: 11px; color: #555; }
+.content.media.comics.credits .introduction .credit .no-portrait { width: 182px; height: 274px; border: solid 2px #f49719; background: #d5dde1 url("/Website/images/media/community-comics-background-preview.png"); box-shadow: 0 30px 40px 0 rgba(0,0,0,0.75); }
