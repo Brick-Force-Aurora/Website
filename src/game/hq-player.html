@@ -25,6 +25,7 @@ wide: true
 {%- assign hq_ts_label = p.ts_label %}
 {%- assign hq_src = p.url %}
 {%- assign hq_suffix = "" %}
+{%- if p.lang != "en" %}{% assign hq_suffix = "This profile was only archived in the " | append: p.lang_name | append: " version of the site; labels, dates and numbers have been translated to English." %}{% endif %}
 {% include "hq-note.html" %}
 <div class="title clearfix">
 <span class="rank">{{ p.rank }}</span>
