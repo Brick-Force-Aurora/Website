@@ -20,6 +20,7 @@ eleventyComputed:
 {%- for t in archiveNews.years %}
       {% if t.year == y.year %}<li class="selected"><a href="/Website/archive/news/{{ t.year }}/">{{ t.year }}<span>&nbsp;</span></a></li>{% else %}<li><a href="/Website/archive/news/{{ t.year }}/">{{ t.year }}</a></li>{% endif %}
 {%- endfor %}
+      <li><a href="/Website/archive/news/search/">Search</a></li>
     </ul>
   </div>
 

@@ -72,3 +72,23 @@
 .news .text {
   word-wrap: break-word;
 }
+
+/* ---- Search tab ---- */
+.content.archive-search .search-form { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; margin: 10px 20px 0; padding: 14px 16px; background: #f4f9fc; border: 1px solid #cfdbe3; border-radius: 6px; }
+.content.archive-search .search-form .field label { display: block; margin: 0 0 3px; font-size: 12px; font-weight: bold; color: #003056; text-transform: uppercase; }
+.content.archive-search .search-form input, .content.archive-search .search-form select { padding: 5px 7px; font: inherit; font-size: 14px; background: #fff; border: 1px solid #9ab; border-radius: 3px; }
+.content.archive-search .search-form .field-text { flex: 1 1 300px; }
+.content.archive-search .search-form .field-text input { width: 100%; box-sizing: border-box; }
+.content.archive-search button { cursor: pointer; padding: 6px 16px; font-size: 14px; color: #fff; background: #003056; border: 0; border-radius: 4px; }
+.content.archive-search button:hover { background: #014a85; }
+.content.archive-search .search-status { margin: 14px 20px 6px; font-size: 13px; color: #555; }
+.content.archive-search .search-results { margin: 0 20px; padding: 0; list-style: none; }
+.content.archive-search .search-results .result { padding: 12px 0; border-bottom: 1px dotted #9d9d9d; }
+.content.archive-search .result .r-date { margin-right: 10px; font-size: 12px; color: #7b0000; }
+.content.archive-search .result .r-cat { display: inline-block; padding: 1px 8px; font-size: 11px; font-weight: bold; text-transform: uppercase; color: #fff; background: #f49719; border-radius: 3px; }
+.content.archive-search .result h3 { margin: 5px 0 0; font-size: 17px; }
+.content.archive-search .result h3 a { color: #003056; }
+.content.archive-search .result h4 { margin: 2px 0 0; font-size: 13px; font-weight: normal; color: #555; }
+.content.archive-search .result .r-snippet { margin: 5px 0 0; font-size: 13px; line-height: 18px; color: #333; }
+.content.archive-search mark { padding: 0 1px; background: #ffe08a; }
+.content.archive-search .search-more { margin: 14px 20px 20px; }

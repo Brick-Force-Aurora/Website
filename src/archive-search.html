@@ -1,0 +1,62 @@
+---
+layout: base
+title: News Archive Search
+permalink: /archive/news/search/
+---
+<article id="content">
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/archive/news/{{ archiveNews.latest }}/">Archive</a>
+      &rsaquo; <a href="/Website/archive/news/{{ archiveNews.latest }}/">News</a>
+      &rsaquo; <a href="/Website/archive/news/search/" class="last">Search</a>
+    </p>
+    <ul class="tabs clearfix">
+{%- for t in archiveNews.years %}
+      <li><a href="/Website/archive/news/{{ t.year }}/">{{ t.year }}</a></li>
+{%- endfor %}
+      <li class="selected"><a href="/Website/archive/news/search/">Search<span>&nbsp;</span></a></li>
+    </ul>
+  </div>
+
+  <div class="content archive archive-search clearfix">
+    <h1><span class="avatar">&nbsp;</span><span class="label">Search the News Archive</span></h1>
+
+    <p class="archive-intro">
+      Search all {{ archiveNews.total }} posts of the archive ({{ archiveNews.first }} &ndash; {{ archiveNews.latest }}).
+      Results appear as soon as a filter is active or you typed at least 3 letters.
+    </p>
+
+    <form class="search-form" id="archive-search-form" autocomplete="off" onsubmit="return false">
+      <div class="field field-text">
+        <label for="s-text">Text</label>
+        <input type="search" id="s-text" placeholder="Search in titles and texts (at least 3 letters)">
+      </div>
+      <div class="field">
+        <label for="s-cat">Category</label>
+        <select id="s-cat">
+          <option value="">All categories</option>
+{%- for c in archiveNews.categories %}
+          <option value="{{ c.key }}">{{ c.label | escape }} ({{ c.count }})</option>
+{%- endfor %}
+        </select>
+      </div>
+      <div class="field">
+        <label for="s-from">From</label>
+        <input type="date" id="s-from" min="{{ archiveNews.dateMin }}" max="{{ archiveNews.dateMax }}">
+      </div>
+      <div class="field">
+        <label for="s-to">To</label>
+        <input type="date" id="s-to" min="{{ archiveNews.dateMin }}" max="{{ archiveNews.dateMax }}">
+      </div>
+      <div class="field field-reset">
+        <button type="button" id="s-reset">Reset filters</button>
+      </div>
+    </form>
+
+    <p class="search-status" id="search-status">Type at least 3 letters or choose a category or a date range.</p>
+    <ol class="search-results" id="search-results"></ol>
+    <p class="search-more"><button type="button" id="search-more" hidden>Show more results</button></p>
+  </div>
+</article>
+<script src="/Website/js/archive-search.js"></script>
