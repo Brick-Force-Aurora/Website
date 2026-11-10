@@ -1,10 +1,10 @@
-{% assign hq = false %}{% if page.url contains '/game/ranking/' or page.url contains '/game/players/' or page.url contains '/game/maps/' %}{% assign hq = true %}{% endif %}
+{% assign hq = false %}{% if page.url contains '/game/ranking/' or page.url contains '/game/players/' or page.url contains '/game/maps/' %}{% assign hq = true %}{% endif %}{% assign maptable = false %}{% if page.url contains '/game/maps/downloads/' or page.url contains '/game/maps/matches/' or page.url contains '/game/maps/rating/' %}{% assign maptable = true %}{% endif %}
 <ul class="navigation clearfix">
   <li class="l1 home first {% if page.url == '/Website/' %}selected{% endif %}">
     <a href="/Website/" class="l1 shadow-black-1">Home</a>
   </li>
   <li
-    class="l1 game {% if hq == false %}{% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' or page.url contains '/game/' %}selected{% endif %}{% endif %}">
+    class="l1 game {% if hq == false %}{% if page.url == '/about/' or page.url == '/download/' or page.url == '/faq/' or page.url contains '/game/' and page.url != '/game/b-hub/' %}selected{% endif %}{% endif %}">
     <a href="/Website/about/" class="l1 shadow-black-1">Game</a>
     <ul class="l2 clearfix">
       <li class="l2 {% if page.url == '/about/' %}selected{% endif %}">
@@ -74,24 +74,39 @@
       <li class="l2 {% if page.url contains '/community/brick-brigade/' %}selected{% endif %}">
         <a href="/Website/community/brick-brigade/" class="l2 shadow-black-1">Brick Brigade</a>
       </li>
+      <li class="l2 {% if page.url contains '/community/events/' %}selected{% endif %}">
+        <a href="/Website/community/events/" class="l2 shadow-black-1">Events</a>
+      </li>
     </ul>
   </li>
   <li class="l1 ranking {% if hq %}selected{% endif %}">
     <a href="/Website/game/ranking/" class="l1 shadow-black-1">Brick HQ</a>
     <ul class="l2 clearfix">
-      <li class="l2 {% if page.url contains '/game/ranking/' or page.url contains '/game/maps/' %}selected{% endif %}">
+      <li class="l2 {% if page.url contains '/game/ranking/' or maptable %}selected{% endif %}">
         <a href="/Website/game/ranking/" class="l2 shadow-black-1">Rankings</a>
       </li>
       <li class="l2 {% if page.url == '/game/players/' %}selected{% endif %}">
         <a href="/Website/game/players/" class="l2 shadow-black-1">Playerlist</a>
       </li>
+      <li class="l2 {% if page.url contains '/game/maps/' and maptable == false %}selected{% endif %}">
+        <a href="/Website/game/maps/" class="l2 shadow-black-1">Maplist</a>
+      </li>
     </ul>
   </li>
-  <li class="l1 archive last {% if page.url contains '/archive/' %}selected{% endif %}">
+  <li class="l1 archive last {% if page.url contains '/archive/' or page.url contains '/shop/' or page.url == '/game/b-hub/' or page.url contains '/forum/' %}selected{% endif %}">
     <a href="/Website/archive/news/{{ archiveNews.latest }}/" class="l1 shadow-black-1">Archive</a>
     <ul class="l2 clearfix">
-      <li class="l2 {% if page.url contains '/archive/' %}selected{% endif %}">
+      <li class="l2 {% if page.url contains '/archive/news/' %}selected{% endif %}">
         <a href="/Website/archive/news/{{ archiveNews.latest }}/" class="l2 shadow-black-1">News</a>
+      </li>
+      <li class="l2 {% if page.url contains '/shop/' %}selected{% endif %}">
+        <a href="/Website/shop/" class="l2 shadow-black-1">Shop</a>
+      </li>
+      <li class="l2 {% if page.url == '/game/b-hub/' %}selected{% endif %}">
+        <a href="/Website/game/b-hub/" class="l2 shadow-black-1">B-Hub</a>
+      </li>
+      <li class="l2 {% if page.url contains '/forum/' %}selected{% endif %}">
+        <a href="/Website/forum/" class="l2 shadow-black-1">Forum</a>
       </li>
     </ul>
   </li>

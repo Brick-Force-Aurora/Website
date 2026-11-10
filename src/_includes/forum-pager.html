@@ -1,0 +1,11 @@
+{%- if pg_pages > 1 -%}
+<div class="pagination popupmenu nohovermenu">
+  <span><a class="popupctrl">Page {{ pg_cur }} of {{ pg_pages }}</a></span>
+  {%- if pg_cur > 1 %}<span class="first_last"><a rel="start" href="{{ pg_base }}"><img src="/Website/images/forum/images/pagination/first-right.png" alt="First" />First</a></span>{% assign pv = pg_cur | minus: 1 %}<span class="prev_next"><a rel="prev" href="{% if pv == 1 %}{{ pg_base }}{% else %}{{ pg_base }}page/{{ pv }}/{% endif %}"><img src="/Website/images/forum/images/pagination/previous-right.png" alt="Previous" /></a></span>{% endif %}
+  {%- assign lo = pg_cur | minus: 3 %}{% assign hi = pg_cur | plus: 3 %}
+  {%- if lo > 1 %}<span class="separator">...</span>{% endif %}
+  {%- for n in (1..pg_pages) %}{% if n >= lo and n <= hi %}{% if n == pg_cur %}<span class="selected"><a>{{ n }}</a></span>{% elsif n == 1 %}<span><a href="{{ pg_base }}">1</a></span>{% else %}<span><a href="{{ pg_base }}page/{{ n }}/">{{ n }}</a></span>{% endif %}{% endif %}{% endfor %}
+  {%- if hi < pg_pages %}<span class="separator">...</span>{% endif %}
+  {%- if pg_cur < pg_pages %}{% assign nx = pg_cur | plus: 1 %}<span class="prev_next"><a rel="next" href="{{ pg_base }}page/{{ nx }}/"><img src="/Website/images/forum/images/pagination/next-right.png" alt="Next" /></a></span><span class="first_last"><a href="{{ pg_base }}page/{{ pg_pages }}/">Last<img src="/Website/images/forum/images/pagination/last-right.png" alt="Last" /></a></span>{% endif %}
+</div>
+{%- endif -%}

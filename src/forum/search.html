@@ -1,0 +1,28 @@
+---
+layout: forum-base
+title: Forum Search
+permalink: /forum/search/
+---
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="/Website/forum/"><img src="/Website/images/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		<li class="navbit"><a href="/Website/forum/">Forum</a></li>
+		<li class="navbit lastnavbit"><span>Search</span></li>
+	</ul>
+	<hr />
+</div>
+<div id="pagetitle"><h1>Search the Forum Archive</h1><p class="description">Searches the titles, authors and opening texts of all {{ forum.counts.threads }} archived threads. Results appear after 3 letters.</p></div>
+<div class="block">
+	<h2 class="blockhead">Search</h2>
+	<div class="blockbody formcontrols">
+		<form class="fsearch-form blockrow" id="forum-search-form" autocomplete="off" onsubmit="return false">
+			<input type="search" id="fs-text" class="primary textbox" placeholder="Search threads (at least 3 letters)">
+			<select id="fs-forum"><option value="">All forums</option></select>
+			<button type="button" id="fs-reset" class="button">Reset</button>
+		</form>
+	</div>
+</div>
+<div class="notices"><ol><li class="restore" id="fs-status">Type at least 3 letters.</li></ol></div>
+<div class="block"><ol class="fresults" id="fs-results"></ol></div>
+<p class="fmore"><button type="button" id="fs-more" class="button" hidden>Show more results</button></p>
+<script src="/Website/js/forum-search.js"></script>

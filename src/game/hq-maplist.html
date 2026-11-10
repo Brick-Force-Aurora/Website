@@ -1,0 +1,42 @@
+---
+layout: base
+title: Maplist
+permalink: /game/maps/
+wide: true
+---
+<article id="content">
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/about/">Game</a>
+      &rsaquo; <a href="/Website/game/ranking/">Brick HQ</a>
+      &rsaquo; <a href="/Website/game/maps/" class="last">Maplist</a>
+    </p>
+    <ul class="tabs clearfix">
+      <li class="selected"><a href="/Website/game/maps/">Maplist<span>&nbsp;</span></a></li>
+    </ul>
+  </div>
+
+  <div class="content ranking ranking-table playerlist maplist clearfix">
+    <h1><span class="avatar">&nbsp;</span><span class="label">Maplist</span></h1>
+    <p class="capture-note">All {{ maps.size }} maps whose detail page was preserved by the Wayback Machine, each in its newest archived version. Maps that were only archived in another language are translated to English.</p>
+    <p class="player-search"><label for="player-search">Search map or builder:</label> <input type="search" id="player-search" placeholder="Map name or builder" autocomplete="off"> <span id="player-count"></span></p>
+    <section class="col ranking-table" style="margin-top:20px;">
+      <article class="tabs ranking-view">
+        <table id="maplist" data-noun="maps" data-search-cols="0,1">
+          <colgroup><col width="*"><col width="*"><col width="90px"><col width="80px"><col width="80px"><col width="90px"><col width="90px"><col width="90px"><col width="130px"></colgroup>
+          <thead>
+            <tr><th class="seperator"><a>Map name</a></th><th class="seperator"><a>Builder</a></th><th class="center seperator"><a>Rank</a></th><th class="center seperator"><a>Rating</a></th><th class="center seperator"><a>Fee</a></th><th class="center seperator"><a>Bricks</a></th><th class="center seperator"><a>Downloads</a></th><th class="center seperator"><a>Matches</a></th><th class="center"><a>Captured</a></th></tr>
+          </thead>
+          <tbody>
+{%- for m in maps %}
+{%- assign par = forloop.index | modulo: 2 %}
+<tr class="{% if par == 1 %}odd{% else %}even{% endif %} places"><td class="vertical int seperator"><a href="/Website/game/maps/{{ m.slug }}/">{{ m.name | escape }}</a></td><td class="vertical int seperator">{% if m.builder_slug %}<a href="/Website/game/players/{{ m.builder_slug }}/">{{ m.builder | escape }}</a>{% else %}{{ m.builder | escape }}{% endif %}</td><td class="center vertical seperator grey">{{ m.rank }}</td><td class="center vertical seperator green" data-sort="{{ m.charts[5].v }}">{{ m.charts[5].v }}</td><td class="center vertical seperator grey">{{ m.charts[3].v }}</td><td class="center vertical int seperator orange">{{ m.charts[0].v }}</td><td class="center vertical int seperator green">{{ m.charts[1].v }}</td><td class="center vertical int seperator orange">{{ m.charts[2].v }}</td><td class="center vertical grey" data-sort="{{ m.ts | slice: 0, 8 }}">{{ m.ts_label }}</td></tr>
+{%- endfor %}
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </div>
+<script src="/Website/js/playerlist.js"></script>
+</article>

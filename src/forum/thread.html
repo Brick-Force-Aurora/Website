@@ -1,0 +1,97 @@
+---
+layout: forum-base
+pagination:
+  data: forum.threadPages
+  size: 1
+  alias: tp
+permalink: "{{ tp.permalink }}"
+eleventyComputed:
+  title: "{{ tp.thread.title | escape }} - Forum{% if tp.page > 1 %} - Page {{ tp.page }}{% endif %}"
+---
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="/Website/forum/"><img src="/Website/images/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		<li class="navbit"><a href="/Website/forum/">Forum</a></li>
+{%- for c in tp.path %}
+		<li class="navbit"><a href="{{ c.url }}">{{ c.title | escape }}</a></li>
+{%- endfor %}
+		<li class="navbit lastnavbit"><span>{{ tp.thread.title | escape }}</span></li>
+	</ul>
+	<hr />
+</div>
+{%- assign fn_cap = tp.thread.capLabel %}{% assign fn_url = tp.thread.capUrl %}{% assign fn_extra = "" %}
+{%- if tp.thread.src == "a" %}{% assign fn_extra = "This thread was preserved in the forum's simple archive view (no post ids, no user ids; authors are matched to members by name)." %}{% endif %}
+{% include "forum-note.html" %}
+{%- assign pg_cur = tp.page %}{% assign pg_pages = tp.pages %}{% assign pg_base = tp.thread.url %}
+<div id="above_postlist" class="above_postlist">
+	<div id="pagination_top" class="pagination_top">
+		{% include "forum-pager.html" %}
+		<div id="postpagestats_above" class="postpagestats">Results {{ tp.first }} to {{ tp.first | plus: tp.posts.size | minus: 1 }} of {{ tp.thread.posts.size }}</div>
+	</div>
+</div>
+<div id="pagetitle" class="pagetitle">
+	<h1>Thread: <span class="threadtitle"><a href="{{ tp.thread.url }}">{{ tp.thread.title | escape }}</a></span></h1>
+	<p class="description">in <a href="{{ tp.forum.url }}">{{ tp.forum.title | escape }}</a> &middot; started by {% if tp.thread.mu != "" %}<a href="{{ tp.thread.mu }}">{{ tp.thread.by | escape }}</a>{% else %}{{ tp.thread.by | escape }}{% endif %}{% if tp.thread.dl != "" %}, {{ tp.thread.dl }}{% endif %}{% if tp.thread.lock %} &middot; closed{% endif %}{% if tp.thread.v %} &middot; {{ tp.thread.v }} views{% endif %}</p>
+</div>
+
+<div id="postlist" class="postlist restrain">
+	<ol id="posts" class="posts" start="{{ tp.first }}">
+{%- for p in tp.posts %}
+{%- if p.gap %}
+		<li class="postbitlegacy postcontainer old fgap"><div class="postdetails"><div class="postbody"><div class="postrow">{{ p.gap }} post{% if p.gap > 1 %}s{% endif %} not preserved by the Wayback Machine</div></div></div></li>
+{%- endif %}
+		<li class="postbitlegacy postbitim postcontainer old" id="{% if p.i %}post{{ p.i }}{% else %}n{{ p.n }}{% endif %}">
+			<div class="posthead">
+				<span class="postdate old"><span class="date">{{ p.dl }}</span></span>
+				<span class="nodecontrols"><a class="postcounter" href="#{% if p.i %}post{{ p.i }}{% else %}n{{ p.n }}{% endif %}">#{{ p.n }}</a></span>
+			</div>
+			<div class="postdetails">
+				<div class="userinfo">
+					<div class="username_container">
+						<div class="popupmenu memberaction">{% if p.mu != "" %}<a class="username offline popupctrl" href="{{ p.mu }}"><strong>{{ p.a | escape }}</strong></a>{% else %}<span class="username"><strong>{{ p.a | escape }}</strong></span>{% endif %}</div>
+					</div>
+					{%- if p.card %}
+					{%- if p.card.title != "" %}<span class="usertitle">{{ p.card.title | escape }}</span>{% endif %}
+					{%- if p.card.av != "" %}<a class="postuseravatar" href="{{ p.mu }}"><img src="{{ p.card.av }}" alt="{{ p.a | escape }}'s Avatar" /></a>{% endif %}
+					<hr />
+					<dl class="userinfo_extra">
+						{%- if p.card.join != "" %}<dt>Join Date</dt> <dd>{{ p.card.join }}</dd>{% endif %}
+						{%- for e in p.card.extra %}<dt>{{ e.k | escape }}</dt> <dd>{{ e.v | escape }}</dd>{% endfor %}
+						{%- if p.card.posts != "" %}<dt>Posts</dt> <dd>{{ p.card.posts }}</dd>{% endif %}
+						{%- if p.card.hq != "" %}<dt>Brick HQ</dt> <dd><a href="{{ p.card.hq }}">Profile</a></dd>{% endif %}
+					</dl>
+					{%- endif %}
+				</div>
+				<div class="postbody">
+					<div class="postrow{% if p.e or p.att or p.sig %} has_after_content{% endif %}">
+						{%- if p.t and p.t != tp.thread.title %}<h2 class="title icon">{{ p.t | escape }}</h2>{% endif %}
+						<div class="content">
+							<div id="post_message_{{ p.i }}">
+								<blockquote class="postcontent restore">{{ p.h }}</blockquote>
+							</div>
+						</div>
+					</div>
+					{%- if p.e or p.att or p.sig %}
+					<div class="after_content">
+						{%- if p.att %}<blockquote class="postcontent lastedited">Attachments (not archived): {% for a in p.att %}{{ a | escape }}{% unless forloop.last %}, {% endunless %}{% endfor %}</blockquote>{% endif %}
+						{%- if p.e %}<blockquote class="postcontent lastedited">{{ p.e | escape }}</blockquote>{% endif %}
+						{%- if p.sig %}<blockquote class="signature restore"><div class="signaturecontainer">{{ p.sig }}</div></blockquote>{% endif %}
+					</div>
+					{%- endif %}
+					<div class="cleardiv"></div>
+				</div>
+			</div>
+			<div class="postfoot"><div class="textcontrols floatcontainer"><span class="postcontrols"></span><span class="postlinking"></span></div></div>
+			<hr />
+		</li>
+{%- endfor %}
+	</ol>
+	{%- if tp.thread.missing > 0 and tp.page == tp.pages and tp.thread.src != "l" %}
+	<div class="notices"><ol><li class="restore">The original thread had {{ tp.thread.tot }} posts; {{ tp.thread.missing }} {% if tp.thread.missing > 1 %}were{% else %}was{% endif %} not preserved by the Wayback Machine.</li></ol></div>
+	{%- endif %}
+</div>
+<div id="below_postlist" class="noinlinemod below_postlist">
+	<div id="pagination_bottom" class="pagination_bottom">
+		{% include "forum-pager.html" %}
+	</div>
+</div>

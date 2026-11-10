@@ -1,0 +1,101 @@
+---
+layout: base
+pagination:
+  data: maps
+  size: 1
+  alias: m
+permalink: "/game/maps/{{ m.slug }}/"
+eleventyComputed:
+  title: "Map Details for {{ m.name | escape }}"
+wide: true
+---
+<article id="content">
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/about/">Game</a>
+      &rsaquo; <a href="/Website/game/ranking/">Brick HQ</a>
+      &rsaquo; <a href="/Website/game/maps/{{ m.slug }}/" class="last">Map Details for {{ m.name | escape }}</a>
+    </p>
+    <ul class="tabs clearfix">
+      <li class="selected"><a href="/Website/game/maps/{{ m.slug }}/">Map Details for {{ m.name | escape }}<span>&nbsp;</span></a></li>
+{%- if m.builder_slug %}
+      <li><a href="/Website/game/players/{{ m.builder_slug }}/">Details on {{ m.builder | escape }}<span>&nbsp;</span></a></li>
+{%- endif %}
+    </ul>
+  </div>
+
+  <div class="content ranking map-detail clearfix">
+
+<h1><span class="avatar">&nbsp;</span><span class="label">Map Details for {{ m.name | escape }}</span></h1>
+
+{%- assign hq_prefix = "Archived map page, captured" %}
+{%- assign hq_ts = m.ts %}
+{%- assign hq_ts_label = m.ts_label %}
+{%- assign hq_src = m.url %}
+{%- assign hq_suffix = "" %}
+{%- if m.lang != "en" %}{% assign hq_suffix = "This map was only archived in the " | append: m.lang_name | append: " version of the site; labels and numbers have been translated to English." %}{% endif %}
+{% include "hq-note.html" %}
+<div class="title clearfix">
+<span class="rank">{{ m.rank }}</span>
+<h1 class="mapname">{{ m.name | escape }}</h1>
+<h2><span class="builder">Built by {% if m.builder_slug %}<a href="/Website/game/players/{{ m.builder_slug }}/">{{ m.builder | escape }}</a>{% else %}{{ m.builder | escape }}{% endif %}</span><span class="stars-rating clearfix"><span class="label">&nbsp;</span><span class="stars" style="width:{{ m.stars }};">&nbsp;</span></span></h2>
+</div>
+
+<section class="col primary clearfix">
+
+<div class="thumb">
+<img src="/Website/images/hq/avatar-default.gif" alt="Map preview not archived" title="Map preview not archived">
+</div>
+
+<div class="top-info clearfix">
+{%- if m.fee != "" %}
+<ul class="attributes shadow-white-1">
+<li>Fee: <span>{{ m.fee | escape }}</span></li>
+</ul>
+{%- endif %}
+
+<div class="charts">
+{%- comment %} Labels of neighbouring bars go to different heights when their values have more than 10 characters together (commas included). {% endcomment %}
+{%- assign prev_up = false %}
+{%- assign prev_len = 0 %}
+{%- for c in m.charts %}
+{%- assign len = c.v | size %}
+{%- assign sum = prev_len | plus: len %}
+{%- if forloop.first %}{% assign up = false %}{% elsif sum > 10 %}{% if prev_up %}{% assign up = false %}{% else %}{% assign up = true %}{% endif %}{% else %}{% assign up = prev_up %}{% endif %}
+<div class="chart chart-{{ forloop.index }}{% if up %} up{% endif %}"{% if c.h %} style="height:{{ c.h }}%"{% endif %}><span>{{ c.v }}</span></div>
+{%- assign prev_up = up %}
+{%- assign prev_len = len %}
+{%- endfor %}
+</div>
+
+<div class="description">
+<ul class="shadow-white-1">
+<li>Brick Count</li>
+<li>Downloads</li>
+<li>Matches</li>
+<li>Fee</li>
+<li>Game Modes</li>
+<li>Rating Average</li>
+<li>Rating Count</li>
+</ul>
+
+<div class="lines clearfix"><span><span><span><span><span><span><span class="last">&nbsp;</span></span></span></span></span></span></span></div>
+
+</div>
+
+</div>
+
+<div class="gamemode-list clearfix">
+<h2>Modes</h2>
+{%- for mo in m.modes %}
+{%- for gm in hqdata.modes %}{% if gm.id == mo.id %}
+<p class="gamemode-thumb gamemode-thumb-{{ mo.id }} shadow-white-1{% unless mo.active %} inactive{% endunless %}">{{ gm.title | escape }}</p>
+{%- endif %}{% endfor %}
+{%- endfor %}
+</div>
+
+</section>
+
+  </div>
+</article>

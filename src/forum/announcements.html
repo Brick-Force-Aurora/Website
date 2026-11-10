@@ -1,0 +1,51 @@
+---
+layout: forum-base
+title: Forum Announcements
+permalink: /forum/announcements/
+---
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="/Website/forum/"><img src="/Website/images/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		<li class="navbit"><a href="/Website/forum/">Forum</a></li>
+		<li class="navbit lastnavbit"><span>Announcements</span></li>
+	</ul>
+	<hr />
+</div>
+{%- assign fn_cap = "" %}{% assign fn_url = "" %}{% assign fn_extra = "Official announcements that were pinned on top of the forums." %}
+{% include "forum-note.html" %}
+<div id="pagetitle"><h1>Announcements</h1></div>
+<div class="block">
+	<h2 class="blockhead">Overview</h2>
+	<div class="blockbody">
+{%- for a in forum.announcements %}
+		<div class="blockrow"><a href="#ann{{ a.id }}">{{ a.title | escape }}</a> <span class="shade">&middot; {% if a.ft != "" %}{{ a.ft | escape }}, {% endif %}{{ a.dl }}</span></div>
+{%- endfor %}
+	</div>
+</div>
+<div id="postlist" class="postlist restrain">
+	<ol id="posts" class="posts">
+{%- for a in forum.announcements %}
+		<li class="postbitlegacy postbitim postcontainer old" id="ann{{ a.id }}">
+			<div class="posthead">
+				<span class="postdate old"><span class="date">{{ a.dl }}{% if a.ft != "" %} &middot; {% if a.fu != "" %}<a href="{{ a.fu }}">{{ a.ft | escape }}</a>{% else %}{{ a.ft | escape }}{% endif %}{% endif %}</span></span>
+				<span class="nodecontrols">{% if a.capUrl != "" %}<a class="postcounter" href="{{ a.capUrl }}" target="_blank" rel="noopener">original capture</a>{% endif %}</span>
+			</div>
+			<div class="postdetails">
+				<div class="userinfo">
+					<div class="username_container"><div class="popupmenu memberaction">{% if a.mu != "" %}<a class="username offline popupctrl" href="{{ a.mu }}"><strong>{{ a.by | escape }}</strong></a>{% else %}<span class="username"><strong>{{ a.by | escape }}</strong></span>{% endif %}</div></div>
+					{%- if a.rank != "" %}<span class="usertitle">{{ a.rank | escape }}</span>{% endif %}
+				</div>
+				<div class="postbody">
+					<div class="postrow">
+						<h2 class="title icon">{{ a.title | escape }}</h2>
+						<div class="content"><blockquote class="postcontent restore">{{ a.h }}</blockquote></div>
+					</div>
+					<div class="cleardiv"></div>
+				</div>
+			</div>
+			<div class="postfoot"><div class="textcontrols floatcontainer"></div></div>
+			<hr />
+		</li>
+{%- endfor %}
+	</ol>
+</div>

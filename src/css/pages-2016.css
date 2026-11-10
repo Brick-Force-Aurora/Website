@@ -1,0 +1,612 @@
+/* Rules of the original 2014-2016 stylesheets for the shop, events and similar pages (images only where they were archived). */
+.content.shop.presale-packs .packages .packs.package-1 .button-buy-now{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.presale-packs .packages .packs.package-1 .price{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.presale-packs .packages .packs.package-2 .button-buy-now{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.presale-packs .packages .packs.package-2 .price{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.presale-packs .packages .packs.package-3 .button-buy-now{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.presale-packs .packages .packs.package-3 .price{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.mega-presale-packs .packages .packs.package-1 .button-buy-now{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.mega-presale-packs .packages .packs.package-1 .price{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.mega-presale-packs .packages .packs.package-2 .button-buy-now{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.mega-presale-packs .packages .packs.package-2 .price{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.mega-presale-packs .packages .packs.package-3 .button-buy-now{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.mega-presale-packs .packages .packs.package-3 .price{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.six-star-sale .packages .packs.package-1 .button-buy-now{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.six-star-sale .packages .packs.package-1 .price{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.six-star-sale .packages .packs.package-2 .button-buy-now{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.six-star-sale .packages .packs.package-2 .price{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.six-star-sale .packages .packs.package-3 .button-buy-now{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.six-star-sale .packages .packs.package-3 .price{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.starter-package .packages .packs.package-1 .button-buy-now{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.starter-package .packages .packs.package-1 .price{background-color:#3fb229;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.starter-package .packages .packs.package-2 .button-buy-now{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.starter-package .packages .packs.package-2 .price{background-color:#b05523;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.starter-package .packages .packs.package-3 .button-buy-now{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.shop.starter-package .packages .packs.package-3 .price{background-color:#b01f1f;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.5);text-shadow:0 1px 1px #000}
+.content.game-overwolf{background-image:url('/Website/images/pages/media/content/game/overwolf/background.png')}
+.content.game-overwolf h1 span.avatar{background-position:0 -52px}
+.content.game-overwolf .box-center.download-ow{height:218px;background:url('/Website/images/pages/media/content/game/overwolf/background2.jpg') left top no-repeat;margin:0 0 0 -20px}
+.content.game-overwolf .box-center.download-ow a{display:block;float:left;width:286px;height:66px;background:url('/Website/images/pages/media/content/game/overwolf/button-download.png') left top no-repeat;padding:15px 40px 10px 20px;margin:63px 0 0 211px;font-weight:bold;font-size:20px;line-height:25px}
+.content.game-overwolf .box-center.download-ow a:hover{background:url('/Website/images/pages/media/content/game/overwolf/button-download.png') left bottom no-repeat}
+.content.game-overwolf dl.faq{margin:0 15px 30px 0}
+.content.game-overwolf dl.faq dt{position:relative;cursor:pointer;border:solid 1px #bdc8cd;background:white;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:0 0 4px}
+.content.game-overwolf dl.faq dt .hl{display:block;background:#fafafa;margin:3px;padding:3px 38px 3px 6px;min-height:24px;font-size:14px;font-weight:normal;color:#0f0f0f;line-height:18px}
+.content.game-overwolf dl.faq dt .hl:hover,.content.game-overwolf dl.faq dt.open .hl{background:#c7dff7}
+.content.game-overwolf dl.faq dt .condition{position:absolute;right:4px;top:4px;display:block;width:28px;height:28px;background:url('/Website/images/pages/media/content/game/closed-beta-faq/condition.gif') left top no-repeat}
+.content.game-overwolf dl.faq dt.open .condition{background-position:left bottom}
+.content.game-overwolf dl.faq dd{background:url('/Website/images/pages/media/content/game/closed-beta-faq/content.png') top left no-repeat;margin:0 0 4px 34px}
+.content.game-overwolf dl.faq dd p{padding:10px;color:#0f0f0f}
+.content.game-cs .timeline{margin:0 40px 0 20px}
+.content.game-cs .timeline h3{font-size:19px;font-weight:bold;font-style:italic;text-shadow:0 1px 0 #fff;filter:dropshadow(color=#ffffff,offx=0,offy=1)}
+.content.game-cs .timeline.reviewed h3{color:#f49719}
+.content.game-cs .timeline.coming-soon h3{color:#14d614}
+.content.game-cs .timeline.implimented h3{color:#076407}
+.content.game-cs .timeline .feature{min-height:209px;display:block}
+.content.game-cs .timeline .feature{min-height:209px;display:block;background-repeat:no-repeat;background-position:10px 0}
+.content.game-cs .timeline.reviewed .feature{background-image:url('/Website/images/pages/design/content/game/coming-soon/timeline-underreviewed.png')}
+.content.game-cs .timeline.coming-soon .feature{background-image:url('/Website/images/pages/design/content/game/coming-soon/timeline-comingsoon.png')}
+.content.game-cs .timeline.implimented .feature{background-image:url('/Website/images/pages/design/content/game/coming-soon/timeline-implimented.png')}
+.content.game-cs .timeline .feature h4{display:block;float:left;width:880px;font-size:14px;text-transform:uppercase;color:black;margin:0 0 0 30px;text-shadow:0 1px 0 #fff;filter:dropshadow(color=#ffffff,offx=0,offy=1)}
+.content.game-cs .timeline .feature h5{display:block;float:left;width:870px;font-size:13px;font-weight:normal;margin:0 0 7px 40px;color:#212121;text-shadow:0 1px 0 #fff;filter:dropshadow(color=#ffffff,offx=0,offy=1)}
+.content.game-cs .timeline .feature img.thumb{display:block;float:left;background:white;width:140px;height:140px;border:solid 2px #f2981f;margin:0 35px 0 38px;-webkit-box-shadow:0 15px 30px 0 #8e969a;box-shadow:0 15px 30px 0 #8e969a}
+.content.game-cs .timeline .feature div{display:block;float:left;width:645px}
+.content.game-cs .timeline .feature div p{font-size:16px;color:#212121;line-height:24px}
+.content.game-seasons .seasons-overview .brickstar img.logo{position:absolute;left:20px;top:0}
+.content.game-seasons .seasons-overview .brickstar img.illustration{position:absolute;right:-32px;top:-131px}
+.content.game-seasons .seasons-overview .brickstar .youtube{border:2px solid #01fbfd}
+.content.game-seasons .seasons-overview .brickstar .screenshots a img{border:2px solid #01fbfd}
+.content.game-seasons .seasons-overview .brickstar .features .feature img{border:solid 2px #00fafc}
+.content.community.overview .buttons a.events{background-image:url('/Website/images/pages/design/content/community/button-events.jpg')}
+.content.community.events{background-image:url('/Website/images/pages/design/content/community/events/background.jpg');padding-bottom:50px}
+.content.community.events .timeline{clear:both;width:970px;padding:140px 0 60px 0}
+.content.community.events .timeline .event{position:relative;display:block;float:left;width:400px;padding:10px 15px;background:#fafafa;border:solid 3px white;-webkit-box-shadow:0 0 1px 0 #66747f;box-shadow:0 0 1px 0 #66747f;-webkit-border-radius:5px;border-radius:5px}
+.content.community.events .timeline .event.left{margin:-70px 0 0 20px}
+.content.community.events .timeline .event.right{margin:-70px 0 20px 500px}
+.content.community.events .timeline .event h3{position:absolute;left:-2px;top:-25px;line-height:14px;font-size:14px;text-transform:uppercase;color:black;text-shadow:0 1px 0 #fff}
+.content.community.events .timeline .event img{display:block;float:left;margin:0 10px 10px 0;border:solid 2px #f49719;-webkit-box-shadow:0 15px 30px 0 #91999e;box-shadow:0 15px 30px 0 #91999e}
+.content.community.events .timeline .event p{font-size:14px;line-height:25px;font-style:italic}
+.content.community.events .timeline .event .date{position:relative;width:400px;height:20px;display:block;float:left;border-bottom:dotted 1px #9d9d9d;margin:0 0 10px 0}
+.content.community.events .timeline .event .date .start{position:absolute;left:10px;top:0;color:#9d9d9d;font-size:11px;font-style:normal}
+.content.community.events .timeline .event .date .end{position:absolute;right:0;top:0;color:#9d9d9d;font-size:11px;font-style:normal}
+.content.community.events .timeline .event .readmore{position:relative;width:400px;height:20px;display:block;float:left;border-top:dotted 1px #9d9d9d;margin:0}
+.content.community.events .timeline .event .readmore a{position:absolute;right:0;top:2px;color:#003056;font-size:11px;font-style:normal;font-weight:bold}
+.content.community.sharpshooter{background-image:url('/Website/images/pages/design/content/community/events/sharpshooter/background.jpg');padding-bottom:100px}
+.content.community.sharpshooter .wrap{clear:both;width:970px}
+.content.community.sharpshooter .wrap .left{display:block;float:left;width:450px}
+.content.community.sharpshooter .wrap .right{display:block;float:left;width:500px}
+.content.community.sharpshooter .wrap .left .prices{background:url('/Website/images/pages/design/content/community/events/sharpshooter/prices-star.jpg') left top no-repeat;margin:0 0 80px -20px;padding:0 0 0 40px}
+.content.community.sharpshooter .wrap .left .prices h2{font-weight:bold;font-size:21px;color:#333;margin:0 0 5px}
+.content.community.sharpshooter .wrap .left .prices p{font-size:16px;color:#333;line-height:24px;margin:0 0 15px 20px}
+.content.community.sharpshooter .wrap .left .prices div{display:block;float:left;text-align:left;width:375px;margin:0 0 15px 20px;font-style:italic;font-size:15px;line-height:25px}
+.content.community.sharpshooter .wrap .left .prices div strong{font-style:normal;line-height:14px;font-size:14px;text-transform:uppercase;color:#008b14;text-shadow:0 1px 0 #fff}
+.content.community.sharpshooter .preface,.content.community.sharpshooter * .preface{display:block;float:left;text-align:left;width:375px;min-height:180px;margin:0 0 80px 20px}
+.content.community.sharpshooter .wrap .left .preface .ranks{background:#fafafa;border:solid 3px white;-webkit-box-shadow:0 0 1px 0 #66747f;box-shadow:0 0 1px 0 #66747f;-webkit-border-radius:5px;border-radius:5px;margin:0 0 15px 20px}
+.content.community.sharpshooter .wrap .left .preface .ranks table{width:100%;padding:15px}
+.content.community.sharpshooter .wrap .left .preface .ranks table th{height:25px;line-height:25px;padding:0 10px;font-size:14px;text-transform:uppercase;color:black;text-shadow:0 1px 0 #fff}
+.content.community.sharpshooter .wrap .left .preface .ranks table td{height:35px;line-height:35px;padding:0 0 0 30px;font-size:22px;color:black;font-style:italic;text-shadow:0 1px 0 #fff}
+.content.community.sharpshooter .wrap .left .preface .ranks table td.wins{color:#008b14}
+.content.community.sharpshooter .wrap .right .table{position:relative;display:block;float:left;background:#fafafa;border:solid 3px white;width:390px;margin:0 0 80px 70px;-webkit-box-shadow:0 0 1px 0 #66747f;box-shadow:0 0 1px 0 #66747f;-webkit-border-radius:5px;border-radius:5px}
+.content.community.sharpshooter .wrap .right .table .date-navi{position:absolute;left:-123px;top:-3px;display:block;float:left;background:url('/Website/images/pages/design/content/community/events/sharpshooter/date-navi-shadow.png') right bottom no-repeat #fafafa;border-top:solid 3px white;border-left:solid 3px white;border-bottom:solid 3px white;width:110px;margin:0;font-size:11px;padding:10px 0 10px 10px;-webkit-box-shadow:-1px 0 1px 0 #66747f;box-shadow:-1px 0 1px 0 #66747f;-webkit-border-radius:5px 0 0 5px;border-radius:5px 0 0 5px}
+.content.community.sharpshooter .wrap .right .table .date-navi ul li.list{padding:0 0 2px 12px;font-weight:bold}
+.content.community.sharpshooter .wrap .right .table .date-navi ul li.open{cursor:pointer;padding:2px 0 0}
+.content.community.sharpshooter .wrap .right .table table{width:380px;margin:5px 5px 60px 5px}
+.content.community.sharpshooter .wrap .right .table table thead{height:29px;line-height:29px;background:url('/Website/images/pages/design/content/community/events/sharpshooter/table-head.gif') left top repeat-x}
+.content.community.sharpshooter .wrap .right .table table thead th.seperator,.content.community.sharpshooter .wrap .right .table table tbody td.seperator{border-right:solid 1px #c0c0c0}
+.content.community.sharpshooter .wrap .right .table table thead *{color:#575757;font-weight:bold;font-size:14px;padding:0 0 0 10px}
+.content.community.sharpshooter .wrap .right .table table tbody td{font-size:13px;line-height:21px;height:21px;padding:0 5px 0 10px;vertical-align:center}
+.content.community.sharpshooter .wrap .right .table table tbody td img{margin:6px 0 0 0}
+.content.community.brickstar{background-image:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/background.jpg');padding-bottom:100px}
+.content.community.brickstar h3.laser{display:block;float:left;width:937px;height:50px;line-height:42px;background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/headline.png') center center no-repeat;font-size:29px;color:white;text-shadow:0 0 10px #081d2a;text-align:center;margin:0 0 25px 10px}
+.content.community.brickstar .rewards{display:block;width:100%;float:left}
+.content.community.brickstar .rewards .box{position:relative;float:left;display:block;width:430px;height:150px;margin:0 30px 40px 20px}
+.content.community.brickstar .rewards .box h4{font-size:24px;font-weight:bold}
+.content.community.brickstar .rewards .box .prices{position:relative;float:left;display:block;width:390px;height:95px;padding:15px;margin:0 0 0 10px;border:solid 3px white;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 1px 0 #66747f;-moz-box-shadow:0 0 1px 0 #66747f;box-shadow:0 0 2px 0 #66747f}
+.content.community.brickstar .rewards .box .prices.price-1{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/item-1.png') 294px 15px #fafafa no-repeat}
+.content.community.brickstar .rewards .box .prices.price-2{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/item-2.png') 280px 15px #fafafa no-repeat}
+.content.community.brickstar .rewards .box .prices.price-3{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/item-3.png') 298px 15px #fafafa no-repeat}
+.content.community.brickstar .rewards .box .prices.price-4{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/item-4.png') 280px 15px #fafafa no-repeat}
+.content.community.brickstar .rewards .roccat-box{position:relative;float:left;display:block;width:918px;height:515px;margin:0 0 40px 20px}
+.content.community.brickstar .rewards .roccat-box h4{font-size:24px;font-weight:bold}
+.content.community.brickstar .rewards .roccat-box .prices{position:relative;float:left;display:block;width:868px;height:441px;padding:15px;margin:0 0 0 10px;border:solid 3px white;background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/background-roccat.jpg') left top #fafafa no-repeat;-webkit-border-radius:5px;border-radius:5px;-webkit-box-shadow:0 0 1px 0 #66747f;-moz-box-shadow:0 0 1px 0 #66747f;box-shadow:0 0 2px 0 #66747f}
+.content.community.brickstar .rewards .roccat-box .prices .links{position:absolute;left:480px;top:20px;font-size:16px;font-style:italic;font-weight:bold}
+.content.community.brickstar .rewards .roccat-box .prices .image{position:absolute;border:2px solid #01fbfd;-webkit-box-shadow:0 1px 2px 0 #000;-moz-box-shadow:0 1px 2px 0 #000;box-shadow:0 1px 2px 0 #000}
+.content.community.brickstar .rewards .roccat-box .prices .image-1{right:20px;top:0}
+.content.community.brickstar .rewards .roccat-box .prices .image-2{right:40px;top:145px}
+.content.community.brickstar .rewards .roccat-box .prices .image-3{right:60px;top:290px}
+.content.community.brickstar .left{display:block;float:left;text-align:left;width:375px;padding:0 455px 30px 40px}
+.content.community.brickstar .right{display:block;float:left;text-align:left;width:375px;padding:0 0 30px 475px}
+.content.community.brickstar .left,.content.community.brickstar .right{font-size:16px;line-height:24px;color:#333;margin:0 0 15px 20px}
+.content.community.brickstar .left a,.content.community.brickstar .right a{font-weight:bold;text-decoration:underline}
+.content.community.brickstar .left a:hover,.content.community.brickstar .right a:hover{text-decoration:none}
+.content.community.brickstar .left.image-1{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/map-challenge-image-1.png') 436px 0 no-repeat;min-height:138px}
+.content.community.brickstar .right.image-2{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/map-challenge-image-2.png') 67px 0 no-repeat;min-height:108px}
+.content.community.brickstar .left.image-3{background:url('/Website/images/pages/design/content/community/events/the-brickstar-challenge/map-challenge-image-3.png') 479px 0 no-repeat;min-height:120px}
+.content.shop.overview{margin-bottom:30px;text-align:center;background:url('/Website/images/pages/community/shop/background.jpg') right top no-repeat}
+.content.shop.overview .preface{display:block;float:left;text-align:left;width:375px;margin:0 575px 30px 20px;min-height:70px}
+.content.shop.overview .preface h2{font-weight:bold;font-size:21px;color:#333;margin:0 0 5px}
+.content.shop.overview .preface p{font-size:14px;color:#333;line-height:18px;margin:0 0 6px 0}
+.content.shop.overview .sales{display:block;float:left;width:923px;margin:0 13px 0;border:solid 1px #bdc8cd;background:white;border-radius:12px;-webkit-border-radius:12px;-moz-border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;text-align:left;padding:0 0 20px 0;margin:0 0 40px 15px}
+.content.shop.overview .sales .sale{display:block;width:923px;margin:20px 0 0 20px}
+.content.shop.overview .sales .sale .teaser{position:relative;display:block;float:left;width:550px;height:275px;border:solid 2px #f49719;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.75);-moz-box-shadow:0 1px 2px 0 rgba(0,0,0,0.75);box-shadow:0 1px 2px 0 rgba(0,0,0,0.75)}
+.content.shop.overview .sales .sale .teaser .discount{position:absolute;right:-2px;top:-2px;display:block;width:108px;height:107px;background:url('/Website/images/pages/community/shop/label-discount.png') left top no-repeat}
+.content.shop.overview .sales .sale .teaser .discount .percent{position:absolute;left:20px;top:19px;display:block;width:110px;text-align:center;color:white;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);writing-mode:lr-tb;text-shadow:0 1px 1px #000;-webkit-text-shadow:0 1px 1px #000;-moz-text-shadow:0 1px 1px #000;font-size:25px;font-weight:bold}
+.content.shop.overview .sales .sale .teaser .title{position:absolute;left:0;bottom:0;width:535px;color:#f49719;font-size:27px;text-shadow:0 1px 2px #000;-webkit-text-shadow:0 1px 2px #000;-moz-text-shadow:0 1px 2px #000;background:url('/Website/images/pages/community/shop/label-title.png') left bottom no-repeat;padding:60px 0 15px 15px}
+.content.shop.overview .sales .sale .headline{display:block;float:left;width:305px;margin:10px 0 10px 20px;color:#333;font-size:21px;font-weight:bold;line-height:18px}
+.content.shop.overview .sales .sale .text{display:block;float:left;width:295px;margin:0 0 0 30px;color:#333;font-size:16px;line-height:24px}
+.content.shop.overview .sales .sale:hover .teaser{border:solid 2px #efb668}
+.content.shop.overview .sales .sale:hover .teaser .title{color:white}
+.content.shop.overview .sales .sale:hover .headline{color:black}
+.content.shop.overview .sales .sale:hover .text{color:black}
+.content.shop.box.box-1{background-image:url('/Website/images/pages/community/shop/box/background-box-1.jpg')}
+.content.shop.box.box-1 .box-top{position:absolute;right:59px;top:10px;z-index:2100}
+.content.shop.box.box-1 .tutorial{background:url('/Website/images/pages/community/shop/box/background-tutorial-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items{background:url('/Website/images/pages/community/shop/box/background-exlusive-box-1.png') right bottom no-repeat}
+.content.shop.box.box-1 .box-items .item-1{background:url('/Website/images/pages/community/shop/box/item-01-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-2{background:url('/Website/images/pages/community/shop/box/item-02-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-3{background:url('/Website/images/pages/community/shop/box/item-03-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-4{background:url('/Website/images/pages/community/shop/box/item-04-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-5{background:url('/Website/images/pages/community/shop/box/item-05-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-6{background:url('/Website/images/pages/community/shop/box/item-08-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-7{background:url('/Website/images/pages/community/shop/box/item-07-box-1.jpg') left top no-repeat}
+.content.shop.box.box-1 .box-items .item-8{background:url('/Website/images/pages/community/shop/box/item-06-box-1.jpg') left top no-repeat}
+.content.shop.box.box-2{background-image:url('/Website/images/pages/community/shop/box/background-box-2.jpg')}
+.content.shop.box.box-2 .box-top{position:absolute;right:75px;top:41px;z-index:2100}
+.content.shop.box.box-2 .tutorial{background:url('/Website/images/pages/community/shop/box/background-tutorial-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items{background:url('/Website/images/pages/community/shop/box/background-exlusive-box-2.png') right bottom no-repeat}
+.content.shop.box.box-2 .box-items .item-1{background:url('/Website/images/pages/community/shop/box/item-01-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items .item-2{background:url('/Website/images/pages/community/shop/box/item-02-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items .item-3{background:url('/Website/images/pages/community/shop/box/item-03-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items .item-4{background:url('/Website/images/pages/community/shop/box/item-04-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items .item-5{background:url('/Website/images/pages/community/shop/box/item-05-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items .item-6{background:url('/Website/images/pages/community/shop/box/item-06-box-2.jpg') left top no-repeat}
+.content.shop.box.box-2 .box-items .item-7{background:url('/Website/images/pages/community/shop/box/item-07-box-2.jpg') left top no-repeat}
+.content.shop.box .preface{display:block;float:left;text-align:left;width:430px;min-height:180px;margin:0 0 20px 20px}
+.content.shop.box .preface h2{font-weight:bold;font-size:21px;color:#333;margin:0 0 5px}
+.content.shop.box .preface p{font-size:16px;color:#333;line-height:24px;margin:0 0 15px 20px}
+.content.shop.box .preface p a{font-weight:bold}
+.content.shop.box .preface p em b{color:#1cab00}
+.content.shop.box .buttons{display:block;float:left;width:600px;margin:10px 0 0 20px}
+.content.shop.box .buttons a.register{background:url('/Website/images/pages/community/shop/box/button-register.png') left top no-repeat}
+.content.shop.box .buttons a.vocher{background:url('/Website/images/pages/community/shop/box/button-vocher.png') left top no-repeat}
+.content.shop.box .buttons a.register,.content.shop.box .buttons a.vocher{display:block;float:left;width:264px;height:94px}
+.content.shop.box .buttons a.register:hover,.content.shop.box .buttons a.vocher:hover{background-position:left bottom}
+.content.shop.box .buttons a.register .text-1,.content.shop.box .buttons a.vocher .text-1{display:block;margin:20px 0 0 23px;font-size:29px;line-height:29px;color:#f9b963;text-shadow:0 -1px 0 #000;text-transform:uppercase}
+.content.shop.box .buttons a.register .text-2,.content.shop.box .buttons a.vocher .text-2{display:block;margin:1px 0 0 25px;font-size:21px;line-height:21px;color:white;text-shadow:0 -1px 0 #000}
+.content.shop.box .buttons .infobox.register-info{margin-left:-10px}
+.content.shop.box .buttons .infobox.register-info,.content.shop.box .buttons .infobox.vocher-info{position:relative;display:block;float:left;width:227px;height:179px;font-size:15px;padding:5px 15px;margin-top:20px;font-style:italic;line-height:25px;background:#fafafa;border:solid 3px white;-webkit-box-shadow:0 0 1px 0 rgba(102,116,127,0.75);-moz-box-shadow:0 0 1px 0 rgba(102,116,127,0.75);box-shadow:0 0 1px 0 rgba(102,116,127,0.75);border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}
+.content.shop.box .buttons .infobox.register-info .arrow,.content.shop.box .buttons .infobox.vocher-info .arrow{position:absolute;top:-13px;width:15px;height:13px;background:url('/Website/images/pages/community/shop/box/arrow-top.png') left top no-repeat}
+.content.shop.box .buttons .infobox.register-info .shadow,.content.shop.box .buttons .infobox.vocher-info .shadow{position:absolute;bottom:-16px;left:-4px;width:265px;height:13px;background:url('/Website/images/pages/community/shop/box/shadow-statement.png') left top no-repeat}
+.content.shop.box .buttons .infobox.register-info .arrow{left:219px}
+.content.shop.box .buttons .infobox.vocher-info .arrow{left:20px}
+.content.shop.box .tutorial{display:block;float:left;clear:both;width:450px;padding:30px 0 40px 450px;margin:50px 0 0}
+.content.shop.box .tutorial .linklist{display:block;float:left;margin:14px 0 0 -65px;width:520px}
+.content.shop.box .tutorial .linklist li{display:block;float:left;width:260px;height:91px}
+.content.shop.box .tutorial .linklist li a{display:block;border:solid 2px #e9f6fd;width:159px;height:57px;background-image:url('/Website/images/pages/media/content/game/tutorials/buttons.jpg');background-repeat:no-repeat;background-color:white;text-align:right;color:#212121;font-size:16px;font-weight:bold;line-height:18px;padding:14px 10px 0 70px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 0 5px 0 rgba(26,28,29,0.75);-moz-box-shadow:0 0 5px 0 rgba(26,28,29,0.75);box-shadow:0 0 5px 0 rgba(26,28,29,0.75)}
+.content.shop.box .tutorial .linklist li.link1 a{background-position:0 0}
+.content.shop.box .tutorial .linklist li.link1 a:hover{background-position:-240px 0}
+.content.shop.box .tutorial .linklist li.link2 a{background-position:0 -71px}
+.content.shop.box .tutorial .linklist li.link2 a:hover{background-position:-240px -71px}
+.content.shop.box .tutorial .linklist li.link3 a{background-position:0 -142px}
+.content.shop.box .tutorial .linklist li.link3 a:hover{background-position:-240px -142px}
+.content.shop.box .tutorial .linklist li.link4 a{background-position:0 -213px}
+.content.shop.box .tutorial .linklist li.link4 a:hover{background-position:-240px -213px}
+.content.shop.box .tutorial .linklist li.link5 a{background-position:0 -284px}
+.content.shop.box .tutorial .linklist li.link5 a:hover{background-position:-240px -284px}
+.content.shop.box .tutorial .linklist li.link6 a{background-position:0 -355px}
+.content.shop.box .tutorial .linklist li.link6 a:hover{background-position:-240px -355px}
+.content.shop.box .tutorial .linklist li.link7 a{background-position:0 -426px}
+.content.shop.box .tutorial .linklist li.link7 a:hover{background-position:-240px -426px}
+.content.shop.box .tutorial .linklist li.link8 a{background-position:0 -497px}
+.content.shop.box .tutorial .linklist li.link8 a:hover{background-position:-240px -497px}
+.content.shop.box .tutorial .linklist li.link9 a{background-position:0 -568px}
+.content.shop.box .tutorial .linklist li.link9 a:hover{background-position:-240px -568px}
+.content.shop.box .tutorial .linklist li.link10 a{background-position:0 -639px}
+.content.shop.box .tutorial .linklist li.link10 a:hover{background-position:-240px -639px}
+.content.shop.box .box-items{display:block;float:left;width:970px;padding:0 0 375px;margin:0 -20px 0 0}
+.content.shop.box .box-items h3{text-align:center;color:#212121;font-size:32px;margin:0 0 20px;text-shadow:0 2px 0 #fff;-webkit-text-shadow:0 2px 0 #fff;-moz-text-shadow:0 2px 0 #fff}
+.content.shop.box .box-items h3 b{font-size:51px}
+.content.shop.box .box-items .item-list{width:950px;list-style:none}
+.content.shop.box .box-items .item-list li{display:block;float:left;width:135px;height:85px;color:black;font-size:12px;font-weight:bold;line-height:23px;margin:0 20px 25px 0;padding:10px 10px 0 150px;text-shadow:0 1px 0 #fff;text-align:center}
+.content.shop.amazon{background-image:url('/Website/images/pages/community/shop/amazon/background.jpg')}
+.content.shop.amazon .box-top{position:absolute;right:59px;top:10px}
+.content.shop.amazon .preface{display:block;float:left;text-align:left;width:430px;min-height:180px;margin:0 0 20px 20px}
+.content.shop.amazon .preface h2{font-weight:bold;font-size:21px;color:#333;margin:0 0 5px}
+.content.shop.amazon .preface p{font-size:16px;color:#333;line-height:24px;margin:0 0 15px 20px}
+.content.shop.amazon .preface p a{font-weight:bold}
+.content.shop.amazon .preface p em b{color:#1cab00}
+.content.shop.amazon .button{position:relative;display:block;clear:both;float:left;width:536px;height:155px;margin:0 0 10px 55px;background:url('/Website/images/pages/community/shop/amazon/button-amazon-de.png') left top no-repeat}
+.content.shop.amazon .button:hover{background-position:left bottom}
+.content.shop.amazon .button .text-1{display:block;margin:24px 0 0 25px;font-size:33px;line-height:33px;color:#f9b963;text-shadow:0 -1px 0 #000;-webkit-text-shadow:0 -1px 0 #000;-moz-text-shadow:0 -1px 0 #000}
+.content.shop.amazon .button .text-2{display:block;margin:1px 0 0 25px;font-size:21px;line-height:21px;color:white;text-shadow:0 -1px 0 #000;-webkit-text-shadow:0 -1px 0 #000;-moz-text-shadow:0 -1px 0 #000}
+.content.shop.amazon .button .text-3{display:block;margin:32px 0 0 261px;font-size:11px;line-height:11px;font-weight:bold}
+.content.shop.amazon .box-items{display:block;float:left;width:970px;padding:0 0 375px;margin:0 -20px 0 0;background:url('/Website/images/pages/community/shop/amazon/background-exlusive.png') right bottom no-repeat}
+.content.shop.amazon .box-items h3{text-align:center;color:#212121;font-size:32px;margin:0 0 20px;text-shadow:0 2px 0 #fff;-webkit-text-shadow:0 2px 0 #fff;-moz-text-shadow:0 2px 0 #fff}
+.content.shop.amazon .box-items h3 b{font-size:51px}
+.content.shop.amazon .box-items .item-list{width:950px;list-style:none}
+.content.shop.amazon .box-items .item-list li{display:block;float:left;width:155px;height:85px;color:black;font-size:14px;font-weight:bold;line-height:23px;margin:0 20px 25px 0;padding:10px 10px 0 130px;text-shadow:0 1px 0 #fff;-webkit-text-shadow:0 1px 0 #fff;-moz-text-shadow:0 1px 0 #fff;-webkit-border-radius:0 7px 7px 0;border-radius:0 7px 7px 0}
+.content.shop.amazon .box-items .item-list li.item-1{background:url('/Website/images/pages/community/shop/amazon/item-01.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-2{background:url('/Website/images/pages/community/shop/amazon/item-02.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-3{background:url('/Website/images/pages/community/shop/amazon/item-03.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-4{background:url('/Website/images/pages/community/shop/amazon/item-04.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-5{background:url('/Website/images/pages/community/shop/amazon/item-05.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-6{background:url('/Website/images/pages/community/shop/amazon/item-08.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-7{background:url('/Website/images/pages/community/shop/amazon/item-07.jpg') left top no-repeat}
+.content.shop.amazon .box-items .item-list li.item-8{background:url('/Website/images/pages/community/shop/amazon/item-06.jpg') left top no-repeat}
+.content.shop.premium{background-image:url('/Website/images/pages/community/shop/premium/background.jpg');min-height:700px}
+.content.shop.premium .preface{display:block;float:left;text-align:left;width:375px;min-height:180px;margin:0 0 110px 20px}
+.content.shop.premium .preface h2{font-weight:bold;font-size:21px;color:#333;margin:0 0 5px}
+.content.shop.premium .preface p{font-size:16px;color:#333;line-height:24px;margin:0 0 0 20px}
+.content.shop.premium .pros{clear:both;float:left;width:915px}
+.content.shop.premium .text{float:left;text-align:left;width:375px;min-height:180px;margin:0 30px 0 20px}
+.content.shop.premium .text h3{font-size:21px;line-height:25px;color:#333;margin:0 0 10px 0;text-shadow:0 1px 0 #fff;-webkit-text-shadow:0 1px 0 #fff;-moz-text-shadow:0 1px 0 #fff}
+.content.shop.premium .text p{font-size:20px;color:black;line-height:28px;margin:0 0 0 20px;font-style:italic}
+.content.shop.premium .pro-list{position:relative;display:block;float:left;width:475px;background:#fafafa;border:solid 3px white;margin:0 0 20px;-webkit-box-shadow:0 0 1px 0 rgba(102,116,127,0.75);-moz-box-shadow:0 0 1px 0 rgba(102,116,127,0.75);box-shadow:0 0 1px 0 rgba(102,116,127,0.75);border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}
+.content.shop.premium .pro-list ul{margin:10px 5px 10px 20px}
+.content.shop.premium .pro-list ul li{margin:0 0 4px;padding:0 0 0 11px;font-size:15px;color:black}
+.content.shop.premium .pro-list ul li b{font-style:italic;color:#1cab00}
+.content.shop.premium .pro-list span.arrow{position:absolute;display:block;left:-13px;top:43%;width:13px;height:15px;text-indent:-9999px;background:url('/Website/images/pages/community/shop/premium/arrow-left.png') left top no-repeat}
+.content.shop.premium .pro-list span.shadow{position:absolute;display:block;left:-5px;bottom:-20px;width:390px;height:17px;text-indent:-9999px;background:url('/Website/images/pages/community/shop/premium/shadow-pros.png') left top no-repeat}
+.content.shop.premium .packages{position:relative;display:block;float:left;width:990px;height:541px;margin:0 0 0 -20px;background:url('/Website/images/pages/community/shop/premium/button-premium.png') left top no-repeat}
+.content.shop.premium .packages a .days{position:absolute;color:#818181}
+.content.shop.premium .packages a .price{position:absolute;width:135px;text-align:center;font-weight:bold;color:white;text-shadow:0 1px 1px #000}
+.content.shop.premium .packages a .buy-now{position:absolute;text-align:center;color:#434343;font-weight:bold;text-shadow:0 1px 0 #fff}
+.content.shop.premium .packages a .discount{position:absolute;width:60px;text-align:center;font-weight:bold;color:white;line-height:12px;text-shadow:0 1px 1px #000}
+.content.shop.premium .packages a.month-1{position:absolute;display:block;left:74px;top:125px;width:147px;height:210px}
+.content.shop.premium .packages a.month-1 .month{position:absolute;left:10px;top:14px;color:#3fb229;font-size:20px;font-weight:bold;text-transform:uppercase}
+.content.shop.premium .packages a.month-1 .days{left:10px;top:38px;font-size:14px}
+.content.shop.premium .packages a.month-1 .price{left:7px;top:91px;font-size:25px}
+.content.shop.premium .packages a.month-1 .buy-now{left:15px;top:168px;font-size:12px;width:120px}
+.content.shop.premium .packages a.month-3{position:absolute;display:block;left:221px;top:104px;width:179px;height:260px}
+.content.shop.premium .packages a.month-3 .month{position:absolute;left:15px;top:15px;color:#a99010;font-size:22px;font-weight:bold;text-transform:uppercase}
+.content.shop.premium .packages a.month-3 .days{left:15px;top:42px;font-size:16px}
+.content.shop.premium .packages a.month-3 .price{left:13px;top:106px;font-size:25px}
+.content.shop.premium .packages a.month-3 .discount{left:114px;top:150px;font-size:13px}
+.content.shop.premium .packages a.month-3 .buy-now{left:24px;top:210px;font-size:14px;width:140px}
+.content.shop.premium .packages a.month-6{position:absolute;display:block;left:400px;top:81px;width:218px;height:309px}
+.content.shop.premium .packages a.month-6 .month{position:absolute;left:15px;top:20px;color:#b05523;font-size:25px;font-weight:bold;text-transform:uppercase}
+.content.shop.premium .packages a.month-6 .days{left:15px;top:52px;font-size:19px}
+.content.shop.premium .packages a.month-6 .price{left:35px;top:128px;font-size:29px}
+.content.shop.premium .packages a.month-6 .discount{left:147px;top:177px;font-size:13px}
+.content.shop.premium .packages a.month-6 .buy-now{left:37px;top:253px;font-size:16px;width:160px}
+.content.shop.premium .packages a.month-12{position:absolute;display:block;left:618px;top:56px;width:290px;height:361px}
+.content.shop.premium .packages a.month-12 .wins{position:absolute;left:0;top:254px;color:#b01f1f;font-size:16px;font-weight:bold;display:block;width:290px;text-align:center;text-transform:uppercase}
+.content.shop.premium .packages a.month-12 .month{position:absolute;left:18px;top:25px;color:#b01f1f;font-size:29px;font-weight:bold;text-transform:uppercase}
+.content.shop.premium .packages a.month-12 .days{left:18px;top:63px;font-size:22px}
+.content.shop.premium .packages a.month-12 .price{left:66px;top:149px;font-size:33px}
+.content.shop.premium .packages a.month-12 .discount{left:189px;top:201px;font-size:15px;line-height:16px}
+.content.shop.premium .packages a.month-12 .buy-now{left:57px;top:293px;font-size:18px;width:180px}
+.content.shop.premium .premium-tooltip{display:none;position:absolute;left:70px;top:435px;width:802px;font-size:20px;padding:5px 15px;font-style:italic;line-height:30px;background:#fafafa;border:solid 3px white;-webkit-box-shadow:0 0 1px 0 rgba(102,116,127,0.75);-moz-box-shadow:0 0 1px 0 rgba(102,116,127,0.75);box-shadow:0 0 1px 0 rgba(102,116,127,0.75);border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}
+.content.shop.premium .premium-tooltip .arrow{position:absolute;top:-13px;width:15px;height:13px;background:url('/Website/images/pages/community/shop/premium/arrow-top.png') left top no-repeat}
+.content.shop.premium .premium-tooltip .shadow{position:absolute;bottom:-20px;left:0;width:825px;height:17px;background:url('/Website/images/pages/community/shop/premium/shadow-tooltip.png') left top no-repeat}
+.content.shop.premium.tooltip-m1 .arrow{left:65px}
+.content.shop.premium.tooltip-m3 .arrow{left:235px}
+.content.shop.premium.tooltip-m6 .arrow{left:440px}
+.content.shop.premium.tooltip-m12 .arrow{left:675px}
+.content.shop.premium .faq-list{display:block;float:left;margin:0 40px 60px 20px;width:910px}
+.content.shop.premium .faq-list h3{line-height:14px;font-size:14px;text-transform:uppercase;color:#333;margin:0 0 10px;text-shadow:0 1px 0 #fff;-webkit-text-shadow:0 1px 0 #fff;-moz-text-shadow:0 1px 0 #fff}
+.content.shop.premium dl.premium-faq{margin:0 15px 30px 15px}
+.content.shop.premium dl.premium-faq dt{position:relative;cursor:pointer;border:solid 1px #bdc8cd;background:white;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;margin:0 0 4px}
+.content.shop.premium dl.premium-faq dt .hl{display:block;background:#fafafa;margin:3px;padding:3px 38px 3px 6px;min-height:24px;font-size:14px;font-weight:normal;color:#0f0f0f;line-height:18px}
+.content.shop.premium dl.premium-faq dt .hl:hover{background:#c7dff7}
+.content.shop.premium dl.premium-faq dt.open .hl{background:#c7dff7}
+.content.shop.premium dl.premium-faq .condition{position:absolute;right:4px;top:4px;display:block;width:28px;height:28px;background:url('/Website/images/pages/community/shop/premium/conditions-faq.gif') left top no-repeat}
+.content.shop.premium dl.premium-faq .condition.open .condition{background-position:left bottom}
+.content.shop.premium dl.premium-faq dd{margin:0 0 4px 34px}
+.content.shop.premium dl.premium-faq dd p{padding:10px;color:#0f0f0f}
+.content.shop.packages{margin-bottom:30px;text-align:center}
+.content.shop.packages .preface{display:block;float:left;text-align:left;width:375px;min-height:200px;margin:0 575px 30px 20px}
+.content.shop.packages .preface p{font-size:14px;color:#333;line-height:18px;margin:0 0 6px 0}
+.content.shop.packages .packages{display:block;float:left;text-align:center}
+.content.shop.packages .packages.packages-1{width:300px;margin:0 0 0 330px}
+.content.shop.packages .packages.packages-2{width:630px;margin:0 0 0 160px}
+.content.shop.packages .packages.packages-3{width:940px;margin:0 0 0 12px}
+.content.shop.packages .packages .package{display:block;float:left;width:298px;margin:0 13px 0 0;border:solid 1px #bdc8cd;background:white;min-height:300px;border-radius:12px;-webkit-border-radius:12px;-moz-border-radius:12px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box}
+.content.shop.packages .packages .package .head{position:relative;display:block;width:298px}
+.content.shop.packages .packages .package .head h2{display:block;margin:13px 0 9px;width:205px;line-height:19px;font-size:18px;text-transform:uppercase}
+.content.shop.packages .packages .package .head h2.green{color:#3fb229}
+.content.shop.packages .packages .package .head h2.orange{color:#b05523}
+.content.shop.packages .packages .package .head h2.red{color:#cb0101}
+.content.shop.packages .packages .package .head .teaser{min-width:298px;width:298px;max-width:298px;height:auto!important}
+.content.shop.packages .packages .package .head .purchase{position:relative;display:inline-block;margin:-22px auto 5px;padding:0 30px;color:white;text-align:center;text-shadow:0 1px 1px #000;-webkit-text-shadow:0 1px 1px #000;-moz-text-shadow:0 1px 1px #000;background-repeat:repeat-x;background-position:center top;line-height:36px;font-weight:bold;border:solid 1px white;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 0 5px 0 rgba(0,0,0,0.75);-moz-box-shadow:0 0 5px 0 rgba(0,0,0,0.75);box-shadow:0 0 5px 0 rgba(0,0,0,0.75)}
+.content.shop.packages .packages .package .head .purchase.green{background-image:url('/Website/images/pages/community/shop/packages/button-green.gif')}
+.content.shop.packages .packages .package .head .purchase.orange{background-image:url('/Website/images/pages/community/shop/packages/button-orange.gif')}
+.content.shop.packages .packages .package .head .purchase.red{background-image:url('/Website/images/pages/community/shop/packages/button-red.gif')}
+.content.shop.packages .packages .package .head .purchase:hover{-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.75);-moz-box-shadow:0 0 10px 0 rgba(0,0,0,0.75);box-shadow:0 0 10px 0 rgba(0,0,0,0.75);margin:-21px auto 4px}
+.content.shop.packages .packages .package .head .purchase.disabled{zoom:1;-ms-filter:alpha(opacity= 30);filter:alpha(opacity= 30);-khtml-opacity:.3;-moz-opacity:.3;opacity:.3}
+.content.shop.packages .packages .package .head .price{position:absolute;right:-2px;top:-2px;display:block;width:74px;height:83px;margin:0;padding:24px 15px 0 19px;font-size:17px;font-weight:bold;color:white;background-repeat:no-repeat;text-shadow:0 1px 1px #000;-webkit-text-shadow:0 1px 1px #000;-moz-text-shadow:0 1px 1px #000}
+.content.shop.packages .packages .package .head .price.green{background-image:url('/Website/images/pages/community/shop/packages/label-green-top.png')}
+.content.shop.packages .packages .package .head .price.orange{background-image:url('/Website/images/pages/community/shop/packages/label-orange-top.png')}
+.content.shop.packages .packages .package .head .price.red{background-image:url('/Website/images/pages/community/shop/packages/label-red-top.png')}
+.content.shop.packages .packages .package .item-list{padding:50px 0 10px;margin:-25px 0 0;background-position:left top;background-repeat:no-repeat}
+.content.shop.packages .packages .package .item-list.green{background-image:url('/Website/images/pages/community/shop/packages/background-green.gif')}
+.content.shop.packages .packages .package .item-list.orange{background-image:url('/Website/images/pages/community/shop/packages/background-orange.gif')}
+.content.shop.packages .packages .package .item-list.red{background-image:url('/Website/images/pages/community/shop/packages/background-red.gif')}
+.content.shop.packages .packages .package .item-list .item{display:block;width:275px;text-align:left;margin:0 0 10px}
+.content.shop.packages .packages .package .item-list .item .icon{display:block;float:left;width:110px;max-width:110px;height:auto}
+.content.shop.packages .packages .package .item-list .item .item-values{display:block;float:left;width:165px}
+.content.shop.packages .packages .package .item-list .item .item-values .item-title{display:block;float:left;margin:3px 0 1px 5px;width:160px;font-weight:bold;font-size:14px;color:#434343}
+.content.shop.packages .packages .package .item-list .item .item-values .item-stars{display:block;float:left;margin:0 0 -5px 5px;width:160px}
+.content.shop.packages .packages .package .item-list .item .item-values .item-stars .star{margin:0 -3px 0 0}
+.content.shop.packages .packages .package .item-list .item .item-values .condition{display:block;float:left;margin:0 0 1px 5px;width:160px;font-size:12px;font-style:italic}
+.content.shop.packages .packages .package .item-list .item.sensitive{cursor:help}
+.content.shop.packages .packages .package .foot{text-align:left}
+.content.shop.packages .packages .package .foot .worth{text-align:right;font-style:italic;color:#434343;margin:0 20px 3px 0;font-size:14px;font-weight:bold}
+.content.shop.packages .packages .package .foot .button{display:block;text-align:center;width:190px;float:left}
+.content.shop.packages .packages .package .foot .button .purchase{position:relative;display:inline-block;margin:4px auto 5px;padding:0 25px;color:white;text-align:center;text-shadow:0 1px 1px #000;-webkit-text-shadow:0 1px 1px #000;-moz-text-shadow:0 1px 1px #000;background-repeat:repeat-x;background-position:center top;line-height:36px;font-weight:bold;border:solid 1px white;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 0 5px 0 rgba(0,0,0,0.75);-moz-box-shadow:0 0 5px 0 rgba(0,0,0,0.75);box-shadow:0 0 5px 0 rgba(0,0,0,0.75)}
+.content.shop.packages .packages .package .foot .button .purchase.green{background-image:url('/Website/images/pages/community/shop/packages/button-green.gif')}
+.content.shop.packages .packages .package .foot .button .purchase.orange{background-image:url('/Website/images/pages/community/shop/packages/button-orange.gif')}
+.content.shop.packages .packages .package .foot .button .purchase.red{background-image:url('/Website/images/pages/community/shop/packages/button-red.gif')}
+.content.shop.packages .packages .package .foot .button .purchase:hover{-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.75);-moz-box-shadow:0 0 10px 0 rgba(0,0,0,0.75);box-shadow:0 0 10px 0 rgba(0,0,0,0.75);margin:5px auto 4px}
+.content.shop.packages .packages .package .foot .button .purchase.disabled{zoom:1;-ms-filter:alpha(opacity= 30);filter:alpha(opacity= 30);-khtml-opacity:.3;-moz-opacity:.3;opacity:.3}
+.content.shop.packages .packages .package .foot .price{display:block;float:left;width:87px;height:34px;text-align:center;font-size:17px;font-weight:bold;color:white;padding:8px 0 0;text-shadow:0 1px 1px #000;-webkit-text-shadow:0 1px 1px #000;-moz-text-shadow:0 1px 1px #000}
+.content.shop.packages .packages .package .foot .price.green{background-image:url('/Website/images/pages/community/shop/packages/label-price-green.png')}
+.content.shop.packages .packages .package .foot .price.orange{background-image:url('/Website/images/pages/community/shop/packages/label-price-orange.png')}
+.content.shop.packages .packages .package .foot .price.red{background-image:url('/Website/images/pages/community/shop/packages/label-price-red.png')}
+.content.shop.packages .general-item-description{display:block;float:left;width:940px;margin:20px 0 0 0}
+.content.shop.packages .general-item-description p{font-size:12px;color:#333;line-height:18px;margin:0 0 6px 0;font-style:italic}
+.content.shop.shop-coming-soon{min-height:520px}
+.content.shop.shop-coming-soon .box-left{padding:0 295px 35px 15px;min-height:185px}
+.content.shop.shop-coming-soon .box-left p{font-size:18px}
+.content.shop.shop-coming-soon .box-center{text-align:center}
+.content.shop.shop-coming-soon .box-center p.shop a{text-align:left;line-height:101px;font-size:25px;font-weight:bold;padding-left:15px;display:block;width:279px;height:101px;margin:auto}
+.content.shop.amazon{background-image:url('/Website/images/pages/design/shop/amazon/background.jpg')}
+.content.shop.amazon img.box-top{position:absolute;right:59px;top:10px}
+.content.shop.amazon .preface{display:block;float:left;text-align:left;width:430px;min-height:180px;margin:0 0 20px 20px}
+.content.shop.amazon .preface h2{font-weight:bold;font-size:21px;color:#333;margin:0 0 5px}
+.content.shop.amazon .preface p{font-size:16px;color:#333;line-height:24px;margin:0 0 15px 20px}
+.content.shop.amazon .preface p a{font-weight:bold}
+.content.shop.amazon .preface p em b{color:#1cab00}
+.content.shop.amazon a.button{position:relative;display:block;clear:both;float:left;width:536px;height:155px;margin:0 0 10px 55px}
+.content.shop.amazon a.button:hover{background-position:left bottom}
+.content.shop.amazon a.button .text-1{display:block;margin:24px 0 0 25px;font-size:33px;line-height:33px;color:#f9b963;text-shadow:0 -1px 0 #000}
+.content.shop.amazon a.button .text-2{display:block;margin:1px 0 0 25px;font-size:21px;line-height:21px;color:white;text-shadow:0 -1px 0 #000}
+.content.shop.amazon a.button .text-2{display:block;margin:1px 0 0 25px;font-size:21px;line-height:21px;color:white;text-shadow:0 -1px 0 #000}
+.content.shop.amazon a.button .text-3{display:block;margin:32px 0 0 261px;font-size:11px;line-height:11px;font-weight:bold}
+.content.shop.amazon .box-items{display:block;float:left;width:970px;padding:0 0 375px;margin:0 -20px 0 0;background:url('/Website/images/pages/design/shop/amazon/background-exlusive.png') right bottom no-repeat}
+.content.shop.amazon .box-items h3{text-align:center;color:#212121;font-size:32px;margin:0 0 20px;text-shadow:0 2px 0 #fff}
+.content.shop.amazon .box-items h3 b{font-size:51px}
+.content.shop.amazon .box-items ul.item-list{width:950px;list-style:none}
+.content.shop.amazon .box-items ul.item-list li{display:block;float:left;width:155px;height:85px;color:black;font-size:14px;font-weight:bold;line-height:23px;margin:0 20px 25px 0;padding:10px 10px 0 130px;text-shadow:0 1px 0 #fff}
+.content.shop.amazon .box-items ul.item-list li.item-1{background:url('/Website/images/pages/design/shop/amazon/item-01.jpg') left top no-repeat}
+.content.shop.amazon .box-items ul.item-list li.item-5{background:url('/Website/images/pages/design/shop/amazon/item-05.jpg') left top no-repeat}
+.content.shop.amazon .box-items ul.item-list li.item-6{background:url('/Website/images/pages/design/shop/amazon/item-08.jpg') left top no-repeat}
+.content.shop.amazon .box-items ul.item-list li.item-7{background:url('/Website/images/pages/design/shop/amazon/item-07.jpg') left top no-repeat}
+.content.shop.starter-package{background-image:url('/Website/images/pages/design/shop/starter/background.jpg');min-height:520px}
+.content.shop.starter-package .preface{margin:0 0 0 20px;min-height:310px}
+.content.shop.starter-package .packages{position:relative;display:block;float:left;width:990px;height:1288px;background:url('/Website/images/pages/design/shop/starter/packages-overview.png') left top no-repeat;margin:0 0 0 -20px}
+.content.shop.starter-package .packages .packs.package-1{display:block;position:absolute;left:29px;top:70px;width:277px;height:753px}
+.content.shop.starter-package .packages .packs.package-1 .pack-title{position:absolute;left:15px;top:13px;color:#3fb229;text-transform:uppercase;font-size:17px}
+.content.shop.starter-package .packages .packs.package-1 .pack-worth{position:absolute;left:25px;top:35px;color:#1f6812;font-style:italic;font-size:17px}
+.content.shop.starter-package .packages .packs.package-1 .button-buy-now{position:absolute;left:15px;display:block;width:140px;height:37px;line-height:37px;font-size:15px;color:white;background:url('/Website/images/pages/design/shop/starter/button-builder.png') left top repeat-x;text-align:center;font-weight:bold;-webkit-border-radius:4px;border-radius:3px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.starter-package .packages .packs.package-1 .button-buy-now:hover{background-position:left bottom}
+.content.shop.starter-package .packages .packs.package-1 .button-buy-now.top{top:83px}
+.content.shop.starter-package .packages .packs.package-1 .button-buy-now.bottom{bottom:14px}
+.content.shop.starter-package .packages .packs.package-1 .button-buy-now.fr{font-size:13px}
+.content.shop.starter-package .packages .packs.package-1 .price{position:absolute;left:175px;display:block;width:98px;height:43px;line-height:43px;color:white;text-align:center;font-weight:bold;background:url('/Website/images/pages/design/shop/starter/label-builder.png') left top no-repeat;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.starter-package .packages .packs.package-1 .price.top{top:83px}
+.content.shop.starter-package .packages .packs.package-1 .price.bottom{bottom:14px}
+.content.shop.starter-package .packages .packs.package-1 .item-list{position:absolute;left:12px;top:145px}
+.content.shop.starter-package .packages .packs.package-1 .item-list .item{position:relative;display:block;width:260px;min-height:54px}
+.content.shop.starter-package .packages .packs.package-1 .item-list .item .title{position:relative;display:block;float:left;width:170px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 27px 0;line-height:15px}
+.content.shop.starter-package .packages .packs.package-1 .item-list .item .title .condition{position:absolute;left:0;bottom:-19px;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.starter-package .packages .packs.package-1 .item-list .item .icon{float:left;width:75px;height:auto}
+.content.shop.starter-package .packages .packs.package-3{display:block;position:absolute;left:307px;top:0;width:340px;height:1112px}
+.content.shop.starter-package .packages .packs.package-3 .pack-title{position:absolute;left:15px;top:13px;color:#b01f1f;text-transform:uppercase;font-size:19px}
+.content.shop.starter-package .packages .packs.package-3 .pack-worth{position:absolute;left:25px;top:37px;color:#720000;font-style:italic;font-size:19px}
+.content.shop.starter-package .packages .packs.package-3 .button-buy-now{position:absolute;left:15px;display:block;width:180px;height:42px;line-height:42px;font-size:17px;color:white;background:url('/Website/images/pages/design/shop/starter/button-archer.png') left top repeat-x;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.starter-package .packages .packs.package-3 .button-buy-now:hover{background-position:left bottom}
+.content.shop.starter-package .packages .packs.package-3 .button-buy-now.top{top:93px}
+.content.shop.starter-package .packages .packs.package-3 .button-buy-now.bottom{bottom:14px}
+.content.shop.starter-package .packages .packs.package-3 .price{position:absolute;left:215px;display:block;width:99px;height:48px;line-height:48px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.starter-package .packages .packs.package-3 .price.top{top:93px}
+.content.shop.starter-package .packages .packs.package-3 .price.bottom{bottom:14px}
+.content.shop.starter-package .packages .packs.package-3 .item-list{position:absolute;left:22px;top:180px}
+.content.shop.starter-package .packages .packs.package-3 .item-list .item{position:relative;display:block;width:315px;min-height:60px}
+.content.shop.starter-package .packages .packs.package-3 .item-list .item .title{position:relative;display:block;float:left;width:210px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.starter-package .packages .packs.package-3 .item-list .item .title .condition{position:absolute;left:0;bottom:-19px;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.starter-package .packages .packs.package-3 .item-list .item .icon{float:left;width:90px;height:auto}
+.content.shop.starter-package .packages .packs.package-2{display:block;position:absolute;left:648px;top:32px;width:307px;height:1025px}
+.content.shop.starter-package .packages .packs.package-2 .pack-title{position:absolute;left:15px;top:13px;color:#b05523;text-transform:uppercase;font-size:17px}
+.content.shop.starter-package .packages .packs.package-2 .pack-worth{position:absolute;left:25px;top:34px;color:#6e3516;font-style:italic;font-size:17px}
+.content.shop.starter-package .packages .packs.package-2 .button-buy-now{position:absolute;left:15px;display:block;width:160px;height:38px;line-height:38px;font-size:17px;color:white;background:url('/Website/images/pages/design/shop/starter/button-knight.png') left top repeat-x;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.starter-package .packages .packs.package-2 .button-buy-now:hover{background-position:left bottom}
+.content.shop.starter-package .packages .packs.package-2 .button-buy-now.top{top:87px}
+.content.shop.starter-package .packages .packs.package-2 .button-buy-now.bottom{bottom:13px}
+.content.shop.starter-package .packages .packs.package-2 .button-buy-now.fr{font-size:15px}
+.content.shop.starter-package .packages .packs.package-2 .price{position:absolute;left:193px;display:block;width:91px;height:44px;line-height:44px;color:white;text-align:center;font-weight:bold;background:url('/Website/images/pages/design/shop/starter/label-knight.png') left top no-repeat;text-shadow:0 0 2px #000;font-size:19px}
+.content.shop.starter-package .packages .packs.package-2 .price.top{top:85px}
+.content.shop.starter-package .packages .packs.package-2 .price.bottom{bottom:14px}
+.content.shop.starter-package .packages .packs.package-2 .item-list{position:absolute;left:18px;top:162px}
+.content.shop.starter-package .packages .packs.package-2 .item-list .item{position:relative;display:block;width:285px;min-height:56px}
+.content.shop.starter-package .packages .packs.package-2 .item-list .item .title{position:relative;display:block;float:left;width:200px;color:#434343;font-size:15px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.starter-package .packages .packs.package-2 .item-list .item .title .condition{position:absolute;left:0;bottom:-19px;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.starter-package .packages .packs.package-2 .item-list .item .icon{float:left;width:80px;height:auto}
+.content.shop.presale-packs{min-height:520px}
+.content.shop.presale-packs .preface{margin:0 0 0 20px;min-height:470px;width:610px}
+.content.shop.presale-packs .preface p{width:285px;font-size:13px;line-height:18px;text-shadow:0 0 2px #e9f6fd}
+.content.shop.presale-packs .packages{position:relative;display:block;float:left;width:990px;height:1288px;background:url('/Website/images/pages/design/shop/presale-packs/packages-overview.png') left top no-repeat;margin:0 0 0 -20px}
+.content.shop.presale-packs .packages .packs.package-1{display:block;position:absolute;left:29px;top:70px;width:277px;height:689px}
+.content.shop.presale-packs .packages .packs.package-1 .pack-title{position:absolute;left:15px;top:13px;color:#3fb229;text-transform:uppercase;font-size:15px;text-shadow:0 0 5px #fff}
+.content.shop.presale-packs .packages .packs.package-1 .pack-worth{position:absolute;left:25px;top:35px;color:#1f6812;font-style:italic;font-size:15px}
+.content.shop.presale-packs .packages .packs.package-1 .button-buy-now{position:absolute;left:15px;display:block;width:140px;height:37px;line-height:37px;font-size:15px;color:white;background:url('/Website/images/pages/design/shop/presale-packs/button-pack1.png') left top repeat-x;text-align:center;font-weight:bold;-webkit-border-radius:4px;border-radius:3px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.presale-packs .packages .packs.package-1 .button-buy-now:hover{background-position:left bottom}
+.content.shop.presale-packs .packages .packs.package-1 .button-buy-now.top{top:83px}
+.content.shop.presale-packs .packages .packs.package-1 .button-buy-now.bottom{bottom:14px}
+.content.shop.presale-packs .packages .packs.package-1 .button-buy-now.fr{font-size:13px}
+.content.shop.presale-packs .packages .packs.package-1 .price{position:absolute;left:175px;display:block;width:98px;height:43px;line-height:43px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.presale-packs .packages .packs.package-1 .price.top{top:83px}
+.content.shop.presale-packs .packages .packs.package-1 .price.bottom{bottom:14px}
+.content.shop.presale-packs .packages .packs.package-1 .item-list{position:absolute;left:12px;top:145px}
+.content.shop.presale-packs .packages .packs.package-1 .item-list .item{position:relative;display:block;width:260px;min-height:54px}
+.content.shop.presale-packs .packages .packs.package-1 .item-list .item .title{position:relative;display:block;float:left;width:170px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 27px 0;line-height:15px}
+.content.shop.presale-packs .packages .packs.package-1 .item-list .item .title .condition{position:absolute;left:0;bottom:-19px;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.presale-packs .packages .packs.package-1 .item-list .item .icon{float:left;width:75px;height:auto}
+.content.shop.presale-packs .packages .packs.package-3{display:block;position:absolute;left:307px;top:0;width:340px;height:972px}
+.content.shop.presale-packs .packages .packs.package-3 .pack-title{position:absolute;left:15px;top:13px;color:#b01f1f;text-transform:uppercase;font-size:19px;text-shadow:0 0 5px #fff}
+.content.shop.presale-packs .packages .packs.package-3 .pack-worth{position:absolute;left:25px;top:37px;color:#720000;font-style:italic;font-size:19px}
+.content.shop.presale-packs .packages .packs.package-3 .button-buy-now{position:absolute;left:15px;display:block;width:180px;height:42px;line-height:42px;font-size:17px;color:white;background:url('/Website/images/pages/design/shop/presale-packs/button-pack3.png') left top repeat-x;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.presale-packs .packages .packs.package-3 .button-buy-now:hover{background-position:left bottom}
+.content.shop.presale-packs .packages .packs.package-3 .button-buy-now.top{top:93px}
+.content.shop.presale-packs .packages .packs.package-3 .button-buy-now.bottom{bottom:14px}
+.content.shop.presale-packs .packages .packs.package-3 .price{position:absolute;left:215px;display:block;width:99px;height:48px;line-height:48px;color:white;text-align:center;font-weight:bold;background:url('/Website/images/pages/design/shop/presale-packs/label-pack3.png') left top no-repeat;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.presale-packs .packages .packs.package-3 .price.top{top:93px}
+.content.shop.presale-packs .packages .packs.package-3 .price.bottom{bottom:14px}
+.content.shop.presale-packs .packages .packs.package-3 .item-list{position:absolute;left:22px;top:180px}
+.content.shop.presale-packs .packages .packs.package-3 .item-list .item{position:relative;display:block;width:315px;min-height:60px}
+.content.shop.presale-packs .packages .packs.package-3 .item-list .item .title{position:relative;display:block;float:left;width:210px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.presale-packs .packages .packs.package-3 .item-list .item .title .condition{position:absolute;left:0;bottom:-19px;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.presale-packs .packages .packs.package-3 .item-list .item .icon{float:left;width:90px;height:auto}
+.content.shop.presale-packs .packages .packs.package-2{display:block;position:absolute;left:648px;top:32px;width:307px;height:805px}
+.content.shop.presale-packs .packages .packs.package-2 .pack-title{position:absolute;left:15px;top:13px;color:#b05523;text-transform:uppercase;font-size:15px;text-shadow:0 0 5px #fff}
+.content.shop.presale-packs .packages .packs.package-2 .pack-worth{position:absolute;left:25px;top:34px;color:#6e3516;font-style:italic;font-size:15px}
+.content.shop.presale-packs .packages .packs.package-2 .button-buy-now{position:absolute;left:15px;display:block;width:160px;height:38px;line-height:38px;font-size:17px;color:white;background:url('/Website/images/pages/design/shop/presale-packs/button-pack2.png') left top repeat-x;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.presale-packs .packages .packs.package-2 .button-buy-now:hover{background-position:left bottom}
+.content.shop.presale-packs .packages .packs.package-2 .button-buy-now.top{top:87px}
+.content.shop.presale-packs .packages .packs.package-2 .button-buy-now.bottom{bottom:13px}
+.content.shop.presale-packs .packages .packs.package-2 .button-buy-now.fr{font-size:15px}
+.content.shop.presale-packs .packages .packs.package-2 .price{position:absolute;left:193px;display:block;width:91px;height:44px;line-height:44px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:19px}
+.content.shop.presale-packs .packages .packs.package-2 .price.top{top:85px}
+.content.shop.presale-packs .packages .packs.package-2 .price.bottom{bottom:14px}
+.content.shop.presale-packs .packages .packs.package-2 .item-list{position:absolute;left:18px;top:162px}
+.content.shop.presale-packs .packages .packs.package-2 .item-list .item{position:relative;display:block;width:285px;min-height:56px}
+.content.shop.presale-packs .packages .packs.package-2 .item-list .item .title{position:relative;display:block;float:left;width:200px;color:#434343;font-size:15px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.presale-packs .packages .packs.package-2 .item-list .item .title .condition{position:absolute;left:0;bottom:-19px;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.presale-packs .packages .packs.package-2 .item-list .item .icon{float:left;width:80px;height:auto}
+.content.shop.mega-presale-packs{min-height:520px}
+.content.shop.mega-presale-packs .preface{margin:0 0 0 20px;min-height:410px;width:610px}
+.content.shop.mega-presale-packs .preface p{font-size:13px;line-height:18px;text-shadow:0 0 2px #e9f6fd}
+.content.shop.mega-presale-packs .packages{position:relative;display:block;float:left;width:990px;height:826px;margin:0 0 0 -20px}
+.content.shop.mega-presale-packs .packages .packs.package-1{display:block;position:absolute;left:29px;top:70px;width:277px;height:560px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .pack-title{position:absolute;left:15px;top:25px;color:#3fb229;text-transform:uppercase;font-size:15px;text-shadow:0 0 5px #fff}
+.content.shop.mega-presale-packs .packages .packs.package-1 .pack-worth{position:absolute;right:25px;top:455px;color:#1f6812;font-style:italic;font-size:15px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .button-buy-now{position:absolute;left:15px;display:block;width:140px;height:37px;line-height:37px;font-size:15px;color:white;text-align:center;font-weight:bold;-webkit-border-radius:4px;border-radius:3px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.mega-presale-packs .packages .packs.package-1 .button-buy-now:hover{background-position:left bottom}
+.content.shop.mega-presale-packs .packages .packs.package-1 .button-buy-now.top{top:83px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .button-buy-now.bottom{bottom:14px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .button-buy-now.fr{font-size:13px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .price{position:absolute;left:175px;display:block;width:98px;height:43px;line-height:43px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .price.top{top:83px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .price.bottom{bottom:14px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list{position:absolute;left:12px;top:145px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item{position:relative;display:block;width:260px;min-height:85px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title{position:relative;display:block;float:left;width:170px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 27px 0;line-height:15px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .stars{display:block;margin:2px 0 0 0}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .stars img{float:left;margin:2px -4px 0 0}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .stars .item-condition{display:inline-block;float:left;font-size:11px;font-style:italic;color:#747474;margin:3px 0 0 5px}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .condition{position:relative;display:block;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .condition .token-price{position:absolute;right:5px;top:-1px;padding:2px 0 3px 0}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .condition .token-price .token-new-price{display:block;color:#33a700;font-size:12px;font-weight:bold;text-align:right}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .title .condition .token-price .token-new-price .token-retail-price{color:#830000;text-decoration:line-through;font-size:11px;font-weight:normal}
+.content.shop.mega-presale-packs .packages .packs.package-1 .item-list .item .icon{float:left;width:75px;height:auto}
+.content.shop.mega-presale-packs .packages .packs.package-3{display:block;position:absolute;left:307px;top:0;width:340px;height:650px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .pack-title{position:absolute;left:15px;top:25px;color:#b01f1f;text-transform:uppercase;font-size:19px;text-shadow:0 0 5px #fff}
+.content.shop.mega-presale-packs .packages .packs.package-3 .pack-worth{position:absolute;right:25px;top:517px;color:#720000;font-style:italic;font-size:19px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .button-buy-now{position:absolute;left:15px;display:block;width:180px;height:42px;line-height:42px;font-size:17px;color:white;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.mega-presale-packs .packages .packs.package-3 .button-buy-now:hover{background-position:left bottom}
+.content.shop.mega-presale-packs .packages .packs.package-3 .button-buy-now.top{top:93px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .button-buy-now.bottom{bottom:14px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .price{position:absolute;left:215px;display:block;width:99px;height:48px;line-height:48px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .price.top{top:93px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .price.bottom{bottom:14px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list{position:absolute;left:22px;top:180px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item{position:relative;float:left;display:block;width:315px;min-height:90px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title{position:relative;display:block;float:left;width:210px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .stars{display:block;margin:2px 0 0 0}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .stars img{float:left;margin:2px -4px 0 0}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .stars .item-condition{display:inline-block;float:left;font-size:11px;font-style:italic;color:#747474;margin:3px 0 0 5px}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .condition{position:relative;display:block;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .condition .token-price{position:absolute;right:5px;top:-1px;padding:2px 0 3px 0}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .condition .token-price .token-new-price{display:block;color:#33a700;font-size:12px;font-weight:bold;text-align:right}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .title .condition .token-price .token-new-price .token-retail-price{color:#830000;text-decoration:line-through;font-size:11px;font-weight:normal}
+.content.shop.mega-presale-packs .packages .packs.package-3 .item-list .item .icon{float:left;width:90px;height:auto}
+.content.shop.mega-presale-packs .packages .packs.package-2{display:block;position:absolute;left:648px;top:32px;width:307px;height:580px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .pack-title{position:absolute;left:15px;top:26px;color:#b05523;text-transform:uppercase;font-size:15px;text-shadow:0 0 5px #fff}
+.content.shop.mega-presale-packs .packages .packs.package-2 .pack-worth{position:absolute;right:25px;top:484px;color:#6e3516;font-style:italic;font-size:15px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .button-buy-now{position:absolute;left:15px;display:block;width:160px;height:38px;line-height:38px;font-size:17px;color:white;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.mega-presale-packs .packages .packs.package-2 .button-buy-now:hover{background-position:left bottom}
+.content.shop.mega-presale-packs .packages .packs.package-2 .button-buy-now.top{top:87px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .button-buy-now.bottom{bottom:13px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .button-buy-now.fr{font-size:15px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .price{position:absolute;left:193px;display:block;width:91px;height:44px;line-height:44px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:19px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .price.top{top:85px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .price.bottom{bottom:14px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list{position:absolute;left:18px;top:162px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item{position:relative;display:block;float:left;width:285px;min-height:85px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title{position:relative;display:block;float:left;width:200px;color:#434343;font-size:15px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .stars{display:block;margin:2px 0 0 0}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .stars img{float:left;margin:2px -4px 0 0}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .stars .item-condition{display:inline-block;float:left;font-size:11px;font-style:italic;color:#747474;margin:3px 0 0 5px}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .condition{position:relative;display:block;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .condition .token-price{position:absolute;right:5px;top:-1px;padding:2px 0 3px 0}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .condition .token-price .token-new-price{display:block;color:#33a700;font-size:12px;font-weight:bold;text-align:right}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .title .condition .token-price .token-new-price .token-retail-price{color:#830000;text-decoration:line-through;font-size:11px;font-weight:normal}
+.content.shop.mega-presale-packs .packages .packs.package-2 .item-list .item .icon{float:left;width:80px;height:auto}
+.content.shop.six-star-sale{min-height:520px}
+.content.shop.six-star-sale .preface{margin:0 0 0 20px;min-height:300px;width:610px}
+.content.shop.six-star-sale .preface p{font-size:13px;line-height:18px;text-shadow:0 0 2px #e9f6fd}
+.content.shop.six-star-sale .packages{position:relative;display:block;float:left;width:990px;height:756px;margin:0 0 0 -20px}
+.content.shop.six-star-sale .packages .packs.package-1{display:block;position:absolute;left:29px;top:70px;width:277px;height:490px}
+.content.shop.six-star-sale .packages .packs.package-1 .pack-title{position:absolute;left:15px;top:25px;color:#3fb229;text-transform:uppercase;font-size:15px;text-shadow:0 0 5px #fff}
+.content.shop.six-star-sale .packages .packs.package-1 .pack-worth{position:absolute;right:25px;bottom:75px;color:#1f6812;font-style:italic;font-size:15px}
+.content.shop.six-star-sale .packages .packs.package-1 .button-buy-now{position:absolute;left:15px;display:block;width:140px;height:37px;line-height:37px;font-size:15px;color:white;text-align:center;font-weight:bold;-webkit-border-radius:4px;border-radius:3px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.six-star-sale .packages .packs.package-1 .button-buy-now:hover{background-position:left bottom}
+.content.shop.six-star-sale .packages .packs.package-1 .button-buy-now.top{top:83px}
+.content.shop.six-star-sale .packages .packs.package-1 .button-buy-now.bottom{bottom:14px}
+.content.shop.six-star-sale .packages .packs.package-1 .button-buy-now.fr{font-size:13px}
+.content.shop.six-star-sale .packages .packs.package-1 .price{position:absolute;left:175px;display:block;width:98px;height:43px;line-height:43px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.six-star-sale .packages .packs.package-1 .price.top{top:83px}
+.content.shop.six-star-sale .packages .packs.package-1 .price.bottom{bottom:14px}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list{position:absolute;left:12px;top:145px}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item{position:relative;display:block;width:260px;min-height:85px}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title{position:relative;display:block;float:left;width:170px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 27px 0;line-height:15px}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .stars{display:block;margin:2px 0 0 0}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .stars img{float:left;margin:2px -4px 0 0}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .stars .item-condition{display:inline-block;float:left;font-size:11px;font-style:italic;color:#747474;margin:3px 0 0 5px}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .condition{position:relative;display:block;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .condition .token-price{position:absolute;right:5px;top:-1px;padding:2px 0 3px 0}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .condition .token-price .token-new-price{display:block;color:#33a700;font-size:12px;font-weight:bold;text-align:right}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .title .condition .token-price .token-new-price .token-retail-price{color:#830000;text-decoration:line-through;font-size:11px;font-weight:normal}
+.content.shop.six-star-sale .packages .packs.package-1 .item-list .item .icon{float:left;width:75px;height:auto}
+.content.shop.six-star-sale .packages .packs.package-3{display:block;position:absolute;left:307px;top:0;width:340px;height:580px}
+.content.shop.six-star-sale .packages .packs.package-3 .pack-title{position:absolute;left:15px;top:25px;color:#b01f1f;text-transform:uppercase;font-size:19px;text-shadow:0 0 5px #fff}
+.content.shop.six-star-sale .packages .packs.package-3 .pack-worth{position:absolute;right:25px;bottom:76px;color:#720000;font-style:italic;font-size:19px}
+.content.shop.six-star-sale .packages .packs.package-3 .button-buy-now{position:absolute;left:15px;display:block;width:180px;height:42px;line-height:42px;font-size:17px;color:white;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.six-star-sale .packages .packs.package-3 .button-buy-now:hover{background-position:left bottom}
+.content.shop.six-star-sale .packages .packs.package-3 .button-buy-now.top{top:93px}
+.content.shop.six-star-sale .packages .packs.package-3 .button-buy-now.bottom{bottom:14px}
+.content.shop.six-star-sale .packages .packs.package-3 .price{position:absolute;left:215px;display:block;width:99px;height:48px;line-height:48px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:20px}
+.content.shop.six-star-sale .packages .packs.package-3 .price.top{top:93px}
+.content.shop.six-star-sale .packages .packs.package-3 .price.bottom{bottom:14px}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list{position:absolute;left:22px;top:180px}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item{position:relative;float:left;display:block;width:315px;min-height:90px}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title{position:relative;display:block;float:left;width:210px;color:#434343;font-size:16px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .stars{display:block;margin:2px 0 0 0}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .stars img{float:left;margin:2px -4px 0 0}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .stars .item-condition{display:inline-block;float:left;font-size:11px;font-style:italic;color:#747474;margin:3px 0 0 5px}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .condition{position:relative;display:block;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .condition .token-price{position:absolute;right:5px;top:-1px;padding:2px 0 3px 0}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .condition .token-price .token-new-price{display:block;color:#33a700;font-size:12px;font-weight:bold;text-align:right}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .title .condition .token-price .token-new-price .token-retail-price{color:#830000;text-decoration:line-through;font-size:11px;font-weight:normal}
+.content.shop.six-star-sale .packages .packs.package-3 .item-list .item .icon{float:left;width:90px;height:auto}
+.content.shop.six-star-sale .packages .packs.package-2{display:block;position:absolute;left:648px;top:32px;width:307px;height:520px}
+.content.shop.six-star-sale .packages .packs.package-2 .pack-title{position:absolute;left:15px;top:26px;color:#b05523;text-transform:uppercase;font-size:15px;text-shadow:0 0 5px #fff}
+.content.shop.six-star-sale .packages .packs.package-2 .pack-worth{position:absolute;right:25px;bottom:74px;color:#6e3516;font-style:italic;font-size:15px}
+.content.shop.six-star-sale .packages .packs.package-2 .button-buy-now{position:absolute;left:15px;display:block;width:160px;height:38px;line-height:38px;font-size:17px;color:white;text-align:center;font-weight:bold;-webkit-border-radius:5px;border-radius:5px;text-shadow:0 1px 2px #000;-webkit-box-shadow:0 0 10px 0 #000;box-shadow:0 0 10px 0 #000}
+.content.shop.six-star-sale .packages .packs.package-2 .button-buy-now:hover{background-position:left bottom}
+.content.shop.six-star-sale .packages .packs.package-2 .button-buy-now.top{top:87px}
+.content.shop.six-star-sale .packages .packs.package-2 .button-buy-now.bottom{bottom:13px}
+.content.shop.six-star-sale .packages .packs.package-2 .button-buy-now.fr{font-size:15px}
+.content.shop.six-star-sale .packages .packs.package-2 .price{position:absolute;left:193px;display:block;width:91px;height:44px;line-height:44px;color:white;text-align:center;font-weight:bold;text-shadow:0 0 2px #000;font-size:19px}
+.content.shop.six-star-sale .packages .packs.package-2 .price.top{top:85px}
+.content.shop.six-star-sale .packages .packs.package-2 .price.bottom{bottom:14px}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list{position:absolute;left:18px;top:162px}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item{position:relative;display:block;float:left;width:285px;min-height:85px}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title{position:relative;display:block;float:left;width:200px;color:#434343;font-size:15px;font-weight:bold;margin:0 0 25px 0;line-height:15px}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .stars{display:block;margin:2px 0 0 0}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .stars img{float:left;margin:2px -4px 0 0}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .stars .item-condition{display:inline-block;float:left;font-size:11px;font-style:italic;color:#747474;margin:3px 0 0 5px}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .condition{position:relative;display:block;color:#434343;font-size:13px;font-weight:normal;font-style:italic}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .condition .token-price{position:absolute;right:5px;top:-1px;padding:2px 0 3px 0}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .condition .token-price .token-new-price{display:block;color:#33a700;font-size:12px;font-weight:bold;text-align:right}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .title .condition .token-price .token-new-price .token-retail-price{color:#830000;text-decoration:line-through;font-size:11px;font-weight:normal}
+.content.shop.six-star-sale .packages .packs.package-2 .item-list .item .icon{float:left;width:80px;height:auto}

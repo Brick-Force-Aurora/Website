@@ -1,10 +1,11 @@
 $(document).ready(function () {
   // Ensure all <dd> are hidden initially
-  $("dl.faq dd").hide();
+  $("dl.faq dd, dl.premium-faq dd").hide();
 
-  $("dl.faq dt").click(function () {
+  $("dl.faq dt, dl.premium-faq dt").click(function () {
     // Toggle 'open' class on the clicked dt
     $(this).toggleClass("open");
+    $(this).find(".condition").toggleClass("open");
 
     // Slide toggle the next dd element
     $(this).next("dd").slideToggle("fast");

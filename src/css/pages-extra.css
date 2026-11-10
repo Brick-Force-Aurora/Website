@@ -1,0 +1,32 @@
+/* Shop, events, microblog, landing pages, web player and legal pages (ported without images) */
+.content .capture-note { margin: 14px 20px; padding: 6px 10px; font-size: 12px; color: #555; background: #f4f9fc; border: 1px solid #cfdbe3; border-radius: 4px; }
+.content.archive-page { padding-bottom: 30px; }
+.content.archive-page h2 { margin: 18px 20px 6px; font-size: 20px; color: #003056; }
+.content.archive-page p, .content.archive-page ul, .content.archive-page ol, .content.archive-page dl { margin-left: 20px; margin-right: 20px; }
+.content.archive-page p { margin-top: 8px; font-size: 14px; line-height: 20px; }
+.content.archive-page ul li { margin: 4px 0; font-size: 14px; list-style: disc inside; }
+.content.archive-page .preface { margin: 10px 20px; }
+.content.archive-page .preface p { margin-left: 0; }
+.content.archive-page .landing-page { margin: 10px 0 24px; padding-bottom: 14px; border-bottom: 1px dotted #9d9d9d; }
+.content.archive-page .landing-page .lp-claim { font-weight: bold; }
+.content.archive-page .landing-page .youtube { margin-top: 10px; }
+.content.archive-page .legal-text h1, .content.archive-page .legal-text h2, .content.archive-page .legal-text h3 { margin: 16px 0 6px; }
+.content.shop .star { color: #f49719; }
+.archive-shop-index { margin: 20px; }
+.archive-shop-index ul { margin: 6px 0 0 20px; }
+.archive-shop-index li { list-style: disc; margin: 3px 0; }
+
+
+/* B-Hub FAQ: plus/minus icons and answer box of the site's own FAQ page */
+.content.game-overwolf dl.faq dt .condition { background: url("/Website/images/condition.gif") left bottom no-repeat; }
+.content.game-overwolf dl.faq dt.open .condition { background-position: left top; }
+.content.game-overwolf dl.faq dd { background: url("/Website/images/content.png") top left no-repeat; }
+
+/* shop: archived note always below the content, buy buttons are inert but look enabled */
+.content.shop .capture-note { clear: both; }
+.content.shop a.purchase, .content.shop .packages a[class^="month-"], .content.shop a.button-buy-now { cursor: default; }
+.content.shop.packages .packages .package .foot .button { float: none; width: 100%; }
+.content.shop.packages .packages .package .head .teaser.teaser-missing { display: block; width: 298px; height: 150px !important; border-radius: 12px 12px 0 0; background: linear-gradient(#eef6fb, #d9e8f1); }
+.content.shop.premium .pro-list ul li { list-style: disc inside; }
+.content.shop.premium dl.premium-faq dt.open .condition { background-position: left bottom; }
+.content.shop.premium dl.premium-faq dd { display: none; }

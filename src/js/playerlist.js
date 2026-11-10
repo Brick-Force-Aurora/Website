@@ -1,9 +1,11 @@
-// Playerlist: search by nickname and sort by clicking a column header
+// Playerlist / maplist: search by nickname (or map name and builder) and sort by clicking a column header
 (function () {
-  var table = document.getElementById('playerlist');
+  var table = document.getElementById('playerlist') || document.getElementById('maplist');
   if (!table) return;
   var input = document.getElementById('player-search');
   var count = document.getElementById('player-count');
+  var noun = table.getAttribute('data-noun') || 'players';
+  var cols = (table.getAttribute('data-search-cols') || '1').split(',').map(Number);
   var body = table.tBodies[0];
   var rows = Array.prototype.slice.call(body.rows);
 
@@ -21,12 +23,12 @@
     var q = input.value.trim().toLowerCase();
     var shown = 0;
     rows.forEach(function (r) {
-      var hit = !q || r.cells[1].textContent.toLowerCase().indexOf(q) !== -1;
+      var hit = !q || cols.some(function (c) { return r.cells[c].textContent.toLowerCase().indexOf(q) !== -1; });
       r.style.display = hit ? '' : 'none';
       if (hit) shown++;
     });
     band();
-    count.textContent = q ? shown + ' of ' + rows.length + ' players' : rows.length + ' players';
+    count.textContent = q ? shown + ' of ' + rows.length + ' ' + noun : rows.length + ' ' + noun;
   }
 
   function value(row, i) {

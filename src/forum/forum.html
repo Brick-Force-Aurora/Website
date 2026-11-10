@@ -1,0 +1,136 @@
+---
+layout: forum-base
+pagination:
+  data: forum.forumPages
+  size: 1
+  alias: fp
+permalink: "{{ fp.permalink }}"
+eleventyComputed:
+  title: "{{ fp.forum.title | escape }} - Forum{% if fp.page > 1 %} - Page {{ fp.page }}{% endif %}"
+---
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="/Website/forum/"><img src="/Website/images/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		<li class="navbit"><a href="/Website/forum/">Forum</a></li>
+{%- for c in fp.forum.path %}{% if forloop.last %}
+		<li class="navbit lastnavbit"><span>{{ c.title | escape }}</span></li>
+{%- else %}
+		<li class="navbit"><a href="{{ c.url }}">{{ c.title | escape }}</a></li>
+{%- endif %}{% endfor %}
+	</ul>
+	<hr />
+</div>
+{%- assign fn_cap = fp.forum.capLabel %}{% assign fn_url = fp.forum.capUrl %}{% assign fn_extra = "" %}
+{% include "forum-note.html" %}
+{%- assign pg_cur = fp.page %}{% assign pg_pages = fp.pages %}{% assign pg_base = fp.forum.url %}
+<div id="above_threadlist" class="above_threadlist">
+	<div class="threadpagenav">
+		{% include "forum-pager.html" %}
+		{%- if fp.threads.size > 0 %}<div id="threadpagestats" class="threadpagestats">Threads {{ fp.from }} to {{ fp.to }} of {{ fp.forum.threadCount }}{% if fp.forum.ot %} (original forum: {{ fp.forum.ot }}){% endif %}</div>{% endif %}
+	</div>
+</div>
+<div id="pagetitle" class="pagetitle">
+	<h1>Forum: <span class="forumtitle">{{ fp.forum.title | escape }}</span></h1>
+	{%- if fp.forum.desc != "" %}<p class="description">{{ fp.forum.desc | escape }}</p>{% endif %}
+</div>
+
+{%- if fp.page == 1 and fp.forum.children.size > 0 %}
+<div id="forumbits" class="forumbits">
+	<div class="forumhead">
+		<h2>
+			<span class="forumtitle">Sub-Forums</span>
+			<span class="forumthreadpost">Threads / Posts&nbsp;</span>
+			<span class="forumlastpost">Last Post</span>
+		</h2>
+	</div>
+	<ol>
+{%- for f in fp.forum.children %}{% if f.aThreads > 0 %}
+		<li id="forum{{ f.id }}" class="forumbit_post old L1">
+			<div class="forumbit_post L2">
+				<div class="forumrow">
+					<div class="foruminfo">
+						<img src="/Website/images/forum/images/statusicon/forum_old_lock-48.png" class="forumicon" alt="" />
+						<div class="forumdata">
+							<div class="datacontainer">
+								<div class="titleline"><h2 class="forumtitle"><a href="{{ f.url }}">{{ f.title | escape }}</a></h2></div>
+								{%- if f.desc != "" %}<p class="forumdescription">{{ f.desc | escape }}</p>{% endif %}
+							</div>
+						</div>
+					</div>
+					<h4 class="nocss_label">Forum Statistics:</h4>
+					<ul class="forumstats_2 td">
+						<li>Threads: {{ f.aThreads }}</li>
+						<li>Posts: {{ f.aPosts }}</li>
+					</ul>
+					<div class="forumlastpost td">
+						<h4 class="lastpostlabel">Last Post:</h4>
+						<div>
+						{%- if f.lastThread %}
+							<p class="lastposttitle">{% if f.lastThread.ic > 0 %}<img src="/Website/images/forum/images/icons/icon{{ f.lastThread.ic }}.png" class="postimg" alt="{{ f.lastThread.ica | escape }}" border="0" /> {% endif %}{% if f.lastThread.url != "" %}<a href="{{ f.lastThread.url }}" class="threadtitle">{{ f.lastThread.title | escape | truncate: 30 }}</a>{% if f.lastThread.lu != "" %} <a href="{{ f.lastThread.lu }}"><img src="/Website/images/forum/images/buttons/lastpost-right.png" alt="Go to last post" /></a>{% endif %}{% else %}{{ f.lastThread.title | escape | truncate: 30 }}{% endif %}</p>
+							<div class="lastpostby">by {{ f.lastThread.by | escape }}</div>
+							<p class="lastpostdate">{{ f.lastThread.date }}</p>
+						{%- endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+{%- endif %}{% endfor %}
+	</ol>
+</div>
+{%- endif %}
+
+{%- if fp.threads.size > 0 %}
+<div id="threadlist" class="threadlist">
+	<h2 class="hidden">Threads in This Forum</h2>
+	<div>
+		<div class="threadlisthead table">
+			<div>
+				<span class="threadinfo"><span class="threadtitle">Title / Thread Starter</span></span>
+				<span class="threadstats td">Replies / Views</span>
+				<span class="threadlastpost td">Last Post By</span>
+			</div>
+		</div>
+		<ol id="threads" class="threads">
+{%- for t in fp.threads %}
+			<li class="threadbit {% if t.r > 14 %}hot{% endif %}{% if t.lock %} lock{% endif %}" id="thread_{{ t.id }}">
+				<div class="rating0 {% if t.sticky %}sticky{% else %}nonsticky{% endif %}">
+					<div class="threadinfo">
+						<a class="threadstatus"></a>
+						<div class="inner">
+							<h3 class="threadtitle">
+								{%- if t.sticky %}<span class="prefix understate">Sticky:</span> {% endif %}{% if t.pre %}<span class="prefix understate">{{ t.pre | escape }}</span> {% endif %}{% if t.poll %}<span class="prefix understate">Poll:</span> {% endif %}
+								{%- if t.ic %}<img src="/Website/images/forum/images/icons/icon{{ t.ic }}.png" class="threadicon" alt="{{ t.ica | escape }}" border="0" /> {% endif %}
+								{%- if t.url != "" %}<a class="title" href="{{ t.url }}">{{ t.title | escape }}</a>{% else %}<span class="title">{{ t.title | escape }}</span>{% endif %}
+								{%- if t.pages > 1 and t.url != "" %} <span class="pagination_threadbit"><span class="understate">(</span>{% for n in (1..t.pages) %}{% if n <= 4 or n == t.pages %}<a href="{{ t.url }}{% if n > 1 %}page/{{ n }}/{% endif %}">{{ n }}</a>{% unless forloop.last %} {% endunless %}{% elsif n == 5 %}&hellip; {% endif %}{% endfor %}<span class="understate">)</span></span>{% endif %}
+							</h3>
+							<div class="threadmeta">
+								<div class="author">
+									<span class="label">Started by&nbsp;{% if t.mu != "" %}<a href="{{ t.mu }}" class="username understate">{{ t.by | escape }}</a>{% else %}{{ t.by | escape }}{% endif %}{% if t.dl != "" %},&nbsp;{{ t.dl }}{% endif %}{% if t.n == 0 %} &middot; <em>posts not archived</em>{% endif %}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="threadstats td alt">
+						<li>Replies: {{ t.r }}</li>
+						<li>Views: {% if t.v %}{{ t.v }}{% else %}&ndash;{% endif %}</li>
+					</ul>
+					<dl class="threadlastpost td">
+						<dt class="lastpostby hidden">Last Post By</dt>
+						<dd>{{ t.lb | escape }}</dd>
+						<dd>{{ t.ldl }}</dd>
+					</dl>
+				</div>
+			</li>
+{%- endfor %}
+		</ol>
+	</div>
+</div>
+<div id="below_threadlist" class="noinlinemod below_threadlist">
+	<div class="threadpagenav">
+		{% include "forum-pager.html" %}
+	</div>
+</div>
+{%- elsif fp.forum.children.size == 0 %}
+<div class="notices"><ol><li class="restore">No threads of this forum were preserved.</li></ol></div>
+{%- endif %}

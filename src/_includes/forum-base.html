@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ title }} - Brick-Force Forum (Archive)</title>
+	<link rel="shortcut icon" type="image/x-ico; charset=binary" href="/Website/images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/Website/css/forum-vb.css" />
+	<link rel="stylesheet" type="text/css" href="/Website/css/forum.css" />
+</head>
+<body>
+
+<div class="above_body">
+<div id="header" class="floatcontainer doc_header">
+	<div><a name="top" href="/Website/forum/" class="logo-image"><img src="/Website/images/forum/images/misc/brick-force_logo.png" style="margin:0 0 0 10px;" alt="Brick-Force Forum" /></a></div>
+	<div id="toplinks" class="toplinks">
+		<ul class="nouser">
+			<li><a href="/Website/">Brick-Force Aurora</a></li>
+			<li><a href="/Website/forum/announcements/">Announcements</a></li>
+		</ul>
+	</div>
+	<hr />
+</div>
+<div id="navbar" class="navbar">
+	<ul id="navtabs" class="navtabs floatcontainer">
+		<li><a class="navtab" href="/Website/">Brick-Force Aurora</a></li>
+		<li class="selected"><a class="navtab" href="/Website/forum/">Forum</a>
+			<ul class="floatcontainer">
+				<li><a href="/Website/forum/announcements/">Announcements</a></li>
+				<li><a href="/Website/forum/search/">Search</a></li>
+			</ul>
+		</li>
+		<li><a class="navtab" href="/Website/archive/news/{{ archiveNews.latest }}/">News Archive</a></li>
+	</ul>
+	<div id="globalsearch" class="globalsearch">
+		<form action="/Website/forum/search/" method="get" id="navbar_search" class="navbar_search">
+			<span class="textboxcontainer"><span><input type="text" value="" name="q" class="textbox" tabindex="99"/></span></span>
+			<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="/Website/images/forum/images/buttons/search.png" alt="Search" tabindex="100"/></span></span>
+		</form>
+		<ul class="navbar_advanced_search">
+			<li><a href="/Website/forum/search/">Search threads</a></li>
+		</ul>
+	</div>
+</div>
+</div><!-- closing div for above_body -->
+
+<div class="body_wrapper">
+{{ content }}
+<div id="footer" class="floatcontainer footer">
+	<ul id="footer_links" class="footer_links">
+		<li><a href="/Website/">Brick-Force Aurora</a></li>
+		<li><a href="/Website/forum/announcements/">Announcements</a></li>
+		<li><a href="/Website/forum/search/">Search</a></li>
+		<li><a href="#top">Top</a></li>
+	</ul>
+</div>
+</div> <!-- closing div for body_wrapper -->
+
+<div class="below_body">
+<div id="footer_copyright" class="shade footer_copyright">
+	Read-only archive of the Brick-Force forum (vBulletin&reg;), restored from the Internet Archive's Wayback Machine for the fan project <a href="/Website/">Brick-Force Aurora</a>.<br />
+	Brick-Force &copy; Exe Games Inc. / Infernum Productions AG. All forum posts belong to their authors.
+</div>
+</div>
+
+</body>
+</html>

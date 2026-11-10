@@ -1,0 +1,79 @@
+/* Additions for the archived forum on top of the original vBulletin stylesheet (forum-vb.css): markup that the archive adds */
+.body_wrapper #notices li { margin: 4px 0; }
+.fq { margin: 6px 10px 10px; background: #f2f6f8; border: 1px solid #417394; border-radius: 5px; font-style: italic; }
+.fq .fq-head { padding: 5px 10px 0; font-size: 11px; font-style: normal; color: #555; }
+.fq .fq-body { padding: 4px 10px 8px; }
+.fq .fq-go { text-decoration: none; }
+.fcodebox { margin: 6px 10px 10px; }
+.fcodebox .fq-head { padding: 0 0 2px; font-size: 11px; color: #555; }
+pre.fcode { margin: 0; padding: 6px; overflow: auto; font: 12px/16px Consolas, "Courier New", monospace; background: #f2f6f8; border: 1px inset #c4d3dc; }
+.postcontent .fvideo { margin: 6px 0; font-size: 12px; }
+.postcontent img { max-width: 100%; height: auto; }
+.postcontent img.inlineimg { vertical-align: middle; }
+img.memberavatar { float: right; max-width: 120px; margin: 0 0 8px 12px; border: 1px solid #c4d3dc; }
+.postcontent ul, .postcontent ol { margin: 6px 0 6px 24px; }
+.postcontent ul { list-style: disc; }
+.postcontent ol { list-style: decimal; }
+.postcontent li { list-style: inherit; display: list-item; }
+.postcontent table { border-collapse: collapse; margin: 6px 0; }
+.postcontent td, .postcontent th { padding: 2px 6px; border: 1px solid #c4d3dc; }
+li.fgap .postrow { padding: 6px 10px; text-align: center; font-style: italic; color: #8a1c1c; background: #fff7e6; border: 1px dashed #e0b66a; }
+.threadbit .threadinfo .title { font-weight: bold; }
+span.prefix { color: #555; }
+.pagination_threadbit a { padding: 0 2px; }
+.fsearch-form { display: flex; flex-wrap: wrap; gap: 8px; }
+.fsearch-form input { flex: 1 1 280px; }
+.fsearch-form select { max-width: 320px; }
+ol.fresults { margin: 0; }
+li.fresult { display: block; padding: 8px 10px; border-top: 1px solid #e9e9e9; background: #fff; }
+li.fresult:first-child { border-top: 0; }
+.fresult .ttitle { font-size: 14px; font-weight: bold; }
+.fresult .fmeta { margin-top: 2px; font-size: 11px; color: #777; }
+.fresult .fsnip { margin-top: 3px; font-size: 12px; color: #444; }
+mark { padding: 0 1px; background: #ffe08a; }
+.fmore { margin: 8px 0; }
+.block .blockrow dl.stats { overflow: hidden; }
+.block .blockrow dl.stats dt { float: left; clear: left; width: 190px; color: #555; }
+.block .blockrow dl.stats dd { margin: 0 0 3px 200px; }
+/* start page: collapsed categories (the original swapped the arrow image) */
+.forumbit_nopost.collapsed a.collapse img { transform: rotate(180deg); }
+.forumbit_nopost.collapsed .forumrowdata { display: none; }
+.navlinks { margin: 4px 0 10px; font-size: 11px; }
+img.threadicon { vertical-align: middle; margin-right: 4px; }
+
+/* member profile (layout after the vBulletin 4 profile: info column on the left, tabs on the right) */
+.memberprofile { display: flex; gap: 14px; align-items: flex-start; padding: 0 0 14px; }
+.memberprofile .mp-side { flex: 0 0 245px; }
+.memberprofile .mp-main { flex: 1 1 auto; min-width: 0; }
+.pcard { margin: 0 0 10px; overflow: hidden; background: #f2f6f8; border: 1px solid #c4d3dc; border-radius: 5px; }
+.pcard h4 { margin: 0; padding: 5px 10px; font-size: 12px; font-weight: bold; color: #fff; background: #003055 linear-gradient(#0a4a7c, #003055); }
+.pcard .in { padding: 8px 10px; font-size: 12px; }
+.pname { margin: 0 0 2px; font: bold 20px "Segoe UI", Tahoma, sans-serif; color: #003056; }
+.ptitle { margin: 0 0 8px; font-weight: bold; color: #8a1c1c; }
+.avatarbig { float: right; max-width: 100px; margin: 0 0 8px 8px; border: 1px solid #c4d3dc; }
+.plinks { clear: both; margin: 8px 0 0; padding: 0; list-style: none; }
+.plinks li { padding: 3px 0; }
+.plinks img.inlineimg { vertical-align: middle; margin-right: 3px; }
+dl.mini { margin: 0; overflow: hidden; }
+dl.mini dt { float: left; clear: left; width: 92px; color: #555; }
+dl.mini dd { margin: 0 0 4px 98px; font-weight: bold; overflow-wrap: anywhere; }
+dl.mini.wide dt { width: 130px; }
+dl.mini.wide dd { margin-left: 140px; }
+.ptabs { display: flex; gap: 3px; margin: 0; padding: 0; list-style: none; }
+.ptabs a { display: block; padding: 6px 14px; font-size: 12px; font-weight: bold; text-decoration: none; background: #e9e9e9; border: 1px solid #c4d3dc; border-bottom: 0; border-radius: 5px 5px 0 0; }
+.ptabs a.sel { background: #fff; }
+.pbody { margin: 0 0 10px; padding: 10px 12px; background: #fff; border: 1px solid #c4d3dc; }
+.pbody[hidden] { display: none; }
+.pbody ul { margin: 0; padding: 0; list-style: none; }
+.pbody li { padding: 7px 0; border-top: 1px solid #e9e9e9; }
+.pbody li:first-child { border-top: 0; }
+.pbody .sub { display: block; font-size: 11px; color: #777; }
+.pbody h3.sigh { margin: 12px 0 6px; font: bold 13px "Segoe UI", Tahoma, sans-serif; color: #003056; }
+.fsig { max-width: 600px; padding: 8px; border: 1px solid #e9e9e9; }
+@media (max-width: 720px) { .memberprofile { display: block; } }
+.hqgrid { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; }
+.hqgrid div { flex: 1 1 70px; padding: 6px 4px; text-align: center; font-size: 11px; color: #555; background: #fff; border: 1px solid #c4d3dc; border-radius: 4px; }
+.hqgrid b { display: block; font-size: 15px; color: #003056; }
+.postbitlegacy .signature { margin-top: 8px; padding-top: 6px; border-top: 1px solid #e9e9e9; font-size: 11px; max-height: 220px; overflow: hidden; }
+.pcard .asof { margin: 8px 0 0; font-size: 11px; font-style: italic; color: #777; }
+.ptitle .sub, h3.sigh .sub { font-size: 11px; font-weight: normal; font-style: italic; color: #777; }

@@ -1,0 +1,135 @@
+---
+layout: forum-base
+title: Forum
+permalink: /forum/
+---
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="/Website/forum/"><img src="/Website/images/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		<li class="navbit lastnavbit"><span>Forum</span></li>
+	</ul>
+	<hr />
+</div>
+{%- assign fn_cap = "" %}{% assign fn_url = "" %}{% assign fn_extra = "" %}
+{% include "forum-note.html" %}
+<div id="pagetitle">
+	<h1>Brick-Force Forum</h1>
+	<p id="welcomemessage" class="description">Welcome to the Brick-Force Forum. This is a read-only archive: {{ forum.counts.threads }} threads with {{ forum.meta.posts }} posts by {{ forum.counts.members }} members were restored from the Wayback Machine. Posts are shown in their original language (English, German, French, Spanish, Polish and Turkish).</p>
+</div>
+<!-- main -->
+<ol id="forums" class="floatcontainer">
+{%- for root in forum.roots %}{% if root.aThreads > 0 %}
+	<li class="forumbit_nopost old_lock L1" id="cat{{ root.id }}">
+		<div class="forumhead foruminfo L1 collapse">
+			<h2>
+				<span class="forumtitle"><a href="{{ root.url }}">{{ root.title | escape }}</a></span>
+				<span class="forumthreadpost">Threads / Posts&nbsp;</span>
+				<span class="forumlastpost">Last Post</span>
+				<a class="collapse" id="collapse_c_cat{{ root.id }}" href="#top" title="Collapse or expand this category"><img src="/Website/images/forum/images/buttons/collapse_40b.png" alt="" /></a>
+			</h2>
+			{%- if root.desc != "" %}<div class="forumrowdata"><p class="subforumdescription">{{ root.desc | escape }}</p></div>{% endif %}
+		</div>
+		<ol id="c_cat{{ root.id }}" class="childforum">
+{%- for f in root.children %}{% if f.aThreads > 0 %}
+			<li id="forum{{ f.id }}" class="forumbit_post old_lock L2">
+				<div class="forumrow table">
+					<div class="foruminfo td">
+						<img src="/Website/images/forum/images/statusicon/forum_old_lock-48.png" class="forumicon" id="forum_statusicon_{{ f.id }}" alt="" />
+						<div class="forumdata">
+							<div class="datacontainer">
+								<div class="titleline"><h2 class="forumtitle"><a href="{{ f.url }}">{{ f.title | escape }}</a></h2></div>
+								{%- if f.desc != "" %}<p class="forumdescription">{{ f.desc | escape }}</p>{% endif %}
+								{%- if f.children.size > 0 %}
+								<div class="subforums">
+									<h4 class="subforumlistlabel">Sub-Forums:</h4>
+									<ol class="subforumlist commalist">{% for c in f.children %}{% if c.aThreads > 0 %}
+										<li class="subforum"><img class="inlineimg" src="/Website/images/forum/images/statusicon/subforum_old-48.png" alt="" border="0" id="forum_statusicon_{{ c.id }}" /> <a href="{{ c.url }}">{{ c.title | escape }}</a>{% unless forloop.last %}, {% endunless %}</li>
+									{%- endif %}{% endfor %}</ol>
+								</div>
+								{%- endif %}
+							</div>
+						</div>
+					</div>
+					<h4 class="nocss_label">Forum Actions:</h4>
+					<div class="forumactionlinks"></div>
+					<h4 class="nocss_label">Forum Statistics:</h4>
+					<ul class="forumstats td">
+						<li{% if f.ot %} title="The original forum counted {{ f.ot }} threads"{% endif %}>Threads: {{ f.aThreads }}</li>
+						<li{% if f.op %} title="The original forum counted {{ f.op }} posts"{% endif %}>Posts: {{ f.aPosts }}</li>
+					</ul>
+					<div class="forumlastpost td">
+						<h4 class="lastpostlabel">Last Post:</h4>
+						<div>
+						{%- if f.lastThread %}
+							<p class="lastposttitle">
+								{%- if f.lastThread.ic > 0 %}<img src="/Website/images/forum/images/icons/icon{{ f.lastThread.ic }}.png" class="postimg" alt="{{ f.lastThread.ica | escape }}" border="0" /> {% endif %}
+								{%- if f.lastThread.url != "" %}<a href="{{ f.lastThread.url }}" class="threadtitle" title="{{ f.lastThread.title | escape }}">{{ f.lastThread.title | escape | truncate: 26 }}</a>
+								{%- if f.lastThread.lu != "" %} <a href="{{ f.lastThread.lu }}"><img src="/Website/images/forum/images/buttons/lastpost-right.png" alt="Go to last post" /></a>{% endif %}
+								{%- else %}{{ f.lastThread.title | escape | truncate: 26 }}{% endif %}
+							</p>
+							<div class="lastpostby">by {{ f.lastThread.by | escape }}</div>
+							<p class="lastpostdate">{{ f.lastThread.date }}</p>
+						{%- endif %}
+						</div>
+					</div>
+				</div>
+			</li>
+{%- endif %}{% endfor %}
+		</ol>
+	</li>
+{%- endif %}{% endfor %}
+</ol>
+<!-- /main -->
+<div class="navlinks"><a href="/Website/forum/announcements/">Announcements ({{ forum.announcements.size }})</a> &middot; <a href="/Website/forum/search/">Search the archive</a></div>
+
+<!-- what's going on box -->
+<div id="wgo" class="collapse wgo_block block">
+	<h2 class="blockhead">What's Going On?</h2>
+	<div class="blockbody formcontrols floatcontainer">
+		<div id="wgo_stats" class="wgo_subblock section">
+			<h3 class="blocksubhead"><img src="/Website/images/forum/images/misc/forum_stats.png" alt="Brick-Force Forum Statistics" />Brick-Force Forum Statistics</h3>
+			<div>
+				<dl>
+					<dt>Threads</dt><dd>{{ forum.counts.threads }}</dd>
+					<dt>Posts</dt><dd>{{ forum.meta.posts }}</dd>
+					<dt>Members</dt><dd>{{ forum.counts.members }}</dd>
+				</dl>
+				<p>Archived from a forum with about {{ forum.original.threads }} threads and {{ forum.original.posts }} posts.</p>
+			</div>
+		</div>
+		<div id="wgo_legend" class="wgo_subblock section">
+			<h3 class="blocksubhead"><img src="/Website/images/forum/images/misc/legend.png" alt="Icon Legend" />Icon Legend</h3>
+			<div>
+				<dl id="icon_legends" class="icon_legends">
+					<dt><img src="/Website/images/forum/images/statusicon/forum_old-16.png" alt="Contains no unread forum posts" /></dt><dd>Contains no unread forum posts</dd>
+					<dt><img src="/Website/images/forum/images/statusicon/forum_lock-16.png" alt="Forum is Closed for Posting" /></dt><dd>Forum is Closed for Posting (archive: read only)</dd>
+					<dt><img src="/Website/images/forum/images/statusicon/category-16.png" alt="Forum is a category" /></dt><dd>Forum is a category</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end what's going on box -->
+<script>
+// expand / collapse of the categories (state is remembered in the browser)
+(function () {
+  var KEY = "bfForumCollapsed", saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { saved = {}; }
+  function apply(a, collapsed) {
+    var list = document.getElementById(a.id.replace("collapse_", "")), li = a.closest("li");
+    if (!list) return;
+    list.style.display = collapsed ? "none" : "";
+    li.className = li.className.replace(/\s*collapsed/, "") + (collapsed ? " collapsed" : "");
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("a.collapse"), function (a) {
+    apply(a, !!saved[a.id]);
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var now = !a.closest("li").className.match(/collapsed/);
+      apply(a, now);
+      saved[a.id] = now;
+      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (err) { /* ignore */ }
+    });
+  });
+})();
+</script>

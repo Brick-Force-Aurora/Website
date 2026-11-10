@@ -68,5 +68,19 @@
    "id": 64,
    "title": "Freefall"
   }
+ ],
+ "mapstats": [
+  {
+   "key": "downloads",
+   "label": "Downloads"
+  },
+  {
+   "key": "matches",
+   "label": "Matches"
+  },
+  {
+   "key": "rating",
+   "label": "Rating"
+  }
  ]
 }

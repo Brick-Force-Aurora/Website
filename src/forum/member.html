@@ -1,0 +1,114 @@
+---
+layout: forum-base
+pagination:
+  data: forum.memberPages
+  size: 1
+  alias: mp
+permalink: "{{ mp.permalink }}"
+eleventyComputed:
+  title: "{{ mp.member.name | escape }} - Forum member"
+---
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="/Website/forum/"><img src="/Website/images/forum/images/misc/navbit-home.png" alt="Home" /></a></li>
+		<li class="navbit"><a href="/Website/forum/">Forum</a></li>
+		<li class="navbit lastnavbit"><span>{{ mp.member.name | escape }}</span></li>
+	</ul>
+	<hr />
+</div>
+{%- assign fn_cap = "" %}{% assign fn_url = "" %}{% assign fn_extra = "The member profiles themselves were not archived (they required a login); this page only shows what the posts of this member displayed next to them." %}
+{% include "forum-note.html" %}
+<div id="memberprofile" class="memberprofile">
+	<div class="mp-side">
+		<div class="pcard">
+			<div class="in">
+				{%- if mp.member.avatar != "" %}<img class="avatarbig" src="{{ mp.member.avatar }}" alt="{{ mp.member.name | escape }}'s Avatar" />{% endif %}
+				<h1 class="pname">{{ mp.member.name | escape }}</h1>
+				{%- if mp.member.title != "" %}<div class="ptitle">{{ mp.member.title | escape }}{% if mp.member.titleLabel != "" %} <span class="sub">(shown until {{ mp.member.titleLabel }})</span>{% endif %}</div>{% endif %}
+				<ul class="plinks">
+					<li><a href="#recent" data-tab="recent"><img class="inlineimg" src="/Website/images/forum/images/site_icons/forum.png" alt="" /> Find all posts in the archive</a></li>
+					{%- if mp.member.startedThreads.size > 0 %}<li><a href="#started" data-tab="started"><img class="inlineimg" src="/Website/images/forum/images/site_icons/forum.png" alt="" /> Find all started threads ({{ mp.member.ts }})</a></li>{% endif %}
+					{%- if mp.member.hq != "" %}<li><a href="{{ mp.member.hq }}"><img class="inlineimg" src="/Website/images/forum/images/site_icons/profile.png" alt="" /> Brick HQ player profile</a></li>{% endif %}
+				</ul>
+			</div>
+		</div>
+		<div class="pcard">
+			<h4>Mini Statistics</h4>
+			<div class="in">
+				<dl class="mini">
+					{%- if mp.member.join != "" %}<dt>Join Date:</dt><dd>{{ mp.member.join }}</dd>{% endif %}
+					{%- if mp.member.origPosts != "" %}<dt>Forum posts:</dt><dd>{{ mp.member.origPosts }}</dd>{% endif %}
+					<dt>In archive:</dt><dd>{{ mp.member.n }} post{% if mp.member.n != 1 %}s{% endif %}</dd>
+					{%- for e in mp.member.extra %}<dt>{{ e.k | escape }}:</dt><dd>{{ e.v | escape }}</dd>{% endfor %}
+				</dl>
+				{%- if mp.member.ctsLabel != "" %}<p class="asof">Avatar and statistics as shown in the forum on {{ mp.member.ctsLabel }}.</p>{% endif %}
+			</div>
+		</div>
+		{%- if mp.member.hq != "" %}
+		<div class="pcard">
+			<h4>Brick HQ</h4>
+			<div class="in">
+				{%- if mp.member.hqs %}
+				<div class="hqgrid">
+					<div><b>{{ mp.member.hqs.level }}</b>Level</div>
+					<div><b>{{ mp.member.hqs.rank }}</b>Rank</div>
+					<div><b>{{ mp.member.hqs.kd }}</b>K/D ratio</div>
+					<div><b>{{ mp.member.hqs.wins }}</b>Wins</div>
+					<div><b>{{ mp.member.hqs.matches }}</b>Matches</div>
+				</div>
+				{%- endif %}
+				<a href="{{ mp.member.hq }}">Open the full Brick HQ profile &rsaquo;</a>
+				{%- if mp.member.hqs.captured != "" %}<p class="asof">Brick HQ profile captured by the Wayback Machine on {{ mp.member.hqs.captured }}{% if mp.member.hqs.capUrl != "" %} (<a href="{{ mp.member.hqs.capUrl }}" target="_blank" rel="noopener">original capture</a>){% endif %}.</p>{% endif %}
+			</div>
+		</div>
+		{%- endif %}
+	</div>
+	<div class="mp-main">
+		<span id="recent"></span><span id="about"></span><span id="started"></span>
+		<ul class="ptabs" id="ptabs">
+			<li><a class="sel" href="#recent" data-tab="recent">Most active threads</a></li>
+			<li><a href="#about" data-tab="about">About Me</a></li>
+			{%- if mp.member.startedThreads.size > 0 %}<li><a href="#started" data-tab="started">Started threads</a></li>{% endif %}
+		</ul>
+		<div class="pbody ptab" id="tab-recent">
+			{%- if mp.member.threads.size > 0 %}
+			<ul>
+{%- for t in mp.member.threads %}
+				<li><a href="{{ t.url }}">{{ t.title | escape }}</a><span class="sub">{{ t.forum | escape }} &middot; {{ t.count }} post{% if t.count > 1 %}s{% endif %}</span></li>
+{%- endfor %}
+			</ul>
+			{%- if mp.member.n > mp.member.threads.size %}<p class="sub">Showing the threads where this member posted most.</p>{% endif %}
+			{%- else %}<p class="sub">No posts of this member are part of the archive.</p>{% endif %}
+		</div>
+		<div class="pbody ptab" id="tab-about" hidden>
+			<dl class="mini wide">
+				{%- if mp.member.title != "" %}<dt>Title:</dt><dd>{{ mp.member.title | escape }}</dd>{% endif %}
+				{%- if mp.member.join != "" %}<dt>Join Date:</dt><dd>{{ mp.member.join }}</dd>{% endif %}
+				{%- for e in mp.member.extra %}<dt>{{ e.k | escape }}:</dt><dd>{{ e.v | escape }}</dd>{% endfor %}
+			</dl>
+			{%- if mp.member.sig %}<h3 class="sigh">Signature{% if mp.member.sigLabel != "" %} <span class="sub">(as of {{ mp.member.sigLabel }})</span>{% endif %}</h3><div class="postcontent fsig">{{ mp.member.sig }}</div>{% else %}<p class="sub">No signature was archived.</p>{% endif %}
+		</div>
+		{%- if mp.member.startedThreads.size > 0 %}
+		<div class="pbody ptab" id="tab-started" hidden>
+			<ul>
+{%- for t in mp.member.startedThreads %}
+				<li><a href="{{ t.url }}">{{ t.title | escape }}</a><span class="sub">{{ t.forum | escape }}{% if t.date != "" %} &middot; {{ t.date }}{% endif %} &middot; {{ t.replies }} replies</span></li>
+{%- endfor %}
+			</ul>
+			{%- if mp.member.ts > mp.member.startedThreads.size %}<p class="sub">Showing the newest {{ mp.member.startedThreads.size }} of {{ mp.member.ts }} started threads.</p>{% endif %}
+		</div>
+		{%- endif %}
+	</div>
+</div>
+<script>
+(function () {
+  var links = document.querySelectorAll("[data-tab]");
+  function show(name) {
+    if (!document.getElementById("tab-" + name)) return;
+    Array.prototype.forEach.call(document.querySelectorAll(".ptab"), function (p) { p.hidden = p.id !== "tab-" + name; });
+    Array.prototype.forEach.call(document.querySelectorAll("#ptabs a"), function (a) { a.className = a.getAttribute("data-tab") === name ? "sel" : ""; });
+  }
+  Array.prototype.forEach.call(links, function (a) { a.addEventListener("click", function (e) { e.preventDefault(); show(a.getAttribute("data-tab")); }); });
+  if (location.hash) show(location.hash.slice(1));
+})();
+</script>

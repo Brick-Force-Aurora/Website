@@ -1,0 +1,91 @@
+---
+layout: base
+pagination:
+  data: maprankings
+  size: 1
+  alias: r
+permalink: "/game/maps/{{ r.stat }}/{{ r.period }}/"
+eleventyComputed:
+  title: "Rankings for {{ r.label }} ({{ r.plabel }})"
+wide: true
+---
+<article id="content">
+  <div class="where">
+    <p id="breadcrumb">
+      <a href="/Website/" class="home">Home</a>
+      &rsaquo; <a href="/Website/about/">Game</a>
+      &rsaquo; <a href="/Website/game/ranking/">Brick HQ</a>
+      &rsaquo; <a href="/Website/game/maps/{{ r.stat }}/{{ r.period }}/" class="last">Rankings for {{ r.label }}</a>
+    </p>
+    <ul class="tabs clearfix">
+{%- for s in hqdata.mapstats %}
+      <li{% if s.key == r.stat %} class="selected"{% endif %}><a href="/Website/game/maps/{{ s.key }}/alltime/">{{ s.label }}{% if s.key == r.stat %}<span>&nbsp;</span>{% endif %}</a></li>
+{%- endfor %}
+    </ul>
+  </div>
+
+  <div class="content ranking ranking-table build clearfix">
+
+<h1><span class="avatar">&nbsp;</span><span class="label">Rankings for {{ r.label }}</span></h1>
+
+{%- assign hq_prefix = "Sample page: top of the Build Mode ranking as captured" %}
+{%- assign hq_ts = r.ts %}
+{%- assign hq_ts_label = r.ts_label %}
+{%- assign hq_src = r.url %}
+{%- assign hq_suffix = "Only the German version of this ranking was archived; labels and numbers have been translated to English. Further pages are not included." %}
+{% include "hq-note.html" %}
+
+<section class="col ranking-table" style="margin-top:70px;">
+<article class="tabs ranking-view">
+
+<ul class="tabs-horizontal clearfix">
+{%- for per in hqdata.periods %}
+{%- assign avail = false %}
+{%- for x in maprankings %}{% if x.stat == r.stat and x.period == per.key %}{% assign avail = true %}{% endif %}{% endfor %}
+{%- if avail %}
+<li{% if per.key == r.period %} class="selected"{% endif %}><a href="/Website/game/maps/{{ r.stat }}/{{ per.key }}/">{{ per.label }}<span>&nbsp;</span></a></li>
+{%- else %}
+<li><a class="not-archived" title="This ranking was not preserved in the web archive" style="cursor:help;opacity:.5;">{{ per.label }}<span>&nbsp;</span></a></li>
+{%- endif %}
+{%- endfor %}
+</ul>
+
+<table>
+
+<colgroup>
+{%- for c in r.cols %}
+<col width="{{ c }}">
+{%- endfor %}
+</colgroup>
+
+<thead>
+<tr>
+{%- for h in r.head %}
+<th class="{{ h.cls }}"><span class="{{ h.acls }}">{{ h.label }}</span></th>
+{%- endfor %}
+</tr>
+</thead>
+
+<tbody>
+{%- for row in r.rows %}
+<tr class="{{ row.cls }}">
+<td class="{{ row.tdcls0 }}">
+<span class="pos {{ row.pos_cls }}">{{ row.pos }}
+<span class="old-pos">{{ row.old }}</span>
+</span>
+</td>
+<td class="{{ row.mcls }}">{% if row.map_slug %}<a style="font-weight:bold;" href="/Website/game/maps/{{ row.map_slug }}/">{{ row.map | escape }}</a>{% else %}<span style="font-weight:bold;">{{ row.map | escape }}</span>{% endif %}</td>
+<td class="{{ row.bcls }}">{% if row.builder_slug %}<a style="font-weight:bold;" href="/Website/game/players/{{ row.builder_slug }}/">{{ row.builder | escape }}</a>{% else %}<span style="font-weight:bold;">{{ row.builder | escape }}</span>{% endif %}</td>
+{%- for c in row.cells %}
+<td class="{{ c.cls }}">{% if c.modes.size > 0 %}{% for g in c.modes %}<span class="gamemode gamemode-{{ g }}" style="margin:2px 3px 0 0; float:left;">&nbsp;</span>{% endfor %}{% else %}{{ c.text }}{% endif %}</td>
+{%- endfor %}
+</tr>
+{%- endfor %}
+</tbody>
+</table>
+
+</article>
+</section>
+
+  </div>
+</article>

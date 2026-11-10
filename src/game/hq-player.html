@@ -103,8 +103,14 @@ wide: true
 <ul id="{{ v.id }}" class="jcarousel-items">
 {% for m in v.maps %}
 <li class="map">
+{%- assign mslug = m.href | split: "/" | last %}
+{%- if mapslugs[mslug] %}
+<h3 class="title"><a href="/Website/game/maps/{{ mslug }}/">{{ m.title | escape }}</a></h3>
+<a href="/Website/game/maps/{{ mslug }}/"></a>
+{%- else %}
 <h3 class="title"><a href="https://web.archive.org/web/{{ p.ts }}/http://www.brick-force.com{{ m.href }}" target="_blank">{{ m.title | escape }}</a></h3>
 <a href="https://web.archive.org/web/{{ p.ts }}/http://www.brick-force.com{{ m.href }}" target="_blank"></a>
+{%- endif %}
 <p class="stardust">
 <span class="value">{{ m.rating }}</span>
 <span class="stars-rating clearfix">
