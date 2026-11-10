@@ -58,7 +58,7 @@ eleventyComputed:
 						{%- if p.card.join != "" %}<dt>Join Date</dt> <dd>{{ p.card.join }}</dd>{% endif %}
 						{%- for e in p.card.extra %}<dt>{{ e.k | escape }}</dt> <dd>{{ e.v | escape }}</dd>{% endfor %}
 						{%- if p.card.posts != "" %}<dt>Posts</dt> <dd>{{ p.card.posts }}</dd>{% endif %}
-						{%- if p.card.hq != "" %}<dt>Brick HQ</dt> <dd><a href="{{ p.card.hq }}">Profile</a></dd>{% endif %}
+						{%- if p.card.hq != "" %}<dt class="hq-only">Brick HQ</dt> <dd class="hq-only"><a href="{{ p.card.hq }}">Profile</a></dd>{% endif %}
 					</dl>
 					{%- endif %}
 				</div>

@@ -36,5 +36,7 @@
 
 /* ---- Brick HQ opens on December 24, 2026 (see js/hq-gate.js) ---- */
 html.hq-locked .navigation li.ranking { display: none; }
+html.hq-profiles-locked .navigation li.hq-profiles { display: none; }
+html.forum-locked .navigation li.forum-entry { display: none; }
 /* gateway: the note sits below the boxes, not next to them */
 .content.ranking.gate .gateway .spacer, .content.ranking.gate .gateway .capture-note { clear: both; }

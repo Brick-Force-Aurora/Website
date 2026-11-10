@@ -28,7 +28,7 @@ eleventyComputed:
 				<ul class="plinks">
 					<li><a href="#recent" data-tab="recent"><img class="inlineimg" src="/Website/images/forum/images/site_icons/forum.png" alt="" /> Find all posts in the archive</a></li>
 					{%- if mp.member.startedThreads.size > 0 %}<li><a href="#started" data-tab="started"><img class="inlineimg" src="/Website/images/forum/images/site_icons/forum.png" alt="" /> Find all started threads ({{ mp.member.ts }})</a></li>{% endif %}
-					{%- if mp.member.hq != "" %}<li><a href="{{ mp.member.hq }}"><img class="inlineimg" src="/Website/images/forum/images/site_icons/profile.png" alt="" /> Brick HQ player profile</a></li>{% endif %}
+					{%- if mp.member.hq != "" %}<li class="hq-only"><a href="{{ mp.member.hq }}"><img class="inlineimg" src="/Website/images/forum/images/site_icons/profile.png" alt="" /> Brick HQ player profile</a></li>{% endif %}
 				</ul>
 			</div>
 		</div>
@@ -45,7 +45,7 @@ eleventyComputed:
 			</div>
 		</div>
 		{%- if mp.member.hq != "" %}
-		<div class="pcard">
+		<div class="pcard hq-only">
 			<h4>Brick HQ</h4>
 			<div class="in">
 				{%- if mp.member.hqs %}

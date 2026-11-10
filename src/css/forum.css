@@ -77,3 +77,4 @@ dl.mini.wide dd { margin-left: 140px; }
 .postbitlegacy .signature { margin-top: 8px; padding-top: 6px; border-top: 1px solid #e9e9e9; font-size: 11px; max-height: 220px; overflow: hidden; }
 .pcard .asof { margin: 8px 0 0; font-size: 11px; font-style: italic; color: #777; }
 .ptitle .sub, h3.sigh .sub { font-size: 11px; font-weight: normal; font-style: italic; color: #777; }
+html.hq-profiles-locked .hq-only { display: none; } /* HQ profiles open on December 24, see js/hq-gate.js */
